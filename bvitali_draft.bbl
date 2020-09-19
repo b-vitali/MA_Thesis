@@ -1,0 +1,616 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{MTDR}
+L.~Bartoszek et~al. (Mu2e).
+\newblock \emph{{Mu2e Technical Design Report}} (10 2014).
+\newblock \doi{10.2172/1172555}.
+\newblock \eprint{1501.05241}.
+
+\bibitem{signorelli}
+L.~Calibbi and G.~Signorelli.
+\newblock \emph{{Charged Lepton Flavour Violation: An Experimental and
+  Theoretical Introduction}}.
+\newblock Riv. Nuovo Cim., 41(2):71--174 (2018).
+\newblock \doi{10.1393/ncr/i2018-10144-0}.
+\newblock \eprint{1709.00294}.
+
+\bibitem{bob_cflv}
+R.~H. Bernstein and P.~S. Cooper.
+\newblock \emph{{Charged Lepton Flavor Violation: An Experimenter's Guide}}.
+\newblock Phys. Rept., 532:27--64 (2013).
+\newblock \doi{10.1016/j.physrep.2013.07.002}.
+\newblock \eprint{1307.5787}.
+
+\bibitem{bob_mu2e}
+R.~Bernstein (Mu2e).
+\newblock \emph{{The Mu2e Experiment}}.
+\newblock Front. in Phys., 7:1 (2019).
+\newblock \doi{10.3389/fphy.2019.00001}.
+\newblock \eprint{1901.11099}.
+
+\bibitem{Manolis}
+M.~Kargiantoulakis.
+\newblock \emph{{A Search for Charged Lepton Flavor Violation in the Mu2e
+  Experiment}}.
+\newblock Mod. Phys. Lett. A, 35(19):2030007 (2020).
+\newblock \doi{10.1142/S0217732320300074}.
+\newblock \eprint{2003.12678}.
+
+\bibitem{Petcov}
+S.~Petcov.
+\newblock \emph{{The Processes mu --> e Gamma, mu --> e e anti-e, Neutrino' -->
+  Neutrino gamma in the Weinberg-Salam Model with Neutrino Mixing}}.
+\newblock Sov. J. Nucl. Phys., 25:340 (1977).
+\newblock [Erratum: Sov.J.Nucl.Phys. 25, 698 (1977), Erratum: Yad.Fiz. 25, 1336
+  (1977)].
+
+\bibitem{deGouvea}
+A.~de~Gouv{\^{e}}a and P.~Vogel.
+\newblock \emph{{Lepton Flavor and Number Conservation, and Physics Beyond the
+  Standard Model}}.
+\newblock Prog. Part. Nucl. Phys., 71:75--92 (2013).
+\newblock \doi{10.1016/j.ppnp.2013.03.006}.
+\newblock \eprint{1303.4097}.
+
+\bibitem{Anderson}
+S.~Neddermeyer and C.~Anderson.
+\newblock \emph{{Note on the Nature of Cosmic Ray Particles}}.
+\newblock Phys. Rev., 51:884--886 (1937).
+\newblock \doi{10.1103/PhysRev.51.884}.
+
+\bibitem{ConvPancPicc}
+O.~Piccioni.
+\newblock \emph{{The Observation of the Leptonic Nature of the 'Mesotron' by
+  Conversi, Pancini, and Piccioni}}.
+\newblock {1st International Symposium on the History of Particle Physics}, pp.
+  222--241 (1980).
+
+\bibitem{PDG}
+M.~Tanabashi, K.~Hagiwara et~al. (Particle Data Group).
+\newblock \emph{Review of particle physics}.
+\newblock Phys. Rev. D, 98:030001 (Aug 2018).
+\newblock \doi{10.1103/PhysRevD.98.030001}.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.98.030001}.
+
+\bibitem{Chiappini}
+M.~Chiappini.
+\newblock {The construction and commissioning of the ultra low mass MEG II
+  drift chamber for the search of the $\mu^+\to e^+\gamma$ decay at branching
+  ratios below 10$^{-13}$}.
+\newblock Ph.D. thesis, Pisa U. (2019).
+
+\bibitem{Baldini:2019}
+A.~Baldini et~al. (Mu2e).
+\newblock \emph{{Charged Lepton Flavour Violation using Intense Muon Beams at
+  Future Facilities}} (9 2019).
+\newblock \doi{10.2172/1568845}.
+
+\bibitem{MEG}
+A.~Baldini et~al. (MEG).
+\newblock \emph{{Search for the lepton flavour violating decay $\mu ^+
+  \rightarrow \mathrm {e}^+ \gamma $ with the full dataset of the MEG
+  experiment}}.
+\newblock Eur. Phys. J. C, 76(8):434 (2016).
+\newblock \doi{10.1140/epjc/s10052-016-4271-x}.
+\newblock \eprint{1605.05081}.
+
+\bibitem{SINDRUM}
+W.~H. Bertl et~al. (SINDRUM).
+\newblock \emph{{Search for the Decay $\mu^+ \to e^+ e^+ e^-$}}.
+\newblock Nucl. Phys. B, 260:1--31 (1985).
+\newblock \doi{10.1016/0550-3213(85)90308-6}.
+
+\bibitem{Bertl}
+W.~H. Bertl et~al. (SINDRUM II).
+\newblock \emph{{A Search for muon to electron conversion in muonic gold}}.
+\newblock Eur. Phys. J. C, 47:337--346 (2006).
+\newblock \doi{10.1140/epjc/s2006-02582-x}.
+
+\bibitem{Willmann}
+L.~Willmann et~al.
+\newblock \emph{{New bounds from searching for muonium to anti-muonium
+  conversion}}.
+\newblock Phys. Rev. Lett., 82:49--52 (1999).
+\newblock \doi{10.1103/PhysRevLett.82.49}.
+\newblock \eprint{hep-ex/9807011}.
+
+\bibitem{Aubert}
+B.~Aubert, Y.~Karyotakis et~al. (BABAR Collaboration).
+\newblock \emph{Searches for lepton flavor violation in the decays
+  $\tau^\pm\rightarrow e\pm\gamma$ and $\tau^\pm\rightarrow\mu^\pm\gamma$}.
+\newblock Phys. Rev. Lett., 104:021802 (Jan 2010).
+\newblock \doi{10.1103/PhysRevLett.104.021802}.
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.104.021802}.
+
+\bibitem{Hayasaka}
+K.~Hayasaka et~al.
+\newblock \emph{{Search for Lepton Flavor Violating Tau Decays into Three
+  Leptons with 719 Million Produced Tau+Tau- Pairs}}.
+\newblock Phys. Lett. B, 687:139--143 (2010).
+\newblock \doi{10.1016/j.physletb.2010.03.037}.
+\newblock \eprint{1001.3221}.
+
+\bibitem{Abouzaid}
+E.~Abouzaid et~al. (KTeV).
+\newblock \emph{{Search for lepton flavor violating decays of the neutral
+  kaon}}.
+\newblock Phys. Rev. Lett., 100:131803 (2008).
+\newblock \doi{10.1103/PhysRevLett.100.131803}.
+\newblock \eprint{0711.3472}.
+
+\bibitem{Ambrose}
+D.~Ambrose et~al. (BNL).
+\newblock \emph{{New limit on muon and electron lepton number violation from
+  K0(L) ---> mu+- e-+ decay}}.
+\newblock Phys. Rev. Lett., 81:5734--5737 (1998).
+\newblock \doi{10.1103/PhysRevLett.81.5734}.
+\newblock \eprint{hep-ex/9811038}.
+
+\bibitem{Sher}
+A.~Sher et~al.
+\newblock \emph{{An Improved upper limit on the decay K+ ---> pi+ mu+ e-}}.
+\newblock Phys. Rev. D, 72:012005 (2005).
+\newblock \doi{10.1103/PhysRevD.72.012005}.
+\newblock \eprint{hep-ex/0502020}.
+
+\bibitem{Aad}
+G.~Aad et~al. (ATLAS).
+\newblock \emph{{Search for the lepton flavor violating decay
+  Z$\rightarrow$e$\mu$ in pp collisions at $\sqrt{s}$ TeV with the ATLAS
+  detector}}.
+\newblock Phys. Rev. D, 90(7):072010 (2014).
+\newblock \doi{10.1103/PhysRevD.90.072010}.
+\newblock \eprint{1408.5774}.
+
+\bibitem{Akers}
+{R. Akers et al.}
+\newblock \emph{{A Search for lepton flavor violating $Z^0$ decays}}.
+\newblock {Z. Phys. C 67 (1995)}.
+
+\bibitem{SINDRUMII}
+W.~H. Bertl et~al. (SINDRUM II).
+\newblock \emph{{A Search for muon to electron conversion in muonic gold}}.
+\newblock Eur. Phys. J. C, 47:337--346 (2006).
+\newblock \doi{10.1140/epjc/s2006-02582-x}.
+
+\bibitem{MEG_upgrade}
+A.~Baldini et~al.
+\newblock \emph{{MEG Upgrade Proposal}} (1 2013).
+\newblock \eprint{1301.7225}.
+
+\bibitem{MEG_II}
+A.~Baldini et~al. (MEG II).
+\newblock \emph{{The design of the MEG II experiment}}.
+\newblock Eur. Phys. J. C, 78(5):380 (2018).
+\newblock \doi{10.1140/epjc/s10052-018-5845-6}.
+\newblock \eprint{1801.04688}.
+
+\bibitem{Papa}
+A.~Papa (MEG II, Mu3e).
+\newblock \emph{{Towards a new generation of Charged Lepton Flavour Violation
+  searches at the Paul Scherrer Institut: The MEG upgrade and the Mu3e
+  experiment}}.
+\newblock EPJ Web Conf., 234:01011 (2020).
+\newblock \doi{10.1051/epjconf/202023401011}.
+
+\bibitem{Mu3e:2014}
+N.~Berger (Mu3e).
+\newblock \emph{{The Mu3e Experiment}}.
+\newblock Nucl. Phys. B Proc. Suppl., 248-250:35--40 (2014).
+\newblock \doi{10.1016/j.nuclphysbps.2014.02.007}.
+
+\bibitem{Mu3e:2016}
+A.-K. Perrevoort (Mu3e).
+\newblock \emph{{Status of the Mu3e Experiment at PSI}}.
+\newblock EPJ Web Conf., 118:01028 (2016).
+\newblock \doi{10.1051/epjconf/201611801028}.
+\newblock \eprint{1605.02906}.
+
+\bibitem{mu2e_proposal}
+R.~Carey et~al. (Mu2e).
+\newblock \emph{{Proposal to search for $\mu^- N \to e^- N$ with a single event
+  sensitivity below $10^{-16}$}} (10 2008).
+\newblock \doi{10.2172/952028}.
+
+\bibitem{COMET_2009}
+Y.~Cui et~al. (COMET).
+\newblock \emph{{Conceptual design report for experimental search for lepton
+  flavor violating mu- - e- conversion at sensitivity of 10**(-16) with a
+  slow-extracted bunched proton beam (COMET)}} (6 2009).
+
+\bibitem{COMET_2012}
+{R. Akhmetshin et al.}
+\newblock \emph{{Letter of Intent for Phase-I of the COMET Experiment at
+  J-PARC}}.
+\newblock
+  \urlprefix\url{http://192.153.106.200/researcher/Hadron/en/pac_1203/pdf/COMET-PhaseI-LoI.pdf}.
+
+\bibitem{COMET_2012_2}
+{R. Akhmetshin et al.}
+\newblock \emph{{Experimental Proposal for Phase-I of the COMET Experiment at
+  J-PARC.}}
+\newblock
+  \urlprefix\url{https://j-parc.jp/researcher/Hadron/en/pac_1207/pdf/E21_2012-10.pdf}.
+
+\bibitem{COMET_I}
+R.~Abramishvili et~al. (COMET).
+\newblock \emph{{COMET Phase-I Technical Design Report}}.
+\newblock PTEP, 2020(3):033C01 (2020).
+\newblock \doi{10.1093/ptep/ptz125}.
+\newblock \eprint{1812.09018}.
+
+\bibitem{Crystalbox:1984}
+A.~Hallin et~al.
+\newblock \emph{{Los Alamos Crystal Box experiment: a search for $\mu
+  \rightarrow e\gamma$, $\mu \rightarrow e\gamma\gamma$, and $\mu \rightarrow e
+  e e$}}.
+\newblock AIP Conf. Proc., 123:477--483 (1984).
+\newblock \doi{10.1063/1.34893}.
+
+\bibitem{Crystalbox:1988}
+R.~Bolton et~al.
+\newblock \emph{{Search for Rare Muon Decays with the Crystal Box Detector}}.
+\newblock Phys. Rev. D, 38:2077 (1988).
+\newblock \doi{10.1103/PhysRevD.38.2077}.
+
+\bibitem{MEGA:1999}
+M.~Brooks et~al. (MEGA).
+\newblock \emph{{New limit for the family number nonconserving decay mu+ --->
+  e+ gamma}}.
+\newblock Phys. Rev. Lett., 83:1521--1524 (1999).
+\newblock \doi{10.1103/PhysRevLett.83.1521}.
+\newblock \eprint{hep-ex/9905013}.
+
+\bibitem{MEGA:2002}
+M.~Ahmed et~al. (MEGA).
+\newblock \emph{{Search for the lepton family number nonconserving decay mu+
+  ---> e+ gamma}}.
+\newblock Phys. Rev. D, 65:112002 (2002).
+\newblock \doi{10.1103/PhysRevD.65.112002}.
+\newblock \eprint{hep-ex/0111030}.
+
+\bibitem{Mu3e:2013}
+A.~Blondel et~al.
+\newblock \emph{{Research Proposal for an Experiment to Search for the Decay
+  $\mu \to eee$}} (1 2013).
+\newblock \eprint{1301.6113}.
+
+\bibitem{Mu2e_II:2018}
+F.~Abusalma et~al. (Mu2e).
+\newblock \emph{{Expression of Interest for Evolution of the Mu2e Experiment}}
+  (2 2018).
+\newblock \eprint{1802.02599}.
+
+\bibitem{PIP_II:2018}
+D.~Neuffer.
+\newblock \emph{{Mu2e-II Injection from PIP-II}} (4 2018).
+\newblock \doi{10.2172/1437287}.
+
+\bibitem{HARP}
+M.~Catanesi et~al. (HARP).
+\newblock \emph{{Large-angle production of charged pions with 3-12.9-GeV/c
+  incident protons on nuclear targets}}.
+\newblock Phys. Rev. C, 77:055207 (2008).
+\newblock \doi{10.1103/PhysRevC.77.055207}.
+\newblock \eprint{0805.2871}.
+
+\bibitem{Edmonds:2015}
+A.~W.~J. Edmonds.
+\newblock {An Estimate of the Hadron Production Uncertainty and a Measurement
+  of the Rate of Proton Emission after Nuclear Muon Capture for the COMET
+  Experiment}.
+\newblock Ph.D. thesis, U. Coll. London (2015).
+
+\bibitem{AlCap:2015}
+B.~E. Krikler (AlCap).
+\newblock \emph{{Update on the AlCap Experiment}}.
+\newblock {17th International Workshop on Neutrino Factories and Future
+  Neutrino Facilities}, pp. 408--417 (2015).
+
+\bibitem{AlCap:2018}
+A.~Edmonds.
+\newblock \emph{{Latest Updates from the AlCap Experiment}}.
+\newblock {13th Conference on the Intersections of Particle and Nuclear
+  Physics} (2018).
+\newblock \eprint{1809.10122}.
+
+\bibitem{DeeMe}
+N.~Teshima (DeeMe).
+\newblock \emph{{DeeMe experiment to search for muon to electron conversion at
+  J-PARC MLF}}.
+\newblock PoS, NuFact2017:109 (2018).
+\newblock \doi{10.22323/1.295.0109}.
+
+\bibitem{CD3}
+A.~Gaponenko (Mu2e).
+\newblock \emph{Cd3 backgrounds}.
+\newblock Mu2e-doc-7464-v13 (2017).
+
+\bibitem{CRV_now}
+Y.~Oksuzian et~al. (Mu2e).
+\newblock \emph{Cosmic background simulation updates}.
+\newblock Mu2e-doc-33821-v2 (June 2020).
+
+\bibitem{Czarnecki}
+A.~Czarnecki, X.~Garcia~i Tormo and W.~J. Marciano.
+\newblock \emph{{Muon decay in orbit: spectrum of high-energy electrons}}.
+\newblock Phys. Rev. D, 84:013006 (2011).
+\newblock \doi{10.1103/PhysRevD.84.013006}.
+\newblock \eprint{1106.4756}.
+
+\bibitem{Czarnecki2015}
+R.~Szafron and A.~Czarnecki.
+\newblock \emph{{High-energy electrons from the muon decay in orbit: radiative
+  corrections}}.
+\newblock Phys. Lett. B, 753:61--64 (2016).
+\newblock \doi{10.1016/j.physletb.2015.12.008}.
+\newblock \eprint{1505.05237}.
+
+\bibitem{RPC_now}
+S.~Middleton and L.~Borrel (Mu2e).
+\newblock \emph{Calculating out-of-time rpc backgrounds in mu2e}.
+\newblock Mu2e-doc-35059-v2 (August 2020).
+
+\bibitem{Giovanni:2020}
+D.~G. (Mu2e).
+\newblock \emph{Update on the su2020 pbar simulation}.
+\newblock Mu2e-doc-35056-v1 (September 2020).
+
+\bibitem{FNAL}
+\emph{Fermilab}.
+\newblock
+  \url{https://www.fnal.gov/pub/science/particle-accelerators/accelerator-complex.html}.
+
+\bibitem{BeamStruct}
+S.~Werkema (Mu2e).
+\newblock \emph{Mu2e proton beam longitudinal structure}.
+\newblock {Mu2e-doc-2771-v12} (February 2019).
+
+\bibitem{Extraction}
+M.~Jones (Mu2e).
+\newblock \emph{{The Mu2e Experiment: Beam Delivery and Extinction}}.
+\newblock Mu2e-doc-34548-v2 (2020).
+
+\bibitem{G4beamline}
+T.~Roberts, K.~Beard, S.~Ahmed, D.~Huang and D.~Kaplan.
+\newblock \emph{{G4beamline Particle Tracking in Matter Dominated Beam Lines}}.
+\newblock Conf. Proc. C, 110328:373--375 (2011).
+
+\bibitem{ESME}
+J.~MacLachlan.
+\newblock \emph{{Particle tracking in E - phi space for synchrotron design and
+  diagnosis}}.
+\newblock {12th International Conference on the Application of Accelerators in
+  Research and Industry} (1992).
+
+\bibitem{BeamRequirements}
+R.~Bernstein and S.~Werkema (Mu2e).
+\newblock \emph{Mu2e proton beam requirements}.
+\newblock {Mu2e-doc-1105} (2016).
+
+\bibitem{SpillSim}
+S.~Werkema (Mu2e).
+\newblock \emph{Spill simulation}.
+\newblock {Mu2e-doc-33344-v3} (June 2020).
+
+\bibitem{Giovannella}
+S.~Giovannella (Mu2e).
+\newblock \emph{{The Detectors of the Mu2e Experiment}}.
+\newblock JINST, 15(06):C06022 (2020).
+\newblock \doi{10.1088/1748-0221/15/06/C06022}.
+\newblock \eprint{2002.03643}.
+
+\bibitem{PS}
+V.~Kashikhin, G.~Ambrosio et~al. (mu2e).
+\newblock \emph{{Conceptual Design of the Mu2e Production Solenoid}}.
+\newblock IEEE Trans. Appl. Supercond., 23(3):4100604 (2013).
+\newblock \doi{10.1109/TASC.2012.2232341}.
+
+\bibitem{Pushka_Hayman2}
+D.~Pushka (Mu2e).
+\newblock \emph{Crr review of hayman2 target for mu2e}.
+\newblock {Mu2e-doc-30814-v2} (January 2020).
+
+\bibitem{bob_Hayman2}
+R.~Bernstein (Mu2e).
+\newblock \emph{Hayman 2.0 in the offline}.
+\newblock {Mu2e-doc-30111-v3} (November 2019).
+
+\bibitem{TS}
+G.~Ambrosio et~al.
+\newblock \emph{{Challenges and Design of the Transport Solenoid for the Mu2e
+  Experiment at Fermilab.}}
+\newblock IEEE Trans. Appl. Supercond., 24(3):4101405 (2014).
+\newblock \doi{10.1109/TASC.2013.2287053}.
+
+\bibitem{PbarWindow}
+P.~Murat (Mu2e).
+\newblock \emph{Optimization of ts1/ts3 pbar absorbers}.
+\newblock Mu2e-doc-33410-v4 (6 2020).
+
+\bibitem{DS}
+S.~Feher et~al. (Mu2e).
+\newblock \emph{{Reference Design of the Mu2e Detector Solenoid}}.
+\newblock IEEE Trans. Appl. Supercond., 24(3):4500304 (2014).
+\newblock \doi{10.1109/TASC.2013.2283727}.
+
+\bibitem{stopping_target}
+S.~K. J.~Miller (Mu2e).
+\newblock \emph{Muon stopping target}.
+\newblock {Mu2e-doc-1437-v7} (June 2019).
+
+\bibitem{Tracker:2016}
+M.~Lee.
+\newblock \emph{The straw-tube tracker for the mu2e experiment}.
+\newblock Nuclear and Particle Physics Proceedings, 273-275:2530 -- 2532
+  (2016).
+\newblock ISSN 2405-6014.
+\newblock \doi{https://doi.org/10.1016/j.nuclphysbps.2015.09.448}.
+\newblock 37th International Conference on High Energy Physics (ICHEP),
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2405601415009372}.
+
+\bibitem{Tracker:2018}
+G.~Pezzullo (Mu2e).
+\newblock \emph{{The Mu2e Tracker}}.
+\newblock PoS, ICHEP2018:542 (2019).
+\newblock \doi{10.22323/1.340.0542}.
+
+\bibitem{MultiwireDrift}
+F.~Sauli.
+\newblock \emph{{Principles of Operation of Multiwire Proportional and Drift
+  Chambers}} (5 1977).
+\newblock \doi{10.5170/CERN-1977-009}.
+
+\bibitem{Calorimeter:2018}
+N.~Atanov et~al.
+\newblock \emph{{Design and Status of the Mu2e Crystal Calorimeter}}.
+\newblock IEEE Trans. Nucl. Sci., 65(8):2073--2080 (2018).
+\newblock \doi{10.1109/TNS.2018.2790702}.
+\newblock \eprint{1802.06346}.
+
+\bibitem{Donghia:2019}
+R.~Donghia.
+\newblock {The Mu2e calorimeter: R\&D and calibration strategies}.
+\newblock Ph.D. thesis, Rome U. (2019).
+
+\bibitem{Calorimeter:2020}
+{R. Donghia} (Mu2e).
+\newblock \emph{Final design of the mu2e crystal calorimeter}.
+\newblock {Mu2e-doc-32713-v14} (February 2020).
+
+\bibitem{CRV:2019}
+H.~Woodward.
+\newblock \emph{{Fabrication of a Cosmic Ray Veto System for the Mu2e
+  Experiment}}.
+\newblock {Meeting of the Division of Particles and Fields of the American
+  Physical Society} (2019).
+\newblock \eprint{1910.00690}.
+
+\bibitem{TDAQ}
+K.~K. Robert and E.~Bertrand.
+\newblock \emph{Mu2e tdaq and dpc preliminary operations plans}.
+\newblock Mu2e-doc-db-32842-v5 (5 2020).
+
+\bibitem{AlCap:2020}
+J.~Quirk (AlCap, Mu2e).
+\newblock \emph{{Recent results from the AlCap experiment}}.
+\newblock Mu2e-doc-31215-v1 (1 2020).
+
+\bibitem{TWIST:2020}
+A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.
+\newblock \emph{{Charged-particle spectra from $\mu^{-}$ capture on Al}}.
+\newblock Phys. Rev. C, 101(3):035502 (2020).
+\newblock \doi{10.1103/PhysRevC.101.035502}.
+\newblock \eprint{1908.06902}.
+
+\bibitem{art}
+{R. Kutschke et al.}
+\newblock \emph{{Common Offline Documentation: \textit{art} Workbook and Users
+  Guide}}.
+\newblock {Intensity Frontier}.
+
+\bibitem{GianiPatRec:2016}
+G.~Pezzullo and P.~Murat.
+\newblock \emph{{The calorimeter-seeded track reconstruction for the Mu2e
+  experiment at Fermilab}}.
+\newblock {2015 IEEE Nuclear Science Symposium and Medical Imaging Conference},
+  p. 7581921 (2016).
+\newblock \doi{10.1109/NSSMIC.2015.7581921}.
+
+\bibitem{GianiPatRec:2020}
+G.~Pezzullo (Mu2e).
+\newblock \emph{The track finder algorithm for the trigger system of the mu2e
+  experiment at fermilab} (April 2020).
+\newblock \urlprefix\url{https://indi.to/TD4cz}.
+
+\bibitem{Brown:2014}
+D.~Brown.
+\newblock \emph{Mu2e: a muon to electron conversion experiment at fermilab}.
+\newblock Nuclear Physics B - Proceedings Supplements, 248-250:41 -- 46 (2014).
+\newblock ISSN 0920-5632.
+\newblock \doi{https://doi.org/10.1016/j.nuclphysbps.2014.02.008}.
+\newblock 1st Conference on Charged Lepton Flavor Violation,
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0920563214000097}.
+
+\bibitem{Kalman}
+{D. N. Brown , E. A. Charles , D. A. Roberts} (Mu2e).
+\newblock \emph{{The BaBar Track Fitting Algorithm}}.
+
+\bibitem{KutschkePaper}
+R.~K. Kutschke.
+\newblock \emph{Example of a kalman filter n a straight line} (March 1998).
+\newblock
+  \urlprefix\url{{https://home.fnal.gov/~kutschke/Tracking/kalman_simple.pdf}}.
+
+\bibitem{CalCluster_2}
+{B. Echenard} (Mu2e).
+\newblock \emph{{Calorimeter software update}}.
+\newblock {Mu2e-doc-34404-v3} (7 2020).
+
+\bibitem{CalCluster}
+{B. Echenard} (Mu2e).
+\newblock \emph{{Calorimeter software status}}.
+\newblock {Mu2e-doc-33812-v1} (6 2020).
+
+\bibitem{Kutschke}
+R.~K. Kutschke (Mu2e).
+\newblock {Mu2e-doc-557-v2} (June 2009).
+
+\bibitem{Kalman:1987}
+R.~Fruhwirth.
+\newblock \emph{{Application of Kalman filtering to track and vertex fitting}}.
+\newblock Nucl. Instrum. Meth. A, 262:444--450 (1987).
+\newblock \doi{10.1016/0168-9002(87)90887-4}.
+
+\bibitem{Lifshitz}
+M.~Lifshitz and P.~Singer.
+\newblock \emph{Charged-particle emission following muon capture in complex
+  nuclei}.
+\newblock Phys. Rev. Lett., 41:18--21 (Jul 1978).
+\newblock \doi{10.1103/PhysRevLett.41.18}.
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.41.18}.
+
+\bibitem{Sobottka}
+S.~E. Sobottka and E.~L. Wills.
+\newblock \emph{{Energy Spectrum of Charged Particles Emitted Following Muon
+  Capture in Si$^{28}$ }}.
+\newblock Phys. Rev. Lett., 20(12):596 (1968).
+\newblock \doi{10.1103/PhysRevLett.20.596}.
+
+\bibitem{Hungerford}
+V.~Hungerford.
+\newblock \emph{{Comments on Proton Emission after Muon Capture}} (3 2018).
+\newblock \eprint{1803.08403}.
+
+\bibitem{Pasha:spectra}
+P.~Murat (Mu2e).
+\newblock \emph{{New AlCap and TWIST results on P/D yields in muon capture on
+  Al and why do we need the IPA}}.
+\newblock Mu2e-doc-31745-v1 (2020).
+
+\bibitem{io:comparison}
+B.~Vitali (Mu2e).
+\newblock \emph{{Proton and deuteron spectra: Update on the proposal}}.
+\newblock Mu2e-doc-32582-v1 (2020).
+
+\bibitem{io:sobottka}
+B.~Vitali (Mu2e).
+\newblock \emph{{An attempt to understand the 1.4 MeV dip in Sobottka-Wills
+  measurement}}.
+\newblock Mu2e-doc-32464-v2 (2020).
+
+\bibitem{IDS:2016}
+M.~Lund, A.~Andreyev, M.~Borge et~al. (IDS).
+\newblock \emph{{Beta-delayed proton emission from 20Mg}}.
+\newblock The European Physical Journal A, 52:304 (10 2016).
+\newblock \doi{10.1140/epja/i2016-16304-x}.
+
+\end{thebibliography}

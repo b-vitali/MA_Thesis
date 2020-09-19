@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: bvitali_draft.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: custombib.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: bvitali_biblio.bib
+Warning--I didn't find a database entry for "Module0:2019"
+Warning--empty journal in MTDR
+Warning--empty journal in Baldini:2019
+Warning--empty journal in Akers
+Warning--empty year in Akers
+Warning--empty journal in MEG_upgrade
+Warning--empty journal in mu2e_proposal
+Warning--empty journal in COMET_2009
+Warning--empty journal in COMET_2012
+Warning--empty year in COMET_2012
+Warning--empty journal in COMET_2012_2
+Warning--empty year in COMET_2012_2
+Warning--empty journal in Mu3e:2013
+Warning--empty journal in Mu2e_II:2018
+Warning--empty journal in PIP_II:2018
+Warning--empty journal in MultiwireDrift
+Warning--empty journal in art
+Warning--empty year in art
+Warning--empty journal in GianiPatRec:2020
+Warning--empty journal in Kalman
+Warning--empty year in Kalman
+Warning--empty journal in KutschkePaper
+Warning--empty title in Kutschke
+Warning--empty journal in Hungerford
+You've used 94 entries,
+            2504 wiz_defined-function locations,
+            1213 strings with 18421 characters,
+and the built_in function-call counts, 32690 in all, are:
+= -- 1975
+> -- 550
+< -- 3
++ -- 246
+- -- 152
+* -- 1686
+:= -- 3453
+add.period$ -- 357
+call.type$ -- 94
+change.case$ -- 93
+chr.to.int$ -- 0
+cite$ -- 117
+duplicate$ -- 4088
+empty$ -- 3821
+format.name$ -- 198
+if$ -- 7105
+int.to.chr$ -- 0
+int.to.str$ -- 94
+missing$ -- 1000
+newline$ -- 554
+num.names$ -- 93
+pop$ -- 1867
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 642
+stack$ -- 0
+substring$ -- 948
+swap$ -- 2121
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 23
+while$ -- 164
+width$ -- 96
+write$ -- 1146
+(There were 24 warnings)
