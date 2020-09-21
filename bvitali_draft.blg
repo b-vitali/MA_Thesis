@@ -5,7 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 10 items.
 The style file: custombib.bst
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Database file #1: bvitali_biblio.bib
-Warning--I didn't find a database entry for "Module0:2019"
 Warning--empty journal in MTDR
 Warning--empty journal in Baldini:2019
 Warning--empty journal in Akers
@@ -29,45 +28,45 @@ Warning--empty year in Kalman
 Warning--empty journal in KutschkePaper
 Warning--empty title in Kutschke
 Warning--empty journal in Hungerford
-You've used 94 entries,
+You've used 98 entries,
             2504 wiz_defined-function locations,
-            1213 strings with 18421 characters,
-and the built_in function-call counts, 32690 in all, are:
-= -- 1975
-> -- 550
+            1228 strings with 18734 characters,
+and the built_in function-call counts, 33818 in all, are:
+= -- 2031
+> -- 572
 < -- 3
-+ -- 246
-- -- 152
-* -- 1686
-:= -- 3453
-add.period$ -- 357
-call.type$ -- 94
-change.case$ -- 93
++ -- 256
+- -- 158
+* -- 1730
+:= -- 3571
+add.period$ -- 369
+call.type$ -- 98
+change.case$ -- 97
 chr.to.int$ -- 0
-cite$ -- 117
-duplicate$ -- 4088
-empty$ -- 3821
-format.name$ -- 198
-if$ -- 7105
+cite$ -- 121
+duplicate$ -- 4250
+empty$ -- 3959
+format.name$ -- 206
+if$ -- 7349
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 1000
-newline$ -- 554
-num.names$ -- 93
-pop$ -- 1867
+int.to.str$ -- 98
+missing$ -- 1038
+newline$ -- 574
+num.names$ -- 97
+pop$ -- 1951
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 642
+skip$ -- 666
 stack$ -- 0
 substring$ -- 948
-swap$ -- 2121
+swap$ -- 2195
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 164
-width$ -- 96
-write$ -- 1146
-(There were 24 warnings)
+while$ -- 168
+width$ -- 100
+write$ -- 1186
+(There were 23 warnings)

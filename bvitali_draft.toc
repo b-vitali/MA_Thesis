@@ -7,20 +7,20 @@
 \contentsline {subsection}{\numberline {1.2.1}SUSY seesaw}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}de Gouv\^{e}a}{6}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}General considerations}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Muon lepton}{7}{subsection.1.3.1}%
-\contentsline {subsubsection}{Stopped muons}{7}{section*.3}%
-\contentsline {subsection}{\numberline {1.3.2}Charges in a magnetic field}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.1}The muon}{7}{subsection.1.3.1}%
+\contentsline {subsubsection}{Stopped muons}{8}{section*.3}%
+\contentsline {subsection}{\numberline {1.3.2}Motion of a charged particle in magnetic field}{8}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Single event sensitivity}{9}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}Overview of the experimental searches}{9}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Search for the $\mu ^+ \rightarrow e^+ \gamma $ decay}{12}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.4}Experimental searches with muons}{10}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Search for the $\mu ^+ \rightarrow e^+ \gamma $ decay}{11}{subsection.1.4.1}%
 \contentsline {subsubsection}{The MEG experiment at Paul Scherrer Institut}{12}{section*.4}%
 \contentsline {subsubsection}{The upgraded MEG II experiment}{13}{section*.5}%
-\contentsline {subsection}{\numberline {1.4.2}Search for the $\mu ^+ \rightarrow e^+ e^+e^-$ decay}{13}{subsection.1.4.2}%
-\contentsline {subsubsection}{The Mu3e experiment at Paul Scherrer Institut}{14}{section*.6}%
-\contentsline {subsection}{\numberline {1.4.3}Search for the muon-to-electron conversion ($\mu ^-N \rightarrow e^-N$)}{15}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.2}Search for the $\mu ^+ \rightarrow e^+ e^+e^-$ decay}{14}{subsection.1.4.2}%
+\contentsline {subsubsection}{The Mu3e experiment at Paul Scherrer Institut}{15}{section*.6}%
+\contentsline {subsection}{\numberline {1.4.3}Search for the muon-to-electron conversion ($\mu ^-N \rightarrow e^-N$)}{16}{subsection.1.4.3}%
 \contentsline {subsubsection}{The SINDRUM II experiment at Paul Scherrer Institut}{17}{section*.7}%
 \contentsline {subsubsection}{The Mu2e experiment at Fermilab}{17}{section*.8}%
-\contentsline {subsubsection}{The COMET experiment at J-PARC}{18}{section*.9}%
+\contentsline {subsubsection}{The COMET experiment at J-PARC}{19}{section*.9}%
 \contentsline {paragraph}{COMET Phase-I}{19}{section*.10}%
 \contentsline {paragraph}{COMET Phase-II}{19}{section*.11}%
 \contentsline {subsubsection}{The DeeMe Experiment at J-PARC}{19}{section*.12}%
@@ -34,17 +34,17 @@
 \contentsline {section}{\numberline {2.2}The accelerator complex}{26}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Protons On Target}{28}{subsection.2.2.1}%
 \contentsline {section}{\numberline {2.3}The Mu2e magnetic system}{30}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Production Solenoid (PS)}{30}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}The Production Solenoid (PS)}{30}{subsection.2.3.1}%
 \contentsline {paragraph}{Production target}{31}{section*.13}%
-\contentsline {subsection}{\numberline {2.3.2}Transport Solenoid (TS)}{32}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}The Transport Solenoid (TS)}{32}{subsection.2.3.2}%
 \contentsline {paragraph}{Antiproton window}{32}{section*.14}%
-\contentsline {subsection}{\numberline {2.3.3}Detector Solenoid (DS)}{33}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}The Detector Solenoid (DS)}{33}{subsection.2.3.3}%
 \contentsline {paragraph}{Stopping target}{33}{section*.15}%
 \contentsline {paragraph}{Absorbers}{34}{section*.16}%
 \contentsline {section}{\numberline {2.4}The Mu2e detectors}{34}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}The Straw-Tracker detector}{35}{subsection.2.4.1}%
 \contentsline {subsubsection}{Straw-tracker structure}{35}{section*.17}%
-\contentsline {subsubsection}{Straw-tracker electronics}{37}{section*.18}%
+\contentsline {subsubsection}{Straw-tracker electronics}{38}{section*.18}%
 \contentsline {subsection}{\numberline {2.4.2}The Electromagnetic Calorimeter}{38}{subsection.2.4.2}%
 \contentsline {subsubsection}{Calorimeter mechanical structure}{40}{section*.19}%
 \contentsline {subsubsection}{Calorimeter electronics}{41}{section*.20}%
@@ -52,9 +52,11 @@
 \contentsline {subsection}{\numberline {2.4.4}The Trigger and Data Acquisition System}{43}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}The monitor of the stopped muon flux}{43}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Baseline Mu2e design: measuring photons}{44}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}This Thesis}{46}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}This Thesis: exploiting protons}{46}{subsection.2.5.2}%
 \contentsline {section}{\numberline {2.6}Simulation and Analysis tools}{46}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}\textit {art} and .fcl}{46}{subsection.2.6.1}%
+\contentsline {paragraph}{\textit {art}}{46}{section*.21}%
+\contentsline {paragraph}{FHiCL}{46}{section*.22}%
 \contentsline {subsection}{\numberline {2.6.2}STNTUPLE}{47}{subsection.2.6.2}%
 \contentsline {part}{II\hspace {1em}Proton reconstruction}{48}{part.2}%
 \contentsline {chapter}{\numberline {3}Track reconstruction in Mu2e}{49}{chapter.3}%
@@ -64,33 +66,34 @@
 \contentsline {section}{\numberline {3.2}Finding the helices}{50}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Time Clustering}{51}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Pattern Recognition "tracker-only"}{52}{subsection.3.2.2}%
-\contentsline {paragraph}{Reconstruction in the $XY$ plane}{52}{section*.21}%
-\contentsline {paragraph}{Reconstruction in the $\Phi Z$ plane}{52}{section*.22}%
+\contentsline {paragraph}{Reconstruction in the $XY$ plane}{52}{section*.23}%
+\contentsline {paragraph}{Reconstruction in the $\Phi Z$ plane}{52}{section*.24}%
 \contentsline {subsection}{\numberline {3.2.3}Pattern Recognition "tracker-calorimeter combined"}{53}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Comparing the performances}{53}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Kalman filter}{54}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}An explanatory example: the 2D linear fit}{57}{subsection.3.3.1}%
-\contentsline {paragraph}{Initialization}{57}{section*.23}%
-\contentsline {paragraph}{First hit}{58}{section*.24}%
-\contentsline {paragraph}{Transport}{58}{section*.25}%
-\contentsline {paragraph}{Second hit}{58}{section*.26}%
-\contentsline {paragraph}{Transport and third hit}{59}{section*.27}%
-\contentsline {paragraph}{Finishing}{59}{section*.28}%
-\contentsline {chapter}{\numberline {4}Optimization}{60}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Charged particles form nuclear capture}{60}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Single proton events}{63}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Flat distribution}{63}{subsection.4.2.1}%
-\contentsline {paragraph}{TimeClusters}{64}{section*.30}%
-\contentsline {paragraph}{Bore}{66}{section*.31}%
-\contentsline {paragraph}{Pitch}{68}{section*.32}%
-\contentsline {paragraph}{Final track}{70}{section*.33}%
-\contentsline {paragraph}{Evaluating the results}{73}{section*.34}%
-\contentsline {subsection}{\numberline {4.2.2}Ejected spectrum}{73}{subsection.4.2.2}%
-\contentsline {paragraph}{Efficiency}{75}{section*.35}%
-\contentsline {section}{\numberline {4.3}Deuterons and systematics}{75}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Deuterons}{75}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Parameterizations}{76}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Mix-background events}{76}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}SH energy}{76}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Number of SH}{77}{subsection.4.4.2}%
-\contentsline {chapter}{Bibliography}{77}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {3.2.4}Comparing the performance of the two algorithms}{53}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Kalman filter}{55}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Example: a 2D linear fit}{57}{subsection.3.3.1}%
+\contentsline {paragraph}{Initialization}{58}{section*.25}%
+\contentsline {paragraph}{First hit}{58}{section*.26}%
+\contentsline {paragraph}{Transport}{58}{section*.27}%
+\contentsline {paragraph}{Second hit}{59}{section*.28}%
+\contentsline {paragraph}{Transport and third hit}{59}{section*.29}%
+\contentsline {paragraph}{Finishing}{59}{section*.30}%
+\contentsline {chapter}{\numberline {4}Optimization}{61}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Charged particles form nuclear capture}{61}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Single proton events}{64}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Flat distribution}{64}{subsection.4.2.1}%
+\contentsline {paragraph}{TimeClusters}{65}{section*.32}%
+\contentsline {paragraph}{Bore}{67}{section*.33}%
+\contentsline {paragraph}{Pitch}{69}{section*.34}%
+\contentsline {paragraph}{Final track}{71}{section*.35}%
+\contentsline {paragraph}{Evaluating the results}{74}{section*.36}%
+\contentsline {subsection}{\numberline {4.2.2}Ejected spectrum}{74}{subsection.4.2.2}%
+\contentsline {paragraph}{Efficiency}{76}{section*.37}%
+\contentsline {section}{\numberline {4.3}Deuterons and systematics}{76}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Deuterons}{76}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Parameterizations}{77}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Mix-background events}{77}{section.4.4}%
+\contentsline {paragraph}{First, a caveat}{77}{section*.38}%
+\contentsline {subsection}{\numberline {4.4.1}SH energy}{78}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Number of SH}{79}{subsection.4.4.2}%
+\contentsline {chapter}{Bibliography}{79}{subsection.4.4.2}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  19 SEP 2020 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  22 SEP 2020 00:27
 entering extended mode
 **./bvitali_draft.tex
 (bvitali_draft.tex
@@ -154,7 +154,7 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 15.
 
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
-Package hyperref Info: Option `colorlinks' set `false' on input line 15.
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 ("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
@@ -393,6 +393,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks30
 \@floatcapt=\box52
 )
+("C:\Program Files\MiKTeX\tex/latex/tools\bm.sty"
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
 ("C:\Program Files\MiKTeX\tex/latex/frontespizio\frontespizio.sty"
 Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
 
@@ -429,24 +437,24 @@ File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
 (bvitali_draft.aux)
 \openout1 = `bvitali_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring ON on input line 45.
  ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -458,9 +466,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count287
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (bvitali_draft.out) (bvitali_draft.out)
 \@outlinefile=\write3
@@ -523,7 +531,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 <bvitali_draft-frn.pdf, id=254, 597.50829pt x 845.0471pt>
 File: bvitali_draft-frn.pdf Graphic file (type pdf)
 <use bvitali_draft-frn.pdf>
-Package pdftex.def Info: bvitali_draft-frn.pdf  used on input line 47.
+Package pdftex.def Info: bvitali_draft-frn.pdf  used on input line 48.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
@@ -531,12 +539,12 @@ Package pdftex.def Info: bvitali_draft-frn.pdf  used on input line 47.
 
  <./bvitali_draft-frn.pdf{C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdft
 ex.map}>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
@@ -549,14 +557,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.64 \chapter
+l.65 \chapter
              *{Abstract} [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \tableofcontents
+l.73 \tableofcontents
                       [1
 
 ] (bvitali_draft.toc [2
@@ -572,69 +580,63 @@ l.72 \tableofcontents
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 96.
+(hyperref)                removing `\nu' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\not' on input line 96.
+(hyperref)                removing `\not' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 97.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
 
  []
 
 [3
 
 ]
-<../FERMILAB/reports/figures/feynman_mu-egamma.png, id=404, 292.59312pt x 200.2
-4812pt>
-File: ../FERMILAB/reports/figures/feynman_mu-egamma.png Graphic file (type png)
+<figures/feynman_mu-egamma.png, id=404, 292.59312pt x 200.24812pt>
+File: figures/feynman_mu-egamma.png Graphic file (type png)
+<use figures/feynman_mu-egamma.png>
+Package pdftex.def Info: figures/feynman_mu-egamma.png  used on input line 104.
 
-<use ../FERMILAB/reports/figures/feynman_mu-egamma.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/feynman_mu-egamma.png  use
-d on input line 103.
 (pdftex.def)             Requested size: 204.81377pt x 140.17273pt.
-<../FERMILAB/reports/figures/feynman_mu2e.jpg, id=405, 275.0275pt x 205.76875pt
->
-File: ../FERMILAB/reports/figures/feynman_mu2e.jpg Graphic file (type jpg)
-<use ../FERMILAB/reports/figures/feynman_mu2e.jpg>
-Package pdftex.def Info: ../FERMILAB/reports/figures/feynman_mu2e.jpg  used on 
-input line 104.
+<figures/feynman_mu2e.jpg, id=405, 275.0275pt x 205.76875pt>
+File: figures/feynman_mu2e.jpg Graphic file (type jpg)
+<use figures/feynman_mu2e.jpg>
+Package pdftex.def Info: figures/feynman_mu2e.jpg  used on input line 105.
 (pdftex.def)             Requested size: 192.51793pt x 144.03712pt.
  [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.114 
-       <../FERMILAB/reports/figures/feynman_mu-egamma.png> <../FERMILAB/reports
-/figures/feynman_mu2e.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+l.115 
+       <./figures/feynman_mu-egamma.png> <./figures/feynman_mu2e.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
 
  []
 
 [5]
-<../FERMILAB/reports/figures/deGouvea.png, id=419, 577.65813pt x 331.2375pt>
-File: ../FERMILAB/reports/figures/deGouvea.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/deGouvea.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/deGouvea.png  used on inpu
-t line 161.
+<figures/deGouvea.png, id=419, 577.65813pt x 331.2375pt>
+File: figures/deGouvea.png Graphic file (type png)
+<use figures/deGouvea.png>
+Package pdftex.def Info: figures/deGouvea.png  used on input line 162.
 (pdftex.def)             Requested size: 462.12712pt x 264.99034pt.
 
-Overfull \hbox (21.10939pt too wide) in paragraph at lines 161--162
+Overfull \hbox (21.10939pt too wide) in paragraph at lines 162--163
 [][]
  []
 
@@ -643,38 +645,35 @@ Overfull \hbox (21.10939pt too wide) in paragraph at lines 161--162
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.177 \end{itemize}
-                    <../FERMILAB/reports/figures/deGouvea.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
+l.179 \end{itemize}
+                    <./figures/deGouvea.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
 
  []
 
-<../FERMILAB/reports/figures/Michel.png, id=431, 746.28813pt x 240.9pt>
-File: ../FERMILAB/reports/figures/Michel.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Michel.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Michel.png  used on input 
-line 194.
+<figures/Michel.png, id=431, 746.28813pt x 240.9pt>
+File: figures/Michel.png Graphic file (type png)
+<use figures/Michel.png>
+Package pdftex.def Info: figures/Michel.png  used on input line 212.
 (pdftex.def)             Requested size: 373.14316pt x 120.44969pt.
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204 \end{align}
-                  <../FERMILAB/reports/figures/Michel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 204--208
+l.226 \begin{align}
+                    <./figures/Michel.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 228--244
 
  []
 
-<../FERMILAB/reports/figures/DIO_materials.png, id=447, 587.69562pt x 178.6675p
-t>
-File: ../FERMILAB/reports/figures/DIO_materials.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/DIO_materials.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/DIO_materials.png  used on
- input line 211.
+<figures/DIO_materials.png, id=446, 587.69562pt x 178.6675pt>
+File: figures/DIO_materials.png Graphic file (type png)
+<use figures/DIO_materials.png>
+Package pdftex.def Info: figures/DIO_materials.png  used on input line 247.
 (pdftex.def)             Requested size: 470.15714pt x 142.93417pt.
 
-Overfull \hbox (29.1394pt too wide) in paragraph at lines 211--212
+Overfull \hbox (29.1394pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
@@ -683,34 +682,33 @@ Overfull \hbox (29.1394pt too wide) in paragraph at lines 211--212
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.230 \end{align}
-                  <../FERMILAB/reports/figures/DIO_materials.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+l.262 \end{align}
+                  <./figures/DIO_materials.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
 
  []
 
 [9]
-<../FERMILAB/reports/figures/timeline_measures.png, id=474, 451.6875pt x 379.91
-937pt>
-File: ../FERMILAB/reports/figures/timeline_measures.png Graphic file (type png)
+<figures/timeline_measures.png, id=474, 451.6875pt x 379.91937pt>
+File: figures/timeline_measures.png Graphic file (type png)
+<use figures/timeline_measures.png>
+Package pdftex.def Info: figures/timeline_measures.png  used on input line 327.
 
-<use ../FERMILAB/reports/figures/timeline_measures.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/timeline_measures.png  use
-d on input line 254.
 (pdftex.def)             Requested size: 316.17908pt x 265.94173pt.
-<../FERMILAB/reports/figures/timeline_future.png, id=477, 785.93625pt x 250.435
-62pt>
-File: ../FERMILAB/reports/figures/timeline_future.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/timeline_future.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/timeline_future.png  used 
-on input line 261.
+<figures/timeline_future.png, id=477, 785.93625pt x 250.43562pt>
+File: figures/timeline_future.png Graphic file (type png)
+<use figures/timeline_future.png>
+Package pdftex.def Info: figures/timeline_future.png  used on input line 334.
 (pdftex.def)             Requested size: 392.96716pt x 125.2175pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (17.71149pt too wide) in paragraph at lines 301--331
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (17.71149pt too wide) in paragraph at lines 375--405
  [][] 
  []
 
@@ -722,141 +720,128 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.338 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.338 
-       <../FERMILAB/reports/figures/timeline_measures.png> <../FERMILAB/reports
-/figures/timeline_future.png>]
+l.418 
+       <./figures/timeline_measures.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 348.
+(hyperref)                removing `math shift' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 348.
+(hyperref)                removing `\mu' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 348.
+(hyperref)                removing `superscript' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 348.
+(hyperref)                removing `\rightarrow' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 348.
+(hyperref)                removing `superscript' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 348.
+(hyperref)                removing `\gamma' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 348.
+(hyperref)                removing `math shift' on input line 428.
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.361 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.1
-.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.361 
-      ]
-<../FERMILAB/reports/figures/MEG.png, id=565, 427.09563pt x 203.25937pt>
-File: ../FERMILAB/reports/figures/MEG.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/MEG.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/MEG.png  used on input lin
-e 381.
-(pdftex.def)             Requested size: 427.09457pt x 203.25887pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12]
-<../FERMILAB/reports/figures/MEG_II.png, id=579, 462.72874pt x 353.82187pt>
-File: ../FERMILAB/reports/figures/MEG_II.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/MEG_II.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/MEG_II.png  used on input 
-line 408.
-(pdftex.def)             Requested size: 370.1835pt x 283.05788pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 413.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 413.
-
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.430 
-       <../FERMILAB/reports/figures/MEG.png>] [14pdfTeX warning (ext4): destina
-tion with the same identifier (name{figure.1.8}) has been already used, duplica
-te ignored
+l.442 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.446 \begin{itemize}
-                      <../FERMILAB/reports/figures/MEG_II.png>]
-<../FERMILAB/reports/figures/Mu3e_3D.png, id=602, 576.1525pt x 343.2825pt>
-File: ../FERMILAB/reports/figures/Mu3e_3D.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Mu3e_3D.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Mu3e_3D.png  used on input
- line 456.
+l.442 
+       <./figures/timeline_future.png>] [12pdfTeX warning (ext4): destination w
+ith the same identifier (name{table.1.2}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.462 
+      ]
+<figures/MEG.png, id=574, 427.09563pt x 203.25937pt>
+File: figures/MEG.png Graphic file (type png)
+<use figures/MEG.png>
+Package pdftex.def Info: figures/MEG.png  used on input line 465.
+(pdftex.def)             Requested size: 427.09457pt x 203.25887pt.
+<figures/MEG_II.png, id=579, 462.72874pt x 353.82187pt>
+File: figures/MEG_II.png Graphic file (type png)
+<use figures/MEG_II.png>
+Package pdftex.def Info: figures/MEG_II.png  used on input line 492.
+(pdftex.def)             Requested size: 370.1835pt x 283.05788pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.495 \end{figure}
+                   <./figures/MEG.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 497.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 497.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.1.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.519 
+       <./figures/MEG_II.png>]
+<figures/Mu3e_3D.png, id=600, 576.1525pt x 343.2825pt>
+File: figures/Mu3e_3D.png Graphic file (type png)
+<use figures/Mu3e_3D.png>
+Package pdftex.def Info: figures/Mu3e_3D.png  used on input line 546.
 (pdftex.def)             Requested size: 345.69415pt x 205.97107pt.
-<../FERMILAB/reports/figures/Mu3e.png, id=604, 809.0225pt x 409.02812pt>
-File: ../FERMILAB/reports/figures/Mu3e.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Mu3e.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Mu3e.png  used on input li
-ne 463.
+<figures/Mu3e.png, id=602, 809.0225pt x 409.02812pt>
+File: figures/Mu3e.png Graphic file (type png)
+<use figures/Mu3e.png>
+Package pdftex.def Info: figures/Mu3e.png  used on input line 553.
 (pdftex.def)             Requested size: 404.51027pt x 204.51355pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.43533pt too wide) in paragraph at lines 470--470
+Overfull \hbox (2.43533pt too wide) in paragraph at lines 560--560
 []\OT1/cmr/bx/n/14.4 Search for the muon-to-electron con-ver-sion ($\OML/cmm/m/
 it/14.4 []N \OMS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 e[]N$\OT1/cmr/bx/n/14.4 ) 
 
@@ -864,113 +849,113 @@ it/14.4 []N \OMS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 e[]N$\OT1/cmr/bx/n/14.4 )
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 470.
+(hyperref)                removing `math shift' on input line 560.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 470.
+(hyperref)                removing `\mu' on input line 560.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 470.
+(hyperref)                removing `superscript' on input line 560.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 470.
+(hyperref)                removing `\rightarrow' on input line 560.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 470.
+(hyperref)                removing `superscript' on input line 560.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 470.
+(hyperref)                removing `math shift' on input line 560.
 
 [15pdfTeX warning (ext4): destination with the same identifier (name{figure.1.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.485 \begin{itemize}
-                      <../FERMILAB/reports/figures/Mu3e_3D.png>] [16pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.1.10}) has been a
-lready used, duplicate ignored
+l.568 
+       <./figures/Mu3e_3D.png>] [16pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.1.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.534 
-       <../FERMILAB/reports/figures/Mu3e.png>]
-<../FERMILAB/reports/figures/SINDRUM_II.png, id=626, 566.115pt x 357.83687pt>
-File: ../FERMILAB/reports/figures/SINDRUM_II.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/SINDRUM_II.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/SINDRUM_II.png  used on in
-put line 537.
+l.602 
+       <./figures/Mu3e.png>]
+<figures/SINDRUM_II.png, id=625, 566.115pt x 357.83687pt>
+File: figures/SINDRUM_II.png Graphic file (type png)
+<use figures/SINDRUM_II.png>
+Package pdftex.def Info: figures/SINDRUM_II.png  used on input line 628.
 (pdftex.def)             Requested size: 339.67162pt x 214.70377pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17]
+<figures/MuonBeamline.png, id=640, 440.14438pt x 170.13562pt>
+File: figures/MuonBeamline.png Graphic file (type png)
+<use figures/MuonBeamline.png>
+Package pdftex.def Info: figures/MuonBeamline.png  used on input line 652.
+(pdftex.def)             Requested size: 352.11597pt x 136.10867pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.556 
-       <../FERMILAB/reports/figures/SINDRUM_II.png>]
-<../FERMILAB/reports/figures/MuonBeamline.png, id=640, 440.14438pt x 170.13562p
-t>
-File: ../FERMILAB/reports/figures/MuonBeamline.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/MuonBeamline.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/MuonBeamline.png  used on 
-input line 561.
-(pdftex.def)             Requested size: 352.11597pt x 136.10867pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
-12}) has been already used, duplicate ignored
+l.671 \subsubsection
+                    {The COMET experiment at J-PARC}pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.1.12}) has been already used, dup
+licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.595 \paragraph
-                {COMET Phase-II} <../FERMILAB/reports/figures/MuonBeamline.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 596--605
+l.671 \subsubsection
+                    {The COMET experiment at J-PARC} <./figures/SINDRUM_II.png>
+ <./figures/MuonBeamline.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 689--698
 
  []
 
-<../FERMILAB/reports/figures/COMET.png, id=662, 414.04688pt x 278.54062pt>
-File: ../FERMILAB/reports/figures/COMET.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/COMET.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/COMET.png  used on input l
-ine 608.
+<figures/COMET.png, id=660, 414.04688pt x 278.54062pt>
+File: figures/COMET.png Graphic file (type png)
+<use figures/COMET.png>
+Package pdftex.def Info: figures/COMET.png  used on input line 701.
 (pdftex.def)             Requested size: 331.23795pt x 222.8328pt.
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
-3}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.629 
-       <../FERMILAB/reports/figures/COMET.png>]
-<../FERMILAB/reports/figures/DeeMe.png, id=678, 545.03625pt x 272.51813pt>
-File: ../FERMILAB/reports/figures/DeeMe.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/DeeMe.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/DeeMe.png  used on input l
-ine 632.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19]
+<figures/DeeMe.png, id=678, 545.03625pt x 272.51813pt>
+File: figures/DeeMe.png Graphic file (type png)
+<use figures/DeeMe.png>
+Package pdftex.def Info: figures/DeeMe.png  used on input line 725.
 (pdftex.def)             Requested size: 218.01064pt x 109.00531pt.
-<../FERMILAB/reports/figures/DeeMe_event.png, id=679, 513.92pt x 304.13625pt>
-File: ../FERMILAB/reports/figures/DeeMe_event.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/DeeMe_event.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/DeeMe_event.png  used on i
-nput line 633.
+<figures/DeeMe_event.png, id=679, 513.92pt x 304.13625pt>
+File: figures/DeeMe_event.png Graphic file (type png)
+<use figures/DeeMe_event.png>
+Package pdftex.def Info: figures/DeeMe_event.png  used on input line 726.
 (pdftex.def)             Requested size: 205.56435pt x 121.65233pt.
  [20pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
-14}) has been already used, duplicate ignored
+13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.639 \chapter
-              {The Mu2e experiment} <../FERMILAB/reports/figures/DeeMe.png> <..
-/FERMILAB/reports/figures/DeeMe_event.png>]
+l.732 \chapter
+              {The Mu2e experiment}pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.1.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.732 \chapter
+              {The Mu2e experiment} <./figures/COMET.png> <./figures/DeeMe.png>
+ <./figures/DeeMe_event.png>]
 Chapter 2.
-<../FERMILAB/reports/figures/signal_bg.png, id=688, 610.28pt x 368.37625pt>
-File: ../FERMILAB/reports/figures/signal_bg.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/signal_bg.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/signal_bg.png  used on inp
-ut line 691.
+<figures/signal_bg.png, id=689, 610.28pt x 368.37625pt>
+File: figures/signal_bg.png Graphic file (type png)
+<use figures/signal_bg.png>
+Package pdftex.def Info: figures/signal_bg.png  used on input line 771.
 (pdftex.def)             Requested size: 366.17082pt x 221.02744pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -982,20 +967,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.769  \item A
-               cosmic muon could knock out of the stopping target an electron <
-../FERMILAB/reports/figures/signal_bg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 782--797
+l.837 \item A
+              cosmic muon could knock out of the stopping target an electron...
+ <./figures/signal_bg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 846--855
 
  []
 
-File: ../FERMILAB/reports/figures/DIO_materials.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/DIO_materials.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/DIO_materials.png  used on
- input line 800.
+File: figures/DIO_materials.png Graphic file (type png)
+<use figures/DIO_materials.png>
+Package pdftex.def Info: figures/DIO_materials.png  used on input line 858.
 (pdftex.def)             Requested size: 470.15714pt x 142.93417pt.
 
-Overfull \hbox (29.1394pt too wide) in paragraph at lines 800--801
+Overfull \hbox (29.1394pt too wide) in paragraph at lines 858--862
  [][] 
  []
 
@@ -1007,59 +991,47 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.837 
+l.901 
+      ] [24pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.913 
       ]
-<../FERMILAB/reports/figures/mu2e_event.jpg, id=720, 554.57187pt x 210.7875pt>
-File: ../FERMILAB/reports/figures/mu2e_event.jpg Graphic file (type jpg)
-<use ../FERMILAB/reports/figures/mu2e_event.jpg>
-Package pdftex.def Info: ../FERMILAB/reports/figures/mu2e_event.jpg  used on in
-put line 844.
+<figures/mu2e_event.jpg, id=737, 554.57187pt x 210.7875pt>
+File: figures/mu2e_event.jpg Graphic file (type jpg)
+<use figures/mu2e_event.jpg>
+Package pdftex.def Info: figures/mu2e_event.jpg  used on input line 916.
 (pdftex.def)             Requested size: 388.19766pt x 147.55025pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-2}) has been already used, duplicate ignored
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.853 
-      ]
-Underfull \hbox (badness 10000) in paragraph at lines 856--865
-
- []
-
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.870 \begin{itemize}
-                      <../FERMILAB/reports/figures/mu2e_event.jpg>]
-<../FERMILAB/reports/figures/ProtonBeamlineArial_3D.png, id=736, 478.28688pt x 
-364.36125pt>
-File: ../FERMILAB/reports/figures/ProtonBeamlineArial_3D.png Graphic file (type
- png)
-<use ../FERMILAB/reports/figures/ProtonBeamlineArial_3D.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/ProtonBeamlineArial_3D.png
-  used on input line 889.
+l.939 \begin{itemize}
+                      <./figures/mu2e_event.jpg>]
+<figures/ProtonBeamlineArial_3D.png, id=747, 478.28688pt x 364.36125pt>
+File: figures/ProtonBeamlineArial_3D.png Graphic file (type png)
+<use figures/ProtonBeamlineArial_3D.png>
+Package pdftex.def Info: figures/ProtonBeamlineArial_3D.png  used on input line
+ 959.
 (pdftex.def)             Requested size: 239.14285pt x 182.18018pt.
-<../FERMILAB/reports/figures/ProtonBeamlineArial_sketch.png, id=739, 460.21938p
-t x 216.81pt>
-File: ../FERMILAB/reports/figures/ProtonBeamlineArial_sketch.png Graphic file (
-type png)
-<use ../FERMILAB/reports/figures/ProtonBeamlineArial_sketch.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/ProtonBeamlineArial_sketch
-.png  used on input line 898.
+<figures/ProtonBeamlineArial_sketch.png, id=750, 460.21938pt x 216.81pt>
+File: figures/ProtonBeamlineArial_sketch.png Graphic file (type png)
+<use figures/ProtonBeamlineArial_sketch.png>
+Package pdftex.def Info: figures/ProtonBeamlineArial_sketch.png  used on input 
+line 968.
 (pdftex.def)             Requested size: 322.15137pt x 151.76596pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/beam_time_structure_2.png, id=744, 559.08875pt x 2
-20.825pt>
-File: ../FERMILAB/reports/figures/beam_time_structure_2.png Graphic file (type 
-png)
-<use ../FERMILAB/reports/figures/beam_time_structure_2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/beam_time_structure_2.png 
- used on input line 905.
+<figures/beam_time_structure_2.png, id=755, 559.08875pt x 220.825pt>
+File: figures/beam_time_structure_2.png Graphic file (type png)
+<use figures/beam_time_structure_2.png>
+Package pdftex.def Info: figures/beam_time_structure_2.png  used on input line 
+976.
 (pdftex.def)             Requested size: 335.45583pt x 132.496pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1069,16 +1041,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.921 
-       <../FERMILAB/reports/figures/ProtonBeamlineArial_3D.png>]
-<../FERMILAB/reports/figures/Extraction.png, id=759, 551.56062pt x 120.45pt>
-File: ../FERMILAB/reports/figures/Extraction.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Extraction.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Extraction.png  used on in
-put line 924.
+l.995 
+       <./figures/ProtonBeamlineArial_3D.png>]
+<figures/Extraction.png, id=770, 551.56062pt x 120.45pt>
+File: figures/Extraction.png Graphic file (type png)
+<use figures/Extraction.png>
+Package pdftex.def Info: figures/Extraction.png  used on input line 998.
 (pdftex.def)             Requested size: 386.0898pt x 84.3144pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--936
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1010
 
  []
 
@@ -1087,39 +1058,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 929--936
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.936 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.6}) has been already used, duplicate ignored
+l.1010 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.936 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.7}) has been already used, duplicate ignored
+l.1010 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.936 
-       <../FERMILAB/reports/figures/ProtonBeamlineArial_sketch.png> <../FERMILA
-B/reports/figures/beam_time_structure_2.png> <../FERMILAB/reports/figures/Extra
-ction.png>]
-<../FERMILAB/reports/figures/AC_dipole.png, id=773, 889.3225pt x 362.35374pt>
-File: ../FERMILAB/reports/figures/AC_dipole.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/AC_dipole.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/AC_dipole.png  used on inp
-ut line 939.
+l.1010 
+        <./figures/ProtonBeamlineArial_sketch.png> <./figures/beam_time_structu
+re_2.png> <./figures/Extraction.png>]
+<figures/AC_dipole.png, id=784, 889.3225pt x 362.35374pt>
+File: figures/AC_dipole.png Graphic file (type png)
+<use figures/AC_dipole.png>
+Package pdftex.def Info: figures/AC_dipole.png  used on input line 1013.
 (pdftex.def)             Requested size: 444.66016pt x 181.17642pt.
 
-Overfull \hbox (3.64243pt too wide) in paragraph at lines 939--945
+Overfull \hbox (3.64243pt too wide) in paragraph at lines 1013--1019
  [][] 
  []
 
-<../FERMILAB/reports/figures/Extinction.png, id=776, 866.23625pt x 765.86125pt>
-
-File: ../FERMILAB/reports/figures/Extinction.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Extinction.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Extinction.png  used on in
-put line 951.
+<figures/Extinction.png, id=787, 866.23625pt x 765.86125pt>
+File: figures/Extinction.png Graphic file (type png)
+<use figures/Extinction.png>
+Package pdftex.def Info: figures/Extinction.png  used on input line 1025.
 (pdftex.def)             Requested size: 259.87288pt x 229.76015pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1129,20 +1096,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.971 
-       <../FERMILAB/reports/figures/AC_dipole.png>]
-<../FERMILAB/reports/figures/POT_distribution.png, id=797, 436.63126pt x 342.27
-875pt>
-File: ../FERMILAB/reports/figures/POT_distribution.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/POT_distribution.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/POT_distribution.png  used
- on input line 974.
+l.1048 
+        <./figures/AC_dipole.png>]
+<figures/POT_distribution.png, id=808, 436.63126pt x 342.27875pt>
+File: figures/POT_distribution.png Graphic file (type png)
+<use figures/POT_distribution.png>
+Package pdftex.def Info: figures/POT_distribution.png  used on input line 1051.
+
 (pdftex.def)             Requested size: 305.63979pt x 239.59348pt.
-<../FERMILAB/reports/figures/POT_sim.png, id=800, 565.61313pt x 351.3125pt>
-File: ../FERMILAB/reports/figures/POT_sim.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/POT_sim.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/POT_sim.png  used on input
- line 982.
+<figures/POT_sim.png, id=811, 565.61313pt x 351.3125pt>
+File: figures/POT_sim.png Graphic file (type png)
+<use figures/POT_sim.png>
+Package pdftex.def Info: figures/POT_sim.png  used on input line 1060.
 (pdftex.def)             Requested size: 339.37048pt x 210.78911pt.
 
 
@@ -1153,68 +1118,58 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.990 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-2.10}) has been already used, duplicate ignored
+l.1071 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.990 
-       <../FERMILAB/reports/figures/Extinction.png> <../FERMILAB/reports/figure
-s/POT_distribution.png>]
-<../FERMILAB/reports/figures/mu2e_apparatus.jpg, id=812, 716.6775pt x 182.6825p
-t>
-File: ../FERMILAB/reports/figures/mu2e_apparatus.jpg Graphic file (type jpg)
-<use ../FERMILAB/reports/figures/mu2e_apparatus.jpg>
-Package pdftex.def Info: ../FERMILAB/reports/figures/mu2e_apparatus.jpg  used o
-n input line 993.
+l.1071 
+        <./figures/Extinction.png> <./figures/POT_distribution.png>]
+<figures/mu2e_apparatus.jpg, id=823, 716.6775pt x 182.6825pt>
+File: figures/mu2e_apparatus.jpg Graphic file (type jpg)
+<use figures/mu2e_apparatus.jpg>
+Package pdftex.def Info: figures/mu2e_apparatus.jpg  used on input line 1074.
 (pdftex.def)             Requested size: 430.00983pt x 109.61034pt.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1006 
+l.1090 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1006 
-        <../FERMILAB/reports/figures/POT_sim.png> <../FERMILAB/reports/figures/
-mu2e_apparatus.jpg>]
-<../FERMILAB/reports/figures/PS.png, id=826, 759.83875pt x 316.68312pt>
-File: ../FERMILAB/reports/figures/PS.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/PS.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/PS.png  used on input line
- 1009.
+l.1090 
+        <./figures/POT_sim.png> <./figures/mu2e_apparatus.jpg>]
+<figures/PS.png, id=837, 759.83875pt x 316.68312pt>
+File: figures/PS.png Graphic file (type png)
+<use figures/PS.png>
+Package pdftex.def Info: figures/PS.png  used on input line 1093.
 (pdftex.def)             Requested size: 303.93011pt x 126.67099pt.
-<../FERMILAB/reports/figures/production_target_history.png, id=833, 895.84688pt
- x 216.81pt>
-File: ../FERMILAB/reports/figures/production_target_history.png Graphic file (t
-ype png)
-<use ../FERMILAB/reports/figures/production_target_history.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/production_target_history.
-png  used on input line 1027.
+<figures/production_target_history.png, id=845, 895.84688pt x 216.81pt>
+File: figures/production_target_history.png Graphic file (type png)
+<use figures/production_target_history.png>
+Package pdftex.def Info: figures/production_target_history.png  used on input l
+ine 1115.
 (pdftex.def)             Requested size: 447.92235pt x 108.40472pt.
 
-Overfull \hbox (6.90462pt too wide) in paragraph at lines 1027--1029
+Overfull \hbox (6.90462pt too wide) in paragraph at lines 1115--1117
  [][] 
  []
 
-<../FERMILAB/reports/figures/Hayman2.png, id=838, 653.44125pt x 270.25969pt>
-File: ../FERMILAB/reports/figures/Hayman2.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Hayman2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Hayman2.png  used on input
- line 1035.
+<figures/Hayman2.png, id=850, 653.44125pt x 270.25969pt>
+File: figures/Hayman2.png Graphic file (type png)
+<use figures/Hayman2.png>
+Package pdftex.def Info: figures/Hayman2.png  used on input line 1123.
 (pdftex.def)             Requested size: 294.04584pt x 121.61572pt.
-<../FERMILAB/reports/figures/Hayman2_structure.png, id=839, 316.18124pt x 352.3
-1625pt>
-File: ../FERMILAB/reports/figures/Hayman2_structure.png Graphic file (type png)
-
-<use ../FERMILAB/reports/figures/Hayman2_structure.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Hayman2_structure.png  use
-d on input line 1036.
+<figures/Hayman2_structure.png, id=851, 316.18124pt x 352.31625pt>
+File: figures/Hayman2_structure.png Graphic file (type png)
+<use figures/Hayman2_structure.png>
+Package pdftex.def Info: figures/Hayman2_structure.png  used on input line 1124
+.
 (pdftex.def)             Requested size: 110.66508pt x 123.31253pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1224,55 +1179,47 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1047 \begin{itemize}
+l.1137 \begin{itemize}
                       pdfTeX warning (ext4): destination with the same identifi
 er (name{figure.2.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1047 \begin{itemize}
-                       <../FERMILAB/reports/figures/PS.png> <../FERMILAB/report
-s/figures/production_target_history.png>]
-<../FERMILAB/reports/figures/MuonBeamline_TS_window_2.png, id=859, 474.27188pt 
-x 317.185pt>
-File: ../FERMILAB/reports/figures/MuonBeamline_TS_window_2.png Graphic file (ty
-pe png)
-<use ../FERMILAB/reports/figures/MuonBeamline_TS_window_2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/MuonBeamline_TS_window_2.p
-ng  used on input line 1059.
+l.1137 \begin{itemize}
+                       <./figures/PS.png> <./figures/production_target_history.
+png>]
+<figures/MuonBeamline_TS_window_2.png, id=872, 474.27188pt x 317.185pt>
+File: figures/MuonBeamline_TS_window_2.png Graphic file (type png)
+<use figures/MuonBeamline_TS_window_2.png>
+Package pdftex.def Info: figures/MuonBeamline_TS_window_2.png  used on input li
+ne 1152.
 (pdftex.def)             Requested size: 237.13536pt x 158.5921pt.
-<../FERMILAB/reports/figures/MuonBeamline_TS_3.png, id=860, 296.10625pt x 358.3
-3875pt>
-File: ../FERMILAB/reports/figures/MuonBeamline_TS_3.png Graphic file (type png)
-
-<use ../FERMILAB/reports/figures/MuonBeamline_TS_3.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/MuonBeamline_TS_3.png  use
-d on input line 1060.
+<figures/MuonBeamline_TS_3.png, id=873, 296.10625pt x 358.33875pt>
+File: figures/MuonBeamline_TS_3.png Graphic file (type png)
+<use figures/MuonBeamline_TS_3.png>
+Package pdftex.def Info: figures/MuonBeamline_TS_3.png  used on input line 1153
+.
 (pdftex.def)             Requested size: 142.12938pt x 172.00064pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<figures/DS_2.png, id=880, 531.9875pt x 104.39pt>
+File: figures/DS_2.png Graphic file (type png)
+<use figures/DS_2.png>
+Package pdftex.def Info: figures/DS_2.png  used on input line 1172.
+(pdftex.def)             Requested size: 372.38872pt x 73.07248pt.
 [32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1073 
-        <../FERMILAB/reports/figures/Hayman2.png> <../FERMILAB/reports/figures/
-Hayman2_structure.png>]
-<../FERMILAB/reports/figures/DS_2.png, id=877, 531.9875pt x 104.39pt>
-File: ../FERMILAB/reports/figures/DS_2.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/DS_2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/DS_2.png  used on input li
-ne 1076.
-(pdftex.def)             Requested size: 372.38872pt x 73.07248pt.
-<../FERMILAB/reports/figures/stopping_target.png, id=882, 366.36874pt x 390.960
-63pt>
-File: ../FERMILAB/reports/figures/stopping_target.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/stopping_target.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/stopping_target.png  used 
-on input line 1086.
+l.1177 
+        <./figures/Hayman2.png> <./figures/Hayman2_structure.png>]
+<figures/stopping_target.png, id=895, 366.36874pt x 390.96063pt>
+File: figures/stopping_target.png Graphic file (type png)
+<use figures/stopping_target.png>
+Package pdftex.def Info: figures/stopping_target.png  used on input line 1186.
 (pdftex.def)             Requested size: 183.18391pt x 195.47983pt.
 
 
@@ -1283,67 +1230,59 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1095 
+l.1198 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1095 
-        <../FERMILAB/reports/figures/MuonBeamline_TS_window_2.png> <../FERMILAB
-/reports/figures/MuonBeamline_TS_3.png> <../FERMILAB/reports/figures/DS_2.png>]
-<../FERMILAB/reports/figures/ProtonAbsorber.png, id=896, 513.92pt x 272.01625pt
->
-File: ../FERMILAB/reports/figures/ProtonAbsorber.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/ProtonAbsorber.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/ProtonAbsorber.png  used o
-n input line 1098.
+l.1198 
+        <./figures/MuonBeamline_TS_window_2.png> <./figures/MuonBeamline_TS_3.p
+ng> <./figures/DS_2.png>]
+<figures/ProtonAbsorber.png, id=909, 513.92pt x 272.01625pt>
+File: figures/ProtonAbsorber.png Graphic file (type png)
+<use figures/ProtonAbsorber.png>
+Package pdftex.def Info: figures/ProtonAbsorber.png  used on input line 1201.
 (pdftex.def)             Requested size: 308.35437pt x 163.211pt.
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-8}) has been already used, duplicate ignored
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1112 
+l.1219 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2.19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1112 
-        <../FERMILAB/reports/figures/stopping_target.png> <../FERMILAB/reports/
-figures/ProtonAbsorber.png>]
-<../FERMILAB/reports/figures/Tracker_2.png, id=907, 566.115pt x 201.75375pt>
-File: ../FERMILAB/reports/figures/Tracker_2.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Tracker_2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_2.png  used on inp
-ut line 1129.
+l.1219 
+        <./figures/stopping_target.png> <./figures/ProtonAbsorber.png>]
+<figures/Tracker_2.png, id=920, 566.115pt x 201.75375pt>
+File: figures/Tracker_2.png Graphic file (type png)
+<use figures/Tracker_2.png>
+Package pdftex.def Info: figures/Tracker_2.png  used on input line 1238.
 (pdftex.def)             Requested size: 283.05681pt x 100.87662pt.
-<../FERMILAB/reports/figures/Tracker_resolution.pdf, id=913, 569.12625pt x 548.
-0475pt>
-File: ../FERMILAB/reports/figures/Tracker_resolution.pdf Graphic file (type pdf
-)
-<use ../FERMILAB/reports/figures/Tracker_resolution.pdf>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_resolution.pdf  us
-ed on input line 1149.
+<figures/Tracker_resolution.pdf, id=926, 569.12625pt x 548.0475pt>
+File: figures/Tracker_resolution.pdf Graphic file (type pdf)
+<use figures/Tracker_resolution.pdf>
+Package pdftex.def Info: figures/Tracker_resolution.pdf  used on input line 126
+0.
 (pdftex.def)             Requested size: 170.73918pt x 164.41551pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/Tracker_prototype.png, id=915, 614.295pt x 155.079
-38pt>
-File: ../FERMILAB/reports/figures/Tracker_prototype.png Graphic file (type png)
-
-<use ../FERMILAB/reports/figures/Tracker_prototype.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_prototype.png  use
-d on input line 1156.
+<figures/Tracker_prototype.png, id=929, 614.295pt x 155.07938pt>
+File: figures/Tracker_prototype.png Graphic file (type png)
+<use figures/Tracker_prototype.png>
+Package pdftex.def Info: figures/Tracker_prototype.png  used on input line 1267
+.
 (pdftex.def)             Requested size: 430.00356pt x 108.55481pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1282
 
  []
 
@@ -1352,9 +1291,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1162--1170
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1170 
-        <../FERMILAB/reports/figures/Tracker_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1171--1189
+l.1282 
+        <./figures/Tracker_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1306
 
  []
 
@@ -1363,84 +1302,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 1171--1189
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1189 
+l.1306 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1189 
-        <../FERMILAB/reports/figures/Tracker_resolution.pdf, page is rotated 90
- degrees> <../FERMILAB/reports/figures/Tracker_prototype.png>]
-<../FERMILAB/reports/figures/straw.png, id=985, 1176.395pt x 300.12125pt>
-File: ../FERMILAB/reports/figures/straw.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/straw.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/straw.png  used on input l
-ine 1192.
+l.1306 
+        <./figures/Tracker_resolution.pdf, page is rotated 90 degrees> <./figur
+es/Tracker_prototype.png>]
+<figures/straw.png, id=999, 1176.395pt x 300.12125pt>
+File: figures/straw.png Graphic file (type png)
+<use figures/straw.png>
+Package pdftex.def Info: figures/straw.png  used on input line 1309.
 (pdftex.def)             Requested size: 470.54967pt x 120.04637pt.
 
-Overfull \hbox (29.53194pt too wide) in paragraph at lines 1192--1193
+Overfull \hbox (29.53194pt too wide) in paragraph at lines 1309--1310
  [][] 
  []
 
-<../FERMILAB/reports/figures/straw_avalanche.png, id=987, 286.06876pt x 234.877
-5pt>
-File: ../FERMILAB/reports/figures/straw_avalanche.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/straw_avalanche.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/straw_avalanche.png  used 
-on input line 1199.
+<figures/straw_avalanche.png, id=1001, 286.06876pt x 234.8775pt>
+File: figures/straw_avalanche.png Graphic file (type png)
+<use figures/straw_avalanche.png>
+Package pdftex.def Info: figures/straw_avalanche.png  used on input line 1316.
 (pdftex.def)             Requested size: 143.03403pt x 117.43846pt.
-<../FERMILAB/reports/figures/straw_avalanche_2.png, id=988, 552.0625pt x 209.78
-375pt>
-File: ../FERMILAB/reports/figures/straw_avalanche_2.png Graphic file (type png)
-
-<use ../FERMILAB/reports/figures/straw_avalanche_2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/straw_avalanche_2.png  use
-d on input line 1200.
+<figures/straw_avalanche_2.png, id=1002, 552.0625pt x 209.78375pt>
+File: figures/straw_avalanche_2.png Graphic file (type png)
+<use figures/straw_avalanche_2.png>
+Package pdftex.def Info: figures/straw_avalanche_2.png  used on input line 1317
+.
 (pdftex.def)             Requested size: 220.82108pt x 83.912pt.
-<../FERMILAB/reports/figures/Tracker_panel_geom.png, id=990, 313.17pt x 248.93p
-t>
-File: ../FERMILAB/reports/figures/Tracker_panel_geom.png Graphic file (type png
-)
-<use ../FERMILAB/reports/figures/Tracker_panel_geom.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_panel_geom.png  us
-ed on input line 1207.
-(pdftex.def)             Requested size: 250.53633pt x 199.14426pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../FERMILAB/reports/figures/Tracker_panel.png, id=993, 952.55875pt x 427.5975p
-t>
-File: ../FERMILAB/reports/figures/Tracker_panel.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Tracker_panel.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_panel.png  used on
- input line 1214.
+<figures/Tracker_panel_geom.png, id=1004, 303.63437pt x 188.20313pt>
+File: figures/Tracker_panel_geom.png Graphic file (type png)
+<use figures/Tracker_panel_geom.png>
+Package pdftex.def Info: figures/Tracker_panel_geom.png  used on input line 132
+4.
+(pdftex.def)             Requested size: 242.90782pt x 150.56268pt.
+<figures/Tracker_panel.png, id=1007, 952.55875pt x 427.5975pt>
+File: figures/Tracker_panel.png Graphic file (type png)
+<use figures/Tracker_panel.png>
+Package pdftex.def Info: figures/Tracker_panel.png  used on input line 1333.
 (pdftex.def)             Requested size: 190.50838pt x 85.51797pt.
-<../FERMILAB/reports/figures/Tracker_panel_picture.png, id=994, 740.26563pt x 3
-60.84813pt>
-File: ../FERMILAB/reports/figures/Tracker_panel_picture.png Graphic file (type 
-png)
-<use ../FERMILAB/reports/figures/Tracker_panel_picture.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_panel_picture.png 
- used on input line 1215.
+<figures/Tracker_panel_picture.png, id=1008, 740.26563pt x 360.84813pt>
+File: figures/Tracker_panel_picture.png Graphic file (type png)
+<use figures/Tracker_panel_picture.png>
+Package pdftex.def Info: figures/Tracker_panel_picture.png  used on input line 
+1334.
 (pdftex.def)             Requested size: 185.06595pt x 90.2118pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/Tracker_plane.jpg, id=999, 577.15625pt x 376.40625
-pt>
-File: ../FERMILAB/reports/figures/Tracker_plane.jpg Graphic file (type jpg)
-<use ../FERMILAB/reports/figures/Tracker_plane.jpg>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_plane.jpg  used on
- input line 1222.
+<figures/Tracker_plane.jpg, id=1013, 577.15625pt x 376.40625pt>
+File: figures/Tracker_plane.jpg Graphic file (type jpg)
+<use figures/Tracker_plane.jpg>
+Package pdftex.def Info: figures/Tracker_plane.jpg  used on input line 1341.
 (pdftex.def)             Requested size: 173.14821pt x 112.92273pt.
-<../FERMILAB/reports/figures/Tracker_plane_picture.png, id=1000, 544.0325pt x 2
-84.06125pt>
-File: ../FERMILAB/reports/figures/Tracker_plane_picture.png Graphic file (type 
-png)
-<use ../FERMILAB/reports/figures/Tracker_plane_picture.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_plane_picture.png 
- used on input line 1223.
+<figures/Tracker_plane_picture.png, id=1014, 544.0325pt x 284.06125pt>
+File: figures/Tracker_plane_picture.png Graphic file (type png)
+<use figures/Tracker_plane_picture.png>
+Package pdftex.def Info: figures/Tracker_plane_picture.png  used on input line 
+1342.
 (pdftex.def)             Requested size: 190.41423pt x 99.42291pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1450,116 +1371,101 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1247 \end{itemize}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.2.24}) has been already used, duplicate ignored
+l.1356 \begin{itemize}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.2.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1247 \end{itemize}
-                     <../FERMILAB/reports/figures/straw.png> <../FERMILAB/repor
-ts/figures/straw_avalanche.png> <../FERMILAB/reports/figures/straw_avalanche_2.
-png>]
-<../FERMILAB/reports/figures/Tracker_electronics.png, id=1015, 763.85374pt x 49
-4.84875pt>
-File: ../FERMILAB/reports/figures/Tracker_electronics.png Graphic file (type pn
-g)
-<use ../FERMILAB/reports/figures/Tracker_electronics.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Tracker_electronics.png  u
-sed on input line 1252.
+l.1356 \begin{itemize}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.2.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1356 \begin{itemize}
+                       <./figures/straw.png> <./figures/straw_avalanche.png> <.
+/figures/straw_avalanche_2.png> <./figures/Tracker_panel_geom.png>]
+<figures/Tracker_electronics.png, id=1028, 763.85374pt x 494.84875pt>
+File: figures/Tracker_electronics.png Graphic file (type png)
+<use figures/Tracker_electronics.png>
+Package pdftex.def Info: figures/Tracker_electronics.png  used on input line 13
+71.
 (pdftex.def)             Requested size: 305.53607pt x 197.93599pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1389
+
+ []
+
 [38pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-5}) has been already used, duplicate ignored
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1264 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.2.26}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1264 
+l.1389 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2.27}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1264 
-        <../FERMILAB/reports/figures/Tracker_panel_geom.png> <../FERMILAB/repor
-ts/figures/Tracker_panel.png> <../FERMILAB/reports/figures/Tracker_panel_pictur
-e.png> <../FERMILAB/reports/figures/Tracker_plane.jpg> <../FERMILAB/reports/fig
-ures/Tracker_plane_picture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1279
-
- []
-
-
-LaTeX Warning: Citation `Module0:2019' on page 39 undefined on input line 1303.
-
-
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-8}) has been already used, duplicate ignored
+l.1389 
+        <./figures/Tracker_panel.png> <./figures/Tracker_panel_picture.png> <./
+figures/Tracker_plane.jpg> <./figures/Tracker_plane_picture.png>] [39pdfTeX war
+ning (ext4): destination with the same identifier (name{figure.2.28}) has been 
+already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1304 
-        <../FERMILAB/reports/figures/Tracker_electronics.png>]
-<../FERMILAB/reports/figures/mu2e_calorimeter.png, id=1033, 325.215pt x 331.960
-2pt>
-File: ../FERMILAB/reports/figures/mu2e_calorimeter.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/mu2e_calorimeter.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/mu2e_calorimeter.png  used
- on input line 1307.
+l.1409 
+        <./figures/Tracker_electronics.png>]
+<figures/mu2e_calorimeter.png, id=1051, 325.215pt x 331.9602pt>
+File: figures/mu2e_calorimeter.png Graphic file (type png)
+<use figures/mu2e_calorimeter.png>
+Package pdftex.def Info: figures/mu2e_calorimeter.png  used on input line 1412.
+
 (pdftex.def)             Requested size: 162.6071pt x 165.97969pt.
-<../FERMILAB/reports/figures/mu2e_calorimeter_Module0.png, id=1034, 250.43562pt
- x 241.90375pt>
-File: ../FERMILAB/reports/figures/mu2e_calorimeter_Module0.png Graphic file (ty
-pe png)
-<use ../FERMILAB/reports/figures/mu2e_calorimeter_Module0.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/mu2e_calorimeter_Module0.p
-ng  used on input line 1308.
+<figures/mu2e_calorimeter_Module0.png, id=1052, 250.43562pt x 241.90375pt>
+File: figures/mu2e_calorimeter_Module0.png Graphic file (type png)
+<use figures/mu2e_calorimeter_Module0.png>
+Package pdftex.def Info: figures/mu2e_calorimeter_Module0.png  used on input li
+ne 1413.
 (pdftex.def)             Requested size: 175.30373pt x 169.33147pt.
-<../FERMILAB/reports/figures/calorimeter_test.png, id=1041, 768.8725pt x 273.02
-pt>
-File: ../FERMILAB/reports/figures/calorimeter_test.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/calorimeter_test.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/calorimeter_test.png  used
- on input line 1315.
+<figures/calorimeter_test.png, id=1059, 768.8725pt x 273.02pt>
+File: figures/calorimeter_test.png Graphic file (type png)
+<use figures/calorimeter_test.png>
+Package pdftex.def Info: figures/calorimeter_test.png  used on input line 1420.
+
 (pdftex.def)             Requested size: 384.4353pt x 136.50966pt.
  [40pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1331 \item T
+l.1436 \item T
               he Front Source Plate is made of carbon fiber to reduce the en...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.30})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1331 \item T
+l.1436 \item T
               he Front Source Plate is made of carbon fiber to reduce the en...
- <../FERMILAB/reports/figures/mu2e_calorimeter.png> <../FERMILAB/reports/figure
-s/mu2e_calorimeter_Module0.png> <../FERMILAB/reports/figures/calorimeter_test.p
-ng>]
-<../FERMILAB/reports/figures/mu2e_calorimeter_disk_2.png, id=1057, 523.45563pt 
-x 299.1175pt>
-File: ../FERMILAB/reports/figures/mu2e_calorimeter_disk_2.png Graphic file (typ
-e png)
-<use ../FERMILAB/reports/figures/mu2e_calorimeter_disk_2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/mu2e_calorimeter_disk_2.pn
-g  used on input line 1345.
+ <./figures/mu2e_calorimeter.png> <./figures/mu2e_calorimeter_Module0.png> <./f
+igures/calorimeter_test.png>]
+<figures/mu2e_calorimeter_disk_2.png, id=1074, 523.45563pt x 299.1175pt>
+File: figures/mu2e_calorimeter_disk_2.png Graphic file (type png)
+<use figures/mu2e_calorimeter_disk_2.png>
+Package pdftex.def Info: figures/mu2e_calorimeter_disk_2.png  used on input lin
+e 1450.
 (pdftex.def)             Requested size: 418.76506pt x 239.29431pt.
 
-Overfull \hbox (3.00423pt too wide) in paragraph at lines 1352--1367
+Overfull \hbox (7.38762pt too wide) in paragraph at lines 1457--1473
 \OT1/cmr/m/n/12 mon-i-tor photo-sensors and front-end elec-tron-ics per-for-man
-ce, are called \OT1/cmr/m/it/12 in-ter-face boards\OT1/cmr/m/n/12 .
+ce, are called \OT1/cmr/m/it/12 In-ter-face Boards\OT1/cmr/m/n/12 .
  []
 
 [41pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
@@ -1567,44 +1473,37 @@ ce, are called \OT1/cmr/m/it/12 in-ter-face boards\OT1/cmr/m/n/12 .
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1367 \begin{itemize}
-                       <../FERMILAB/reports/figures/mu2e_calorimeter_disk_2.png
->]
-<../FERMILAB/reports/figures/CRV.jpg, id=1069, 157.10869pt x 87.25575pt>
-File: ../FERMILAB/reports/figures/CRV.jpg Graphic file (type jpg)
-<use ../FERMILAB/reports/figures/CRV.jpg>
-Package pdftex.def Info: ../FERMILAB/reports/figures/CRV.jpg  used on input lin
-e 1406.
+l.1473 \begin{itemize}
+                       <./figures/mu2e_calorimeter_disk_2.png>]
+<figures/CRV.jpg, id=1086, 157.10869pt x 87.25575pt>
+File: figures/CRV.jpg Graphic file (type jpg)
+<use figures/CRV.jpg>
+Package pdftex.def Info: figures/CRV.jpg  used on input line 1510.
 (pdftex.def)             Requested size: 314.21658pt x 174.51105pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/CRV_module_geometry.png, id=1072, 361.35pt x 179.2
-296pt>
-File: ../FERMILAB/reports/figures/CRV_module_geometry.png Graphic file (type pn
-g)
-<use ../FERMILAB/reports/figures/CRV_module_geometry.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/CRV_module_geometry.png  u
-sed on input line 1417.
+<figures/CRV_module_geometry.png, id=1089, 361.35pt x 179.2296pt>
+File: figures/CRV_module_geometry.png Graphic file (type png)
+<use figures/CRV_module_geometry.png>
+Package pdftex.def Info: figures/CRV_module_geometry.png  used on input line 15
+21.
 (pdftex.def)             Requested size: 216.81168pt x 107.53857pt.
-<../FERMILAB/reports/figures/CRV_module_components.png, id=1073, 447.6725pt x 2
-70.00874pt>
-File: ../FERMILAB/reports/figures/CRV_module_components.png Graphic file (type 
-png)
-<use ../FERMILAB/reports/figures/CRV_module_components.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/CRV_module_components.png 
- used on input line 1418.
+<figures/CRV_module_components.png, id=1090, 447.6725pt x 270.00874pt>
+File: figures/CRV_module_components.png Graphic file (type png)
+<use figures/CRV_module_components.png>
+Package pdftex.def Info: figures/CRV_module_components.png  used on input line 
+1522.
 (pdftex.def)             Requested size: 179.06583pt x 108.00157pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [42]
-<../FERMILAB/reports/figures/TDAQ.png, id=1084, 649.9482pt x 432.6564pt>
-File: ../FERMILAB/reports/figures/TDAQ.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/TDAQ.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/TDAQ.png  used on input li
-ne 1434.
+<figures/TDAQ.png, id=1101, 649.9482pt x 432.6564pt>
+File: figures/TDAQ.png Graphic file (type png)
+<use figures/TDAQ.png>
+Package pdftex.def Info: figures/TDAQ.png  used on input line 1538.
 (pdftex.def)             Requested size: 389.97192pt x 259.59584pt.
 
 
@@ -1615,25 +1514,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1453 \item M
-              easuring the protons generated by the muon nuclear capture: st...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.33})
- has been already used, duplicate ignored
+l.1557 \end{itemize}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.2.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1453 \item M
-              easuring the protons generated by the muon nuclear capture: st...
- <../FERMILAB/reports/figures/CRV.jpg> <../FERMILAB/reports/figures/CRV_module_
-geometry.png> <../FERMILAB/reports/figures/CRV_module_components.png>]
-<../FERMILAB/reports/figures/HPG_Spectra.png, id=1097, 550.055pt x 399.99437pt>
+l.1557 \end{itemize}
+                     <./figures/CRV.jpg> <./figures/CRV_module_geometry.png> <.
+/figures/CRV_module_components.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1573--1575
 
-File: ../FERMILAB/reports/figures/HPG_Spectra.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/HPG_Spectra.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/HPG_Spectra.png  used on i
-nput line 1474.
+ []
+
+<figures/HPG_Spectra.png, id=1114, 550.055pt x 399.99437pt>
+File: figures/HPG_Spectra.png Graphic file (type png)
+<use figures/HPG_Spectra.png>
+Package pdftex.def Info: figures/HPG_Spectra.png  used on input line 1579.
 (pdftex.def)             Requested size: 330.03554pt x 239.99847pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1642,119 +1540,95 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1489 
-        <../FERMILAB/reports/figures/TDAQ.png>]
-<../FERMILAB/reports/figures/STM_geom.png, id=1107, 348.80313pt x 265.49188pt>
-File: ../FERMILAB/reports/figures/STM_geom.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/STM_geom.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/STM_geom.png  used on inpu
-t line 1492.
+l.1594 
+        <./figures/TDAQ.png>]
+<figures/STM_geom.png, id=1126, 348.80313pt x 265.49188pt>
+File: figures/STM_geom.png Graphic file (type png)
+<use figures/STM_geom.png>
+Package pdftex.def Info: figures/STM_geom.png  used on input line 1597.
 (pdftex.def)             Requested size: 209.2835pt x 159.29634pt.
  [45pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 35}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1505 
+l.1615 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2.36}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1505 
-        <../FERMILAB/reports/figures/HPG_Spectra.png> <../FERMILAB/reports/figu
-res/STM_geom.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1513--1520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1513--1520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1513--1520
+l.1615 
+        <./figures/HPG_Spectra.png> <./figures/STM_geom.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1641
 
  []
 
 [46]
-<../FERMILAB/reports/figures/mu2e_datahandling.jpg, id=1126, 204.765pt x 245.91
-875pt>
-File: ../FERMILAB/reports/figures/mu2e_datahandling.jpg Graphic file (type jpg)
-
-<use ../FERMILAB/reports/figures/mu2e_datahandling.jpg>
-Package pdftex.def Info: ../FERMILAB/reports/figures/mu2e_datahandling.jpg  use
-d on input line 1530.
-(pdftex.def)             Requested size: 204.76448pt x 245.91814pt.
+<figures/mu2e_datahandling.jpg, id=1151, 204.765pt x 245.91875pt>
+File: figures/mu2e_datahandling.jpg Graphic file (type jpg)
+<use figures/mu2e_datahandling.jpg>
+Package pdftex.def Info: figures/mu2e_datahandling.jpg  used on input line 1653
+.
+(pdftex.def)             Requested size: 163.8122pt x 196.73524pt.
  [47pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 37}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1538 \part
-            {Proton reconstruction} <../FERMILAB/reports/figures/mu2e_datahandl
-ing.jpg>] [48
+l.1664 \part
+            {Proton reconstruction} <./figures/mu2e_datahandling.jpg>] [48
 
 ]
 Chapter 3.
 [49
 
 ] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 1643--1654
+Underfull \hbox (badness 10000) in paragraph at lines 1742--1747
 
  []
 
 [51]
-<../FERMILAB/reports/figures/giani_TrkPatRec_triplets.png, id=1170, 332.74312pt
- x 346.79562pt>
-File: ../FERMILAB/reports/figures/giani_TrkPatRec_triplets.png Graphic file (ty
-pe png)
-<use ../FERMILAB/reports/figures/giani_TrkPatRec_triplets.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_TrkPatRec_triplets.p
-ng  used on input line 1681.
+<figures/giani_TrkPatRec_triplets.png, id=1197, 332.74312pt x 346.79562pt>
+File: figures/giani_TrkPatRec_triplets.png Graphic file (type png)
+<use figures/giani_TrkPatRec_triplets.png>
+Package pdftex.def Info: figures/giani_TrkPatRec_triplets.png  used on input li
+ne 1770.
 (pdftex.def)             Requested size: 133.09488pt x 138.71579pt.
-<../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity0.png, id=1174, 377.91188
-pt x 203.76125pt>
-File: ../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity0.png Graphic file (
-type png)
-<use ../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity0.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity0
-.png  used on input line 1706.
-(pdftex.def)             Requested size: 207.85217pt x 112.06902pt.
-<../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity1.png, id=1175, 378.41376
-pt x 203.76125pt>
-File: ../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity1.png Graphic file (
-type png)
-<use ../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity1.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity1
-.png  used on input line 1707.
-(pdftex.def)             Requested size: 208.1282pt x 112.06902pt.
  [52pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1711 \end{figure}
-                    <../FERMILAB/reports/figures/giani_TrkPatRec_triplets.png>]
-<../FERMILAB/reports/figures/giani_CalPatRec_semiplane.png, id=1189, 576.65437p
-t x 294.60063pt>
-File: ../FERMILAB/reports/figures/giani_CalPatRec_semiplane.png Graphic file (t
-ype png)
-<use ../FERMILAB/reports/figures/giani_CalPatRec_semiplane.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_CalPatRec_semiplane.
-png  used on input line 1732.
+l.1795 
+        <./figures/giani_TrkPatRec_triplets.png>]
+<figures/giani_TrkPatRec_ambiguity0.png, id=1211, 377.91188pt x 203.76125pt>
+File: figures/giani_TrkPatRec_ambiguity0.png Graphic file (type png)
+<use figures/giani_TrkPatRec_ambiguity0.png>
+Package pdftex.def Info: figures/giani_TrkPatRec_ambiguity0.png  used on input 
+line 1798.
+(pdftex.def)             Requested size: 207.85217pt x 112.06902pt.
+<figures/giani_TrkPatRec_ambiguity1.png, id=1212, 378.41376pt x 203.76125pt>
+File: figures/giani_TrkPatRec_ambiguity1.png Graphic file (type png)
+<use figures/giani_TrkPatRec_ambiguity1.png>
+Package pdftex.def Info: figures/giani_TrkPatRec_ambiguity1.png  used on input 
+line 1799.
+(pdftex.def)             Requested size: 208.1282pt x 112.06902pt.
+<figures/giani_CalPatRec_semiplane.png, id=1217, 576.65437pt x 294.60063pt>
+File: figures/giani_CalPatRec_semiplane.png Graphic file (type png)
+<use figures/giani_CalPatRec_semiplane.png>
+Package pdftex.def Info: figures/giani_CalPatRec_semiplane.png  used on input l
+ine 1821.
 (pdftex.def)             Requested size: 345.99529pt x 176.76173pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/giani_TrkPatRec_errors.png, id=1192, 532.48938pt x
- 347.79938pt>
-File: ../FERMILAB/reports/figures/giani_TrkPatRec_errors.png Graphic file (type
- png)
-<use ../FERMILAB/reports/figures/giani_TrkPatRec_errors.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_TrkPatRec_errors.png
-  used on input line 1742.
+<figures/giani_TrkPatRec_errors.png, id=1220, 532.48938pt x 347.79938pt>
+File: figures/giani_TrkPatRec_errors.png Graphic file (type png)
+<use figures/giani_TrkPatRec_errors.png>
+Package pdftex.def Info: figures/giani_TrkPatRec_errors.png  used on input line
+ 1832.
 (pdftex.def)             Requested size: 159.74805pt x 104.3406pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1764,47 +1638,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1768 
-        <../FERMILAB/reports/figures/giani_TrkPatRec_ambiguity0.png> <../FERMIL
-AB/reports/figures/giani_TrkPatRec_ambiguity1.png>]
-<../FERMILAB/reports/figures/giani_TrkPatRec_performance.png, id=1207, 602.7518
-8pt x 287.0725pt>
-File: ../FERMILAB/reports/figures/giani_TrkPatRec_performance.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures/giani_TrkPatRec_performance.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_TrkPatRec_performanc
-e.png  used on input line 1771.
+l.1847 
+        <./figures/giani_TrkPatRec_ambiguity0.png> <./figures/giani_TrkPatRec_a
+mbiguity1.png>]
+<figures/giani_TrkPatRec_performance.png, id=1234, 602.75188pt x 287.0725pt>
+File: figures/giani_TrkPatRec_performance.png Graphic file (type png)
+<use figures/giani_TrkPatRec_performance.png>
+Package pdftex.def Info: figures/giani_TrkPatRec_performance.png  used on input
+ line 1850.
 (pdftex.def)             Requested size: 361.65392pt x 172.24483pt.
-<../FERMILAB/reports/figures/giani_CalPatRec_performance.png, id=1208, 600.7443
-7pt x 284.06125pt>
-File: ../FERMILAB/reports/figures/giani_CalPatRec_performance.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures/giani_CalPatRec_performance.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_CalPatRec_performanc
-e.png  used on input line 1772.
+<figures/giani_CalPatRec_performance.png, id=1235, 600.74437pt x 284.06125pt>
+File: figures/giani_CalPatRec_performance.png Graphic file (type png)
+<use figures/giani_CalPatRec_performance.png>
+Package pdftex.def Info: figures/giani_CalPatRec_performance.png  used on input
+ line 1851.
 (pdftex.def)             Requested size: 360.4494pt x 170.43805pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1785--1789
-
- []
-
-<../FERMILAB/reports/figures/giani_PatRec_ambiguity.png, id=1212, 468.24937pt x
- 364.36125pt>
-File: ../FERMILAB/reports/figures/giani_PatRec_ambiguity.png Graphic file (type
- png)
-<use ../FERMILAB/reports/figures/giani_PatRec_ambiguity.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/giani_PatRec_ambiguity.png
-  used on input line 1792.
-(pdftex.def)             Requested size: 234.1241pt x 182.18018pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1797--1808
+Underfull \hbox (badness 10000) in paragraph at lines 1864--1874
 
  []
 
@@ -1813,657 +1667,632 @@ Underfull \hbox (badness 10000) in paragraph at lines 1797--1808
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1808 
+l.1874 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .3.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1808 
-        <../FERMILAB/reports/figures/giani_CalPatRec_semiplane.png> <../FERMILA
-B/reports/figures/giani_TrkPatRec_errors.png>]
+l.1874 
+        <./figures/giani_CalPatRec_semiplane.png> <./figures/giani_TrkPatRec_er
+rors.png>]
+<figures/giani_PatRec_ambiguity.png, id=1244, 468.24937pt x 364.36125pt>
+File: figures/giani_PatRec_ambiguity.png Graphic file (type png)
+<use figures/giani_PatRec_ambiguity.png>
+Package pdftex.def Info: figures/giani_PatRec_ambiguity.png  used on input line
+ 1877.
+(pdftex.def)             Requested size: 234.1241pt x 182.18018pt.
 
-LaTeX Warning: Text page 55 contains only floats.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1882--1892
+
+ []
 
 [55pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1808 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure
-.3.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1808 
-        <../FERMILAB/reports/figures/giani_TrkPatRec_performance.png> <../FERMI
-LAB/reports/figures/giani_CalPatRec_performance.png> <../FERMILAB/reports/figur
-es/giani_PatRec_ambiguity.png>]
-<../FERMILAB/reports/figures/Kutschke_Kalman_circ.png, id=1225, 366.87062pt x 3
-05.14pt>
-File: ../FERMILAB/reports/figures/Kutschke_Kalman_circ.png Graphic file (type p
-ng)
-<use ../FERMILAB/reports/figures/Kutschke_Kalman_circ.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Kutschke_Kalman_circ.png  
-used on input line 1811.
+l.1892 
+        <./figures/giani_TrkPatRec_performance.png> <./figures/giani_CalPatRec_
+performance.png>]
+<figures/Kutschke_Kalman_circ.png, id=1253, 366.87062pt x 305.14pt>
+File: figures/Kutschke_Kalman_circ.png Graphic file (type png)
+<use figures/Kutschke_Kalman_circ.png>
+Package pdftex.def Info: figures/Kutschke_Kalman_circ.png  used on input line 1
+895.
 (pdftex.def)             Requested size: 183.43486pt x 152.56961pt.
  [56pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-7}) has been already used, duplicate ignored
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1829 \end{itemize}
-                     <../FERMILAB/reports/figures/Kutschke_Kalman_circ.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1830--1835
+l.1915 \begin{itemize}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.3.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1915 \begin{itemize}
+                       <./figures/giani_PatRec_ambiguity.png> <./figures/Kutsch
+ke_Kalman_circ.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1920--1926
 
  []
 
-<../FERMILAB/reports/figures/Kutschke_Kalman.png, id=1247, 384.93813pt x 100.87
-688pt>
-File: ../FERMILAB/reports/figures/Kutschke_Kalman.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/Kutschke_Kalman.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Kutschke_Kalman.png  used 
-on input line 1874.
+[57]
+<figures/Kutschke_Kalman.png, id=1281, 384.93813pt x 100.87688pt>
+File: figures/Kutschke_Kalman.png Graphic file (type png)
+<use figures/Kutschke_Kalman.png>
+Package pdftex.def Info: figures/Kutschke_Kalman.png  used on input line 1967.
 (pdftex.def)             Requested size: 269.45485pt x 70.61331pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[57] [58pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.3.8}) has been already used, duplicate ignored
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1948 
-        <../FERMILAB/reports/figures/Kutschke_Kalman.png>] [59]
+l.2017 \end{gather*}
+                     <./figures/Kutschke_Kalman.png>] [59] [60]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1999--2005
+Underfull \hbox (badness 10000) in paragraph at lines 2100--2106
 
  []
 
-<../FERMILAB/reports/figures/sobottka.png, id=1286, 380.42125pt x 252.945pt>
-File: ../FERMILAB/reports/figures/sobottka.png Graphic file (type png)
-<use ../FERMILAB/reports/figures/sobottka.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/sobottka.png  used on inpu
-t line 2008.
+<figures/sobottka.png, id=1318, 380.42125pt x 252.945pt>
+File: figures/sobottka.png Graphic file (type png)
+<use figures/sobottka.png>
+Package pdftex.def Info: figures/sobottka.png  used on input line 2109.
 (pdftex.def)             Requested size: 304.3374pt x 202.35626pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2013--2016
+Underfull \hbox (badness 10000) in paragraph at lines 2114--2117
 
  []
 
-[60
+
+Underfull \hbox (badness 10000) in paragraph at lines 2118--2120
+
+ []
+
+[61
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2017--2019
-
- []
-
-<../FERMILAB/reports/figures/new_spectra_2/Gaponenko_protons.png, id=1320, 505.
-89pt x 250.9375pt>
-File: ../FERMILAB/reports/figures/new_spectra_2/Gaponenko_protons.png Graphic f
-ile (type png)
-<use ../FERMILAB/reports/figures/new_spectra_2/Gaponenko_protons.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/new_spectra_2/Gaponenko_pr
-otons.png  used on input line 2055.
+<figures/new_spectra_2/Gaponenko_protons.png, id=1355, 505.89pt x 250.9375pt>
+File: figures/new_spectra_2/Gaponenko_protons.png Graphic file (type png)
+<use figures/new_spectra_2/Gaponenko_protons.png>
+Package pdftex.def Info: figures/new_spectra_2/Gaponenko_protons.png  used on i
+nput line 2156.
 (pdftex.def)             Requested size: 216.1011pt x 107.19264pt.
-<../FERMILAB/reports/figures/new_spectra_2/Gaponenko_deuterons.png, id=1321, 51
-1.9125pt x 254.45062pt>
-File: ../FERMILAB/reports/figures/new_spectra_2/Gaponenko_deuterons.png Graphic
- file (type png)
-<use ../FERMILAB/reports/figures/new_spectra_2/Gaponenko_deuterons.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/new_spectra_2/Gaponenko_de
-uterons.png  used on input line 2056.
+<figures/new_spectra_2/Gaponenko_deuterons.png, id=1356, 511.9125pt x 254.45062
+pt>
+File: figures/new_spectra_2/Gaponenko_deuterons.png Graphic file (type png)
+<use figures/new_spectra_2/Gaponenko_deuterons.png>
+Package pdftex.def Info: figures/new_spectra_2/Gaponenko_deuterons.png  used on
+ input line 2157.
 (pdftex.def)             Requested size: 216.1011pt x 107.41597pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/new_spectra_2/Quirk_protons.png, id=1324, 392.4662
-5pt x 277.035pt>
-File: ../FERMILAB/reports/figures/new_spectra_2/Quirk_protons.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures/new_spectra_2/Quirk_protons.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/new_spectra_2/Quirk_proton
-s.png  used on input line 2063.
+<figures/new_spectra_2/Quirk_protons.png, id=1359, 392.46625pt x 277.035pt>
+File: figures/new_spectra_2/Quirk_protons.png Graphic file (type png)
+<use figures/new_spectra_2/Quirk_protons.png>
+Package pdftex.def Info: figures/new_spectra_2/Quirk_protons.png  used on input
+ line 2164.
 (pdftex.def)             Requested size: 235.48155pt x 166.22227pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures/new_spectra_2/comparison2.png, id=1327, 700.6175pt
- x 475.7775pt>
-File: ../FERMILAB/reports/figures/new_spectra_2/comparison2.png Graphic file (t
-ype png)
-<use ../FERMILAB/reports/figures/new_spectra_2/comparison2.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/new_spectra_2/comparison2.
-png  used on input line 2070.
+<figures/new_spectra_2/comparison2.png, id=1362, 700.6175pt x 475.7775pt>
+File: figures/new_spectra_2/comparison2.png Graphic file (type png)
+<use figures/new_spectra_2/comparison2.png>
+Package pdftex.def Info: figures/new_spectra_2/comparison2.png  used on input l
+ine 2171.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2075--2079
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2180
 
  []
 
-[61pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[62pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2079 
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-4.1}) has been already used, duplicate ignored
+l.2185 $$
+         3.9\times10^7 \cdot 1.6\times10^{-3} \cdot 0.61 \cdot 0.045 \sim 1....
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2079 
-        <../FERMILAB/reports/figures/sobottka.png>] [62pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.4.2}) has been already used, d
-uplicate ignored
+l.2185 $$
+         3.9\times10^7 \cdot 1.6\times10^{-3} \cdot 0.61 \cdot 0.045 \sim 1....
+ <./figures/sobottka.png>] [63pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2090 
+l.2191 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2090 
-        <../FERMILAB/reports/figures/new_spectra_2/Gaponenko_protons.png> <../F
-ERMILAB/reports/figures/new_spectra_2/Gaponenko_deuterons.png> <../FERMILAB/rep
-orts/figures/new_spectra_2/Quirk_protons.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2095
+l.2191 
+        <./figures/new_spectra_2/Gaponenko_protons.png> <./figures/new_spectra_
+2/Gaponenko_deuterons.png> <./figures/new_spectra_2/Quirk_protons.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2193--2196
 
  []
 
-<../FERMILAB/reports/figures//plots/flat/Lambda_p-gen1SH.png, id=1349, 538.01pt
- x 322.20375pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_p-gen1SH.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_p-gen1SH.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_p-gen1S
-H.png  used on input line 2098.
+<figures//plots/flat/Lambda_p-gen1SH.png, id=1381, 538.01pt x 322.20375pt>
+File: figures//plots/flat/Lambda_p-gen1SH.png Graphic file (type png)
+<use figures//plots/flat/Lambda_p-gen1SH.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_p-gen1SH.png  used on input
+ line 2199.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2103--2106
+Underfull \hbox (badness 10000) in paragraph at lines 2204--2207
 
  []
 
-[63pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+[64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2106 
-        <../FERMILAB/reports/figures/new_spectra_2/comparison2.png>]
-<../FERMILAB/reports/figures//new_spectra_2/NoAbs_p.png, id=1357, 521.44812pt x
- 354.82562pt>
-File: ../FERMILAB/reports/figures//new_spectra_2/NoAbs_p.png Graphic file (type
- png)
-<use ../FERMILAB/reports/figures//new_spectra_2/NoAbs_p.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//new_spectra_2/NoAbs_p.png
-  used on input line 2109.
+l.2207 
+        <./figures/new_spectra_2/comparison2.png>]
+<figures//new_spectra_2/NoAbs_p.png, id=1389, 521.44812pt x 354.82562pt>
+File: figures//new_spectra_2/NoAbs_p.png Graphic file (type png)
+<use figures//new_spectra_2/NoAbs_p.png>
+Package pdftex.def Info: figures//new_spectra_2/NoAbs_p.png  used on input line
+ 2210.
 (pdftex.def)             Requested size: 216.1011pt x 147.04955pt.
-<../FERMILAB/reports/figures//new_spectra_2/Abs_p.png, id=1358, 521.95pt x 355.
-3275pt>
-File: ../FERMILAB/reports/figures//new_spectra_2/Abs_p.png Graphic file (type p
-ng)
-<use ../FERMILAB/reports/figures//new_spectra_2/Abs_p.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//new_spectra_2/Abs_p.png  
-used on input line 2110.
+<figures//new_spectra_2/Abs_p.png, id=1390, 521.95pt x 355.3275pt>
+File: figures//new_spectra_2/Abs_p.png Graphic file (type png)
+<use figures//new_spectra_2/Abs_p.png>
+Package pdftex.def Info: figures//new_spectra_2/Abs_p.png  used on input line 2
+211.
 (pdftex.def)             Requested size: 216.1011pt x 147.11658pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2116--2119
+Underfull \hbox (badness 10000) in paragraph at lines 2217--2220
 
  []
 
-[64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
+[65pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2119 
+l.2220 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2119 
-        <../FERMILAB/reports/figures//plots/flat/Lambda_p-gen1SH.png> <../FERMI
-LAB/reports/figures//new_spectra_2/NoAbs_p.png> <../FERMILAB/reports/figures//n
-ew_spectra_2/Abs_p.png>]
-<../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_nCH-vs-p.png, id=1366, 
-538.01pt x 322.20375pt>
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_nCH-vs-p.png Graph
-ic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_nCH-vs-p.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA
-_nCH-vs-p.png  used on input line 2122.
+l.2220 
+        <./figures//plots/flat/Lambda_p-gen1SH.png> <./figures//new_spectra_2/N
+oAbs_p.png> <./figures//new_spectra_2/Abs_p.png>]
+<figures//plots/flat/TimeClusterMVA_nCH-vs-p.png, id=1398, 538.01pt x 322.20375
+pt>
+File: figures//plots/flat/TimeClusterMVA_nCH-vs-p.png Graphic file (type png)
+<use figures//plots/flat/TimeClusterMVA_nCH-vs-p.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterMVA_nCH-vs-p.png  used 
+on input line 2223.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2127--2128
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2229
 
  []
 
-<../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png, id=13
-68, 700.6175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png G
-raphic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA
-_ntcl-vs-pgen.png  used on input line 2131.
+<figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png, id=1400, 700.6175pt x 475
+.7775pt>
+File: figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png Graphic file (type pn
+g)
+<use figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png  u
+sed on input line 2232.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ProtonPeaks.png, id=137
-0, 700.6175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ProtonPeaks.png Gr
-aphic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ProtonPeaks.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar
-_ProtonPeaks.png  used on input line 2144.
+<figures//plots/flat/TimeClusterPar_ProtonPeaks.png, id=1402, 700.6175pt x 475.
+7775pt>
+File: figures//plots/flat/TimeClusterPar_ProtonPeaks.png Graphic file (type png
+)
+<use figures//plots/flat/TimeClusterPar_ProtonPeaks.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterPar_ProtonPeaks.png  us
+ed on input line 2245.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2149--2151
+Underfull \hbox (badness 10000) in paragraph at lines 2250--2252
 
  []
 
-<../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png, id=13
-72, 700.6175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png G
-raphic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar
-_ntcl-vs-pgen.png  used on input line 2154.
+<figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png, id=1404, 700.6175pt x 475
+.7775pt>
+File: figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png Graphic file (type pn
+g)
+<use figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png  u
+sed on input line 2255.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png G
-raphic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA
-_ntcl-vs-pgen.png  used on input line 2166.
+File: figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png Graphic file (type pn
+g)
+<use figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png  u
+sed on input line 2267.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png G
-raphic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar
-_ntcl-vs-pgen.png  used on input line 2173.
+File: figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png Graphic file (type pn
+g)
+<use figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png  u
+sed on input line 2274.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-[65pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+[66pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2187 
-        <../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_nCH-vs-p.png>]
-[66pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
-}) has been already used, duplicate ignored
+l.2288 
+        <./figures//plots/flat/TimeClusterMVA_nCH-vs-p.png>] [67pdfTeX warning 
+(ext4): destination with the same identifier (name{figure.4.8}) has been alread
+y used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2187 
+l.2288 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2187 
-        <../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.pn
-g> <../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ProtonPeaks.png>]
-<../FERMILAB/reports/figures//plots/flat/Lambda_first-z.png, id=1397, 700.6175p
-t x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_first-z.png Graphic file (
-type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_first-z.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_first-z
-.png  used on input line 2190.
+l.2288 
+        <./figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png> <./figures//plo
+ts/flat/TimeClusterPar_ProtonPeaks.png>]
+<figures//plots/flat/Lambda_first-z.png, id=1429, 700.6175pt x 475.7775pt>
+File: figures//plots/flat/Lambda_first-z.png Graphic file (type png)
+<use figures//plots/flat/Lambda_first-z.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_first-z.png  used on input 
+line 2291.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures//plots/flat/Lambda_last-z.png, id=1398, 700.6175pt
- x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_last-z.png Graphic file (t
-ype png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_last-z.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_last-z.
-png  used on input line 2197.
+<figures//plots/flat/Lambda_last-z.png, id=1430, 700.6175pt x 475.7775pt>
+File: figures//plots/flat/Lambda_last-z.png Graphic file (type png)
+<use figures//plots/flat/Lambda_last-z.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_last-z.png  used on input l
+ine 2298.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<../FERMILAB/reports/figures/Blender_Tracker_4.png, id=1399, 275.0275pt x 252.9
-45pt>
-File: ../FERMILAB/reports/figures/Blender_Tracker_4.png Graphic file (type png)
-
-<use ../FERMILAB/reports/figures/Blender_Tracker_4.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures/Blender_Tracker_4.png  use
-d on input line 2204.
+<figures/Blender_Tracker_4.png, id=1431, 275.0275pt x 252.945pt>
+File: figures/Blender_Tracker_4.png Graphic file (type png)
+<use figures/Blender_Tracker_4.png>
+Package pdftex.def Info: figures/Blender_Tracker_4.png  used on input line 2305
+.
 (pdftex.def)             Requested size: 352.81552pt x 324.51726pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2210--2215
+Underfull \hbox (badness 10000) in paragraph at lines 2311--2316
 
  []
 
-[67pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[68pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2215 
+l.2316 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2215 
+l.2316 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2215 
-        <../FERMILAB/reports/figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.pn
-g>] [68pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4.13}) has been already used, duplicate ignored
+l.2316 
+        <./figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png>] [69pdfTeX warn
+ing (ext4): destination with the same identifier (name{figure.4.13}) has been a
+lready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2215 
+l.2316 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2215 
-        <../FERMILAB/reports/figures//plots/flat/Lambda_first-z.png> <../FERMIL
-AB/reports/figures//plots/flat/Lambda_last-z.png>]
-<../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png, id=141
-4, 538.01pt x 322.20375pt>
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png Gr
-aphic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterMVA
-_Lambda-vs-p.png  used on input line 2218.
+l.2316 
+        <./figures//plots/flat/Lambda_first-z.png> <./figures//plots/flat/Lambd
+a_last-z.png>]
+<figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png, id=1446, 538.01pt x 322.20
+375pt>
+File: figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png Graphic file (type png
+)
+<use figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png  us
+ed on input line 2319.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures//plots/flat/Lambda_Lambda-vs-p.png, id=1415, 538.0
-1pt x 322.20375pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_Lambda-vs-p.png Graphic fi
-le (type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_Lambda-vs-p.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_Lambda-
-vs-p.png  used on input line 2225.
+<figures//plots/flat/Lambda_Lambda-vs-p.png, id=1447, 538.01pt x 322.20375pt>
+File: figures//plots/flat/Lambda_Lambda-vs-p.png Graphic file (type png)
+<use figures//plots/flat/Lambda_Lambda-vs-p.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_Lambda-vs-p.png  used on in
+put line 2326.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2230--2232
+Underfull \hbox (badness 10000) in paragraph at lines 2331--2333
 
  []
 
-<../FERMILAB/reports/figures//plots/flat/TimeClusterPar_fraction.png, id=1418, 
-700.6175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_fraction.png Graph
-ic file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/TimeClusterPar_fraction.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/TimeClusterPar
-_fraction.png  used on input line 2235.
+<figures//plots/flat/TimeClusterPar_fraction.png, id=1450, 700.6175pt x 475.777
+5pt>
+File: figures//plots/flat/TimeClusterPar_fraction.png Graphic file (type png)
+<use figures//plots/flat/TimeClusterPar_fraction.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterPar_fraction.png  used 
+on input line 2336.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-<../FERMILAB/reports/figures//plots/flat/Lambda_fraction.png, id=1419, 700.6175
-pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_fraction.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_fraction.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_fractio
-n.png  used on input line 2236.
+<figures//plots/flat/Lambda_fraction.png, id=1451, 700.6175pt x 475.7775pt>
+File: figures//plots/flat/Lambda_fraction.png Graphic file (type png)
+<use figures//plots/flat/Lambda_fraction.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_fraction.png  used on input
+ line 2337.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2241--2246
+Underfull \hbox (badness 10000) in paragraph at lines 2342--2347
 
  []
 
-<../FERMILAB/reports/figures//plots/flat/Lambda_Rot-vs-p.png, id=1421, 538.01pt
- x 322.20375pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_Rot-vs-p.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_Rot-vs-p.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_Rot-vs-
-p.png  used on input line 2250.
+<figures//plots/flat/Lambda_Rot-vs-p.png, id=1453, 538.01pt x 322.20375pt>
+File: figures//plots/flat/Lambda_Rot-vs-p.png Graphic file (type png)
+<use figures//plots/flat/Lambda_Rot-vs-p.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_Rot-vs-p.png  used on input
+ line 2351.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2256--2260
+Underfull \hbox (badness 10000) in paragraph at lines 2357--2361
 
  []
 
-[69pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[70pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2260 
-        <../FERMILAB/reports/figures/Blender_Tracker_4.png>]
-<../FERMILAB/reports/figures//plots/flat/Lambda_preco-vs-pgen.png, id=1430, 538
-.01pt x 322.20375pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_preco-vs-pgen.png Graphic 
-file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_preco-vs-pgen.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_preco-v
-s-pgen.png  used on input line 2263.
+l.2361 
+        <./figures/Blender_Tracker_4.png>]
+<figures//plots/flat/Lambda_preco-vs-pgen.png, id=1462, 538.01pt x 322.20375pt>
+
+File: figures//plots/flat/Lambda_preco-vs-pgen.png Graphic file (type png)
+<use figures//plots/flat/Lambda_preco-vs-pgen.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_preco-vs-pgen.png  used on 
+input line 2364.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
- [70pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [71pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2266 \end{figure}
+l.2367 \end{figure}
                    pdfTeX warning (ext4): destination with the same identifier 
 (name{figure.4.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2266 \end{figure}
-                    <../FERMILAB/reports/figures//plots/flat/TimeClusterMVA_Lam
-bda-vs-p.png> <../FERMILAB/reports/figures//plots/flat/Lambda_Lambda-vs-p.png>]
+l.2367 \end{figure}
+                    <./figures//plots/flat/TimeClusterMVA_Lambda-vs-p.png> <./f
+igures//plots/flat/Lambda_Lambda-vs-p.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../FERMILAB/reports/figures//plots/flat/Lambda_eff_trk0-5hits.png, id=1439, 70
-0.6175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_eff_trk0-5hits.png Graphic
- file (type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_eff_trk0-5hits.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_eff_trk
-0-5hits.png  used on input line 2277.
+<figures//plots/flat/Lambda_eff_trk0-5hits.png, id=1471, 700.6175pt x 475.7775p
+t>
+File: figures//plots/flat/Lambda_eff_trk0-5hits.png Graphic file (type png)
+<use figures//plots/flat/Lambda_eff_trk0-5hits.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_eff_trk0-5hits.png  used on
+ input line 2378.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2282--2287
+Underfull \hbox (badness 10000) in paragraph at lines 2383--2388
 
  []
 
-[71pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[72pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2287 
+l.2388 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2287 
-        <../FERMILAB/reports/figures//plots/flat/TimeClusterPar_fraction.png> <
-../FERMILAB/reports/figures//plots/flat/Lambda_fraction.png> <../FERMILAB/repor
-ts/figures//plots/flat/Lambda_Rot-vs-p.png>] [72pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.4.20}) has been already used, duplica
-te ignored
+l.2388 
+        <./figures//plots/flat/TimeClusterPar_fraction.png> <./figures//plots/f
+lat/Lambda_fraction.png> <./figures//plots/flat/Lambda_Rot-vs-p.png>] [73pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.4.20}) has b
+een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2287 
+l.2388 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2287 
-        <../FERMILAB/reports/figures//plots/flat/Lambda_preco-vs-pgen.png> <../
-FERMILAB/reports/figures//plots/flat/Lambda_eff_trk0-5hits.png>]
-<../FERMILAB/reports/figures//plots/flat/Lambda_chi2d_trk0.png, id=1455, 700.61
-75pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_chi2d_trk0.png Graphic fil
-e (type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_chi2d_trk0.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_chi2d_t
-rk0.png  used on input line 2297.
+l.2388 
+        <./figures//plots/flat/Lambda_preco-vs-pgen.png> <./figures//plots/flat
+/Lambda_eff_trk0-5hits.png>]
+<figures//plots/flat/Lambda_chi2d_trk0.png, id=1487, 700.6175pt x 475.7775pt>
+File: figures//plots/flat/Lambda_chi2d_trk0.png Graphic file (type png)
+<use figures//plots/flat/Lambda_chi2d_trk0.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_chi2d_trk0.png  used on inp
+ut line 2398.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<../FERMILAB/reports/figures//plots/flat/Lambda_nSH_trk0.png, id=1456, 700.6175
-pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/flat/Lambda_nSH_trk0.png Graphic file 
-(type png)
-<use ../FERMILAB/reports/figures//plots/flat/Lambda_nSH_trk0.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/flat/Lambda_nSH_trk
-0.png  used on input line 2304.
+<figures//plots/flat/Lambda_nSH_trk0.png, id=1488, 700.6175pt x 475.7775pt>
+File: figures//plots/flat/Lambda_nSH_trk0.png Graphic file (type png)
+<use figures//plots/flat/Lambda_nSH_trk0.png>
+Package pdftex.def Info: figures//plots/flat/Lambda_nSH_trk0.png  used on input
+ line 2405.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
- [73pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [74pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2314 
-        <../FERMILAB/reports/figures//plots/flat/Lambda_chi2d_trk0.png>]
-<../FERMILAB/reports/figures//plots/ejected/proton_preco-vs-pgen_trk0.png, id=1
-466, 700.6175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/ejected/proton_preco-vs-pgen_trk0.png 
-Graphic file (type png)
-<use ../FERMILAB/reports/figures//plots/ejected/proton_preco-vs-pgen_trk0.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/ejected/proton_prec
-o-vs-pgen_trk0.png  used on input line 2317.
+l.2415 
+        <./figures//plots/flat/Lambda_chi2d_trk0.png>]
+<figures//plots/ejected/proton_preco-vs-pgen_trk0.png, id=1499, 700.6175pt x 47
+5.7775pt>
+File: figures//plots/ejected/proton_preco-vs-pgen_trk0.png Graphic file (type p
+ng)
+<use figures//plots/ejected/proton_preco-vs-pgen_trk0.png>
+Package pdftex.def Info: figures//plots/ejected/proton_preco-vs-pgen_trk0.png  
+used on input line 2418.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-
-[74pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-3}) has been already used, duplicate ignored
+ [75pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2322 \paragraph
+l.2423 \paragraph
                  {Efficiency} We can now evaluate the efficiency of the prot...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.24})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2322 \paragraph
+l.2423 \paragraph
                  {Efficiency} We can now evaluate the efficiency of the prot...
- <../FERMILAB/reports/figures//plots/flat/Lambda_nSH_trk0.png> <../FERMILAB/rep
-orts/figures//plots/ejected/proton_preco-vs-pgen_trk0.png>]
+ <./figures//plots/flat/Lambda_nSH_trk0.png> <./figures//plots/ejected/proton_p
+reco-vs-pgen_trk0.png>]
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 2322.
+LaTeX Warning: Reference `' on page 76 undefined on input line 2423.
 
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 2322.
+LaTeX Warning: Reference `' on page 76 undefined on input line 2423.
 
-<../FERMILAB/reports/figures//plots/ejected/proton_eff_trk0.png, id=1474, 700.6
-175pt x 475.7775pt>
-File: ../FERMILAB/reports/figures//plots/ejected/proton_eff_trk0.png Graphic fi
-le (type png)
-<use ../FERMILAB/reports/figures//plots/ejected/proton_eff_trk0.png>
-Package pdftex.def Info: ../FERMILAB/reports/figures//plots/ejected/proton_eff_
-trk0.png  used on input line 2326.
+<figures//plots/ejected/proton_eff_trk0.png, id=1506, 700.6175pt x 475.7775pt>
+File: figures//plots/ejected/proton_eff_trk0.png Graphic file (type png)
+<use figures//plots/ejected/proton_eff_trk0.png>
+Package pdftex.def Info: figures//plots/ejected/proton_eff_trk0.png  used on in
+put line 2427.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 2340.
+LaTeX Warning: Reference `' on page 76 undefined on input line 2441.
 
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 2341.
+LaTeX Warning: Reference `' on page 76 undefined on input line 2442.
 
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 2341.
+LaTeX Warning: Reference `' on page 76 undefined on input line 2442.
 
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 2341.
+LaTeX Warning: Reference `' on page 76 undefined on input line 2442.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2350
+Underfull \hbox (badness 10000) in paragraph at lines 2446--2451
 
  []
 
-[75pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[76pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2350 
-        <../FERMILAB/reports/figures//plots/ejected/proton_eff_trk0.png>]
-
-LaTeX Warning: Reference `' on page 76 undefined on input line 2377.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2373--2379
-
- []
-
-[76pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
-) has been already used, duplicate ignored
+l.2451 
+        <./figures//plots/ejected/proton_eff_trk0.png>] [77pdfTeX warning (ext4
+): destination with the same identifier (name{table.4.2}) has been already used
+, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2383 
-       ] (bvitali_draft.bbl [77] [78
+l.2491 
+       ]
+<figures//plots/mix/mix500_qsh.png, id=1522, 700.6175pt x 475.7775pt>
+File: figures//plots/mix/mix500_qsh.png Graphic file (type png)
+<use figures//plots/mix/mix500_qsh.png>
+Package pdftex.def Info: figures//plots/mix/mix500_qsh.png  used on input line 
+2494.
+(pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
+ [78pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+26}) has been already used, duplicate ignored
 
-] [79] [80]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2503 
+        <./figures//plots/mix/mix500_qsh.png>] (bvitali_draft.bbl [79] [80
+
+]
+[81] [82]
 Underfull \hbox (badness 6559) in paragraph at lines 368--371
-[]\OT1/cmr/m/it/12 Fermilab\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 https : / / w
-ww . fnal . gov / pub / science / particle-[]accelerators /
+[]\OT1/cmr/m/it/12 Fermilab\OT1/cmr/m/n/12 .  [][]$\OT1/cmtt/m/n/12 https : / /
+ www . fnal . gov / pub / science / particle-[]accelerators /
  []
 
-[81] [82] [83])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2512.
- [84]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2512.
+[83] [84] [85])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2632.
+ [86]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2632.
  (bvitali_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2512.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2512.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2632.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2632.
 
 Package rerunfilecheck Info: File `bvitali_draft.out' has not changed.
-(rerunfilecheck)             Checksum: 3367ECC8D350AC965CE00CCEDEA302A0;4610.
+(rerunfilecheck)             Checksum: C3B61940B25AD081BE7CCF90664941CE;4657.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2512.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2632.
  ) 
 Here is how much of TeX's memory you used:
- 11378 strings out of 481212
- 180378 string characters out of 2915730
- 626616 words of memory out of 3000000
- 26332 multiletter control sequences out of 15000+200000
- 547931 words of font info for 77 fonts, out of 3000000 for 9000
+ 11501 strings out of 481212
+ 174180 string characters out of 2915730
+ 627594 words of memory out of 3000000
+ 26426 multiletter control sequences out of 15000+200000
+ 553501 words of font info for 95 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,17n,60p,795b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,17n,60p,795b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
 800.pk> <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -2484,9 +2313,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on bvitali_draft.pdf (89 pages, 19614389 bytes).
+Output written on bvitali_draft.pdf (91 pages, 19641321 bytes).
 PDF statistics:
- 1722 PDF objects out of 1728 (max. 8388607)
- 386 named destinations out of 1000 (max. 500000)
- 985 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1764 PDF objects out of 2073 (max. 8388607)
+ 396 named destinations out of 1000 (max. 500000)
+ 990 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,7 +6,7 @@
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
     pdfnewwindow=true,      % links in new PDF window
-    colorlinks=false,       % false: boxed links; true: colored links
+    colorlinks=true,       % false: boxed links; true: colored links
     linkcolor=red,          % color of internal links (change box color with linkbordercolor)
     citecolor=blue,         % color of links to bibliography
     filecolor=magenta,      % color of file links
@@ -21,7 +21,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\graphicspath{ {../FERMILAB/reports/figures/} }
+\graphicspath{ {figures/} }
 \usepackage{verbatim}
 \usepackage{textcomp}
 \usepackage{xcolor}
@@ -36,9 +36,10 @@
 }
 \usepackage[toc]{appendix}
 \usepackage{float}
+\usepackage{bm}
 
 \usepackage[infront,standard, nowrite]{frontespizio}
-\title{In situ monitoring\\ of the stopped muon flux at Mu2e\\\textbf{V\_0.7.2}}
+\title{In situ monitoring\\ of the stopped muon flux at Mu2e\\\textbf{V\_0.7.3}}
 
 
 \begin{document}
@@ -168,43 +169,78 @@ The indipendent parameters are $\Lambda$, the mass scale, and $\kappa$, which we
 More experimental constraints are needed to thin out the plethora of models available.
 
 \section{General considerations}
-There are plenty of processes through which is possible to study the CLFV
+There are numerous physics processes which allow to study Charged Lepton Flavour Violation:
 \begin{itemize}
-\item muon decay or conversion: $\mu\rightarrow e \gamma$, $\mu\rightarrow 3e$, $\mu^- N\rightarrow e^- N$, $\mu^- N\rightarrow e^+ N$ 
-\item tau decay: $\tau\rightarrow \mu \gamma$, $\tau\rightarrow 3\mu$
-\item meson decay: $\pi^0\rightarrow \mu e$, $K_L^0\rightarrow\mu e$, $K_L^+\rightarrow \pi^+ \mu^+ e^-$
-\item Z decay like $Z^0\rightarrow\mu e$
+\item muon decays or conversions: 
+$\mu\rightarrow e \gamma$, $\mu\rightarrow 3e$, $\mu^- N\rightarrow e^- N$, $\mu^- N\rightarrow e^+ N$; 
+\item tau decays: $\tau\rightarrow \mu \gamma$, $\tau\rightarrow 3\mu$;
+\item meson decays: $\pi^0\rightarrow \mu e$, $K_L^0\rightarrow\mu e$, $K_L^+\rightarrow \pi^+ \mu^+ e^-$;
+\item Z decays like $Z^0\rightarrow\mu e$.
 \end{itemize}
-Muon processes have been thoroughly studied due to the fact that low energy muon beams can be produced fairly easily in proton accelerator facilities and the final states can be precisely measured.\\
-Before moving to the overview of the experimental searches might be useful some definition and a review on the muon physics.
+Physics processes involving muons have been thoroughly studied 
+since low energy muon beams can be produced fairly easily 
+at proton accelerator facilities and the final states can be precisely measured.\\
+Before moving to the overview of the main experimental searches performed 
+with muons, in the following we will provide a brief review 
+of the relevant aspects of muon physics.
 
-\subsection{Muon lepton}
+\subsection{The muon}
 \label{muon}
-Muons are charged leptons discovered in 1937 by Anderson \cite{Anderson} and wrongly interpreted as the short-range strong force mediator predicted by Yukawa. After the study conducted by Conversi, Pancini and Piccioni \cite{ConvPancPicc} the leptonic nature of the particle was understood and the never-ending series of studies started by this two papers brought us to a quite deep knowledge of this particle. Today the properties of the muons are well known (\cite{PDG}) and in particular the values for the mass and  mean lifetime are: $m_\mu \approx 105.7$ MeV  $\tau\approx 2.2\ \mu$s.
-Muon decays almost exclusively as $\mu\rightarrow e2\nu$ and the differential probability, in the reference of rest of the muon, is:
+The muon is a charged lepton discovered in 1937 by Anderson \cite{Anderson} 
+and initially wrongly interpreted as the short-range strong force mediator predicted by Yukawa. 
+After the study conducted by Conversi, Pancini and Piccioni \cite{ConvPancPicc}, 
+the leptonic nature of the particle was established and the never-ending series of studies started 
+with these two papers brought us to a deep knowledge of this particle. 
+Today, the properties of the muon are well known and, in particular, the values for the mass and  mean lifetime are: 
+$m_\mu = 105.6583745 \pm 0.0000024 $ MeV and $\tau =  2.1969811 \pm 0.0000022 \ \mu$s \cite{PDG}.
+Muon decays almost exclusively as $\mu\rightarrow e\bar{\nu}_e\nu_{\mu}$ 
+and the differential probability, in the reference frame of rest of the muon, is:
 \begin{align}
 \frac{d\Gamma(x,\vartheta)}{\mathrm dx \mathrm d\cos\vartheta}\approx \frac{G_F^2m_\mu^5}{192\pi^3}[(3-2x)\pm P\cos\vartheta(2x-1)]x^2
 \label{eq_muon}
 \end{align}
-where $\frac{G_F^2m_\mu^5}{192\pi^3}=\frac{1}{\tau_\mu}$, $\vartheta$ is the direction of the electron momentum direction from the muon spin, $x=2E/m_{\mu}$ is the reduced electron energy and $P$ is the polarization.\\
-The spectrum obtained, known as Michel spectrum, in vacuum is the same for both signs of the electrical charge and, aside for radiative corrections (due to the emission of an additional $\gamma$), has a kinematic endpoint around half of the muon mass, as shown in fig. \ref{_Michel}.\\
+where $\frac{G_F^2m_\mu^5}{192\pi^3}=\frac{1}{\tau_\mu}$, $\vartheta$ 
+is the direction of the electron momentum direction with respect to the muon spin, 
+$x=2E/m_{\mu}$ is the reduced electron energy and $P$ is the polarization.\\
+The spectrum in vacuum, known as Michel spectrum, 
+is the same for both signs of the electrical charge and, 
+aside for radiative corrections (due to the emission of an additional $\gamma$), 
+has a kinematic endpoint at approximately half of the muon mass (Fig. \ref{_Michel}).\\
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Michel}
-\caption{Michel spectrum before and after the radiative corrections \cite{signorelli}. The plot on the right helps to understand how quickly the spectrum goes to zero.}
+\caption{Michel spectrum before and after the radiative corrections \cite{signorelli}. The plot on the right is a particular of the end point in log scale, this helps to understand how quickly the spectrum goes to zero.}
 \label{_Michel}
 \end{figure}
 
 \subsubsection{Stopped muons}
 \label{stopped_muon}
-As just discussed, the lifetime of a free moving muon is $\tau\approx 2.2\ \mu$s. When a $\mu^-$ is stopped in matter it displaces an electron and set in the lowest energy orbit, at a radius depending from the nucleus $Z$. Once the muon is in the orbit it can either decay with probability $\Lambda_d$ or be captured by the nucleus with probability $\Lambda_c$. The lifetime of this system is then:
+As we have just mentioned, 
+the lifetime of a free moving muon is $\tau\approx 2.2\ \mu$s. 
+When a $\mu^-$ is stopped in matter, 
+it displaces an electron and sets in the lowest energy orbit at a radius that depends on the nucleus $Z$. 
+Once the muon is in the orbit, it can either decay with probability $\Lambda_d$ 
+or be captured by the nucleus with probability $\Lambda_c$. 
+The lifetime of this system is then:
 \begin{align}
 \frac{1}{\tau}=\Lambda_d + \Lambda_c \label{eq_tau}
 \end{align}
-The capture probability increase rapidly: for $Z\sim 11$ is approximately equal to the decay probability $\approx 4.5 \times 10^5$ s$^{-1}$ and for higher $Z$ scales as $Z^4$.
-The consequence of the increased $\Lambda_c$ is that the effective lifetime is reduced as function of the atomic $Z$: $2 \mu$s for carbon; $880$ ns for aluminum; $330$ ns for titanium; 73 ns for gold.\\
-On top of the change in lifetime, the presence of the nucleus open a series of possible scenarios for interaction. We will discuss this point extensively later but for now is sufficient to say that the interaction with the nucleus can also generate a long tail in the energy spectrum of the electron coming from the muon decay, up to $E_e\approx m_\mu -B -E_R$. These electrons are often indicated as Decay In Orbit (DIO) and their spectrum, which is obviously $Z$-dependent, is shown in fig \ref{_DIO_pre}.\\
+The capture probability increases rapidly: 
+for example, for $Z\sim 11$ it is approximately equal to the decay probability $\approx 4.5 \times 10^5$ s$^{-1}$,
+ while for higher $Z$ it scales as $Z^4$.
+The consequence of the increased $\Lambda_c$ is that the effective lifetime is reduced 
+as a function of the atomic number $Z$: 2 $\mu$s for carbon; 
+880 ns for aluminum; 
+330 ns for titanium; 
+73 ns for gold.\\
+On top of the lifetime variation, 
+the presence of the nucleus opens a number of possible scenarios for interaction. 
+We will discuss this point extensively later but for now it is sufficient to say 
+that the interaction with the nucleus can also generate a long tail in the energy spectrum 
+of the electron coming from the muon decay, up to $E_e\approx m_\mu -B -E_R$. In this equation $B$ is the binding energy of the muonic atom and $E_R$ is the recoil of the nucleus. 
+These electrons are often referred to as Decay In Orbit (DIO) and their spectrum, 
+which is obviously $Z$-dependent, is shown in Fig \ref{_DIO_pre}.\\
 
 \begin{figure}[h!]
 \centering
@@ -213,53 +249,91 @@ On top of the change in lifetime, the presence of the nucleus open a series of p
 \label{_DIO_pre}
 \end{figure}
 
-\subsection{Charges in a magnetic field}
+\subsection{Motion of a charged particle in magnetic field}
 \label{magnets}
-The motion of a charged particle through a magnetic field is well known known phenomenon, rigorously explained in many textbooks. The basic principle is the famous Lorentz force low:
+The motion of a charged particle through a magnetic field is well known known phenomenon, 
+rigorously explained in many textbooks. The basic principle is the Lorentz force:
 $$\textbf{F}=q\textbf{v}\times\textbf{B}$$
-What follows is that a particle moving in a straight solenoidal field describes combination of free trajectory and a circular motion, namely a helix, with the property:
+A charge particle moving in a uniform solenoidal field describes the combination of free trajectory 
+and a circular motion, namely a helix, with the property:
 \begin{align}
 |\textbf{B}|\rho = \frac{p_\perp}{|q|} 
 \label{eq_brho}
 \end{align}
-This is the simplest situation but more complex magnetic fields can generate very interesting and useful motions; here we will discuss the use of a gradient to accelerate particles and the perpendicular drift of the particles in a curved magnetic field.\\
-A magnetic field with a non null gradient varies in magnitude as a function of the position. The force generated by the gradient is proportional to the magnetic momentum $\mu$ (the $E$ in the definition is the energy) of the particle and is expressed as:
+This is the simplest situation but more complex magnetic fields can generate very interesting and useful motions; 
+here we will discuss the use of a gradient to accelerate particles 
+and the perpendicular drift of the particles in a curved magnetic field.\\
+A magnetic field with a non null gradient varies in intensity as a function of the position. 
+The force generated by the gradient is proportional to the magnetic momentum $\mu$ 
+(the $E$ in the definition is the energy) of the particle and can be expressed as:
 \begin{align}
 \textbf{F} &= -\mu \nabla \textbf{B} \\
 \mu &= \frac{c^2 p_\perp^2}{2EB}
 \end{align}
-This force does no work on the particle but changes the direction of the momentum and, if the gradient is strong enough, it is possible to flip the direction of motion, effectively reflecting the particle with a \textit{magnetic mirror}. More complex gradients can be even use to trap a particle in a specific region or conversely to assure no particle stays in the same region for too long (for example to avoid the blinding of a detector).\\
-The other interesting property is linked to the use of curved magnetic fields. In a curved solenoid it is possible to show that the particle orbit point drifts in the direction perpendicular to the bending plane. The drift is characterized by a drift velocity $v_D$ (eq. \ref{eq_vd}) and it is possible to evaluate the total drift $D$ (eq. \ref{eq_D}) as a function of the path along the curved solenoid S
+This force does not change the particle energy but changes the direction of the momentum and, 
+if the gradient is strong enough, it is possible to flip the direction of motion, 
+effectively reflecting the particle with a \textit{magnetic mirror}. 
+More complex gradients can be even used to trap a particle in a specific region 
+or, conversely, to assure no particle stays in the same region for too long 
+(for example to avoid the blinding of a detector).\\
+The other interesting property is connected to the use of curved magnetic fields. 
+In a curved solenoid it is possible to show that 
+the particle orbit point drifts in the direction perpendicular to the bending plane. 
+The drift is characterized by a drift velocity $v_D$ (eq. \ref{eq_vd}) 
+and it is possible to evaluate the total drift $D$ (eq. \ref{eq_D}) 
+as a function of the path along the curved solenoid $S$:
 \begin{align}
 v_D&=\frac{m\gamma c}{eBR}\left(v^2_\parallel+\frac{1}{2}v^2_\perp\right) \label{eq_vd}  \\
 D&\propto pS\left(\frac{1}{\cos \vartheta}  + \cos \vartheta \right) \label{eq_D}
 \end{align}
-Here parallel and perpendicular are referred to the magnetic field and R is the bending radius of the solenoid. On the other hand $\vartheta$ is the pitch angle of the helix from the B axis and the sign of the drift depends on the sign of the charge: this characteristics can be used to separate particle of different charges using a curved solenoid.
+In the above equations, parallel and perpendicular refer to the magnetic field and R is the bending radius of the solenoid. 
+On the other hand, $\vartheta$ is the pitch angle of the helix from the magnetic field axis 
+and the sign of the drift depends on the sign of the charge: 
+this characteristics can be used to separate particle of different charges using a curved solenoid.
 
 \subsection{Single event sensitivity}
-When looking for something expected to be extremely rare, or trying to set an upper limit on its probability, is often useful to evaluate the probability of spectating one event under the tested hypothesis (which depends on the process, the background in the window used in the measurement and the apparatus). Assuming a given probability for the process under study, this \textit{single event sensitivity} ($SES$) is linked to the total number of expected events as follows:
+When searching for an extremely rare physics process, 
+or trying to set an upper limit on its probability, 
+is often useful to estimate the probability of spectating one event 
+under the tested hypothesis 
+(which depends on the process, the background in the window used for the measurement 
+and the apparatus performance). 
+Assuming a given probability for the process under study, 
+this \textit{single event sensitivity} ($SES$) is connected to the total number of expected events as follows:
 \begin{align*}
 N_{events} = \frac{BR_{process}}{SES}
 \end{align*}
-The evaluation of the $SES$ is all but trivial and what often is cited as \textit{sensitivity} is actually $2.3\times SES$. This value is the consequence of assuming a poissonian distribution for the number of events (the bayasian 90\% upper limit for a 0 extraction from a poisson distribution is 2.3).\\
+The estimate of the $SES$ is all but trivial 
+and what is often cited as \textit{sensitivity} is actually $2.3\times SES$. 
+This value is the consequence of assuming a poissonian distribution 
+for the number of events (the bayasian 90\% upper limit for a 0 extraction from a poisson distribution is 2.3).\\
 
-\section{Overview of the experimental searches}
-The searches for violations in the leptonic sector have beeng going for decades, starting in 1947 \cite{ConvPancPicc} with the study of the decay of the neo-discovered muon \cite{Anderson}.
-This section will report a brief summary and description of the key searches for CLFV and table \ref{T_CLFV} shows the experimental limits (with relative process and some references). We will focus on the searches using leptons: this history is reported in  Fig. \ref{timeline_measures}. Even more specifically, our interest will be on the processes involving muons (Table \ref{T_CLFV_mu}): $\mu\rightarrow e\gamma$, $\mu N\rightarrow e N$, and $\mu\rightarrow 3e$.
-Fig. \ref{_timeline_future} shows the time-line of the present and future dedicated experiments MEG-II at the Paul Scherrer Institut (Switzerland), COMET at J-PARC (Japan),
+\section{Experimental searches with muons}
+Searches for violations in the leptonic sector have been pursued for decades, 
+beginning in 1947 \cite{ConvPancPicc} with the study of the decay of the neo-discovered muon \cite{Anderson}.
+This Section will report a brief summary and description 
+of the key searches for CLFV and table \ref{T_CLFV} shows the experimental limits 
+(with relative process and some references). 
+We will focus on the searches using leptons: 
+this history is reported in  Fig. \ref{timeline_measures}. 
+Even more specifically, our interest is focussed on the processes involving muons 
+(Table \ref{T_CLFV_mu}): $\mu\rightarrow e\gamma$, $\mu N\rightarrow e N$, and $\mu\rightarrow 3e$.
+Fig. \ref{_timeline_future} shows the time-line of the present and future dedicated experiments,
+including MEG-II at the Paul Scherrer Institut (Switzerland), COMET at J-PARC (Japan),
 and Mu2e at Fermilab (United States).
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{timeline_measures}
-\caption{Summary of the experimental searches for CLFV processes as a function of the years \cite{Chiappini}, our focuse will be on searches with muons.}
+\caption{Summary of the experimental searches for CLFV processes as a function of the years \cite{Chiappini}.}
 \label{timeline_measures}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{timeline_future}
-\caption{Planned data taking schedules for current experiments that and possible schedules for future proposed upgrades \cite{Baldini:2019}. The current best limits for each process are shown on the left, while expected future sensitivities are indicated by order of magnitude along the bottom of each row.}
+\caption{Planned data taking schedules for current experiments and possible schedules for future proposed upgrades \cite{Baldini:2019}. The current best limits for each process are shown on the left, 
+while expected future sensitivities are indicated by orders of magnitude along the bottom of each row.}
 \label{_timeline_future}
 \end{figure}
 
@@ -292,7 +366,7 @@ $Z^0\rightarrow \tau e$ & $9.8\times10^{-6}$& \cite{Akers} \\
 $Z^0\rightarrow \tau \mu$ & $1.2\times10^{-6}$& \cite{Akers}\\
 \hline
 \end{tabular}
-\caption{Upper limits for a variety of CLFV processes}
+\caption{Experimental upper limits for a variety of CLFV processes.}
 \label{T_CLFV}
 \end{table}
 
@@ -332,9 +406,15 @@ $\sim$ few $\times 10^{-17}$ \\
 \label{T_CLFV_mu}
 \end{table}
 
-\noindent The need of a somewhat short summary of these searches makes hard to devote a section to each experiment related to this very prolific field of study. In this spirit we will nominate and give references to some of the experiments that played a central role. \\
-Crystalbox \cite{Crystalbox:1984} \cite{Crystalbox:1988} was arguably the first 'modern' $\mu\rightarrow e\gamma$ experiment. With its successor MEGA \cite{MEGA:1999} \cite{MEGA:2002} was an important step in the study of the $\mu^+\rightarrow e^+\gamma$ channel. SINDRUM \cite{SINDRUM} and SINDRUM II \cite{SINDRUMII}, both performed at the Paul Scherrer Institute, set the current limits respectively on the $\mu \rightarrow 3 e$ and $\mu^-\rightarrow e^- N$. We will only describe the apparatus for SINDRUM II, in a following section, because it set the limit on the process Mu2e is going to test.\\
-A panoramic of the experimental situation as of today will be given by physical process.
+\noindent Due to obvious space limitations, it is not possible
+to dedicate a section to each important experiment related to this very prolific field of study. 
+In this spirit, we will nominate and give references to some of the experiments that played a central role. \\
+Crystalbox \cite{Crystalbox:1984} \cite{Crystalbox:1988} was arguably the first 'modern' $\mu\rightarrow e\gamma$ experiment. With its successor MEGA \cite{MEGA:1999} \cite{MEGA:2002} was an important step in the study of the $\mu^+\rightarrow e^+\gamma$ channel. SINDRUM \cite{SINDRUM} and SINDRUM II \cite{SINDRUMII}, 
+both performed at the Paul Scherrer Institute, set the current wrold-best limits r
+espectively on the $\mu \rightarrow 3 e$ and $\mu^-\rightarrow e^- N$. 
+We will only describe the apparatus for SINDRUM II, in one of the following Sections, 
+because it set the limit on the process $\mu N \rightarrow e N$ object of Mu2e search.\\
+The overview of the experimental scenario as of today will be given by physical process.
 
 \begin{comment}
 \begin{itemize}
@@ -346,27 +426,29 @@ A panoramic of the experimental situation as of today will be given by physical 
 \end{comment}
 
 \subsection{Search for the $\mu^+ \rightarrow e^+ \gamma$ decay}
-The most convenient experimental technique to perform a search for the $\mu^+ \rightarrow e^+ \gamma$ decay
+The most convenient experimental technique to search for the $\mu^+ \rightarrow e^+ \gamma$ decay
 is to have the $\mu^+$ decay at rest. In this case, the signal  
 signature is a back-to-back positron and photon pair, with $E_e=E_\gamma\approx 52.8$ MeV. 
 There are two most significant sources of background: 
 the prompt background due to the \textit{radiative muon decay} 
-($\mu^+\rightarrow e^+ \nu_e \overline{\nu}_\mu\gamma$); 
-the accidental coincidence of $\mu^+\rightarrow e^+ \nu_e \overline{\nu}_\mu$ 
+($\mu^+\rightarrow e^+ \nu_e \overline{\nu}_\mu\gamma$) 
+and the accidental coincidence of $\mu^+\rightarrow e^+ \nu_e \overline{\nu}_\mu$ 
 with a random $\gamma$ generated by annihilation or bremsstrahlung.
 The accidental background is dominant and proportional to the instantaneous muon rate. 
 Since the experimental sensitivity is proportional to the total number of stopped muons, 
 a continuous beam is preferred.
-The current best limit has been set by MEG at BR$(\mu^+\rightarrow e^+\gamma)<4.2\times10^{-13}$ \cite{MEG}.
+The current best limit  BR$(\mu^+\rightarrow e^+\gamma)<4.2\times10^{-13}$ 
+was set by the MEG experiment at the Paul Scherrer Institut\cite{MEG}.
 
 \subsubsection{The MEG experiment at Paul Scherrer Institut}
 The MEG experiment \cite{MEG} has been designed around two concepts: 
 exploiting a liquid xenon detector (LXe) for positron and photon tracking and an anti-bottle magnetic field. 
 Muons are stopped in a polyethylene target in the center of the magnet. Positron momentum is measured by a combination of drift chambers (DCH) and plastic scintillator timing counters (TC). 
 On the other hand, the photon energy and direction are measured in a volume of liquid xenon with more than 800 photo-multipliers tubes.\\
-The measured quantities are the electron and photon energies ($E_e$ and $E_\gamma$) and the relative positions (angles $\vartheta_{e\gamma}$, $\varphi_{e\gamma}$ and time $t_{e\gamma}$). The resolutions are dictated by the necessity of effectively separate the background, like the radiative muon decays. 
-The requirements translate into an energy resolutions of $\lessapprox 1\%$ for both particles.\\
-If MEG had adopted a uniform magnetic field, positrons emitted at low pitch angle would end up passing many times through the tracker and would blind it. In MEG the magneteic field decreases symmetrically from the center towards the periphery to push the particles away from the center. The exact shape of the field has been chosen to have a track radius proportional to the \textit{absolute} momentum instead of the transverse. 
+The measured quantities are the electron and photon energies ($E_e$ and $E_\gamma$) and the relative positions (angles $\vartheta_{e\gamma}$, $\varphi_{e\gamma}$ and time $t_{e\gamma}$). 
+The resolutions are dictated by the need of effectively separate the background, like the radiative muon decays. 
+The requirements translate into an energy resolution of $\lessapprox 1\%$ for both particles.\\
+If MEG had adopted a uniform magnetic field, positrons emitted at low pitch angle would end up passing many times through the tracker and would blind it. In MEG the magnetic field decreases symmetrically from the center towards the periphery to push the particles away from the center. The exact shape of the field has been chosen to have a track radius proportional to the \textit{absolute} momentum instead of the transverse. 
 This allows to discard low energy positrons by simply placing the detector at sufficient distance from the magnet axis. 
 This feature is a specific of the MEG magnetic system and justifies its name as ``COnstant Bending RAdius'' (COBRA) magnets.\\
 The DCH spectrometer is made of 16 trapezoidal drift chambers, arranged radially and filled with He-C$_2$H$_6$. The radial coordinate is evaluated using the timing registered by the DCH and the TC while the $z$ position is determined by measuring the induced charged on the zig-zag shaped pads on the side of the drift chambers. The momentum resolution for the positron is $\approx330$ keV.\\
@@ -374,7 +456,9 @@ The choice of using a liquid xenon scintillating detector for the photon reconst
 the amount of passive material in the detector\footnote{A detector comprised by crystals is bound to have passive material at the surface of each crystal.} and have an excellent time resolution. 
 This choice provides a higher light yield than, for example, a NaI crystal and a much shorter decay time: 
 the timing resolution on the measurement photon interaction time is below 100 ps.\\
-MEG collected $7.5\times10^{14}$ stopped muons in the years 2008-2013 and set a limit of BR$(\mu^+\rightarrow e^+\gamma)<4.2\times10^{-13}$ at 90\% CL \cite{MEG}.
+MEG collected $7.5\times10^{14}$ stopped muons in the years 2008-2013 
+and, as already mentioned, 
+set the currently world-best a limit of BR$(\mu^+\rightarrow e^+\gamma)<4.2\times10^{-13}$ at 90\% CL \cite{MEG}.
 
 \begin{figure}[h!]
 \centering
@@ -388,7 +472,7 @@ MEG collected $7.5\times10^{14}$ stopped muons in the years 2008-2013 and set a 
 \noindent
 The upgraded MEG II experiment was proposed to reduce the contamination due to the accidental background 
 that could not be further reduced in MEG \cite{MEG_upgrade} \cite{MEG_II}.
-In the following we have reported the list of the most significant upgrades of the infrastructure and experiment:
+In the following, we have reported the list of the most significant upgrades of the infrastructure and experiment:
 
 \begin{itemize}
 \item Increase the muon flux to $7\times10^7\ \mu^+/$s;
@@ -396,46 +480,52 @@ In the following we have reported the list of the most significant upgrades of t
 while keeping the same stopping power ($205 \rightarrow 140\ \mu$m);
 \item Replace the drift chamber with a new cylindrical drift chamber (CDCH) designed  
 to have higher granularity and transparency and made of 9 layers of drift cells to improve positron track reconstruction; 
-\item Replace the TC with a more segmented system (pixellated-TC);
-\item Change the type (partially) and distribution of the photo-sensor to achieve better reconstruction;
+\item Replace the plastic scintillator timing counters (TC) with a more segmented system (pixellated-TC);
+\item Change the type (partially) and distribution of the photo-sensors to improve reconstruction;
 \item Introduce a Radiative Decay Counter: a target of plastic scintillator and LYSO calorimeter positioned transversely to detect positron from RMD emitted at low angle.
 \end{itemize}
 The goal of the MEG II apparatus is to further reduce the limit on the Branching Ratio to the level of BR$(\mu^+\rightarrow e^+\gamma)<5\times10^{-14}$ in three years of data taking. 
-The engineering runs for MEG II are currently ongoing.
+The engineering runs for MEG II detectors commissioning are currently ongoing.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{MEG_II}
-\caption{Pictorial view of the MEG II experiment \cite{MEG_II}}
+\caption{Pictorial view of the MEG II experiment \cite{MEG_II}.}
 \label{_MEG_II}
 \end{figure}
 
 \subsection{Search for the $\mu^+ \rightarrow e^+ e^+e^-$ decay}
-The signature of the $\mu^+$ at rest is two positrons and one electron in a time coincidence, 
+The signature of the $\mu^+$ decay at rest is two positrons and one electron in a time coincidence, 
 with total energy equal to the muon mass and null vector sum of the particle momenta.
 Since this is a three-body decay and particles may have a momentum in a range between
-few MeV and half the muon mass, a thin an low-mass tracker with an excellent resolution is necessary.
+few MeV and half the muon mass, a thin and low-mass tracker with an excellent resolution is necessary.
 It is also important to estimate the probability of having the three particles with momenta above the detector threshold.
-A prompt source of background is due to the allowed 
-$\mu\rightarrow e^+e^-e^+\overline{\nu}_{\mu}\nu_e$ (radiative decay with internal conversion) 
+A prompt source of background for this search is due to the allowed 
+$\mu^+\rightarrow e^+e^-e^+\overline{\nu}_{\mu}\nu_e$ (radiative decay with internal conversion) 
 which has a BR$\approx 3.4\times 10^{-5}$ 
 and becomes indistinguishable from the signal when the neutrinos have very low energy. \\
-The other major background is the coincidence of one Michel decay with a $e^+e^-$ pair (1-MD) or two Michel decays with a single $e^-$ (2-MD). 
+The other most significant background is due to the coincidence of one Michel decay 
+with a $e^+e^-$ pair (1-MD) or two Michel decays with a single $e^-$ (2-MD). 
 In this case, the $e^+e^-$ pair can be produced by Bhabha scattering or photon conversion, 
 while the $e^+$ can be produced by Compton scattering or mis-reconstructed $e^+$ and $e^+e^-$ (with the $e^-$ not reconstructed). Clearly, this source of background depends on the muon rate and can be suppressed 
 with precise vertex reconstruction, timing and track reconstruction.
 As for $\mu^+ \rightarrow e^+ \gamma$, the use of a continuous beam is favorable.\\
-Currently the limit limit on this decays is BR$(\mu^+ \rightarrow e^+ e^+e^-)<10^{-12}$ and was set by the experiment SINDRUM in 1988 \cite{SINDRUM}.\\
-To be competitive with the $\mu^+\rightarrow e^+\gamma$ searches an improvement of $10^4$ is needed: if the running time is $\mathcal{O}($years$)\sim 3\times 10^7$ s, then a beam with the intensity of $10^9\ \mu^+/$s is necessary.
+Currently the world-best limit on this decay is BR$(\mu^+ \rightarrow e^+ e^+e^-)<10^{-12}$ 
+and was set by the experiment SINDRUM in 1988 \cite{SINDRUM}.\\
+To be competitive with the $\mu^+\rightarrow e^+\gamma$ search, 
+an improvement of $10^4$ is needed: 
+if the running time is $\mathcal{O}($years$)\sim 3\times 10^7$ s, 
+then a beam with the intensity of $10^9\ \mu^+/$s is necessary.
 
 \subsubsection{The Mu3e experiment at Paul Scherrer Institut}
-The goal of the Mu3e experiment is to achieve a single-event-sensitivity of  $10^{-16}$
+The goal of the Mu3e experiment is to achieve a single-event-sensitivity of  the order of $10^{-16}$
 on the $\mu^+ \rightarrow e^+ e^+e^-$ decay \cite{Mu3e:2016}.  
 This experiment will use the same muon beam as MEG II and will stop muons on a thin hollow double-come Mylar target. 
 The detector will be a 2 m cylinder placed inside a 1.5 T magnetic field and segmented in 5 sections (Fig. \ref{_Mu3e}). 
 The central station will consist of two double layers of pixel detectors and a scintillating fiber tracker. 
-The other four stations will be made of two layers of pixel sensors and a hodoscope of scintillator. A pictorial view is in Fig. \ref{_Mu3e_3D}.\\
-Since the Mu3e search relies heavily on the accurate track reconstruction, 
+The other four stations will be made of two layers of pixel sensors and a hodoscope of scintillator. 
+A pictorial view of the Mu3e apparatus is reported in Fig. \ref{_Mu3e_3D}.\\
+Since the Mu3e search relies heavily on accurate track reconstruction, 
 multiple Coulomb scattering is a limiting factor and the technical choices adopted for the detector design
 have been taken to minimize this effect. 
 The tracker consists of High Voltage Monolithic Active Pixel (HV-MAPS) 
@@ -469,11 +559,11 @@ with the addition of the other two stations to reach the single-event-sensitivit
 
 \subsection{Search for the muon-to-electron conversion ($\mu^-N \rightarrow e^-N$)}
 \label{muNeN}
-In the neutrino-less coherent conversion all the muon energy goes to the electron since the amount of energy
+In the neutrino-less coherent conversion, all the muon energy goes to the electron since the amount of energy
 transferred to the nucleus recoil is almost negligible. The signal signature is thus a monochromatic 105 MeV electron.
 The main advantage of the conversion search with respect to the $\mu\rightarrow e\gamma$ search is the
-larger momentum and better separation from background of the electron signal.
-In a ``doughnut-shaped'' experiment the level of background due to low momentum particles
+larger momentum and better separation of the electron signal from the background.
+In a ``doughnut-shaped'' experiment, the level of background due to low momentum particles
 can thus be reduced to a manageable level.
 
 \noindent
@@ -489,22 +579,23 @@ and generate electrons in the signal energy range;
 \item Cosmic rays that can generate or be misidentified as electrons in the signal energy range.
 \end{itemize}
 A more detailed description of the backgrounds will be provided in the next Chapter 
-but a brief overview on how it is possible to deal with them is useful for this Section: 
-DIO, discussed in \ref{muon}, are an intrinsic background 
+but a brief overview on how it is possible to deal with them is useful also for this Section: 
+DIO, discussed in \ref{muon}, is an intrinsic background 
 but the probability is below $10^{-16}$ within the last MeV 
 and can be kept under control with the momentum resolution; 
 RPC can be reduced using a pulsed beam and having a delayed time window gate; 
 CR can be reduced by adopting a veto system around the detector.\\
 The present world best limit  $R_{\mu e}<7\times10^{-13}$ 
 was set by the SINDRUM II experiment at PSI \cite{SINDRUMII}.
-Two experiments are currently under development to pursue this line of research: 
+Two experiments are currently under development to pursue this research: 
 Mu2e \cite{MTDR} at Fermilab and COMET \cite{COMET_I} at J-PARC. 
 The two experiments exploit similar principles and have similar architectures.
 They are composed of three sections: production; $\pi$-decay/$\mu$-transport; stopping target. 
 Pions are produced in bunches of $\mathcal{O}(100$ ns$)$ every $1\div 2\ \mu$s to reduce the background. 
 The curved transport solenoid suppresses the prompt background by a factor of $10^{10}$,
 removes neutral particles and applyies a selection in momentum. 
-To avoid spurious pions production, the fraction of protons that hit the production target outside the selected window, so called \textit{extinction} factor, needs to be kept below $10^{-10}$. Both experiments will be use, at least for the first part of
+To avoid spurious pions production, the fraction of protons that hit the production target outside the selected window, so called \textit{extinction} factor, needs to be kept below $10^{-10}$. 
+Both experiments will use, at least for the first part of
 data-taking, an aluminum stopping target where $\tau_{\mu^-}\approx 864$ ns, governed by eq \ref{eq_tau} 
 as reported in Section \ref{stopped_muon}. \\
 A characteristic of these experiment is that the apparatus lend itself to the additional search of the process $\mu^- N \rightarrow e^+ N$ which would violate also the leptonic number.
@@ -542,13 +633,13 @@ SINDRUM II set the upper on the $\mu-e$ conversion at $7\times10^{-13}$ \cite{SI
 
 \subsubsection{The Mu2e experiment at Fermilab}
 Although Mu2e will be described extensively in the next Chapter, for comparison with COMET and DeeMee,
-the key aspects of the experiment will be reported here.\\
+the key aspects of the experiment are also reported here.\\
 Mu2e will use an 8 GeV, 25 kW pulsed proton beam, with 100 ns wide bunches separated by 1.7 $\mu$s.  
 Fig. \ref{_MuonBeamline} shows a pictorial view of the experimental setup 
 where the three sections of the experiment, respectively named
 Production Solenoid, Transport Solenoid and Detector Solenoid, are visibile.  
 The layout of the magnetic field around the production target is graded and allows to channel the produced particles in the section dedicated to the transport. 
-In this second section the gradient pushes the particles towards the stopping target, the S shape reduces the background 
+In this second section, the gradient pushes the particles towards the stopping target, the S shape reduces the background 
 due to neutral particles and performs a selection on the charge sign using eq. \ref{eq_D} and collimators: (almost) only negative muons of less than 100 MeV/c reach the stopping target. Downstream of the aluminum target the straw tube tracker and the crystal electromagnetic calorimeter are located. Both these detectors adopted a hollow-cylinder geometry: 
 the tracker is made of crossed straw tubes grouped in 20 stations 
 while the calorimeter is composed of two identical disks comprised by CsI crystals and read by SiPMs.
@@ -564,8 +655,8 @@ The expected Mu2e sensitivity with three years of data taking is $R_{\mu e}<3\ti
 \end{figure}
 
 \noindent
-Mu2e is being build by an international Collaboration which includes also the Italian Institute of Nuclear Physics,
-responsible of the construction of the electromagnetic calorimeter.
+Mu2e is being built by an international Collaboration which includes also the Italian Institute of Nuclear Physics,
+responsible for the construction of the electromagnetic calorimeter.
 The Mu2e Collaboration is also performing preliminary studies for the upgraded Mu2e II
 \cite{Mu2e_II:2018}. 
 The proton beam intensity will be increased by the PIP-II upgrade \cite{PIP_II:2018} 
@@ -578,8 +669,10 @@ sensitivity with three years of data taking will be $R_{\mu e} < \times10^{-18}$
 
 
 \subsubsection{The COMET experiment at J-PARC}
-The COherent Muon-to-Electron Transition (COMET) experiment is being built at the Japanese Proton Accelerator Research Center (J-PARC) \cite{COMET_I}. Some of the key features are similar to Mu2e, like the beam used (a 8 GeV, 56 kW pulsed proton beam with a separation of $1.17\ \mu$s between the bunches). 
-The two main differences from Mu2e are clear from the pictorial view reported in Fig. \ref{_COMET}:
+The COherent Muon-to-Electron Transition (COMET) experiment is being built at the Japanese Proton Accelerator Research Center (J-PARC) \cite{COMET_I}. 
+Some of the key features are similar to Mu2e, 
+like the beam used (a 8 GeV, 56 kW pulsed proton beam with a separation of $1.17\ \mu$s between the bunches). 
+The two main differences between COMET and Mu2e are clear from the pictorial view reported in Fig. \ref{_COMET}:
 \begin{itemize}
 \item The presence of a C-shaped (not S-shaped) transport solenoid will allow a tighter muon momentum selection, 
 traded with a reduced beam intensity $\sim 70\%$
@@ -648,13 +741,10 @@ $R_{\mu e} = \frac{\mu^- + N(Z, A) \rightarrow e^- + N(Z, A)}
 \end{center}
 
 \noindent
-The goal is to improve the previous upper limit (referenza) by four orders of magnitude and reach
-a SES (single-event-sensitivity) of $3\times 10^{-17}$ on the conversion rate, a 90\% CL of $8\times 10^{-17}$
-and a $5\sigma$ discovery reach at $2\times 10^{-16}$. Mu2e is currently under construction at 
-the Fermilab Muon Campus by an international collaboration that includes the Italian National Institute
-of Nuclear Physics. Data taking is planned to begin in 2022 and last for about three years. 
-This Chapter provides 
-a brief overview of the employed experimental techniques and infrastructures.}
+The goal is to improve the current limit, set by the SINDRUM-II experiment \cite{SINDRUMII}, by four orders of magnitude and reach a SES (single-event-sensitivity) of $3\times 10^{-17}$ on the conversion rate, a 90\% CL of $8\times 10^{-17}$ and a $5\sigma$ discovery reach at $2\times 10^{-16}$.\\
+Mu2e is currently under construction at the Fermilab Muon Campus by an international collaboration that includes the Italian National Institute of Nuclear Physics.
+Data taking is planned to begin in 2023 and last for about three years. 
+This Chapter provides a brief overview of the employed experimental techniques and infrastructures.}
 
 %\noindent
 %(Spostare la Figura 2.1: An overview of the apparatus was already shown in fig. \ref{_mu2e_apparatus_pre} and in fig. %\ref{_MuonBeamline} shows a preview of the magnetic system that will be described shortly. })
@@ -669,58 +759,36 @@ a brief overview of the employed experimental techniques and infrastructures.}
 
 \section{Signal and backgrounds}
 
-The experimental signature of the $\mu N \rightarrow eN$ conversion event is the presence of one
-mono-energetic  \textit{conversion electron} (\textit{CE}) near the muon rest energy that recoils off the nucleus in a two-body interaction.
-The energy of the electron is $E_{CE} = m_\mu -B(Z) -E_R(A) \approx 104.97$ MeV,
-where  $B(Z)\approx\frac{Z^2\alpha^2m_\mu}{2}$ is the muonic binding energy 
-and $E_R\approx\frac{m_\mu^2}{2m_N}$ is the recoil energy of the nucleus.
-Although very few background processes can generate an electron of this energy,
-the single event sensitivity Mu2e wants to achieve requires that these processes
-be understood in great detail. This is a challenging task and the Mu2e Collaboration
-is dedicating a great effort to the development of the simulation of the experimental
-apparatus and to the study of the sensitivity. 
-Fig. \ref{_signal_bg} shows the reconstructed momentum spectrum of selected tracks
-from DIO and other backgrounds reconstructed with the full Mu2e simulation. 
-The expected signal from conversion electrons assuming 
-$R_{\mu e} = 10^{-16}$ is overlaid. 
-
-
+The experimental signature of the $\mu N \rightarrow eN$ process is one mono-energetic  \textit{conversion electron} (\textit{CE}), with energy close to the muon rest energy, that recoils off the nucleus in a two-body interaction.
+The energy of the electron is $E_{CE} = m_\mu -B(Z) -E_R(A) \approx 104.97$ MeV, where  $B(Z)\approx\frac{Z^2\alpha^2m_\mu}{2}$ is the muonic binding energy  and $E_R\approx\frac{m_\mu^2}{2m_N}$ is the recoil energy of the nucleus.
+Although very few background processes in Mu2e can generate an electron of this energy, the single event sensitivity the experiment wants to achieve requires that these processes are understood in great detail. 
+This is a challenging task and the Mu2e Collaboration is dedicating a great effort to the development of the simulation of the experimental apparatus and to the study of the sensitivity. 
+Fig. \ref{_signal_bg} shows the reconstructed momentum spectrum of selected tracks from muon decay-in-orbit (DIO) and other backgrounds reconstructed with the full Mu2e simulation. 
+The expected signal from conversion electrons assuming $R_{\mu e} = 2 \times 10^{-16}$ is overlaid. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{signal_bg}
-\caption{Simulated momentum spectrum for decay in orbit events and conversion electron events
-estimated assuming $R_{\mu e} = 10 ^{-16}$. 
-The distributions are normalized to the total number of muons expected for $3.6 \times 10^{20}$
-protons on target. The signal window is in the range
-$103.9 < p < 104.9$ MeV/c. (Mu2e TDR).}
+\caption{Simulated momentum spectrum for muon decay-in-orbit (DIO) events and conversion electron (CE) events estimated assuming $R_{\mu e} = 2 \times 10 ^{-16}$. 
+The distributions are normalized to the total number of muons expected for $3.6 \times 10^{20}$ protons on target. 
+The signal window is limited to the range $103.9 < p < 104.9$ MeV/c \cite{Manolis} \cite{CD3}.}
 \label{_signal_bg}
 \end{figure}
 
-\noindent Conceptually, the main background sources can be grouped 
-into the following three main categories: 
+\noindent Conceptually, the main background sources can be grouped in three categories: 
 
 \begin{itemize}
-\item Cosmic rays: cosmic muons traversing the detector region can decay into electrons, 
-be misidentified for electrons, or generate electrons in the interaction with the stopping target, 
-that can be misidentified for conversion signal electrons; 
-\item Intrinsic backgrounds: 
-this source of background is generated by the same muons used to perform the conversion signal search 
-and the measurement of $R_{\mu e}$. 
-It consequently scales with the stopped muon flux and the numbers of protons on target. 
+\item Cosmic rays: cosmic muons traversing the detector region can decay into electrons, be misidentified as electrons, or generate electrons in the interaction with the stopping target, that can be misidentified for signal conversion electrons; 
+\item Intrinsic backgrounds: this source of background is generated by the same muons used to perform the conversion signal search and the measurement of $R_{\mu e}$. 
+It consequently scales with the stopped muon flux and the number of protons on target. 
 The largest contribution is due to the decay in orbit (DIO) of muons captured by the Aluminum nuclei. 
-The need to minimize this background source has played a primary role in determining the resolution
-that the Mu2e detector system must have.
-\item Beam-related backgrounds: 
-these sources of backgrounds are associated with the generation and transport of the muon beam. 
-The main contribution is due to radiative pion captures (RPC) and is the primary reason
-for deciding to use a pulsed proton beam with a timing structure specifically optimized  for Mu2e. 
+The need to minimize this background source has played a primary role in determining the resolution that the Mu2e detector system requires.
+\item Beam-related backgrounds: these sources of background are associated to the generation and transport of the muon beam. 
+The main contribution is due to radiative pion captures (RPC) and it is the primary reason for using a pulsed proton beam with a timing structure specifically optimized  for Mu2e. 
 \end{itemize}
-In the following we will provide a more detailed description of the background sources
-mentioned above.
-Table \ref{T_backgrounds} reports the summary of the expected number of events 
-for each source as reported in \cite{CD3} alongside the current results in the effort of updating the sensitivity estimate. 
-Under the \textit{other} category are the small contributions like the decay in flight of both muons and pions ($<0.003$ and $\sim 0.001$) as well as muonic radiative capture and electrons from the beam.
+In the following we will provide a more detailed description of the background sources mentioned above.
+Table \ref{T_backgrounds} reports the summary of the expected number of events for each source as reported in \cite{CD3} corresponding to $3.6 \times 10^{20}$ ``live-time'' protons on target; along with the current preliminary results obtained in the effort of updating the sensitivity estimate. 
+Under the \textit{other} category are the small contributions like the decay in flight of both muons and pions ($<0.003$ and $\sim 0.001$ background events) as well as muonic radiative capture and electrons from the beam.
 
 \begin{comment}
 \begin{figure}[h!]
@@ -732,91 +800,86 @@ Under the \textit{other} category are the small contributions like the decay in 
 
 \begin{table}
 \centering
-\begin{tabular}{|c|c|}
+\begin{tabular}{|c|c|c|}
 \hline
-Process & Yied (CD3)\\
-\hline
-\hline
-CR	&	$0.209(22)_{stat}(55)_{syst}$ \\
-\hline
-DIO	&	$0.144(28)_{stat}(110)_{syst}$ \\
-\hline
-$\overline{p}$	&	$0.040(1)_{stat}(20)_{syst}$ \\
-\hline
-RPC	&	$0.021(1)_{stat}(2)_{syst}$	 \\
-\hline
-\textit{other}	& $< 0.004$ \\
+Process & Yield (CD3) & Yield (preliminary)\\
 \hline
 \hline
-Total &	$0.41(13)_{stat+syst}$ \\
+CR	&	$0.209(22)_{stat}(55)_{syst}$ & $0.18\pm0.05$ \cite{CRV_now}\\
+\hline
+DIO	&	$0.144(28)_{stat}(110)_{syst}$ & \\
+\hline
+$\overline{p}$	&	$0.040(1)_{stat}(20)_{syst}$ &$0.04 \div 0.4$ \cite{Giovanni:2020}\\
+\hline
+RPC	&	$0.021(1)_{stat}(2)_{syst}$	& 0.025 \cite{RPC_now} \\
+\hline
+\textit{other}	& $< 0.004$ &\\
+\hline
+\hline
+Total &	$0.41(13)_{stat+syst}$ &\\
 \hline
 \end{tabular}
-\caption{Blessed estimates in CD3 \cite{CD3} of the backgrounds for the Mu2e experiment.The momentum window considered is $[103.85, 104.90]$ MeV$/c$ and the beam extinction is assume $10^{-10}$. The corresponding sensitivity is $SES=(3.01 \pm 0.03(stat) \pm 0.41(syst)) \times 10^{-17}$. The update of the sensitivity is an ongoing effort but the new estimate is expected this year.}
+\caption{Blessed estimates in CD3 \cite{CD3} of the backgrounds for the Mu2e experiment.
+The chosen momentum window for the signal search is $[103.85, 104.90]$ MeV$/c$ and the beam extinction is assumed $10^{-10}$. 
+The corresponding sensitivity is $SES=(3.01 \pm 0.03(stat) \pm 0.41(syst)) \times 10^{-17}$. 
+The update of the sensitivity is an ongoing effort and the new estimate is expected this year.}
 \label{T_backgrounds}
 \end{table}
 
 \subsection{Cosmic ray backgrounds}
 The background generated by cosmic rays is a problem encountered in many experiments.
 The simulation shows that this is the main source of background in Mu2e (Table \ref{T_backgrounds})
-through two contributions:
+and this is due to two contributions:
 
 \begin{itemize}
-\item Cosmic muons can interact with the detectors material and be erroneously 
-reconstructed as electrons or they can simply decay into electrons as they pass through 
-the volume in which the detectors are located. This source
-of background can be reduced to a negligible level by combining properly the information
-of the tracker and the calorimeter.
- \item A cosmic muon could knock out of the stopping target an electron 
- with energy close to $E_{CE}$. 
- Such an electron would be completely indistinguishable 
- from a conversion eletron. 
-Similarly an electron could also be knocked out from some material located upstream
-of the stopping target and be captured by the magnetic field. 
+\item Cosmic muons can interact with the detectors material and be erroneously reconstructed as electrons, or they can simply decay into electrons as they pass through the volume in which the detectors are located. 
+This source of background can be reduced to a negligible level by properly exploiting the combined tracker and calorimeter data.
+\item A cosmic muon could knock out of the stopping target an electron with energy close to conversion electron energy ($E_{CE}$). 
+That electron would be completely indistinguishable from a conversion electron. 
+Similarly, an electron could also be knocked out from some material located upstream of the stopping target and be captured by the magnetic field. 
 This source of background could reach the level of one event in the signal region per day.
-For this reason the Mu2e Collaboration has decided to develop and build the Cosmic 
-Ray Veto system.
+For this reason the Mu2e Collaboration has decided to develop and build the Cosmic Ray Veto system.
 \end{itemize}
-The study for the yield of this background is an ongoing effort but the current preliminary estimate is $0.18\pm0.05(stat)$ \cite{CRV_now}.
+The determination of the yield of this background source is an ongoing effort but the current preliminary estimate is $0.18\pm0.05(stat)$ \cite{CRV_now}.
 
 \subsection{Muon decay in orbit (DIO)}
-There is a significant difference between the electron energy spectrum for a free-muon decay and a decay in orbit,
-and this difference is the source of the muon decay in orbit (DIO) background.
-In the hypothesis of negligible neutrino masses, 
-the Michel spectrum has an end point at $E_{max}=\frac{m_\mu^2+m_e^2}{2m_e^2}\approx52.8$ MeV, 
-which is way below the energy of 105 MeV expected for a conversion electron.
-On the other hand, in the case of the decay of a bound muon, 
-the electron can exchange a photon with the nucleus and this effect changes the electron energy spectrum.\\ 
-Sergent's rule provides the spectrum behaviour near the end point is of $(E_{CE}-E_{DIO})^5$, 
-while Czarnecki and others have calculated (and radiatively corrected) the spectrum \cite{Czarnecki} \cite{Czarnecki2015}.
-A quick analysis of the right-hand side of the spectrum provides a back-of-the-envelope estimate 
-of the necessary resolution: 
-a measurement at $\mathcal{O}(10^{-17})$ would require at least $10^{17}$ muons. 
-The Czarnecki spectrum shows we could expect $\sim1$ event within a MeV from the conversion electron energy. 
+There is a significant difference between the electron energy spectrum of a free-muon decay and a decay in orbit, and this difference is the source of the muon decay in orbit (DIO) background.
+In the hypothesis of negligible neutrino masses, the Michel spectrum has an end point at $E_{max}=\frac{m_\mu^2+m_e^2}{2m_e^2}\approx52.8$ MeV, which is way below the energy of 105 MeV expected for a conversion electron.
+On the other hand, for a bound muon decay, the electron can exchange a photon with the nucleus and this effect modifies the electron energy spectrum. 
+Sergent's rule provides the spectrum behaviour near the end point that is of the order of $(E_{CE}-E_{DIO})^5$, while Czarnecki and others have calculated the spectrum including radiative corrections \cite{Czarnecki} \cite{Czarnecki2015}.
+The resulting spectrum is shown in fig. \ref{_DIO}.
+A quick analysis of the right-hand side of the spectrum provides a back-of-the-envelope estimate of the necessary resolution: a measurement at $\mathcal{O}(10^{-17})$ would require at least $10^{17}$ muons. 
+The Czarnecki spectrum shows we could expect $\sim1$ event within 1 MeV from the conversion electron energy. 
 As a rough estimate, the momentum resolution must therefore be $\approx1$ MeV$/c$. 
-The detailed Mu2e simulation yields $<180$ keV$/c$, which from here on is assumed as requirement.\\
+The detailed Mu2e simulation yields $<180$ keV$/c$, which in the following is assumed as requirement.\\
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{DIO_materials}
-\caption{Electron spectrum in different materials, normalized to the free-muon decay rate \cite{signorelli}. The solid blue line is for carbon, the black dotted line for aluminum, the green dot-dashed line for silicon and the red dashed line for titanium.}
+\caption{Electron spectrum as determined from different materials
+and normalized to the free-muon decay rate \cite{signorelli}. 
+The solid blue line is for carbon, the black dotted line for aluminum, 
+the green dot-dashed line for silicon and the red dashed line for titanium.}
 \label{_DIO}
 \end{figure}
 
 \subsection{Radiative Pion Capture (RPC)}
 One of the main beam-related sources of background is due to the process
 $\pi^- N \rightarrow \gamma N^\prime$ where $N^\prime$ is an excited nuclear state. 
-Since the spectrum peaks around 110-120 MeV, this process can generate
+Since the photon spectrum peaks around 110-120 MeV, this process can generate
 a background if there is an asymmetric photon conversion that produces
-an electron with the energy $E_{CE}$ of a conversion electron. 
+an electron with the energy in the range of the conversion electron energy. 
 This conversion can happen both \textit{internally} ($\pi^- N \rightarrow e^+e^- N^\prime$) or \textit{externally}
 in the material of the stopping target.
-By numerical coincidence, the internal and external conversion probabilities for the Mu2e target and geometry are approximately equal. At the same time the number of $e^-$ generated by external conversion is greater than the number of $e^+$ since Compton scattering can knock out only $e^-$.\\
+By numerical coincidence, the internal and external conversion probabilities for the Mu2e target and geometry are approximately equal. 
+At the same time, the number of $e^-$ generated by external conversion is larger than the number of $e^+$, 
+since Compton scattering can knock out only $e^-$.\\
 The existence of the RPC background is the main reason for the timing structure of the Mu2e \textit{event} (Fig. \ref{_mu2e_event}). 
 In Mu2e 'jargon' an \textit{event}  is the time period between two consecutive proton pulses on the production target. 
 Although there are  uncertainties on the timing of the proton beam, 
 the duration of an event is approximately $1.7\ \mu$s. 
 After the proton pulse, some time is required to collect and propagate pions and muons generated in the collision 
-and the timing of the data acquisition gate needs to be defined to maximize the signal to background ratio.
+and the timing of the data acquisition gate is chosen to maximize the signal to background ratio.
 The RPC background is minimized by delaying the active window
 with respect to the pion arrival time. 
 The Mu2e simulation shows that the number of pions can be suppressed 
@@ -833,61 +896,68 @@ This technique is effective as long as the ratio between out-of-time protons
 is kept below $10^{-10}$. 
 An \textit{extinction} system and monitor are thus necessary to keep this effect
 under control.
-The current estimate of the overall yield for PRC is under study and a preliminary result is $\approx 0.025$ \cite{RPC_now}.
+The current estimate of the overall yield for radiative pion captures is under study 
+and a preliminary result is $\approx 0.025$ \cite{RPC_now}.
 
 \subsection{Antiprotons}
-The background from antiprotons is quite complex. These particles are produced in the production target by the incoming protons and are collected, like $\mu/\pi$, toward the stopping target. They have lower momentum than most particles collected by the muon beam-bline and reached the stopping target almost all of them stop and annihilate, generating $\pi^0$. This pions are a source of photons which can convert asymmetrically in an energetic electron.\\
-There are various elements introduced in the muon beam-line to reduce the yield of stopped $\overline{p}$ in the stopping target but, not to reduce the muon yield, these elements cannot be too aggressive. On top of that the production of $\overline{p}$ in $pp$ collision is poorly known, particularly in the backward direction and multiple models are being compared.
-A lot of effort is undergoing to better understand this contribution and the models behind the simulations, currently yielding a still unrefined estimate of $0.04 \div 0.4$ \cite{Giovanni:2020}.
-\begin{figure}[h!]
+\label{sec:antiprotons}
+The background due to  antiprotons is quite complex. 
+These particles are generated in the production target and are collected, like muons and pions, toward the stopping target. 
+Antiprotons have lower momentum than most particles collected by the muon beam-line and most of them stop and annihilate in the stopping target, thus generating $\pi^0$. 
+Pions are a source of photons which can convert asymmetrically in an energetic electron.
+The non-trivial component to account for rise when accounting for antiprotons interacting in the muon beamline and the various possible outcomes.\\
+There are a number of elements introduced in the muon beam-line to reduce the yield of stopped $\overline{p}$ in the stopping target but, in order to not reduce the muon yield, these elements cannot be too aggressive. 
+On top of that, the production mechanisms of $\overline{p}$ in $pp$ collision is still poorly known, particularly in the backward direction and multiple models are being compared.
+A lot of effort is undergoing to improve the level of  understanding of this contribution and the models behind the simulations. 
+The current estimate is $0.04 \div 0.4$ \cite{Giovanni:2020} but it is limited by the understanding of some specific processes simulation model in Geant4 which are under study.
+
+\begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.7]{mu2e_event}
-\caption{The Mu2e beam timing. 
-The proton pulse arrives every 1.7 $\mu$s (black). 
-Pions and muons arrival time at the detector solenoid (pink and blue, respectively).
-Muons decay and capture time (dashed blue).
-The Selection window is the period of time for which Mu2e will analyze data,
-between approximately 700 ns and 1.7 $\mu s$s. (Referenza, Robert Bernstein o altro)}
+\caption{The Mu2e beam timing \cite{bob_mu2e}: the proton pulse arrives every 1.7 $\mu$s (shaded); 
+$\pi$ and $\mu$ arrival time at the detector solenoid (purple and blue);
+$\mu$ decay and capture time (dashed).
+The Selection window ([700,1700] ns) is the period of time for which Mu2e will analyze data but the data acquisition gate will be roughly 200 ns larger.}
 \label{_mu2e_event}
 \end{figure}
 
 \subsection{Protons}
 \label{backgrounds}
-Although protons generated in the stopping target constitute a negligible source of background 
-for the conversion electron search, they represent one of the main causes of tracker occupancy.  
-About $61\%$ of stopped muons undergo \textit{nuclear capture} though the process $\mu^-(Z,A)\rightarrow \nu_\mu X$. 
-The understanding of $X$ is beyond the scope of this work and is still the subject of intense study 
-within the Mu2e Collaboration, but we know
-it is a final state consisting of the residuals of the nucleus and a number of possible ejected particles. 
-Among the various possibilities, ejected protons and deuterons are of extremely important since 
-they are highly ionizing and can compromise detectors performance. 
-The characterisation of the spectra for these particles will be discussed in a following chapter.\\
+Although protons generated in the stopping target constitute a negligible source of background for the conversion electron search, they represent one of the main causes of occupancy in the tracker. About $61\%$ of stopped muons undergo \textit{nuclear capture} though the process $\mu^-(Z,A)\rightarrow \nu_\mu X$. 
+Understanding $X$ is beyond the scope of this Thesis and is still the subject of intense studies within the Mu2e Collaboration, but we know it is a final state consisting of the residuals of the nucleus and a number of possible ejected particles. 
+Among the various possibilities, ejected protons and deuterons are extremely important since they are highly ionizing and can compromise detectors performance. 
+The characterization of the spectra of these particles will be discussed in Chapter 4, when will be discussed how their reconstruction can be a useful tool as a monitoring system of the experiment.
 
 
 \section{The accelerator complex}
-The Fermilab accelerator complex is the infrastructure responsible for providing the proton beam with kinetic energy of 8 GeV to the Mu2e experiment.
-The accelerator complex is schematically composed of the following stages also shown in Fig. \ref{_ProtonBeamlineArial} and \ref{_ProtonBeamlineArial_sketch}:
+The Fermilab accelerator complex is the infrastructure which provides 
+the proton beam with kinetic energy of 8 GeV necessary to generate 
+the high intensity muon beam employed by the Mu2e experiment.
+The accelerator complex 
+(Fig. \ref{_ProtonBeamlineArial} and \ref{_ProtonBeamlineArial_sketch})
+is schematically composed of the following stages:
 \begin{itemize}
 \item A Cockcroft-Walton generator turns hydrogen gas
 into H$^-$ ions owing it into a container lined with molybdenum electrodes. 
 A magnetron then generates a plasma to form H$^-$ ions close to the metal surface. 
 The electrostatic field generated by the Cockcroft-Walton accelerates the ions out of the container;
-\item A Linac accelerates the H$^-$ ion beam up to 400 MeV. 
+\item A Linac accelerates the H$^-$ ion beam up to the energy of approximately 400 MeV. 
 Then the H$^-$  ion beam goes through a carbon foil, 
-where electrons are lost, thus producing a proton beam that is transferred to the next accelerator stage;
+where electrons are lost, and produces a proton beam;
 \item The Booster Ring accelerates the proton beam to the kinetic energy of approximately 8 GeV;
 \item The Recycler Ring re-bunches the protons. 
-The resulting beam, with reformatted bunches of $4\times10^{12}$ protons and $E_k\approx8$ GeV,
+The resulting beam, with reformatted bunches of $4\times10^{12}$ protons 
+and kinetic energy of 8 GeV,
 is synchronously transferred to the Delivery Ring;
 \item Through resonant extraction from the Delivery Ring proton micro-bunches
-with $3.9\times10^7$ particles every $1.7 \mu$s are injected to the Mu2e beam-line. 
+with $3.9\times10^7$ particles are injected into the Mu2e beam-line every $1.7 \mu$s. 
 This  micro-bunch structure determines the Mu2e beam timing shown in Fig.  \ref{_mu2e_event}. 
 \end{itemize}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{ProtonBeamlineArial_3D}
-\caption{Layout of the Fermilab accelerator complex that provides the proton beam to the Mu2e experiment \cite{FNAL}. 
+\caption{Pictorial view of the Fermilab accelerator complex that provides the proton beam to the Mu2e experiment \cite{FNAL}. 
 Protons are transported from the Booster to the Recycler Ring where they circulate while being re-bunched. 
 The reformatted bunches are transported to the Delivery Ring where they are slow-extracted to the Mu2e detector through a new external beam-line.}
 \label{_ProtonBeamlineArial}
@@ -896,7 +966,8 @@ The reformatted bunches are transported to the Delivery Ring where they are slow
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{ProtonBeamlineArial_sketch}
-\caption{A schematic more specific of the Mu2e facility and accelerator complex \cite{MTDR}. The figure shows the various beam-lines, described in \cite{MTDR}.}
+\caption{A schematic more specific of the Mu2e facility and accelerator complex \cite{MTDR}. 
+The beam-lines are described in \cite{MTDR}.}
 \label{_ProtonBeamlineArial_sketch}
 \end{figure}
 
@@ -915,9 +986,12 @@ separated by $1.7 \mu$s.}
 The resulting time structure of the train of proton pulses is shown in Fig. \ref{_beam_time_structure}.
 The \textit{supercycle} takes 1.4 s and is divided in the ON-beam (379.8 ms) and OFF-beam (1020.2 ms) sections. 
 Only the ON-beam section is delivered to Mu2e, the OFF-beam section is reserved for NO$\nu$A.
-The ON-beam section is further subdivided in eight 43.1 ms trains of micro-bunches, each of $1.7\ \mu$s, 
-called \textit{spills} and  separated by 5 ms gaps.\\
-The micro-bunches are created by resonant extraction \cite{Extraction}: first the beam is pushed to an unstable motion to keep it not centered; then the system illustrated in fig. \ref{_Extraction} separates a fraction of the bunch to and sends it towards the Mu2e experiment. 
+The ON-beam section is further subdivided in eight 43.1 ms trains of micro-bunches
+named \textit{spills} and  separated by 5 ms gaps.\\
+The micro-bunches are created by resonant extraction \cite{Extraction}: 
+first the beam is pushed to an unstable motion to keep it not centered; 
+then the system illustrated in fig. \ref{_Extraction} separates a fraction of the bunch  
+and sends it towards the Mu2e experiment. 
 
 \begin{figure}[h!]
 \centering
@@ -963,16 +1037,20 @@ If the pulse intensity {\em rms} increases, {\em SDF} decreases and the spill be
 The spill quality requirement for Mu2e is to have {\em SDF} $\geqslant$  60\%.
 The extraction is still under study but the fluctuations for the intensity are expected to be on a timescale of ms: 
 this estimate is one of the driving forces behind the work described in this Thesis and will be discussed 
-in Chapter xx in more detail.\\
-The Mu2e Collaboration has performed numerous simulations of the beam structure and, although not definitive, the simulation discussed in \cite{SpillSim} will be used as a reference in this Thesis. 
-The distribution of the intensity of the bunches is shown in fig \ref{_POT_distribution} while the time dependence of the fraction of the pulse intensity during a spill is shown in fig. \ref{_POT_sim}. 
-It is important to notice that the interesting structures in the time dependence of fig. \ref{_POT_sim} are on the time scale of ms.
+in Chapter 4 in more detail.\\
+The Mu2e Collaboration has performed numerous simulations of the beam structure and, 
+although still preliminary, the simulation described in \cite{SpillSim} will be employed in this Thesis. 
+The distribution of the intensity of the bunches is shown in fig \ref{_POT_distribution} 
+while the time dependence of the fraction of the pulse intensity during a spill is shown in fig. \ref{_POT_sim}. 
+It is important to notice that the interesting structures in the time dependence 
+visible in Fig. \ref{_POT_sim} are on the time scale of ms.
 \label{_Fluctuations}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{POT_distribution}
-\caption{Simulated proton pulse intensity distribution \cite{SpillSim}: number of pulses on the vertical axes and relative intensity of a micro-bunch on the horizontal. 
+\caption{Simulated proton pulse intensity distribution \cite{SpillSim}: 
+number of pulses on the vertical axes and relative intensity of a micro-bunch on the horizontal. 
 This distribution is updated every time a section of the accelerating and delivery system is tested.}
 \label{_POT_distribution}
 \end{figure}
@@ -980,53 +1058,63 @@ This distribution is updated every time a section of the accelerating and delive
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{POT_sim}
-\caption{Simulation of the pulse intensity fraction, 
-respect to the designed value, as faction of time during a spill ($\approx 43.1$ ms) \cite{SpillSim}.}
+\caption{Simulation of the pulse intensity computed as a fraction  
+of the design intensity and 
+as function of time in a spill for one spill \cite{SpillSim}.}
 \label{_POT_sim}
 \end{figure}
 
 \section{The Mu2e magnetic system}
-The basic principle of the Mu2e experiment is to use a sophisticated magnetic system (Fig. \ref{_mu2e_apparatus_pre}) to form the high-intensity muon beam collecting and filtering the particles emerging from the stopping target. The magnetic system is the most innovative, challenging and essential part of the experiment. 
+The basic principle of the Mu2e experiment is to use a sophisticated magnetic system (Fig. \ref{_mu2e_apparatus_pre}) 
+to form the high-intensity muon beam by collecting and filtering the particles emerging from the stopping target. 
+The magnetic system is probably the most innovative, challenging and essential part of the entire experiment. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{mu2e_apparatus}\\
-\caption{An overview of the Mu2e solenoid and detector systems \cite{Giovannella}.}
+\caption{Pictorial view of the Mu2e magnetic and detector systems \cite{Giovannella}.}
 \label{_mu2e_apparatus_pre}
 \end{figure}
 
 
-\subsection{Production Solenoid (PS)}
+\subsection{The Production Solenoid (PS)}
 The Production Solenoid (Fig. \ref{_PS}) is the first part of the \textit{muon beam-line} (Fig. \ref{_MuonBeamline}) \cite{PS}. 
 The production target is located in a graded magnetic field ($2.5 - 4.6$ T) that collects secondary particles produced when the proton microbunch strikes. The shape and position of both the target and the magnetic field have been optimized to maximize the production and collection of the desired particles: backwards pions and muons. 
-The reason for using backwards produced particles is to avoid the overwhelming flux of particles (neutrons, photons, and $e^\pm$ from photon conversions) produced in the forward direction and the leftover incoming protons.\\
-The 8 GeV pulsed proton pulse enters from the low-field side and the magnetic field collects backward-produced pions towards the Transport Solenoid. 
-Given the specifics, also a fraction of pions produced in the forward direction can be reflected by the gradient and  increase the pion yield. 
-This is possible by taking advantage of the property of graded magnetic field discussed previously in \ref{magnets} often called \textit{magnetic mirror}.
+The reason for using backwards produced particles is to avoid the overwhelming flux of particles 
+(neutrons, photons, electrons and positrons from photon conversions) 
+produced in the forward direction and the leftover incoming protons.\\
+The 8 GeV pulsed proton beam enters from the low-field side and the magnetic field collects backward-produced pions towards the Transport Solenoid. 
+Also a fraction of pions produced in the forward direction can be reflected by the gradient and  increase the pion yield. 
+This is possible by exploiting the property of graded magnetic field often called \textit{magnetic mirror} 
+and discussed previously in Sect. \ref{magnets}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{PS}
-\caption{A section view of the Production Solenoid \cite{PS}. The protons are incoming from right, the next section of the beam-line (Transport Solenoid) is also on the right and the graded field collects particles towards it.}
+\caption{A section view of the Production Solenoid \cite{PS}. 
+The incoming proton beam hits the target from the right, 
+the next section of the beam-line (Transport Solenoid) is also on the right and the graded field collects particles towards it.}
 \label{_PS}
 \end{figure}
 
 \paragraph{Production target}
-The design of the production target has required a long optimization work and Fig.  \ref{_production_target_history} shows  the evolution with time.
-The design chosen for the construction, the last on the right in the previous fig., is called Hayman-2 and is shown in Fig. \ref{_Hayman2}.
+The development of the production target has required a long optimization work and Fig.  \ref{_production_target_history} shows  the evolution of the design.
+The solution chosen for the construction (last on the right in Fig.  \ref{_production_target_history}) is called Hayman-2 and is shown in Fig. \ref{_Hayman2}.
 A high-Z material (tungsten) has been chosen to maximize pion production. 
-The target has a cylindrical shape and is suspended in the production solenoid.
+The target has a cylindrical shape and is suspended in the central region of the production solenoid.
 The right side of Fig. \ref{_Hayman2} shows the support structure.\\
-The constraint to avoid the oxidation of the material, to keep the target long-lasting, translates to a requirement on the vacuum level while being suspended in vacuum implies the target need to be radiatively cooled.
+To prevent material oxidation and increase the target lifetime, the device is operated in vacuum. 
+The problem is that the target has to be suspended in vacuum and thus radiatively cooled.
 The temperature is important for both the mechanical stress and the oxidation of the tungsten (which depends on the temperature and on the concentration of CO$_2$ and H$_2$O).
-The solution to the first problem has been the segmentation of the structure to reduce the thermal stress. 
-Once the value for the vacuum has been set, the only way to further reduce the amount of oxidation is to reduce the temperature itself. The shape has been optimized to maximize the emissivity while keeping the high $\pi$/$\mu$ production: this has been achieved by employing fins connected to each segment of the target (Fig. \ref{_Hayman2}).
+The solution to the first problem has been introducing a segmentation of the structure to reduce the thermal stress. 
+Once the value of the vacuum has been set, the only way to further reduce the amount of oxidation is to reduce the temperature. 
+The target shape has been optimized to maximize the emissivity while keeping the $\pi$/$\mu$ production as large as possible: this has been achieved by employing fins connected to each segment of the target (Fig. \ref{_Hayman2}).
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{production_target_history}
-\caption{Evolution of the design of the production target (from left to right) \cite{Pushka_Hayman2}. 
-The most recent version on the right is called Hayman-2 and is shown in fig. \ref{_Hayman2}.}
+\caption{Evolution of the production target designs \cite{Pushka_Hayman2}. 
+The most recent version, on the right, is called Hayman-2 and is shown in more detail in Fig. \ref{_Hayman2}.}
 \label{_production_target_history}
 \end{figure}
 
@@ -1034,69 +1122,86 @@ The most recent version on the right is called Hayman-2 and is shown in fig. \re
 \centering
 \includegraphics[scale=0.45]{Hayman2}\hfill
 \includegraphics[scale=0.35]{Hayman2_structure}
-\caption{On the left a closeup of the current version of the stopping target, Hayman-2 \cite{Pushka_Hayman2} \cite{bob_Hayman2}. To be notice the segmented structure and the presence of fins on every segment to allow the radiative cooling. On the right a schematic of the support for the Hayman-2 stopping target \cite{Pushka_Hayman2}.}
+\caption{On the left a closeup of the current design of the stopping target (Hayman-2 \cite{Pushka_Hayman2} \cite{bob_Hayman2}). 
+It is interesting to notice the segmented structure and the presence of fins on every segment to allow the radiative cooling. 
+On the right the design of the support for the Hayman-2 production target \cite{Pushka_Hayman2}.}
 \label{_Hayman2}
 \end{figure}
 
-\subsection{Transport Solenoid (TS)}
+\subsection{The Transport Solenoid (TS)}
 The gradient of the magnetic field in the Production Solenoid channels the particles towards the Transport Solenoid \cite{TS}. 
-This section of the apparatus is a clever system that allows the pions to decay before reaching the stopping target 
+This section of the apparatus is a clever system that allows pions to decay before reaching the stopping target 
 located in the Detector Solenoid
-while also performing a selection of the particles collected from the Production Solenoid. 
-The Transport Solenoid is divided in 5 subsections, shown in fig. \ref{_TS3}:
+and performs a selection of the particles collected from the Production Solenoid. 
+The Transport Solenoid is divided in 5 subsections, shown in Fig. \ref{_TS3}:
 \begin{itemize}
-\item TS1 and TS5 are the interfaces with the other sections and also contain a collimator to further reduce the backgrounds (like low momentum particles produced backwards in the PS and passing through TS1 or antiprotons which reach TS5 at the end of the transport system);
+\item TS1 and TS5 are the interfaces with the other sections and also contain a collimator to further reduce the backgrounds (like low momentum particles produced backwards in the PS and passing through TS1, or antiprotons which reach TS5 at the end of the transport system);
 \item TS2 is a $\pi/2$ curved pipe in which the magnetic field performs a selection on the charged particles and their momentum. A bonus effect of the curved magnet is the separation in charge due to the drift discussed previously in \ref{magnets}; 
-\item TS3 contains two collimators to exploit the cited feature of the TS2 to select particles of negative charge (left side of fig. \ref{_TS3}). 
-The two collimators are separated by a window, needed to further reduce the presence of antiprotons;
+\item TS3 contains two collimators to exploit the cited feature of the TS2 to select particles of negative charge (left side of Fig. \ref{_TS3}). 
+The two collimators are separated by a window to further reduce the presence of antiprotons;
 \item TS4 is specular to TS2; it clears the beam from particles produced in the interaction with the TS3 while bringing the beam back on the plane of the experiment.
 \end{itemize}
 
-\paragraph{Antiproton window} As discussed in the section dedicate to the backgrounds, antiprotons produced in the production target can be collected and transported down to the stopping target. Photons created by $\pi^0$ resulting form the annihilation can convert asymmetrically. The number of $\overline{p}$ is reduced by the presence of collimators at the interfaces between TS and the other two systems but there is also a specific window in the middle of the TS (between the TS3 collimators). This window has the specific purpose to stop antiprotons and the current design is a Titanium wedge (although still discussed against a previous Beryllium solution) \cite{PbarWindow}.
+\paragraph{Antiproton window} As discussed in Sec. \ref{sec:antiprotons}, antiprotons produced in the production target can be collected and transported down to the stopping target. 
+Photons created by $\pi^0$ resulting form antiprotons annihilation can convert asymmetrically and generate background electrons. 
+The number of antiprotons can be reduced by the presence of collimators positioned at the interfaces between TS and the other two systems but there is also a specific window in the middle of the TS (between the TS3 collimators). 
+This window has the specific function to stop antiprotons and the current design is a Titanium wedge (although still discussed against a Beryllium solution) \cite{PbarWindow}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{MuonBeamline_TS_window_2} \hfill
 \includegraphics[scale=0.48]{MuonBeamline_TS_3}
-\caption{On the left 3D view of the TS3 \cite{bob_mu2e}. The particles traveling in the TS (moving left to right) are separated vertically in charge by the curving magnetic field and the TS3 collimators select the negative charged particles (red). On the right are indicated the various sections of the Transport Solenoid described in the text \cite{TS}.}
+\caption{A 3D view of the TS3 on the left \cite{bob_mu2e}. The particles traveling in the TS (moving left to right) are separated vertically in charge by the curving magnetic field and the TS3 collimators select the negative charged particles (red). 
+On the right a schematic view of the Transport Solenoid sections described \cite{TS}.}
 \label{_TS3}
 \end{figure}
 
-\subsection{Detector Solenoid (DS)}
-The Detector Solenoid, shown in fig. \ref{_DS}, is the last section of the muon beam line and contains the stopping target, the Mu2e detectors and a system of absorbers surrounding the stopping target \cite{DS}.\\
+\subsection{The Detector Solenoid (DS)}
+The Detector Solenoid (Fig. \ref{_DS}) is the last section of the muon beam line 
+and contains the stopping target, the Mu2e detectors and a system of absorbers that surround the stopping target \cite{DS}.\\
 The current estimate for collection and transport is  $1.6\times 10^{-3}\mu/$POT. 
-Since approximately 40\% of muons will be stopped in the aluminum target, the rate of stopped muon is roughly $10^{10}\mu/$s. 
+Since approximately 40\% of muons will be stopped in the aluminum target, 
+the rate of stopped muon is roughly $10^{10}\mu/$s. 
 The magnetic field is graded near the stopping target (approximately linearly decreasing from 2 T to 1 T) 
 to increase the acceptance for conversion electrons. 
 Downstream this first section the magnetic field is approximately uniform.\\
-Here we will describe the stopping target and the absoorber system while the detectors are the focus of the next section.
-
+In the following, we will describe the stopping target and the absorber system 
+while the detectors will be the focus of the next Section.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{DS_2}
-\caption{A schematic depiction of the Detector Solenoid \cite{bob_mu2e}. The muons are incoming form the left, stop in the stopping target and the outgoing particles are detected by the Tracker and the Calorimeter, set downstream.}
+\caption{Schematic depiction of the Detector Solenoid \cite{bob_mu2e}. 
+The muons are incoming form the left, stop in the stopping target and the outgoing particles are detected by the Tracker and the Calorimeter, set downstream.}
 \label{_DS}
 \end{figure}
 
-\paragraph{Stopping target} The target is required to be sufficiently massive to stop a large fraction of the incoming muons while letting the conversion electrons emerge. The risk in a too wide/massive target is a lowering of the yield but also a degrading of the momentum measurement that would compromise the separation between signal and background. 
-The current design is a suspended stack of $34\times100\ \mu$m Al foils with a hole in the center \cite{stopping_target}, shown in fig. \ref{_stopping_target}.
+\paragraph{Stopping target} The target is required to be sufficiently massive to stop a large fraction of the incoming muons while letting the conversion electrons emerge. 
+The risk with a too wide/massive target is a yield reduction and a momentum measurement degradation that would compromise 
+the separation between signal and background. 
+The current design is a suspended stack of $34\times100\ \mu$m Al foils with a hole in the center \cite{stopping_target}, 
+shown in Fig. \ref{_stopping_target}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{stopping_target} %0.8
-\caption{The stopping target and its suspending infrastructure \cite{stopping_target}. The target is a stack of Al disks. The hole allows the reduce the interaction of not desired particles.}
+\caption{The stopping target and its suspending infrastructure \cite{stopping_target}. The target is a stack of Al disks. The hole allows the reduce the interaction with not desired particles.}
 \label{_stopping_target}
 \end{figure}
 
-\paragraph{Absorbers} As discussed in a previous section, particles ejected alongside electrons from the stopping target (neutrons, protons and deuteron from muon nuclear capture are the most dangerous) can damage the detectors or increase the dead-time of the Cosmic Ray Veto. 
-The stopping target is therefore surrounded by polyethylene absorbers \cite{stopping_target}. 
-The system is composed of two structures 
-named Inner and Outer Proton Absorber and it is shown in Fig. \ref{_ProtonAbsorber}.
+\paragraph{Absorbers} As discussed in a previous section, 
+particles ejected alongside electrons from the stopping target 
+(neutrons, protons and deuteron from muon nuclear capture) 
+can damage the detectors or increase the dead-time of the Cosmic Ray Veto. 
+The stopping target is therefore surrounded by polyethylene absorbers \cite{stopping_target}
+to reduce this effect. The system is composed of two structures 
+named Inner and Outer Proton Absorber (Fig. \ref{_ProtonAbsorber}).
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{ProtonAbsorber}
-\caption{A schematic of the proton absorbers \cite{stopping_target}. This structure is needed to reduced the occupancy of the detectors and fake CRV signals: both can be caused by the particle ejected from nuclear capture in the stopping target.}
+\caption{A schematic of the proton absorbers \cite{stopping_target}. 
+This structure is needed to reduced the occupancy of the detectors and fake signals in the Cosmic Ray Veto: 
+both can be due to particles ejected from nuclear captures in the stopping target.}
 \label{_ProtonAbsorber}
 \end{figure}
 
@@ -1105,29 +1210,35 @@ named Inner and Outer Proton Absorber and it is shown in Fig. \ref{_ProtonAbsorb
 Mu2e employs a set of complementary detectors to measure particles momenta and energy.
 The detectors are annular and are in a solenoidal field of about 1 T along the $z$-axis, in the
 same direction of the muon beam. The annular design allows the passage of the overwhelming
-flux of particles (i.e. products of muon capture, remnant beam, and electrons produced from the
+flux of particles (i.e. products of muon capture, remnant beam, and electrons produced in the
 initial proton collisions) that would generate excessive instantaneous detector occupancy and
 accumulated radiation damage. Most decay muons are typically too low momentum to exit the
-central region and never reach a detector element. This reduces the number of detector hits to a manageable level. The Mu2e detector consists of a straw-tracker followed by a calorimeter, surrounded by a cosmic ray veto.
+central region and never reach a detector element. 
+This reduces the number of detector hits to a manageable level of occupancy. 
+The Mu2e detectors consist of a straw-tracker followed by a calorimeter, surrounded by a cosmic ray veto.
 
 \subsection{The Straw-Tracker detector}
-The main function of the Mu2e tracker is to reconstruct particles trajectories. The simulation shows
-that the tracker momentum resolution needs to be $<180$ keV$/c$ for 105 MeV electrons 
-to provide the necessary separation between the conversion electron signal 
+The main function of the Mu2e tracker is to reconstruct particles trajectories. 
+The simulation shows that a momentum resolution $<180$ keV$/c$ for 105 MeV electrons 
+is necessary to provide the necessary separation between the conversion electron signal 
 and the background due to the high end tail of the DIO spectrum. 
-To keep the energy loss in the detector
-as low as possibile and achieve this level of momentum resolution, 
+To minimize the energy loss in the detector and achieve this level of momentum resolution, 
 a low mass tracker is required. Moreover, a high segmentation is necessary to 
-handle the high particle rate and minimize the probability of pattern recognition errors.
-The detector will be operated in a hostile environment for the level of radiation, for example 
-and not only for the early burst beam-flash, and vacuum of the order of 10$^{-4}$ Torr.
+handle the high particle rate and minimize the probability of pattern recognition errors
+due to high detector occupancy.
+The detector will be operated in a hostile environment due to the high level of radiation, 
+for example and not only for the early burst beam-flash, and vacuum of the order of 10$^{-4}$ Torr.
 This requires a detector with adequate thermo-mechanical robustness and timing performance.
-The Mu2e Collaboration chose the straw-tubes technology since it offers a remarkable compromise between low mass and excellent resolution \cite{Tracker:2016} \cite{Tracker:2018}.
+The Mu2e Collaboration chose the straw-tube technology 
+since it offers a remarkable compromise between low mass 
+and excellent resolution \cite{Tracker:2016} \cite{Tracker:2018}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Tracker_2}
-\caption{Geometry of the Tracker \cite{Manolis}. Straw tubes are mounted in two layers in a panel covering $120^\circ$ and 12 panels make a station, leaving the center with no detectors.}
+\caption{Geometry of the straw-tracker \cite{Manolis}. 
+Straw tubes are mounted in two layers in a panel covering $120^\circ$ 
+and 12 panels make a station, leaving the center with no detectors. The tracker is a series of 18 stations.}
 \label{_tracker}
 \end{figure}
 
@@ -1141,27 +1252,28 @@ have allowed to optimize the design in terms of occupancy, threshold of the mome
 of tracks that can be reconstructed and momentum resolution (Fig. \ref{_tracker}).
 The resulting momentum resolution for a simulated sample resembling the data expected after applying 
 standard quality cuts is shown in Fig. \ref{_Tracker_resolution}.\\
-The Mu2e Collaboration is continuously developing these studies as the detector simulation is improved and the prototypes are assembled, tested and characterized. The results of the tests run on a prototype are shown in fig. \ref{_Tracker_prototype}.
+The Mu2e Collaboration is continuously developing these studies as the detector simulation is improved and the prototypes are assembled, tested and characterized. The results of the tests run on a prototype are shown in Fig. \ref{_Tracker_prototype}.
 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.3]{Tracker_resolution}
-\caption{Momentum resolution of the Tracker evaluated with  simulations \cite{Giovannella}.}
+\caption{Momentum resolution of the straw-tracker evaluated with  simulation. \cite{Giovannella}.}
 \label{_Tracker_resolution}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{Tracker_prototype}
-\caption{Results of the tests on a prototype for the Tracker \cite{Giovannella}. From left to right: longitudinal and transverse resolution; efficiency.}
+\caption{Results of the tests of a 8 straws panel prototype tested with cosmic rays \cite{Giovannella}. 
+From left to right: longitudinal and transverse resolution; efficiency.}
 \label{_Tracker_prototype}
 \end{figure}
 
 \subsubsection{Straw-tracker structure}
 The basic tracker element is named \textit{straw} and is made of 
-a 25 $\mu$m gold plated tungsten sense wire centered in a 5 mm diameter Mylar\textsuperscript\textregistered  tube, 
-with a thickness of 15 $\mu$m (Fig. \ref{_straw}). 
+a 25 $\mu$m gold plated tungsten sense wire centered in a 5 mm diameter, 
+15 $\mu$m thick Mylar\textsuperscript\textregistered  tube  (Fig. \ref{_straw}). 
 The straws are supported at both ends and their active length varies from a minimum of 334 mm to a maximum of 1,174 mm.
 The drift gas is a 80:20 Argon:CO$_2$ mixture and the operating voltage is 1,500 V. The advantage of using straws
 is that the detector can still be operated also in case of failure of single wires.
@@ -1170,7 +1282,11 @@ The outer surface has 500 \AA\ of aluminum to act as an additional electrostatic
 
 \noindent
 Each straw is connected to a 4.95 mm diameter brass tube using silver epoxy.
-As a protection from breakdown at the edge, an extruded kapton tube is placed inside the brass tube. An injection molded plastic insert is also placed inside the kapton tube. Attached to a groove in the insert a small, U-shaped brass pin is placed. A 25 $\mu$m gold plated tungsten wire is soldered to the pin as well as epoxied to the plastic insert. Both brass parts are gold-plated to ensure good solder and epoxy joints.  \\
+As a protection from breakdown at the edge, an extruded kapton tube is placed inside the brass tube. 
+An injection molded plastic insert is also placed inside the kapton tube. 
+Attached to a groove in the insert a small, U-shaped, brass pin is placed. 
+A 25 $\mu$m gold plated tungsten wire is soldered to the pin as well as epoxied to the plastic insert. 
+Both brass parts are gold-plated to ensure good solder and epoxy joints.  \\
 Groups of 96 straws are assembled in \textit{panels} that cover 120$^\circ$ and are made of two layers of straws 
 to provide some redundancy and improve pattern recognition and track reconstruction
 (Fig. \ref{_Tracker_panel_geom} \ref{_Tracker_panel}).
@@ -1183,9 +1299,10 @@ to provide some redundancy and improve pattern recognition and track reconstruct
 A `full circle' is then made of 3 panels and it is called a \textit{face} (Fig. \ref{_Tracker_plane}). 
 Two faces rotated  30$^\circ$ relative to each other constitute a \textit{plane}. 
 Two planes are coupled to make a \textit{station}, mounting the second rotated on the vertical axes by 180$^\circ$. 
-The whole tracker is a 3 m structure made of 20 stations  and employs a total of more than 20k straws. 
-The inner and outer radii are respectively 380 mm and 700 mm and have been determined 
-to optimize the reconstruction efficiency for transverse momentum above 90 MeV$/c$; only $\mathcal{O}(10^{-12})$ of the DIO are expected to be reconstructable\cite{Manolis}. \\
+The whole tracker is a 3 m structure made of 18 stations  and employs a total of more than 20k straws. 
+The inner and outer radii of the tracker are respectively 380 mm and 700 mm and have been determined 
+to optimize the reconstruction efficiency for transverse momentum above 90 MeV$/c$; 
+only $\mathcal{O}(10^{-12})$ of the DIO are expected to be reconstructable\cite{Manolis}. \\
 
 \begin{figure}[h!]
 \centering
@@ -1205,7 +1322,9 @@ to optimize the reconstruction efficiency for transverse momentum above 90 MeV$/
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{Tracker_panel_geom}
-\caption{Layout of the straw in a panel \cite{MTDR}. The distance between the straws is to allow some expansion and to account for imperfection in the assembly. The two layers are staggered to have some redundancy and to improve the reconstruction.}
+\caption{Layout of the straws in a panel \cite{MTDR}. 
+The distance between the straws is necessary to account for some expansion imperfections in the assembly. 
+The two layers are staggered to have some redundancy and improve the reconstruction quality.}
 \label{_Tracker_panel_geom}
 \end{figure}
 
@@ -1213,7 +1332,7 @@ to optimize the reconstruction efficiency for transverse momentum above 90 MeV$/
 \centering
 \includegraphics[scale=0.2]{Tracker_panel}
 \includegraphics[scale=0.25]{Tracker_panel_picture}
-\caption{Tracker panle \cite{MTDR} and a picture of an already mounted panel with part of the electronics mounted \cite{Manolis}.}
+\caption{Tracker panel \cite{MTDR} and a picture of an mounted panel with part of the electronics installed \cite{Manolis}.}
 \label{_Tracker_panel}
 \end{figure}
 
@@ -1221,7 +1340,7 @@ to optimize the reconstruction efficiency for transverse momentum above 90 MeV$/
 \centering
 \includegraphics[scale=0.3]{Tracker_plane}
 \includegraphics[scale=0.35]{Tracker_plane_picture}
-\caption{Tracker face and plane \cite{MTDR} and a picture of an already mounted face with part of the electronics \cite{Manolis}.}
+\caption{Tracker face and plane \cite{MTDR} and a picture of a mounted face with part of the electronics installed \cite{Manolis}.}
 \label{_Tracker_plane}
 \end{figure}
 
@@ -1250,57 +1369,43 @@ and provides the link between FEE and the Data Acquisition System.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{Tracker_electronics}
-\caption{Signal flow for the readout of a straw \cite{MTDR}.}
+\caption{Signal flow for the readout of a straw from the detector to the Data Acquisition system \cite{MTDR}.}
 \label{_tracker_electronics}
 \end{figure}
 
 
 \subsection{The Electromagnetic Calorimeter}
-The calorimeter performs a number of fundamental functions complementary to the tracker, by providing 
-particle identification capabilities, a fast online trigger filter and a seed for track reconstruction.
-The tasks to be fulfilled by the calorimeter translate into the requirements for 105-MeV
-conversion electrons of a large acceptance, a time resolution better than 0.5 ns, 
-an energy resolution $<$10\% and a position resolution of 0.1 cm.
+The calorimeter performs a number of fundamental functions complementary to the tracker, by providing particle identification capabilities, a fast online trigger filter and a seed for track reconstruction.
+This detector (shown in Fig. \ref{_mu2e_calorimeter}) is once more cylindrical, with the characteristic hole, and made of two identical disks.
 
 \noindent
-Mu2e does not have a specific time stamp that identifies the interesting events 
-but rather a timing window in which the interesting events have to be identified. 
-The consequence of this choice is that track reconstruction
-in the tracker begins from the coincidence in time of a number of hits. This implies that
-the track reconstruction algorithm has to be able to identify and remove the correlated
-background due to low momentum particles, for example $\delta$ electrons. 
+Mu2e does not have a specific time stamp that identifies the interesting processes but rather a timing window in which the interesting they have to be identified. 
+The consequence of this choice is that track reconstruction in the tracker begins from the coincidence in time of a number of hits. 
+This implies that the track reconstruction algorithm has to be able to identify and remove the correlated background due to low momentum particles, for example $\delta$ electrons. 
 This is currently performed by relying on a selection based on neural networks.
-The calorimeter allows to reduce significantly the level of background by requiring
-also the presence of an energy cluster in the event (Figure 2 Proceedings).
-The calorimeter information can be also employed to develop a standalone trigger
-to collect an unbiased sample of data useful to cross-check the performance of the
-primary trigger based on standalone tracker information.
+The calorimeter allows to reduce significantly the level of background by requiring also the presence of an energy cluster in the event (this point will be discussed in more detail in the following chapter, dedicated to the reconstruction).
+The calorimeter information can be also employed to develop a standalone trigger to collect an unbiased sample of data useful to cross-check the performance of the primary trigger based on standalone tracker information.
 Used as filter (Trigger) the Calorimeter will meet the requirement of rejecting the background by a factor $>200$ \cite{Calorimeter:2018}\cite{Donghia:2019}. The current estimate of the efficiency of this standalone trigger is 60-70 \%; enough for an unbiased crossed test of the tracking trigger efficiency.\\ 
 
 \noindent
 In the energy range of interest for Mu2e ($ \mathcal{O}(100$ MeV$)$) 
 a total absorption homogeneous calorimeter 
-provides a satisfactory performance in terms of resolution. 
-The alternative is normally between a liquid scintillator (for example Xe) or scintillating crystals. 
+provides a satisfactory performance. 
+The alternative is normally between a liquid scintillator (for example Xe) or a scintillating crystal. 
 The Mu2e collaboration opted for a crystal calorimeter and, 
-after some testings with various materials (LYSO and BaF$_2$),cesium iodide (CsI) was chosen. 
+after some R\&D with a number of materials (LYSO and BaF$_2$),
+a more conservative and less expensive approach with Cesium Iodide (CsI) was chosen. 
 The architecture of the detector is thus based on two hollow disks of CsI crystals read by 
-Silicon PhotoMultipliers (SiPMs).\\ 
-Since the position and timing measured by the calorimeter are employed to provide  
-a confirmation of the tracker measurements and help reject mis-reconstructed tracks 
-due to spurious combinations of straw hits, 
-the resolution on these quantities should be comparable to the uncertainty on the extrapolated tracks. 
-The energy and timing resolution should also allow to perform particle identification 
-to separate conversion electron candidates from cosmic ray muons. 
+Silicon PhotoMultipliers (SiPMs) (Fig. \ref{_mu2e_calorimeter}).\\ 
+Since the position and time measured by the calorimeter are employed to provide a confirmation of the tracker measurements and help reject mis-reconstructed tracks due to spurious combinations of straw hits, the resolution on these quantities should be at the level the uncertainty on the extrapolated tracks. 
+The energy and time resolution should also allow to perform particle identification to separate conversion electron candidates from cosmic ray muons. 
 These requirements translate into the following resolutions: 
 spatial resolution $\sigma_{x,y}<1$ cm; 
 energy resolution $\sigma_E/E <10\%$; 
-timing resolution $\sigma_t < 500$ ps.
-Moreover, the calorimeter should provide this performance in a hostile environment
-in terms of vacuum level (
-working condition of $10^{-4}$ Torr, 1 T plus an exposure oa total ionizing dose up to 15 krad/year and a neutron flux equivalent $10^{11}$ MeV/cm$^2$ \cite{Donghia:2019}.
-A reduced-scale prototype of the detector  has been successfully developed, build and tested and the results 
-in terms of resolution are shown in Fig. \ref{_calorimeter_test}\cite{Module0:2019}.
+time resolution $\sigma_t < 500$ ps.
+Moreover, the calorimeter has to provide this performance in a hostile environment
+in terms of vacuum level, working condition of $10^{-4}$ Torr, 1 T plus an exposure to a total ionizing dose up to 15 krad/year and a neutron flux equivalent $10^{11}$ MeV/cm$^2$ \cite{Donghia:2019}.
+A reduced-scale prototype of the calorimeter, made of a matrix of 51 CsI crystals and named Module-0, has been successfully developed, built and tested at INFN Laboratori Nazionali di Frascati and the measured performance in terms of resolution shown in Fig. \ref{_calorimeter_test} satisfy the original requirements.
 
 \begin{figure}[h!]
 \centering
@@ -1322,9 +1427,9 @@ in terms of resolution are shown in Fig. \ref{_calorimeter_test}\cite{Module0:20
 \subsubsection{Calorimeter mechanical structure}
 Fig. \ref{_mu2e_calorimeter_disk} shows an exploded view of one calorimeter disk.
 The internal and the external radii of the hollow cylinder are respectively 374 mm and 660 mm.
-The internal support structure is made of carbon fiber to reduce the passive material in the region 
+The internal support structure is made of carbon fiber to reduce the amount of passive material in the region 
 where electrons are spiraling; 
-the external needs to be sturdy enough to support the crystals and is made of aluminum. 
+the external structure needs to be sturdy enough to support the crystals and is made of aluminum. 
 Each disk is comprised by 674 undoped staggered trapezoidal CsI crystals ($34\times34\times200$ mm$^3$  $\approx10.75\ X_0$). The crystals are wrapped with 8 layers of 25 $\mu$m Tyvek\textsuperscript \textregistered film to maximize the light transport and minimize the crass-talk. \\
 The two structural cylinders are connected by two plates:
 \begin{itemize}
@@ -1349,39 +1454,39 @@ Global Data Acquisition System.
 
 
 \subsubsection{Calorimeter electronics}
-Each crystal is read-out by two HAMAMATSU SiPMs that convert the scintillation light
-into an electric signal. Two full-custom electronic boards complete the front-end electronics system
+Each CsI crystal is paired with two HAMAMATSU SiPMs that convert the scintillation light
+into an electric signal. 
+Two full-custom electronic boards complete the front-end electronics system
 and supply the power to the SiPMs, amplify and transmit the SiPM signals to the digitization boards
 hosted in the DAQ crates. 
 The reason to use two SiPMs for each crystal, for a total of 1348 SiPM/disk, 
-is to minimize the efficiency losses if one SiPM should fail and thus increase the entire readout
+is to minimize the efficiency loss if one SiPM should fail and thus increase the entire readout
 system robustness.\\ 
 %Two chips (Amp-HV) are connected to the back of the SiPMs and provide amplification and regulation of the bias voltage \ref{_mu2e_calorimeter_disk}. Group of 16 Amp-VH are controlled by one ARM (?) controller, placed on one interface board located in the DAQ crate. This board distributes and regulates both high and low voltage.\\ \\
 %The analog signals coming from the FEE are transmitted to the data acquisition boards, hosted in the DAQ crates. 
 The main function of the digitization boards named  \textit{Digitizer ReAdout Controller} (DIRAC) 
 is to digitize the SiPM analog signals and transmit the digitized data to the Mu2e Data Acquisitiomn System.
 Additional boards necessary to distribute power, monitor photo-sensors and front-end electronics  performance, 
-are called \textit{interface boards}. 
-As anticipated there are 10 DAQ crates per disk, and each crate hosts 8 DIRAC and 8 interface boards. 
-To be thorough, we report a brief description of the components employed on the DIRAC:
+are called \textit{Interface Boards}. 
+As anticipated, there are 10 DAQ crates per disk, and each crate hosts 8 DIRAC and 8 Interface Boards. 
+We report only a brief description of the components employed on the DIRAC:
 \begin{itemize}
-\item 10 Analog to Digital Converter (ADC) that  digitize the SiPM analog signals received 
+\item 10 Analog to Digital Converters (ADC) to  digitize the SiPM analog signals received 
 from the front-end electronics;
-\item A \textit{Field Programmable Gate Array} (FPGA) that processes the digitized data received from  
+\item 1 Field Programmable Gate Array (FPGA) to processe the digitized data received from  
 the Analog to Digital Converters (ADC);
-\item 4 DC-DC converters that generate the voltage levels required on the boards from the voltages
-received from the external power supplies; 
-\item 6 low dropout Linear Regulator provide low voltage high current
-outputs with high precision
-\item A Jitter Cleaner that generates a clean and stable clock signal necessary for the ADCs and FPGA optimal performance.
+\item 4 DC-DC converters to generate the voltage levels required by the several components 
+mounted on the boards from the voltages received from the external power supply; 
+\item 6 Linear Regulators to provide low voltage high current outputs with high precision;
+\item A Jitter Cleaner to generate a clean and stable clock signal necessary for the ADCs and FPGA optimal performance.
 \end{itemize}
-In coincidence with each DIRAC board, there is also one Interface Board that hosts and ARM controller 
+In coincidence with each DIRAC board, there is also one Interface Board that hosts an ARM controller 
 and voltage regulators to provide the power and monitor the performance of the front-end electronics.
 
 \subsection{The Cosmic Ray Veto}
 Cosmic Rays represent one of the most significant sources of background to the conversion electron search.
 Mu2e thus needs a dedicated veto system \cite{CRV:2019} to cover most of the experiment 
-(up to the TS, as shown in fig. \ref{_CRV}) and reduce the contamination due to muons traversing the detector area 
+(up to the Transport Solenoid, as shown in fig. \ref{_CRV}) and reduce the contamination due to muons traversing the detector area 
 and to particles collected by the magnetic system and transported down to the Detector Solenoid. 
 A problem for the veto performance derives from the large neutron flux generated 
 in the Production Target that can produce a large occupancy and a significant dead-time and thus reduce the efficiency
@@ -1392,8 +1497,7 @@ although scintillator ageing and the resulting performance decay can be a proble
 data taking planned to last for a few years.
 Each counter is read by one or two SiPMs depending on the position in the detector. 
 The entire veto requires approximately 1248 m$^2$ of scintillator and 50 km of fiber. 
-Scintillator counters will be grouped in more than 80 modules with various requirement, 
-again depending on the position.
+Scintillator counters will be grouped in more than 80 modules with requirements that will depend on the position.
 The section of the detector is shown in Fig. \ref{_CRV_module_geometry}.
 The modules will be composed of four layer of staggered counters. 
 Fig. \ref{_CRV_module_geometry} shows also the readout electronics. 
@@ -1422,12 +1526,12 @@ between the two and transported in the Detector Solenoid by the magnetic fields.
 
 \subsection{The Trigger and Data Acquisition System}
 A crucial part of any experiment is data collection, filtering and storage. 
-The signals are amplified and digitized by the electronic systems which reside 
+In Mu2e the detector signals are amplified and digitized by the electronic systems which reside 
 on the detectors and are then processed online by the Trigger and Data Acquisition (TDAQ)\cite{TDAQ}. 
-This system provides the hardware and software tools to store and combine the digitized data. 
+This TDAQ provides the hardware and software tools to store and combine the digitized data. 
 The primary function is to apply online filters to reduce the overall flux of data 
-selected for the offline permanent storage. 
-The logical structure of this system is briefly shown in Fig. \ref{_TDAQ}.
+selected for permanent storage and offline analysis. 
+The logical structure of this system is shown in Fig. \ref{_TDAQ}.
 
 \begin{figure}[h!]
 \centering
@@ -1435,7 +1539,6 @@ The logical structure of this system is briefly shown in Fig. \ref{_TDAQ}.
 \caption{Schematic representation of the Trigger and Data Acquisition System architecture \cite{TDAQ}.}
 \label{_TDAQ}
 \end{figure}
-
 
 \section{The monitor of the stopped muon flux}
 %\subsection{Stopped muons and photons}
@@ -1448,42 +1551,44 @@ but the most reliable solutions imply direct measurements.
 The most viable solutions exploit the following physics processes:
 \begin{itemize}
 %\item Electrons from muon decay in orbit (DIO): a short paragraph will follow on this option, which was discussed at the beginning of the present work but was then set aside.
-\item Measuring the photons generated by physics processes involving the muonic atoms:
-describing the detectors that exploit this solution is the goal of this Section;  
-\item Measuring the protons generated by the muon nuclear capture: studying the feasibility of this solution is the goal of this Thesis.
+\item Measuring photons generated by physics processes involving the muonic atoms;  
+\item Measuring protons generated by the muon nuclear captures: 
+studying the feasibility of this solution is the goal of this Thesis.
 \end{itemize} 
 
 \subsection{Baseline Mu2e design: measuring photons}
 \textbf{Missing references}\\
-Once a muon is stopped and the muonic atom has been formed, photons can be produced by a number processes. 
+Once a muon has been stopped in the target 
+and the muonic atom has been formed, 
+photons can be produced by a number processes. 
 The different processes generate photons of different energies 
 and the spectrum has been measured by the AlCap experiment \cite{AlCap:2015}\cite{AlCap:2020}.
 Fig. \ref{_HPG_Spectra} shows the energy spectra for prompt and delayed photons.
-The three highlighted energies correspond to three physics processes:
+The three highlighted energies correspond to three different physics processes:
 \begin{itemize}
 \item Muonic X-rays with the energy of 375 keV are produced when the muonic atom system cascades $2p\rightarrow 1s$; 
 the process is prompt;
-\item Gammas with the energy of 1809 keV are produced by the decay of excited Mg nuclei:\\
-$\mu^-+\ _{13}^{27}$Al$\rightarrow \ _{12}^{26}$Mg$^*+n\nu_\mu$; $\ _{12}^{26}$Mg$*\rightarrow \ _{12}^{26}$Mg$+\gamma(1809$ keV$)$;  the process is prompt;
-\item Gammas with the energy of 844 keV are generated in the decay of long-lived isotopes produced by the capture:\\
-$\mu^-+\ _{13}^{27}$Al$\rightarrow \ _{12}^{27}$Mg$+\nu_\mu$; $\ _{12}^{27}$Mg$\rightarrow \ _{13}^{27}$Al$+\gamma(844$ keV$)+e^-+\overline{\nu}_\mu$; in this case $\tau_{1/2}\approx9.5$ min].
+\item Gammas with the energy of 1809 keV are produced by the decay of excited Mg nuclei and this process is also prompt:\\
+$\mu^-+\ _{13}^{27}$Al$\rightarrow \ _{12}^{26}$Mg$^*+n\nu_\mu$; $\ _{12}^{26}$Mg$*\rightarrow \ _{12}^{26}$Mg$+\gamma(1809$ keV$)$;
+\item Gammas of 844 keV are generated in the decay of long-lived isotopes produced by the capture, this is not prompt $\tau_{1/2}\approx9.5$ min:\\
+$\mu^-+\ _{13}^{27}$Al$\rightarrow \ _{12}^{27}$Mg$+\nu_\mu$; $\ _{12}^{27}$Mg$\rightarrow \ _{13}^{27}$Al$+\gamma(844$ keV$)+e^-+\overline{\nu}_\mu$;\\
 \end{itemize}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{HPG_Spectra}
-\caption{HPG Spectra}
+\caption{HPG Spectra {\bf{Magari inserire qualche informazione}}.}
 \label{_HPG_Spectra}
 \end{figure}
 
 \noindent
-High Purity Germanium (HPGe) detectors have the energy resolution sufficient to measure the 347 keV and 844 keV lines. 
-The drawback of the HPGe detectors is that they are slow and susceptible to radiation damage due to neutrons. 
+High Purity Germanium (HPGe) detectors have sufficient energy resolution to measure the 347 keV and 844 keV lines. 
+The drawback with HPGe detectors is that they are slow and susceptible to radiation damage due to neutrons. 
 The solution adopted by Mu2e is to move the system away from the source (i.e. the stopping target) and
 reduce the rate by $1/r^2$. 
-The final design is still under development but the detector will be placed at $\approx35$ m from the stopping target 
-and adequately shielded. On the other hand, a Cesium doped Lanthanum(III) detector would have a lower energy resolution 
-but a much higher rate capability and resistance to radiation and would allow to measure 1809 keV line.\\
+The final design is still under development but the detector will be placed at approximately 35 m from the stopping target and adequately shielded \cite{STM:2016}. 
+On the other hand, a Cesium doped Lanthanum(III) Bromide (LaBr$_3$(Ce)) detector would have a lower energy resolution 
+but a much higher rate capability and resistance to radiation and would allow to measure the 1809 keV line \cite{LaBr3:2020}.\\
 The geometry of the Stopping Target Monitor, comprised of these two complementary systems, is still under study. 
 Several alternative solutions for the orientation and shielding are possible and Fig. \ref{_STM_geom} shows one possible configuration.
 
@@ -1495,42 +1600,63 @@ Several alternative solutions for the orientation and shielding are possible and
 \end{figure}
 
 \noindent
-We have already anticipated in Section XX that the time necessary to measure the stopped muon flux is a key parameter to monitor
+We have already anticipated in {\bf{Section XX}} that the time necessary to measure the stopped muon flux is a key parameter to monitor
 the beam intensity (\ref{_Fluctuations}). 
-The time response of a HPGe detector is not sufficiently fast to allow a monitor on the timescale of a ms.
-While the LaBr$_3$(Ce) detector would be sufficiently fast, the problem is the low rate of $\gamma(1809)$ keV.
+The time response of a HPGe detector is not sufficiently fast to allow to monitor on the timescale of a ms.
+While the LaBr$_3$(Ce) detector would be sufficiently fast, 
+the problem is the low rate of $\gamma(1809)$ keV.
 If one assumes to have $3.1\times10^4$ stopped muons per micro-bunch and factors 
-the temporal and geometric acceptance, then less than $10^{-3}$ photon/event is expected.\\ 
-A fair summary of what discussed could be the following: both solutions for photons counting would provide a good overall estimate of the total flux but are not capable of providing a monitor on the time scale of the expected fluctuation of the intensity of the micro-bunch (\ref{_Fluctuations}).
+the temporal and geometric acceptance, 
+then less than $10^{-3}$ photon/event is expected.\\ 
+A fair summary of what discussed could be the following: 
+both solutions for photons counting would provide a good overall estimate of the total flux 
+but are not capable of providing a monitor on the time scale of the expected fluctuation 
+of the intensity of the micro-bunch (\ref{_Fluctuations}).
 
-\subsection{This Thesis}
-In a next chapter will be discussed \textit{how} it can be done but for now might be sufficient to say that if it is possible to find a reliable way of counting hits in the tracker made by protons, or reconstructed tracks, we could evaluate the fluctuation of the number of stopped muon monitoring this number.\\
-The reason we talk about fluctuation and not the total fluxis because the ejection of particles from nuclear capture is a relatively poorly understood phenomenon, while the radiation from the de-excitation of muonic atoms is more reliable. As already discussed the $\gamma$-counting techniques will not have the possibility to evaluate on a short time period the fluctuation in the number of stopped muons or in the proton beam intensity: a tandem effort of proton and photon counting could give us both the necessary uncertainty of the total normalization and a good understanding on the underlying timing structure.
-A summary of the study of these particles will be given in a following chapter and for now we will just underline the two leading collaboration in these studies: AlCap \cite{AlCap:2018} and TWIST \cite{TWIST:2020}.
+
+\subsection{This Thesis: exploiting protons}
+In Chapter 4 we will explain \textit{how} it can be done but for now 
+it might be sufficient to say that if it is possible to find a reliable way of counting protons hits in the tracker, 
+or reconstructed tracks, we could estimate the fluctuation of the number of stopped muons by monitoring this number.\\
+The reason we consider the fluctuation and not the total flux is because the ejection of particles from nuclear capture is a relatively poorly understood phenomenon, while the radiation from the de-excitation of muonic atoms is known in more detail. 
+As already discussed, the $\gamma$-counting techniques will not have the possibility to evaluate on a short time period the fluctuation of the number of stopped muons or of the proton beam intensity: the joint effort of proton and photon counting could give us both the necessary uncertainty of the total normalization and a good understanding on the underlying timing structure.
+A summary of the study of these particles will be given in Chapter 4 and for now we will just mention 
+the two Collaborations that have provide the most valuable information for this study: AlCap \cite{AlCap:2018} and TWIST \cite{TWIST:2020}.
 
 \section{Simulation and Analysis tools}
 \subsection{\textit{art} and .fcl}
-The Mu2e simulation and analysis tools revolve around the tandem usage of two pieces of software (other than the C++/ROOT): the \textit{art} framework and the FHiCL files. Here we give a short definition of both but even an introduction would be out of scope. This section is based primarily on the documentation/tutorials available in the mu2ewiki (https://mu2ewiki.fnal.gov/) and on the "art workbook"\cite{art}\\ \\
-\textit{art} is an event processing framework, written in C++ and developed by the Fermilab Scientific Computing Division. It provides the functionalities of common usage (I/O, database access, ... ), but its core feature is to be modular: physics algorithms are developed as plug-in modules. This feature allows maintaining a single common framework, while every collaboration develops its own modules. It is common to use the term \textit{job} to indicate the running of a sequence of modules.   
-%\href{https://art.fnal.gov/wp-content/uploads/2016/03/art-workbook-v0_91.pdf}{art Workbook and Users Guide}.\\
-Every module is a C++ class which inherit from one of the module base classes defined by \textit{art} (EDAnalyzer, EDProducer or EDFilter). The modules are then compiled and \textit{art} loads as plugin the shared libraries.\\ \\
-FHiCL files (.fcl extension) are configuration files for \textit{art}-jobs. They are written in the Fermilab Hierarchical Configuration Language, developed at Fermilab, and are the direct interface to the software for many physicists. Most of the common tasks are faced defining in a configuration file which modules of the simulation/analysis are needed, and setting the necessaries parameters. Although that is the final design, giving the fast develop process in which the modules are, is not yet uncommon to encounter the necessity of open single modules for debugging process and some modules are still in development.\\ \\
-At my arrival, most of the existing modules of the Mu2e reconstruction had been developed with the explicit (or implicit) intent 
-to search for conversion electrons: for this study on proton hits and tracks reconstruction and usage, the necessity to sift through the modules has been almost the standard. Although I didn't develop new modules myself, a good understanding of their structure and interplay was thus needed and numerous changes or bug fixes were also applied.
+The Mu2e simulation and analysis tools revolve around the joint use of two pieces of software (other than the C++/ROOT analysis macros): the \textit{art} framework and the FHiCL files. Here we give a short definition of both but even an introduction would be out of scope. This section is based primarily on the documentation/tutorials available on the  \href{https://mu2ewiki.fnal.gov/}{Mu2eWiki} and in the "art workbook"\cite{art}.
+
+\paragraph{\textit{art}} The first piece of software is an event processing framework, written in C++ and developed by the Fermilab Scientific Computing Division. It provides the functionalities of common usage (I/O, database access, ... ), but its core feature is to be modular: physics algorithms are developed as plug-in modules. 
+This feature allows maintaining a single common framework, while every collaboration develops its own modules. 
+It is common to use the term \textit{job} to indicate the running of a sequence of modules.   
+Every module is a C++ class which inherit from one of the module base classes defined by \textit{art} (EDAnalyzer, EDProducer or EDFilter). The modules are then compiled and \textit{art} loads the shared libraries as plugin.
+
+\paragraph{FHiCL} The configuration files for \textit{art}-jobs are written in the Fermilab Hierarchical Configuration Language (FHiCL with the extension .fcl) and are the direct interface to the software for many physicists. 
+Most of the common tasks are faced defining in a configuration file which modules of the simulation/analysis are needed, and setting the necessaries parameters. 
+Although that is the final design,the
+currently fast evolution of the modules, is not yet uncommon to encounter the necessity of open single modules for the debugging procedure or to introduce ad hoc functions or minor modification.\\ \\
+At my arrival, most of the existing modules of the Mu2e reconstruction had been developed with the explicit (or implicit) intent to search for conversion electrons: for this study on proton hits and tracks reconstruction, the necessity to sift through the modules was encountered on a daily basis. 
+Although I didn't develop new modules myself, I needed a good understanding of their structure and interplay and I applied numerous changes or fixed several bugs.
 
 \subsection{STNTUPLE}
-One of the plug-in modules of \textit{art} is specific to the usage of the STNTUPLE.
-A STNTUPLE is both a Ntuple data format and a light-weight ntuple analysis framework and is written (almost) exclusively in C++. This type of data structure was used in CDF for many years and then ported to Mu2e. Every STNTUPLE ROOT file contains multiple branches, each corresponding to a data block. A data block is a container for Mu2e raw and/or reconstructed data. 
-Using the appropriate module in the .fcl \textit{art-}job configuration file, a STNTUPLE of the data produced during the running is created and stored. What type of data is saved in this format is clearly customizable.\\
-After the .stn file is generated every analysis can be run on the STNTUPLE, instead of rerunning the reconstruction, using the stnana() command, invoking the necessary module. 
-\href{https://mu2e-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=13916&filename=2017-10-20-Stntuple-YoungMu2e.pdf&version=1}{Pezz on Stntuple}
+One of the plug-in modules for \textit{art} is specific to the usage of the STNTUPLE \cite{stntuple}\cite{stntuple:giani}.
+These are both a \textit{n}-tuple data format and a light-weight \textit{n}-tuple analysis framework, written (almost) exclusively in C++. 
+This type of data structure was used in CDF for many years and then ported to Mu2e. 
+Every STNTUPLE ROOT file contains multiple branches, each corresponding to a data block: these are containers for Mu2e raw and/or reconstructed data. 
+Using the appropriate module in the .fcl \textit{art}-job configuration file, a STNTUPLE of the data produced during the running is created and stored. 
+What type of data is saved in this format is clearly customizable.\\
+After the .stn file is generated, invoking the necessary module allows to run every analysis on this data format, avoiding the re-running the reconstruction. Cardinal in this workflow is that the user analysis packages requires almost no I/O infrastructure beacuse the loop on the events is performed by the STNTUPLE framework itself.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=1]{mu2e_datahandling}
-\caption{Schematic view of the Mu2e data handling procedure.}
+\includegraphics[scale=0.8]{mu2e_datahandling}
+\caption{Both generation and reconstruction of events are done through \textit{art}-jobs configured using FHiCLs and importing the necessary C++ modules. 
+Other modules, like the Event Display and TAnaDump are used, are used for debugging purpose.
+The analysis workflow relies on the usage of STNTUPLE.}
 \label{_mu2e_datahandling}
 \end{figure}
+
 
 
 %---------------------%---------------------
@@ -1547,147 +1673,113 @@ a further optimization of these parameters has to be performed by the user
 on a case-by-case basis.
 These non-standard applications are being developed by the 
 Simulation Group and, in this respect, this Thesis is a pioneering work.
-This Chapter is also my contribution to the common effort of providing 
+This Chapter is also my contribution to the effort of providing 
 useful reference to the Collaboration and improve the
 already available documentation dedicated to the problem of track reconstruction in Mu2e \cite{GianiPatRec:2016}, \cite{GianiPatRec:2020}, \cite{Brown:2014}, \cite{Kalman},  \cite{KutschkePaper}.}
 
 \section{Hits reconstruction and pre-filtering}
 \subsection{Straw tracker hits}
-Charged particles traversing the tracker volume generate ionisation charge in the gas
-which then produces electric signals on the straws.
+Charged particles traversing the tracker volume generate ionisation charge in the gas enclosed by the straw which is collected and produces electric signals.
 Since the straws are readout by the front-end electronics from both sides, 
 the first step in the hit reconstruction process is combining the two resulting electric signals 
 to estimate the hit time and position `along the wire'. 
 In the reconstruction code, this information is stored in an object conventionally named \textit{StrawHit}.\\
 The most challenging problem with track reconstruction in Mu2e 
 is that a multitude of StrawHits are commonly found
-in the  $1.7\ \mu$s time window corresponding to one event.
-The first crucial task is thus to identify the StrawHits close in time 
-that could have been generated by the same particle traversing the tracker.
+in the  $1.7\ \mu$s time window corresponding to an event.
+The first crucial task is thus identifying the StrawHits close in time that could have been generated by the same particle traversing the tracker.
 To improve hit spatial resolution and reduce the possible combinatorics when searching for tracks, 
-adjacent StrawHits in a panel\footnote{As reported in Chapter 2, the panel is made of two layers of straws.}, 
+adjacent StrawHits in a panel\footnote{As reported in Chapter 2, a panel is made of two layers of straws.}, 
 which are most likely due to the same particle, 
 are combined in a more complex object named \textit{ComboHit}. 
-While preserving the information of the single StrawHit, 
-the \textit{ComboHit} provides the average time and position of the cluster. 
-This process is complicated by the presence of many hits produced by low energy (of the order of few MeV) electrons 
-knocked out by Compton scattering. These electrons, commonly named $\delta$-electrons, follow small-radii
-trajectories and generate numerous hits all contained in a limited portion of volume that consequently 
-shows a high occupancy. This problem is mitigated by the fact that
-patterns of hits generated by $\delta$-electrons are significantly different from 
-those generated by particles in the energy range
-of interest of Mu2e and can be identified by employing \textit{Multi Variate Analysis} 
+While preserving the information of the single StrawHit, the ComboHit provides the average time and position of the cluster. 
+Unfortunately, this process is complicated by the presence of many hits produced by low energy (of the order of few MeV) electrons knocked out by Compton scattering. 
+These electrons, commonly named $\delta$-electrons, follow small-radii trajectories and can generate numerous hits all contained in a limited portion of volume that, consequently, shows a high occupancy. 
+This effect is mitigated by the fact that patterns of hits generated by $\delta$-electrons are significantly different from those generated by particles in the energy rangeof interest of Mu2e and can be identified by employing \textit{Multi Variate Analysis} 
 (MVA\footnote{The description of a multivariate analysis is outside the scope of this work and so is the process of MVA-training. Since these techniques are fundamental for the background flagging, we will briefly describe the basic principles.
-When looking for patterns in a multi-variable space, it is a common procedure to define a set of statistical models that examine the variables measured and evaluate the probability that these are compatible with the pattern. 
+When looking for patterns in a multi-variable space, it is a common procedure to define a set of statistical models that examine the variables measured and estimate the probability that these are compatible with the pattern. 
 Once the variables have been chosen, the MVA is trained to recognize patterns by looking at examples known to the trainer and a feedback can be provided to improve the identification.\\
 When looking for $\delta$-electrons, the most significant variables are the position and spread of the ComboHit, both in the $XY$ plane and in the $Z$ direction.}) algorithms.\\
-At this level of the reconstruction process, the information provided by the tracker can be considered as compacted
-in a collection of ComboHits. Each ComboHit, its time and position, are computed from the list of associated StrawHits.
+At this level of the reconstruction process, the information provided by the tracker has been translated in a collection of ComboHits, resulting of the combination of a list of associated StrawHits and specified by its time and position.
 The clustering algorithm also allows to identify and  performs a partial reduction and filtering of the background hits due to secondary electrons.
 
-
-
 \subsection{Electromagnetic calorimeter hits} 
-The logical equivalent of a ComboHit in the tracker is named \textit{Cluster} 
-in the calorimeter and is the combination of the signals generated in a group of crystals
-by the same particle hitting the detector \cite{CalCluster_2} \cite{CalCluster}. 
-The Cluster is reconstructed starting from the crystal with the highest energy deposit
-and adding 
-all the adjacent crystals with a signal within a 2 ns window and with an energy above a programmable threshold. 
+The logical equivalent of a ComboHit in the tracker is named \textit{Cluster} in the calorimeter and it is the combination of the signals generated in a group of crystals by a particle hitting the detector \cite{CalCluster_2} \cite{CalCluster}. 
+The Cluster is reconstructed starting from the crystal with the highest energy deposit and adding all the adjacent crystals with a signal within a 2 ns window and with an energy above a programmable threshold. 
 The process is then iterated starting from the added crystals until there are no more crystals to be added.
-Given the accuracy of the time measurement provided by the calorimeter,
-it is possible to exploit the Cluster time measurement to determine a window
-in which all the ComboHits generated by the same particle should be located.
-The calorimeter thus performs a precious role in providing a seed for 
-pattern recognition that reduces significantly the combinatorial background in the tracker.
+Given the accuracy of the time measurement provided by the calorimeter, the Cluster time measurement can be exploited to determine a window in which all the ComboHits generated by a particle traversing the tracker should be located.
+The calorimeter thus performs a precious role in providing a seed for pattern recognition that reduces significantly the combinatorial background in the tracker.
 
- 
 \section{Finding the helices}
-The goal of the tracking software is reconstructing tracks 
-generated by charged particles traveling in a magnetic field and, 
-as discussed in \ref{magnets}, the trajectories they follow would be helices if no other mechanisms were involved. 
-The parameters necessary to describe such a trajectory are 5 and can be grouped in a vector $\eta \equiv ( d_0, \phi_0, \omega, z_0, \tan \lambda)$. 
-These parameters consist of the distance of closest approach in the $XY$ and $Z$ directions ($d_0,z_0$), angle in the $XY$ plane ($\phi_0$), the curvature in the transverse plane ($\omega$) and the tangent of the dip angle ($\tan\lambda$).\\
-The number of full rotations completed by a particle in the tracker volume depends on the pitch and the momentum,but most particles perform more than one full rotation. 
-This means most tracks will be helices and not just arcs. 
-The consequence of having a hole in the detector is that particles develop a fraction of their trajectories in the bore and generate sequences of hits in the tracker which are form multiple arcs.\\
-The collection of ComboHit in the tracker and the possible simultaneous presence of Clusters in the calorimeter, are the starting ingredients necessary to reconstruct the helices and the search is performed in two consecutive steps: Time Clustering and Pattern Recognition.
+The goal of the Mu2e tracking software is reconstructing the tracks generated by charged particles traveling in the Detector Solenoid magnetic field and, as discussed in \ref{magnets}, 
+the trajectories they follow would be helices if no other mechanisms were involved. 
+The parameters necessary to describe such a trajectory are 5 and can be grouped in a vector ${\vec{\eta}} \equiv ( d_0, \phi_0, \omega, z_0, \tan \lambda)$. 
+Describing the helix starting from a generic origin these parameters are: the distance of closest approach of the helix to the origin in the $XY$ and $Z$ directions ($d_0,z_0$); the angle in the $XY$ plane ($\phi_0$) indicating the position of the axis of the helix; the curvature in the transverse plane ($\omega$); and the tangent of the dip angle ($\tan\lambda$).\\
+The number of full rotations completed by a particle in the tracker volume depends on its pitch and momentum, but most particles of interest in Mu2e perform more than one full rotation. 
+This means the actual trajectory of most tracks will be a long helix and not just an arc. 
+The consequence of having a hole in the detector is that particles develop a fraction of their trajectories in the bore and generate sequences of hits in the tracker which form multiple arcs.\\
+The collection of ComboHits in the tracker and the possible simultaneous presence of Clusters in the calorimeter are the starting ingredients necessary to reconstruct the helices. 
+The search is performed in two consecutive steps respectively named \textit{Time Clustering} and \textit{Pattern Recognition}.
 
 \subsection{Time Clustering} 
-Since the duration of a Mu2e event is orders of magnitude larger than the time 
-a particle takes to traverse the tracker, the first necessary step is to identify which ComboHits 
-could have been generated by the same particle. 
-This can be done by exploiting the ComboHits  time distribution.
-The entire procedure, that can also be aided by employing MVA-based algorithms, 
-can be ideally divided in two logical steps:
+Since the duration of a Mu2e event is orders of magnitude larger than the time a particle takes to traverse the tracker, the first necessary step is to identify which ComboHits could have been generated by the same particle. 
+This can be done by exploiting the ComboHits time distribution.
+The entire procedure, that can also be aided by employing MVA-based algorithms, can be ideally divided in two logical steps:
 \begin{itemize}
-\item Generate the time distribution of all the ComboHits. 
-The peaks in this distribution contain ComboHits which have probably been generated by the same particle. 
-The ComboHits are assigned to the TimeClusters and the collection of these ComboHits is indicated as \textit{TimeClusters}.
-To improve the quality of the association between ComboHits and TimeClusters, 
-the time distribution is generated by propagating all the hit times at the central plane of the tracker ($z=0$). 
-This is done by assuming a $\beta$ and an angular velocity $\lambda$, 
-which depend on the hypothesis made for the particle identity.
-As in the previous step, the TimeCluster is a list of ComboHits but is also associated to a time and a position, 
-estimated from the ComboHits {\bf{Magari spiegare questa cosa}}.
-\item  The TimeCluster variables are then used to refine the collection of ComboHits.
-A number of requirements are applied to the ComboHits associated to each TimeCluster, 
-like a maximum angular distance in the transverse $XY$ plane. On the basis of this
-further selection, the list of ComboHits associated to the TimeCluster may slightly change. 
-At this point, the TimeCluster time and position are reevaluated 
-and a second loop may add ComboHits which now satisfy the requirements. 
-The process is iterated until the list of ComboHits associated to the TimeCluster is stable,
-i.e. no more ComboHits are added or removed from any TimeCluster.
+\item Analyse the ComboHits time distribution. 
+ComboHits generated by the same particle tend to cluster in peaks in the time distribution. 
+In coincidence of each peak, a new object named {\em TimeCluster} is thus created and the collection of ComboHits associated to that peak is assigned to the TimeCluster. 
+To improve the quality of the association between ComboHits and TimeClusters, the time distribution is generated by propagating all the hit times to the central plane of the tracker ($z=0$). 
+This is done by assuming a $\beta$ and an angular velocity $\lambda$ which depend on the hypothesis made for the particle identity.
+Similarly to the creation of ComboHits from StrawHits, the TimeCluster is a list of ComboHits but is also associated to a time and a position estimated from the ComboHits.
+\item  The TimeCluster time and position are then used to refine the collection of ComboHits.
+A number of requirements are applied to the ComboHits associated to each TimeCluster, like a maximum angular distance in the transverse $XY$ plane. 
+On the basis of this further selection, the list of ComboHits associated to the TimeCluster may slightly change. 
+At this point, the TimeCluster time and position are reevaluated and a second loop may add ComboHits which now satisfy the selection requirements. 
+The process is iterated until the list of ComboHits associated to the TimeCluster is stable, i.e. no more ComboHits are added or removed from any TimeCluster.
 \end{itemize}
 
-\noindent The avalanche processes that take place in the straws have a finite velocity 
-and the processes are initialized at random distances from the wires. 
-The diameter of a straw is 5 mm and this implies that the standard deviation 
-of the uniform distribution of the distance between the starting point of the avalanche and the wire 
-can be roughly estimated with a back-of-the-envelope calculation as $2.5$ mm$/\sqrt{12}\approx 700\ \mu$m. 
-If we assume a drift velocity of $50\ \mu$m/ns we end up with a width estimate of $\sim 14$ ns. 
-On the other hand, the hit times are propagated assuming a specific particle identity ($\beta$, pitch), 
-and this means that the differences of TimeClusters generated by different particles (having different $\beta$) 
-are small and they have roughly the same spread in time.\\
-The entire procedure slightly changes if an energy cluster is found in the calorimeter: 
-the cluster can seed the time window and a and provide a rough estimate of the TimeCluster $XY$ position.\\
+\noindent The avalanche processes taking place in the straws have a finite velocity and the avalanches are initialized at random distances from the wires. 
+Since the diameter of a straw is 5 mm, the standard deviation of the uniform distribution of the distance between the starting point of the avalanche and the wire can be roughly estimated with a back-of-the-envelope calculation as $2.5$ mm$/\sqrt{12}\approx 700\ \mu$m. 
+If we assume to have a drift velocity of $50\ \mu$m/ns, we end up with a width estimate of $\sim 14$ ns. 
+On the other hand, the hit times are propagated assuming a specific particle identity ($\beta$, pitch), and this means that the differences of TimeClusters generated by different particles (having different $\beta$) are small and they have roughly the same spread in time.\\
+The entire procedure changes slightly if an energy cluster is found in the calorimeter: the cluster can seed the time window and and provide a rough estimate of the TimeCluster $XY$ position.\\
 
-\noindent Once this procedure is concluded, all the TimeClusters with more than a chosen number of hits are stored. 
+\noindent Once this procedure is concluded, all the TimeClusters with more than a programmable number of hits are stored. 
 The next step is to search for patterns in the list of TimeClusters:  the current version of the Mu2e code employs two major pattern recognition algorithms. 
 The first one exploits only the information provided by the tracker, while the second one exploits also the calorimeter information.
 
 \subsection{Pattern Recognition "tracker-only"}
-This pattern recognition algorithm, named \textit{TrkPatRec} in Mu2e jargon, 
-is a two step process. 
-First, the analysis in the $XY$ plane is performed to find the projection of the track on the transverse plane 
-which allows to determine the radius (that is correlated to the transverse momentum) 
-and the impact parameter with respect to the stopping target. 
-Then, the reconstruction in the $\Phi Z$ plane is performed, 
-the $2\pi$ ambiguity is resolved and the pitch of the track is determined.
+This pattern recognition algorithm, also named \textit{TrkPatRec} in Mu2e jargon, consists of a two step process. 
+First, the analysis in the $XY$ plane is performed to find the projection of the track on the transverse plane which allows to determine the radius (that is correlated to the transverse momentum) and the impact parameter with respect to the stopping target. 
+Then, the reconstruction in the $\Phi Z$ plane is performed, the $2\pi$ ambiguity is resolved and the pitch of the track is determined.
 
 \paragraph{Reconstruction in the $XY$ plane} To determine the optimal circle compatible with the hit distribution, 
 a loop on all possible triplets of ComboHits belonging to the same TimeCluster is performed. 
 For each triplet, if it covers a sufficient area, the $(x,y)$ position of the intersection 
 of the two perpendicular bisectors is stored. 
-The median operator allows to combine the results from all the triples and determine 
+The median operator allows to combine the results from all the triplets and determine 
 the point which represents a more stable approximation of the center of the helix. 
 Once the circle center has been determined, 
 a second loop allows to find the radial distance of the ComboHits from the helix axis 
 which gives information of the radius of the track. 
-A sketch of this procedure is reported in Fig. \ref{_TrkPatRec_triplets}.
+A pictorial view of this procedure is reported in Fig. \ref{_TrkPatRec_triplets}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{giani_TrkPatRec_triplets}
-\caption{Pictorial views of the procedure adopted to search for the center of the $XY$ projection of the helix using triplets of ComboHits \cite{GianiPatRec:2020}. If a triplet covers a sufficient area, the position of the intersection of the bisectors is stored. 
-The media of these points is the estimate of the helix axis.}
+\caption{Pictorial view of the procedure adopted to search for the center of the $XY$ projection 
+of the helix using triplets of ComboHits \cite{GianiPatRec:2020}. 
+If a triplet covers a sufficient area, the position of the intersection of the bisectors is stored. 
+The media of these points provides the estimate of the helix axis.}
 \label{_TrkPatRec_triplets}
 \end{figure}
 
 
 \paragraph{Reconstruction in the $\Phi Z$ plane} 
 To estimate the pitch of the track it is first necessary to solve the $2\pi$ ambiguity for the hit angular position: 
-the $\phi$ of hits made in the $n$-th loop of the track need to be shifted by $2\pi n$. 
+the $\phi$ of hits generated in the $n$-th loop of the track need to be shifted by $2\pi n$
+(Fig. \ref{_TrkPatRec_ambiguity}). 
 To make this correction the angular velocity $\mathrm{d}\phi/\mathrm{d}z = 1/ \lambda$ of the particle is needed 
 and the first necessary  step is then to estimate $1/\lambda$. \\
 A histogram is created using the variable $\lambda_{i,j;k}$, defined as
@@ -1695,7 +1787,7 @@ A histogram is created using the variable $\lambda_{i,j;k}$, defined as
 \frac{1}{\lambda_{i,j;k}} = \frac{(\phi_j+2\pi k)-\phi_i}{z_j-z_i}
 \end{align}
 where $i,j$ indicate two different hits and are in range $[0,N_{CH}-1]$, 
-while $k$ accounts for the number of full rotations and its range is $[0,10]$.\\
+while $k$ accounts for the number of full rotations and its range is $[0,10]$.
 The peaks in the resulting distribution are used to assign hits to the corresponding $k$-th loop to resolve the ambiguity. 
 Fig. \ref{_TrkPatRec_ambiguity} shows how solving the ambiguity affects the position of the hits in the $\Phi Z$ plane.
 It is now possible to generate the histogram for $1/\lambda_{i,j} = \frac{\phi_j-\phi_i}{z_j-z_i}$: 
@@ -1717,22 +1809,20 @@ Assuming the presence of a cluster with a reconstructed energy above 50 MeV,
 its time and position are used to filter the collection of ComboHits: 
 the hits are required to be in a $\pm 40$ ns window from the calorimeter cluster 
 and in the same semi-plane (Fig. \ref{_CalPatRec_semiplane}). 
-This region is determined by taking the perpendicular of the position 
-of the cluster passing through the axis of the solenoid ({\bf{Magari spiegare}}). \\
-Instead of using triplets of hits, the CalPatRec algorithm takes the calorimeter cluster position, 
-one of the ComboHits and the solenoid center as starting points 
+This region is determined by first evaluating the angular position of the Cluster with respect to the beam axis. Then the tracker is divided in two halves using the plane perpendicular to the position vector of the Cluster and passing through the beam axis. The half containing the Cluster is the one kept.\\
+Instead of using triplets of hits, the CalPatRec algorithm takes the calorimeter cluster position, one of the ComboHits and the solenoid center as starting points.
 A loop on the ComboHits allows to flag the hits which are close enough to the helix projection. 
-It is now possible to drop the solenoid center as fixed position 
-and iteratively use different ComboHits to adjust the helix parameters.
+It is now possible to drop the solenoid center as fixed position and iteratively use different ComboHits to adjust the helix parameters.
 The update of the parameters is done using two separated reduced-$\chi^2$ fits for the $XY$ and the $\Phi Z$ planes. 
-A crucial step of this procedure is performing the correct projection of the uncertainties of the hits because of the orientation of the straws w.r.t the helix ({\bf{Magari spiegare}}). This task is exemplified in Fig. \ref{_TrkPatRec_errors}.
+A crucial step of this procedure is the correct projection of the uncertainties of the hits because of the orientation of the straws w.r.t the helix. This task is exemplified in Fig. \ref{_TrkPatRec_errors}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{giani_CalPatRec_semiplane}
-\caption{Combinatorial background reduction achieved from calorimeter clusters seeding \cite{GianiPatRec:2020}. 
+\caption{Combinatorial background reduction achieved by exploiting the calorimeter clusters seeding \cite{GianiPatRec:2020}. 
 (Left plot)  `Typical' Mu2e event with a conversion electron projected on the $XY$ plane. 
-The green circle represents the transverse projection of the particle trajectory and the black crosses are StrawHits (the long arm indicates the direction of the straw); 
+The green circle represents the transverse projection of the conversion electron trajectory 
+and the black crosses are StrawHits (the long arm indicates the direction of the straw); 
 (Right plot) Same event after applying the calorimeter seeding.}
 \label{_CalPatRec_semiplane}
 \end{figure}
@@ -1740,31 +1830,20 @@ The green circle represents the transverse projection of the particle trajectory
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.3]{giani_TrkPatRec_errors}
-\caption{In order to perform the fit in the $XY$ and $\Phi Z$ planes the uncertainties 
-on the ComboHits positions need to be projected on the right axes. 
-These axes depend on the trajectory and are evaluated with the helix seed found using the triplets \cite{GianiPatRec:2020}.}
+\caption{In order to perform the fit in the $XY$ and $\Phi Z$ planes the uncertainties on the ComboHits positions need to be projected on the right axes. 
+These axes depend on the direction of the straw and the trajectory position: are evaluated with the helix seed found using the triplets \cite{GianiPatRec:2020}.}
 \label{_TrkPatRec_errors}
 \end{figure}
 
-\subsection{Comparing the performances}
-Most protons ejected form nuclear captures
-do not pass through the entire tracking system and do not reach the calorimeter. 
-On the other hand, since conversion electrons are expected 
-to reach the end of the Detector Solenoid and deposit enough energy 
-in the calorimeter to seed the CalPatRec, comparing the performance
-of the two algorithms is of fundamental importance.\\
-To perform this comparison, we have generated Monte Carlo events 
-with a conversion electron signal overlaid to the full expected background\cite{GianiPatRec:2020}.
-Fig. \ref{_CalPatRec_semiplane} (left plot) shows the $XY$ projection.
-The plots of the reconstructed momenta 
-and the resulting momentum resolution for both algorithms 
-(TrkPatRec in the top row, CalPatRec in the bottom one) are shown in Fig. \ref{_PatRec_performance}. 
-A Gaussian fit of the momentum residual shows that the resolution obtained
-for a conversion electron track is $\sim 4\%$ for TrkPatRec and $\sim 3\%$ for CalPatRec. 
-The non-zero mean of the Gaussian for the first pattern recognition is due to a bias introduced by the circle reconstruction, 
-while the second algorithm yields a mean closer to zero by a factor $\sim 10$  \cite{GianiPatRec:2016} \cite{GianiPatRec:2020}. \\
-A number of tests were performed on different reconstructions and the overall conclusion is that, 
-when available, the CalPatRec yields better results.
+\subsection{Comparing the performance of the two algorithms}
+Most protons ejected form nuclear captures do not pass through the entire tracking system and do not reach the calorimeter. 
+On the other hand, since conversion electrons are expected to reach the end of the Detector Solenoid and deposit enough energy in the calorimeter to seed the CalPatRec pattern recognition algorithm, comparing the performance of the two algorithms is of fundamental importance.\\
+To perform this comparison, we have generated Monte Carlo events with a conversion electron signal overlaid to the full expected background\cite{GianiPatRec:2020}.
+The left plot in fig. \ref{_CalPatRec_semiplane} shows the $XY$ projection of the hit distributions.
+The plots of the reconstructed momenta and the resulting momentum resolution for both algorithms are shown in Fig. \ref{_PatRec_performance} (TrkPatRec in the top row, CalPatRec in the bottom one). 
+A Gaussian fit of the momentum residual shows that the resolution obtained for a conversion electron track is $\sim 4\%$ for TrkPatRec and $\sim 3\%$ for CalPatRec. 
+The non-zero mean of the Gaussian for TrkPatRec is due to a bias introduced by the circle reconstruction, while the second algorithm yields a mean closer to zero by a factor $\sim 10$  \cite{GianiPatRec:2016} \cite{GianiPatRec:2020}. \\
+A number of tests were performed by reconstrucing a number of complementary simulated samples and the overall conclusion is that, when available, the CalPatRec yields better results.
 
 \begin{figure}[h!]
 \centering
@@ -1782,10 +1861,16 @@ with Gaussian fits overlaid.}
 \end{figure}
 
 \section{Kalman filter}
-After the pattern recognition algorithms have been run we have a first rough estimate of the parameters $\eta$. 
-At this point there are still many effects we need to account for when trying to optimize the reconstruction. Some of this effect are obvious, like the non uniformity of the magnetic field, while other are less so. 
-An example of the latter is the fact that a hit in a straw is has an intrinsic symmetry for the from which side the particle traversed it. 
-This is often called \textit{lambiguity} and a sketch is shown in fig. \ref{_ambiguity}.\\
+Once the pattern recognition algorithms have been executed, 
+preliminary but rough estimate of the tracks parameters $\vec{\eta}$ is available. 
+At this point, there are still numerous effects that should be accounted for 
+when trying to optimize track reconstruction. 
+Some of these effects are obvious, 
+like, for example, the non uniformity of the magnetic field, 
+while other are less so. 
+An example of the latter is the fact that a hit in a straw has 
+an intrinsic symmetry for from which side the particle traversed it. 
+This is often called \textit{ambiguity} and a graphic representation is reported in Fig. \ref{_ambiguity}.\\
 
 \begin{figure}[h!]
 \centering
@@ -1794,53 +1879,59 @@ This is often called \textit{lambiguity} and a sketch is shown in fig. \ref{_amb
 \label{_ambiguity}
 \end{figure}
 
-\noindent Mathematically a track can be parameterized using a running variable and a vector of parameters. 
-In the Mu2e experiment, the helix parameters $\eta$ (determined through the previous steps) 
-and the position along the beam axis $z$ are used: $F(\eta;z)$. 
-The fitting procedure then determines the best estimate of the vector $\eta$ and the corresponding covariance matrix $V$. 
-The task gets substantially more complex if the parameters vector depends on the running variable $\eta(z)$. 
+\noindent Mathematically, a track can be parameterized using a running variable and a vector of parameters. 
+In the Mu2e experiment, the vector $\vec{\eta}$ with the helix parameters and the position along the beam axis $z$ are used: $F(\vec{\eta};z)$. 
+The fitting procedure then determines the best estimate of the vector $\vec{\eta}$ and the corresponding covariance matrix $V$. 
+The task gets substantially more complicated if the parameters vector depends on the running variable $\vec{\eta(z)}$. 
 This is the case when the travelling particle can loose energy, interact with some material along its path or when the magnetic field is not uniform. 
-These are common conditions and the effect in terms of variation of the track parameters values
-can be substantial.
+These are common conditions and the effect in terms of variation of the track parameters values can be substantial.
 Fig. \ref{_Kutschke_Kalman_circ} shows one possible simple example \cite{Kutschke}.
-Now the procedure of finding the 'optimal' parameters of the track suddenly implies also the need of defining a position.\\
-What we are generally interested in is the value of $\eta$ in the stopping target because that is where the conversion electrons would be generated. The goal is then to find an algorithm to evaluate the estimates of $V$ and $\eta$ in the stopping target using all the information available, thus reducing the uncertainties.\\
+Now the procedure of finding the 'optimal' track parameters suddenly implies also that we need to define the position where we want to determine those parameters.\\
+In Mu2e, it is interesting to deremine the value of $\vec{\eta}$ at the stopping target because this is where the conversion electrons would be generated. 
+Our goal is then to find an algorithm to determine $\vec{\eta}$ and $V$ at the stopping target using all the available information and minimizing the uncertainties.\\
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Kutschke_Kalman_circ}
 \caption{Pictorial view of the trajectory of a particle traveling along a circular path which has variable parameters \cite{Kutschke}. 
-The two blue circles represent the tangent circles at the beginning and end of the track segment: 
-both circles are separately valid approximations in specific regions 
+The two blue circles represent the tangent circles at the beginning and at the end of the track segment: 
+both circles are separately valid approximations of the particle trajectory in specific regions 
 but they are not the best estimates of the entire trajectory.}
 \label{_Kutschke_Kalman_circ}
 \end{figure}
 
-\noindent The Kalman filter is a well established algorithm in the standard formalism employed for track fitting developed to account for mechanisms like interactions with detector materials and magnetic field distortions that can distort the particle trajectory. 
-The Mu2e implementation is based on the BaBar filter and is an hybrid adaptation \cite{Kalman} \cite{Kalman:1987} and can be configured including various different effects. 
-In the typical track fitting procedure the pattern recognition algorithms employed to find a first estimate for the helix are followed by a simplified Kalman filter. 
-This version does not account for all the effects, like the interaction with the detector material, but improves the accuracy in the reconstructed track parameters. 
-If more effects need to be accounted for a second and more complete Kalman filter can be run, introducing the missing effects. \\
-There are two important general aspects of this iterative algorithm: 
+\noindent The Kalman filter is a well established algorithm in the standard formalism employed for track fitting developed to account for mechanisms like interactions with the detector material and magnetic field distortions that can affect the particle trajectory. 
+The Mu2e implementation is based on the BaBar filter and is an hybrid adaptation \cite{Kalman} \cite{Kalman:1987} 
+with a number of alternative configurations that can take into account various different effects. 
+In the typical track fitting procedure, 
+the pattern recognition algorithms employed to find a first estimate of the helix are followed by a simplified Kalman filter. 
+This version does not account for all the effects yet, 
+like the interaction with the detector material, 
+but improves the accuracy of track parameters reconstruction. 
+If more effects need to be accounted for, 
+a second and more complete Kalman filter can be executed 
+to introducc the missing residual effects. \\
+There are two important general aspects of this iterative algorithm we should briefly mention: 
 \begin{itemize}
-\item With N points and n parameters the algorithm does not require to evaluate the inverse of N$\times$N matrices and simply uses multiplications of n$\times$n matrices and their transposed (easy to program and fast to run)
+\item With N points and n parameters the algorithm does not require to compute the inverse of N$\times$N matrices and simply uses multiplications of n$\times$n matrices and their transposed (easy to program and fast to run)
 {\bf{mi domando che cosa significa}};
-\item Performing the algorithm in both directions of the trajectory once, storing the values for $V$ and $\eta$ after considering each point, allows to evaluate the estimates with optimal uncertainties in any point in or outside the detector.
+\item Executing the algorithm in both directions of the trajectory once, storing the values of $\vec{\eta}$ and $V$ after considering each point, allows to determine the estimates with optimal uncertainties in any position.
 \end{itemize} 
-Since in Mu2e particles travel following a helix path, the vector of the parameters has dim 5 $\eta \equiv ( d_0, \phi_0, \omega, z_0, \tan \lambda)$ and $V$ is a $5\times5$ matrix \cite{Kalman}.  
+As already introduced, in Mu2e the vector of the parameters is $\eta \equiv ( d_0, \phi_0, \omega, z_0, \tan \lambda)$, and $V$ is a $5\times5$ matrix \cite{Kalman}.  
 The full implementation is extremely complicated and its thorough description is beyond the scope
 of this Thesis. 
 %%In Appendix the reader will find a much simpler situation to illustrate the basic principles: a 2D linear fit.
-Nonetheless, it is still useful to describe the basic principle through the discussion of a simplified problem, as a 2D linear fit. This will be done in Section \ref{2Dfit}.\\
+Nonetheless, it is still useful to describe the basic principle through the discussion of a simplified problem, as a 2D linear fit. 
+This will be done in Section \ref{2Dfit}.\\
 
 \noindent
-The Kalman filter equations are reported in the following with no proof \ref{eq_Kalman} from \cite{KutschkePaper}. 
-In these equations $\eta$ and $V$ are the current estimates of the vector and the covariance matrix, 
-while the primed versions are the new estimates after a new hit is added. 
+The Kalman filter equations \ref{eq_Kalman} are reported in the following with no proof, which is available in \cite{KutschkePaper}. 
+In these equations $\eta$ (dropping the vector symbol to avoid a too heavy notation) and $V$ are the current estimates of the vector and the covariance matrix, while the primed versions are the new estimates after a new hit is added. 
 The measurement is indicated as $d_m$, with uncertainties $\sigma$, 
 and $d(\eta)$ is the measurement as predicted by the track parameters. 
 Finally, $D_i$ represents the derivatives with respect to one of the track parameters. 
-To iterate, the key feature to be noticed is that no matrix inversion is needed in this calculations.
+To iterate, the key feature to be noticed is that no matrix inversion is needed in this calculations,
+which reduces the load in terms of required computational resources.
 
 \begin{equation}
 \begin{gathered}
@@ -1851,19 +1942,21 @@ V^\prime = V - \frac{VDD^TV}{\sigma^2+D^TVD}\\
 \label{eq_Kalman}
 \end{equation}
 
-\subsection{An explanatory example: the 2D linear fit}
+\subsection{Example: a 2D linear fit}
 \label{2Dfit}
 Track fitting and Kalman filtering are complex procedures 
 and we have reported the description of the simpler 2D linear problem (Fig. \ref{_Kutschke_Kalman})
 in the following to better explain them. A more detailed documentation is available in 
  \cite{Kutschke} \cite{KutschkePaper}. 
-We have a particle moving along a straight line and a number of tracking stations at the relative
-distance $L$ which measure the vertical coordinate.
-fWhat we measure are the $y_i$ positions, 
-all with the same uncertainty $\sigma$ and the goal is to estimate the parameters of the line at a point IP
-placed before the detectors.
-The trajectory equation is reported in eq. \ref{linear}, 
-the vector and the covariance matrix are reported in eq. \ref{vector}
+In the following, we can assume to have a particle moving along a straight line 
+and a number of tracking stations positioned at the relative
+distance $L$ among them which measure the vertical coordinate.
+The tracking stations measure the $y_i$ positions, 
+all with the same uncertainty $\sigma$, 
+and our goal is to estimate the parameters of the line at a point IP
+placed externally to the volume occupied by the detectors.
+The equation of the trajectory is reported in eq. \ref{linear}, 
+the vector of parameters and the covariance matrix are reported in eq. \ref{vector}
 \begin{gather}
 y = mx +b \label{linear}\\
 \eta = \begin{bmatrix} m \\  b \end{bmatrix},\ \ V=\begin{bmatrix} V_{mm}& V_{mb} \\ V_{bm}& V_{bb} \end{bmatrix} \label{vector}
@@ -1873,24 +1966,26 @@ y = mx +b \label{linear}\\
 \centering
 \includegraphics[scale=0.7]{Kutschke_Kalman}
 \caption{Pictorial view of a 2D trajectory of a particle moving along a straight line 
-and interacting with a number of equally spaced detectors \cite{Kutschke}. 
-The $y$ position is measured and the goal is to determine the track parameters 
-at the Initial Point (IP). 
-The $x$ origin is on the last measurement while the $y$ origin is not relevant for this exercise.}
+and interacting with a number of equally spaced tracking stations \cite{Kutschke}. 
+The stations measure the $y$ positions and the goal is to determine the track parameters 
+at some Initial Point (IP). 
+The $x$ origin is positioned on the last station while the $y$ origin is not relevant for this exercise.}
 \label{_Kutschke_Kalman}
 \end{figure}
 
 \paragraph{Initialization} 
 The first step is to provide a \textit{seed} for the procedure. 
 This is normally done with a pattern recognition algorithm 
-which yields some values for the parameters while $V$ is assumed diagonal and with large values.
+which determines an initial estimate the parameters, 
+while $V$ is assumed diagonal and with large values.
 \begin{align*}
 \eta = \begin{bmatrix} m_0 \\  b_0 \end{bmatrix},\ \ V=\begin{bmatrix} V_{mm,0}& 0 \\ 0& V_{bb,0} \end{bmatrix}
 \end{align*}
 
 \paragraph{First hit} 
-We begin the procedure by adding point E
-and we just need to apply the equations \ref{eq_Kalman}, (the explicit calculation can be fund in \cite{Kutschke}):
+The procedure continues by adding point E
+and is simply necessary to apply the equations \ref{eq_Kalman}, 
+(the explicit calculation can be fund in \cite{Kutschke}):
 
 \begin{gather*}
 V^{(1)}\approx \begin{bmatrix}
@@ -1906,11 +2001,14 @@ m_0 \\ y_E
 \end{bmatrix}
 \end{gather*}
 It is pretty straightforward to understand that employing just one hit provides information 
-only on the impact parameter: there is no information on the trajectory slope.
+only on the track impact parameter, while there is no information on the trajectory slope.
 
 \paragraph{Transport} 
-We now need to transport the track from E to D and this is done by defining a new coordinate system located on the second measurement plane. 
-In this system the trajectory is $y^\prime=m^\prime x^\prime+b^\prime$ with $y=y^\prime$, $x^\prime=x+L$, $m^\prime=m$ and $b^\prime=b-mL$. Defining $A_{i,j}=\frac{\partial \eta_i^\prime}{\partial_j\eta}$ we can express the same track in a new base:
+At this point the track is transported from E to D and, to do this, 
+it is helpful to define a new coordinate system located on the second measurement plane. 
+In this system the trajectory is $y^\prime=m^\prime x^\prime+b^\prime$ with $y=y^\prime$, $x^\prime=x+L$, $m^\prime=m$ and $b^\prime=b-mL$. 
+By defining $A_{i,j}=\frac{\partial \eta_i^\prime}{\partial_j\eta}$,
+the same track can represented in a new base:
 \begin{gather*}
 \eta^{(1^\prime)}=\begin{bmatrix} m_0 \\ y_E - m_0L \end{bmatrix} \\
 V^{(1^\prime)} = AV^{(1)} A^T= \begin{bmatrix}
@@ -1918,13 +2016,13 @@ V_{mm,0} & -LV_{mm,0} \\ -LV_{mm,0} & \sigma^2 +L^2V_{mm,0}
 \end{bmatrix}
 \end{gather*}
 As expected, the uncertainty on the slope remains unchanged by this transport, 
-while the error on the impact parameter is now increased cince the extrapolation used a slope with large uncertainty.
+while the error on the impact parameter is now increased since the extrapolation used a slope with large uncertainty.
 
 \paragraph{Second hit} 
-Given the track is now defined in the coordinate system of the second plane, 
-we can easily add the point D and apply again the Kalman equations \ref{eq_Kalman}. 
-The derivatives take a simple form: $D=\begin{bmatrix}0\\1\end{bmatrix}$. 
-we can skip the calculations and simply report the new estimators  $V^{(2)}$ and $\eta^{(2)}$:
+Since the track is now defined in the coordinate system of the second plane, 
+adding the point D and applying again the Kalman equations \ref{eq_Kalman} is straightforward. 
+The derivatives take the simple form: $D=\begin{bmatrix}0\\1\end{bmatrix}$. 
+we can skip the calculations and simply report the new estimators  of $\vec{\eta^{(2)}}$ and  $V^{(2)}$:
 
 \begin{equation}
 \begin{gathered}
@@ -1942,14 +2040,15 @@ V^{(2)}
 \end{gathered}
 \label{eq_V2}
 \end{equation}
-The interesting feature is that we dropped all the starting values from the estimate: $m_0,\ b_0,\ V_{mm,0}$ and $V_{bb,0}$. 
+The interesting feature is that all the assumed starting values have no impact on the estimates: $m_0,\ b_0,\ V_{mm,0}$ and $V_{bb,0}$. 
 The uncertainty on the impact parameter is function of solely the local information ($\sigma$), 
 while $V_{mm}$ depends on both $\sigma$ and $L$. 
 
 \paragraph{Transport and third hit} 
-In order to add a third measurement, the same two steps are needed: 
+In order to add a third measurement, 
+the same two steps are needed: 
 express the same track in the new base and then add the hit. 
-The calculations are again detailed in \cite{KutschkePaper} and we will only reported the result:
+The calculations are again detailed in \cite{KutschkePaper} and we will only report the result:
 \begin{gather*}
 V^{(3)}\approx
 \begin{bmatrix}
@@ -1960,19 +2059,22 @@ V^{(3)}\approx
 \begin{bmatrix} \frac{y_E-y_C}{2L} \\ \frac{2y_D-y_E+5y_C}{6}
 \end{bmatrix}
 \end{gather*}
-Notice that once the third point has been added, 
+It is interesting to notice that once the third point has been added, 
 the diagonal elements of the covariance matrix are reduced with respect to the case with only two points. 
 
-\paragraph{Finishing} Once the procedure has been iterated up to the point A, the estimators of the trajectory are using all the available information and are valid in a neighborhood region of A. 
-To extrapolate to IP, the procedure is the same as before, describing the trajectory in the coordinate system set in the IP. 
+\paragraph{Finishing} Once the procedure has been iterated  to reach point A, 
+the estimators of the trajectory are using all the available information and are valid in a neighborhood region of A. 
+To extrapolate to the track IP, 
+the procedure is the same as before, 
+describing the trajectory in the coordinate system set in the IP. 
 
 \subsection*{Adding multiple scattering}
-How does the problem of track fitting change if the detectors are not ideal planes but consist of a thin scattering surface? 
+How does the problem of track fitting change if the detectors are not ideal planes but consist of a thin scattering volume? 
 The initialization and the inclusion of the first hit do not change. 
-The uncertainty due to the multiple scattering on the first hit is negligible because of the starting covariance matrix. 
+The uncertainty due to multiple scattering on the first hit is negligible because of the starting covariance matrix. 
 In this simple model the scattering is \textit{local} and contributes only to the slope error and not the off-diagonal terms 
 and the intercept, but as the track is extrapolated away from the surface it contributes to these terms as well.\\
-If the surface iintroduces a factor $\delta$ in the error of the slope 
+If the surface iintroduces a factor $\delta$ in the error of the slope, 
 the matrix in eq \ref{eq_V2} the vector remains the same while the matrix becomes
 $$
 V^{(2)}\approx
@@ -1982,7 +2084,8 @@ V^{(2)}\approx
 \end{bmatrix}\\
 $$
 From this point on the presence of $\delta$ can change substantially the results because at the next iteration it will enter in both $V^\prime$ and $\eta^\prime$.
- In \cite{KutschkePaper} the calculations are extensively developed up to the third point (point C) with the specific example $\delta^2L^2=\sigma^2$ to keep the passages easy to follow.
+ In \cite{KutschkePaper} the calculations are extensively developed up to the third point (point C) 
+ with the specific example $\delta^2L^2=\sigma^2$ to keep the passages easy to follow.
 
 %---------------------
 \chapter{Optimization}
@@ -1991,9 +2094,7 @@ The goal is to achieve an estimate with an uncertainty of less than $\sim10\%$ o
 The expected fluctuations in the muon flux are due to the resonant extraction of the proton pulses and this is the expected time-scale. 
 This study follows two threads at the same time which are linked to different steps in the event reconstruction: counting of StrawHits generated by protons and counting fully reconstructed particles. 
 The first step is optimizing the procedure on Monte Carlo events with one single simulated particle. 
-The efficacy of the method needs then to be evaluated studying 'full' Monte Carlo events with all the backgrounds of the experiment, called \textit{mix-events}. 
-At the time of writing this Thesis, the up-to-date simulated dataset (MDC2020) is still under development but a different dataset can be used (MDC2020Dev). 
-This dataset has been made re-simulating the electronics readout and updating the data formats of the physics simulation of the dataset made in 2018 (MDC2018) with the purpose to validate code intended to be run in MDC2020.}
+The efficacy of the method needs then to be evaluated studying 'full' Monte Carlo events with all the backgrounds of the experiment, called \textit{mix-events}.}
 
 \section{Charged particles form nuclear capture}
 As anticipated in \ref{backgrounds}, in the section dedicated to the description of the backgrounds for the experiment, about $61\%$ of stopped muons undergo nuclear capture ($\mu^-(Z,A)\rightarrow \nu_\mu X$). 
@@ -2369,13 +2470,32 @@ In a full Mu2e event the step of the reconstruction are the same but an obvious 
 At this point what is needed is a first skim of the StrawHits to reduce the background hits.
 The time clustering of course helps us separating possible interesting hits from the rest but two interesting point can aid us before even starting the reconstruction: the energy deposit in the straw and the number of hits associated to a TimeCluster.
 
+\paragraph{First, a caveat} At the time of writing this Thesis, the up-to-date simulated dataset (MDC2020) is still under development and it cannot be used. 
+The last simulated mix dataset wash in MDC2018 but the current version of the offline code has lost its backward compatibility due to various changes, like the way the tracker readout electronics is simulated and how the digitization of the signals  is created. 
+In the attempt to validate the analysis modules before the new dataset is ready, the some of the old simulations have been partially re-run to make them compatible with the current version of the code. 
+The result of this effort is the MDC2020Dev dataset.
+Unfortunately, as the result of this procedure, the Monte Carlo truth for the mix-sample events (the one with the full background simulated we wish to use) seems to be not reliable. 
+The presence of a possible bug is under study but for our purpose we have to roll back and use an older version of the code with the MDC2018 dataset.
+
 \subsection{SH energy}
 Hits made by different particles with different $\beta$ are associated to different values of the total energy deposited. 
 Although confusing, often in the Mu2e jargon this energy is called \textit{charged} and is measured in MeV.
 Just like any the other part of the simulation, the readout electronics in the Monte Carlo is updated regularly because of the ongoing prototypes and minor tweaks to the architecture. 
-As a result the value signal associated to a give energy deposition is entirely dependent on the current state of the electronics simulation and so it is the hypothetical value used to discriminate proton hits from electrons.
-The distribution expected for the straw charges made by protons and electrons is shown in fig. \ref{}.
-What this plot confirms is that the low $\beta$ of the protons result in a higher energy deposit in the straws: requiring a minimum energy deposit in each straw hit might result in a more clean event on which to run the reconstruction.\\
+As a result the value signal associated to a give energy deposition is entirely dependent on the current state of the electronics simulation and so it is the hypothetical value used to discriminate proton hits from electrons.\\
+Due to a current bug (which is under study) the assignment of the particle simulated to the hits seems to be not reliable. 
+As result, while the mixed-event dataset can be use to extract the overall distribution for all the StrawHits energy deposits, we cannot divide the contribution of the different particles. 
+The proton dataset which was used in the mixing procedure was generated using the Hungerford spectrum and we can observe the contribution to the energy distribution looking at single events with proton distributed with this spectrum. 
+The distribution obtained from the MDC2020Dev dataset is shown in fig. \ref{_mix_proton_qsh} with the distribution for protons overlaid.\\ 
+What this plot confirm is that the low $\beta$ of the protons result in a higher energy deposit in the straws: requiring a minimum energy deposit in each straw hit might result in a more clean event on which to run the reconstruction.\\
+A suitable value for the requirement seems to be around 4 keV and we can see how this cut modify the reconstruction. The fraction of hits lost applying the cut is $\sim70\%$ but the loss of protons hits is $\sim10\%$. The 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/mix/mix500_qsh}
+\caption{The distribution of the straw energy deposit for mix events with overlaid the distributions using the MC truth to identify hist done by protons (red) and deuterons (blue). 
+The trend suggests that applying a requirement on the energy deposit would reduce the hits which are background for our search.}
+\label{_mix_proton_qsh}
+\end{figure}
 
 \subsection{Number of SH}
 As we saw (fig. \ref{_Lambda_nSH_trk0}) no track reconstructed is associated with less than a given number of StrawHits for single particle events ($\gtrsim 20$ StrawHits). 
@@ -2511,6 +2631,6 @@ From this point on the presence of $\delta$ can change substantially the results
 
 \end{document}
 
-\mathcal{O}    `  
+\mathcal{O}    `    $\bm{\eta}$
 
 \includegraphics[width=0.7\textwidth, keepaspectratio]{new_spectra_2/Quirk_protons}

@@ -339,6 +339,16 @@ Y.~Oksuzian et~al. (Mu2e).
 \newblock \emph{Cosmic background simulation updates}.
 \newblock Mu2e-doc-33821-v2 (June 2020).
 
+\bibitem{Giovanni:2020}
+D.~G. (Mu2e).
+\newblock \emph{Update on the su2020 pbar simulation}.
+\newblock Mu2e-doc-35056-v1 (September 2020).
+
+\bibitem{RPC_now}
+S.~Middleton and L.~Borrel (Mu2e).
+\newblock \emph{Calculating out-of-time rpc backgrounds in mu2e}.
+\newblock Mu2e-doc-35059-v2 (August 2020).
+
 \bibitem{Czarnecki}
 A.~Czarnecki, X.~Garcia~i Tormo and W.~J. Marciano.
 \newblock \emph{{Muon decay in orbit: spectrum of high-energy electrons}}.
@@ -353,16 +363,6 @@ R.~Szafron and A.~Czarnecki.
 \newblock Phys. Lett. B, 753:61--64 (2016).
 \newblock \doi{10.1016/j.physletb.2015.12.008}.
 \newblock \eprint{1505.05237}.
-
-\bibitem{RPC_now}
-S.~Middleton and L.~Borrel (Mu2e).
-\newblock \emph{Calculating out-of-time rpc backgrounds in mu2e}.
-\newblock Mu2e-doc-35059-v2 (August 2020).
-
-\bibitem{Giovanni:2020}
-D.~G. (Mu2e).
-\newblock \emph{Update on the su2020 pbar simulation}.
-\newblock Mu2e-doc-35056-v1 (September 2020).
 
 \bibitem{FNAL}
 \emph{Fermilab}.
@@ -504,6 +504,16 @@ J.~Quirk (AlCap, Mu2e).
 \newblock \emph{{Recent results from the AlCap experiment}}.
 \newblock Mu2e-doc-31215-v1 (1 2020).
 
+\bibitem{STM:2016}
+{A. Palladino, J. Quirk, J. Miller} (Mu2e).
+\newblock \emph{Mu2e stopping-target monitor baseline design}.
+\newblock Mu2e-doc-6453-v4 (2016).
+
+\bibitem{LaBr3:2020}
+{S. Huang and D. Koltick} (Mu2e).
+\newblock \emph{Stm labr$_3$ status review}.
+\newblock Mu2e-doc-34581-v3 (2020).
+
 \bibitem{TWIST:2020}
 A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.
 \newblock \emph{{Charged-particle spectra from $\mu^{-}$ capture on Al}}.
@@ -516,6 +526,16 @@ A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.
 \newblock \emph{{Common Offline Documentation: \textit{art} Workbook and Users
   Guide}}.
 \newblock {Intensity Frontier}.
+
+\bibitem{stntuple}
+P.~Murat and G.~Pezzullo (Mu2e).
+\newblock \emph{Stntuple package}.
+\newblock Mu2e-doc-13916-v1 (2017).
+
+\bibitem{stntuple:giani}
+P.~Murat and G.~Pezzullo (Mu2e).
+\newblock \emph{Stntuple datasets production}.
+\newblock Mu2e-doc-23410-v1 (2019).
 
 \bibitem{GianiPatRec:2016}
 G.~Pezzullo and P.~Murat.
