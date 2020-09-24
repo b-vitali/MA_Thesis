@@ -1,17 +1,17 @@
 \babel@toc {english}{}
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Charged Lepton Flavour Violation}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Lepton in the SM}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}CLFV with $m(\nu )\neq 0$}{4}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}SUSY}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.1}Leptons in the Standard Model}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Charged Lepton Flavour Violation with $m(\nu )\neq 0$}{4}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Beyond Standard Model Physics}{4}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}SUSY seesaw}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}de Gouv\^{e}a}{6}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}General considerations}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Phenomenology}{7}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}The muon}{7}{subsection.1.3.1}%
-\contentsline {subsubsection}{Stopped muons}{8}{section*.3}%
+\contentsline {subsubsection}{Stopped muons}{7}{section*.3}%
 \contentsline {subsection}{\numberline {1.3.2}Motion of a charged particle in magnetic field}{8}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Single event sensitivity}{9}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}Experimental searches with muons}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.4}CLFV experimental searches with muons}{10}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Search for the $\mu ^+ \rightarrow e^+ \gamma $ decay}{11}{subsection.1.4.1}%
 \contentsline {subsubsection}{The MEG experiment at Paul Scherrer Institut}{12}{section*.4}%
 \contentsline {subsubsection}{The upgraded MEG II experiment}{13}{section*.5}%
@@ -26,7 +26,7 @@
 \contentsline {subsubsection}{The DeeMe Experiment at J-PARC}{19}{section*.12}%
 \contentsline {chapter}{\numberline {2}The Mu2e experiment}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Signal and backgrounds}{21}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Cosmic ray backgrounds}{22}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Cosmic rays (CR)}{22}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Muon decay in orbit (DIO)}{23}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Radiative Pion Capture (RPC)}{24}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Antiprotons}{25}{subsection.2.1.4}%
@@ -42,7 +42,7 @@
 \contentsline {paragraph}{Stopping target}{33}{section*.15}%
 \contentsline {paragraph}{Absorbers}{34}{section*.16}%
 \contentsline {section}{\numberline {2.4}The Mu2e detectors}{34}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}The Straw-Tracker detector}{35}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}The Straw-Tracker}{35}{subsection.2.4.1}%
 \contentsline {subsubsection}{Straw-tracker structure}{35}{section*.17}%
 \contentsline {subsubsection}{Straw-tracker electronics}{38}{section*.18}%
 \contentsline {subsection}{\numberline {2.4.2}The Electromagnetic Calorimeter}{38}{subsection.2.4.2}%
@@ -78,22 +78,21 @@
 \contentsline {paragraph}{Second hit}{59}{section*.28}%
 \contentsline {paragraph}{Transport and third hit}{59}{section*.29}%
 \contentsline {paragraph}{Finishing}{59}{section*.30}%
-\contentsline {chapter}{\numberline {4}Optimization}{61}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Charged particles form nuclear capture}{61}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Proton identification}{61}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Charged particles from nuclear captures}{61}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Single proton events}{64}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Flat distribution}{64}{subsection.4.2.1}%
 \contentsline {paragraph}{TimeClusters}{65}{section*.32}%
 \contentsline {paragraph}{Bore}{67}{section*.33}%
-\contentsline {paragraph}{Pitch}{69}{section*.34}%
-\contentsline {paragraph}{Final track}{71}{section*.35}%
-\contentsline {paragraph}{Evaluating the results}{74}{section*.36}%
+\contentsline {paragraph}{Pitch}{70}{section*.34}%
+\contentsline {paragraph}{Final track}{72}{section*.35}%
 \contentsline {subsection}{\numberline {4.2.2}Ejected spectrum}{74}{subsection.4.2.2}%
-\contentsline {paragraph}{Efficiency}{76}{section*.37}%
+\contentsline {paragraph}{Efficiency}{75}{section*.36}%
 \contentsline {section}{\numberline {4.3}Deuterons and systematics}{76}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Deuterons}{76}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Parameterizations}{77}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Mix-background events}{77}{section.4.4}%
-\contentsline {paragraph}{First, a caveat}{77}{section*.38}%
-\contentsline {subsection}{\numberline {4.4.1}SH energy}{78}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Number of SH}{79}{subsection.4.4.2}%
-\contentsline {chapter}{Bibliography}{79}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.3.1}Deuterons}{77}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Parameterizations}{78}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Mix-background events}{81}{chapter.5}%
+\contentsline {paragraph}{First, a caveat}{81}{section*.37}%
+\contentsline {section}{\numberline {5.1}SH energy}{81}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Number of SH}{82}{section.5.2}%
+\contentsline {chapter}{Bibliography}{82}{section.5.2}%

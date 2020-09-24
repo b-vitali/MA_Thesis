@@ -1,21 +1,21 @@
 \BOOKMARK [-1][-]{part.1}{I Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Charged Lepton Flavour Violation}{part.1}% 2
-\BOOKMARK [1][-]{section.1.1}{Lepton in the SM}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.1}{CLFV with m\(\)=0}{section.1.1}% 4
-\BOOKMARK [1][-]{section.1.2}{SUSY}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.1}{Leptons in the Standard Model}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.1}{Charged Lepton Flavour Violation with m\(\)=0}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Beyond Standard Model Physics}{chapter.1}% 5
 \BOOKMARK [2][-]{subsection.1.2.1}{SUSY seesaw}{section.1.2}% 6
 \BOOKMARK [2][-]{subsection.1.2.2}{de Gouv\352a}{section.1.2}% 7
-\BOOKMARK [1][-]{section.1.3}{General considerations}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Phenomenology}{chapter.1}% 8
 \BOOKMARK [2][-]{subsection.1.3.1}{The muon}{section.1.3}% 9
 \BOOKMARK [2][-]{subsection.1.3.2}{Motion of a charged particle in magnetic field}{section.1.3}% 10
 \BOOKMARK [2][-]{subsection.1.3.3}{Single event sensitivity}{section.1.3}% 11
-\BOOKMARK [1][-]{section.1.4}{Experimental searches with muons}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.4}{CLFV experimental searches with muons}{chapter.1}% 12
 \BOOKMARK [2][-]{subsection.1.4.1}{Search for the + e+ \040decay}{section.1.4}% 13
 \BOOKMARK [2][-]{subsection.1.4.2}{Search for the + e+ e+e- decay}{section.1.4}% 14
 \BOOKMARK [2][-]{subsection.1.4.3}{Search for the muon-to-electron conversion \(-N e-N\)}{section.1.4}% 15
 \BOOKMARK [0][-]{chapter.2}{The Mu2e experiment}{part.1}% 16
 \BOOKMARK [1][-]{section.2.1}{Signal and backgrounds}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.1.1}{Cosmic ray backgrounds}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.1}{Cosmic rays \(CR\)}{section.2.1}% 18
 \BOOKMARK [2][-]{subsection.2.1.2}{Muon decay in orbit \(DIO\)}{section.2.1}% 19
 \BOOKMARK [2][-]{subsection.2.1.3}{Radiative Pion Capture \(RPC\)}{section.2.1}% 20
 \BOOKMARK [2][-]{subsection.2.1.4}{Antiprotons}{section.2.1}% 21
@@ -27,7 +27,7 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{The Transport Solenoid \(TS\)}{section.2.3}% 27
 \BOOKMARK [2][-]{subsection.2.3.3}{The Detector Solenoid \(DS\)}{section.2.3}% 28
 \BOOKMARK [1][-]{section.2.4}{The Mu2e detectors}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.4.1}{The Straw-Tracker detector}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.1}{The Straw-Tracker}{section.2.4}% 30
 \BOOKMARK [2][-]{subsection.2.4.2}{The Electromagnetic Calorimeter}{section.2.4}% 31
 \BOOKMARK [2][-]{subsection.2.4.3}{The Cosmic Ray Veto}{section.2.4}% 32
 \BOOKMARK [2][-]{subsection.2.4.4}{The Trigger and Data Acquisition System}{section.2.4}% 33
@@ -49,15 +49,15 @@
 \BOOKMARK [2][-]{subsection.3.2.4}{Comparing the performance of the two algorithms}{section.3.2}% 49
 \BOOKMARK [1][-]{section.3.3}{Kalman filter}{chapter.3}% 50
 \BOOKMARK [2][-]{subsection.3.3.1}{Example: a 2D linear fit}{section.3.3}% 51
-\BOOKMARK [0][-]{chapter.4}{Optimization}{part.2}% 52
-\BOOKMARK [1][-]{section.4.1}{Charged particles form nuclear capture}{chapter.4}% 53
+\BOOKMARK [0][-]{chapter.4}{Proton identification}{part.2}% 52
+\BOOKMARK [1][-]{section.4.1}{Charged particles from nuclear captures}{chapter.4}% 53
 \BOOKMARK [1][-]{section.4.2}{Single proton events}{chapter.4}% 54
 \BOOKMARK [2][-]{subsection.4.2.1}{Flat distribution}{section.4.2}% 55
 \BOOKMARK [2][-]{subsection.4.2.2}{Ejected spectrum}{section.4.2}% 56
 \BOOKMARK [1][-]{section.4.3}{Deuterons and systematics}{chapter.4}% 57
 \BOOKMARK [2][-]{subsection.4.3.1}{Deuterons}{section.4.3}% 58
 \BOOKMARK [2][-]{subsection.4.3.2}{Parameterizations}{section.4.3}% 59
-\BOOKMARK [1][-]{section.4.4}{Mix-background events}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.4.1}{SH energy}{section.4.4}% 61
-\BOOKMARK [2][-]{subsection.4.4.2}{Number of SH}{section.4.4}% 62
-\BOOKMARK [0][-]{subsection.4.4.2}{Bibliography}{part.2}% 63
+\BOOKMARK [0][-]{chapter.5}{Mix-background events}{part.2}% 60
+\BOOKMARK [1][-]{section.5.1}{SH energy}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.2}{Number of SH}{chapter.5}% 62
+\BOOKMARK [0][-]{section.5.2}{Bibliography}{part.2}% 63
