@@ -87,44 +87,72 @@ This whole introduction is deeply indebted to references \cite{signorelli} \cite
 This Chapter provides a brief overview of the essential theoretical and experimental elements
 necessary to understand the goals of the Mu2e experiment at Fermilab and the work done
 for this Thesis. 
-The short introduction on the Standard Model and some of its extensions 
-will justify the interest to pursue experimental searches for Charged Lepton Flavour Violation. 
+The purpose of the short introduction on the Standard Model and some of its extensions 
+is to justify the interest to pursue experimental searches for Charged Lepton Flavour Violation. 
 Since very exhaustive reviews of past, current and future experimental endeavours 
 are already available in the literature (\cite{signorelli} \cite{bob_cflv}), 
-only the most significant aspects of the muon-based experiments will be reviewed.} 
+only the most significant aspects of the muon-based experiments have been reviewed.} 
 
-\section{Leptons in the Standard Model}
-After the development of Quantum Field Theory and the ever-growing understanding of electric and weak interactions (through the development of the QED and the studies on the week interaction and CP violations), Glashow, Salam and Weinberg developed a unified electro-weak picture. With the measurements of the characteristics of the W and Z bosons the predictions were tested and the GSW electroweak model accepted. In this unified picture the weak charged-current is associated with a SU(2)$_L$ local gauge symmetry and one of the tree gauge bosons (the neutral one) mixes with a photon-like filed of the U(1)$_Y$ gauge symmetry to make the physical photon and Z-boson fields:
-\begin{align*}
-A_\mu &= B_\mu cos \theta_W + W_\mu^{(3)} sin \theta_W\\
-Z_\mu &= - B_\mu sin \theta_W + W_\mu^{(3)} cos \theta_W
-\end{align*}
-From this the couplings for $\gamma$, W and Z end up being related and the properties of the Z boson are specified:
-$$e=g_W sin \theta_W = g_Z sin \theta_W cos\theta_W$$
-What was still missing was a reliable way to introduce the non-null masses for the particles known to be massive. Here the Higgs boson was introduced. The spontaneous braking of the symmetry in the Higgs potential, combined with the this U$(1)_Y \times $SU$(2)_L(\times $SU$(3)_C$ for the Quantum ChromoDynamics$)$ gauge symmetry, provided mass to the W and Z gauge bosons, and the interaction between the fermion fields and the non zero expectation value of the Higgs field provided a gauge invariant mechanism for generating the masses of the SM fermions.
+\section{The Standard Model}
+Our current understanding of fundamentals interactions is framed 
+in the most predictive theory to date: the Standard Model (SM). 
+This theory is based on the gauge symmetry group U$(1)_Y \times $SU$(2)_L\times $SU$(3)_C$. 
+The first two terms describe the electroweak interaction, 
+$Y$ indicates the hypercharge and  
+$L$ refers to the fact that this acts only on the left handed components of the fields. 
+The last term describes the strong interaction and $C$ indicates the color charge.\\
+The Standard Model contains 25 elementary fields, shown in Fig. \ref{_SM}: 
+\begin{itemize}
+\item 12 fermions, divided in two categories depending through which force they interact.
+Leptons do not interact through strong interaction 
+and are divided in two groups separated by charge: 
+charged leptons ($e,\mu,\tau$) and neutral ($\nu_e,\nu_\mu,\nu_\tau$). 
+The labelling indicates that these particles form doublets of flavour.\\
+The remaining 6 particles are subject to all interactions 
+and are indicated as quark and are divided in charge ($u,c,t$ and $d,s,b$);
+\item 12 bosons are the mediators of the interactions, 
+$\gamma,Z,W^\pm$ for the electroweak interaction, 
+and 8 gluons for the strong interaction;
+\item The Higgs is a complex scalar weak isospin doublet introduced 
+to justify the non-zero mass of the other particles and later discovered at LHC \cite{H:CMS}\cite{H:ATLAS}.
+\end{itemize}
 
-\subsection{Charged Lepton Flavour Violation with $m(\nu)\neq 0$}
-The observation of neutrino oscillations has shown that neutrinos 
-are not massless particles {\bf{Magari inserire referenza}}. 
-There are numerous ways to deal with neutrino mass terms in the theory,  
-but lepton flavour violation in the charged current interactions 
-is controlled by the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix {\bf{Referenza}}. 
-{\em{This matrix diagonalises the neutrino mass matrix in the base of diagonal charged lepton masses 
-(creating an explicit link between flavour and mass).}}\\
+\begin{figure}[h!]
+\centering
+\includegraphics[width =0.6\textwidth, keepaspectratio]{SM}
+\caption{Elementary particles of the Standard Model organized to show their relations. 
+The colours help to identify the groups described in the text.}
+\label{_SM}
+\end{figure}
+
+\subsection{Charged Lepton Flavour Violation}
+Lepton Flavour conservation is accidental in the Standard Model and, 
+until the observation of the neutrino oscillations  \cite{oscillations}, had been assumed valid. 
+The discovery of neutrino oscillations showed that the eigenstates 
+of the free particle and the weak  interaction are related 
+through the non diagonal Pontecorvo-Maki-Nakagawa-Sakata matrix (PMNS).
+At this point, the existence of  Lepton Flavor Violation was established 
+and the rates could be obtained for this matrix.
+The open question now is if this violation is possible also in the charged lepton sector. 
 In this framework, 
-Charged Lepton Flavour Violation (CLFV) can be generated in specific processes,
+Charged Lepton Flavour Violation (CLFV) can be generated in specific processes, 
 such as the $\mu\rightarrow e\gamma$ decay, 
-or the neutrino-less coherent conversion $\mu^-N \rightarrow e^-N$,
-by loop diagrams which involve neutrinos and the W boson (Fig. \ref{_feynman_SM}).
-The estimates of the Branching Ratio for these processes are model dependent
-and well beyond the scope of this Thesis: they can be found in the literature  \cite{signorelli}. 
-The interesting fact is that in many models CLFV-violating processed are suppressed
-by the sum of $(\Delta m_{ij}^2/M_W^2)^2$, where $\Delta m_{ij}^2$ is the mass-squared difference between neutrinos mass eigenstates. 
-Since $\Delta m_{ij}^2$ is much smaller than $M_W$, the expected Branching Ratios are very low, 
+or the neutrino-less coherent conversion $\mu^-N \rightarrow e^-N$, 
+by loop diagrams involving neutrinos and the W boson (Fig. \ref{_feynman_SM}).
+The estimates of the Branching Ratios of these processes 
+are model dependent and well beyond the scope of this Thesis: 
+they can be found in the literature  \cite{signorelli}. \\
+The interesting fact is that in many models 
+CLFV-violating processes are suppressed 
+by the sum of $(\Delta m_{ij}^2/M_W^2)^2$, 
+where $\Delta m_{ij}^2$ is the mass-squared difference between neutrinos mass eigenstates. 
+Since $\Delta m_{ij}^2$ is much smaller than $M_W$, 
+the expected Branching Ratios are extremely low, 
 of the order of $BR(\mu\rightarrow e\gamma)= 10^{-55}\div10^{-54}$ \cite {Petcov}. 
-Physics processes with this probabklity are way below the sensitivity of the current  or near-future experiments.
+Physics processes with this probability are way below the sensitivity of the current or near-future experiments.
 This means that any experimental evidence of CFLV 
-would imply some missing piece in the extension of the lepton sector of the Standard Model.\\\\
+would imply the existence of some missing piece 
+in the extension of the lepton sector of the Standard Model.
 
 \begin{figure}[h!]
 \includegraphics[scale=0.7]{feynman_mu-egamma}
@@ -135,45 +163,35 @@ through neutrino oscillations.}
 \label{_feynman_SM}
 \end{figure}
 
-\section{Beyond Standard Model Physics}
-Although there are numerous non trivial extensions of the Standard Model, 
-we will limit our discussion only to super-simmetric CLFV.
-The first reason for our choice is that SUSY theories played 
-a significant role in the speculations on the gauge hierarchy problem 
-(why the Higgs has the measured mass, 17 orders of magnitude below the Planck scale). 
-The second reason is that the separation between the electroweak scale 
-and the neutrino mass scale plays a significant role in the suppression of CLFV. 
-This is not the case any more if one inserts SUSY partners in the loops for CLFV-violating processes, 
-({\bf{Mi domando che cosa significa}} which mass scale is defined by a SUSY breaking scale $m_{SUSY}$).\\
-Generally speaking, in SUSY models lepton and slepton matrices are not aligned. 
+\section{Beyond Standard Model physics}
+Although the Standard Model is a well-established and successful theory, 
+there are still numerous open questions 
+(dark matter, matter-antimatter asymmetry, 
+the value of the Higgs mass and others) 
+and many candidate extensions of the model have been proposed.
+In our discussion we will only delineate the super-simmetric CLFV.
+Generally speaking, in SUSY models lepton and slepton 
+(supersimmetric partners of the leptons) matrices are not aligned. 
 In other terms, physical sleptons end up being mixtures of different flavours. 
-In this situation, CLFV arises from the interaction of Standard Model leptons, 
-their SUSY partners (sleptons and sneutrinos), 
-and potential mixture of other SUSY and Standard Model particles. 
+In this situation, CLFV arises from the interaction of Standard Model leptons and their SUSY partners 
+(plus potential mixtures of other SUSY and Standard Model particles). 
 In order to asses the rates for CLFV processes in SUSY models, 
-it is necessary to know the masses of the particles appearing in the diagrams 
-and the composition in flavour of the sleptons.
-There are numerous flavour structures models: 
-some are trivial (aligned leptons and sleptons mass matrices), 
-some are controlled by some flavour symmetry (such as SU(3), U(2), \ldots) 
-and other predict anarchical structures. 
-An honourable mention in this field of speculation is the SO(10) SUSY Grand Unified Model (GUT).
+it is necessary to know the masses of the particles appearing in the diagrams and the composition in flavour of the sleptons.
+There are numerous flavour structures models: some are trivial (aligned leptons and sleptons mass matrices), 
+while other are controlled by some flavour symmetry. 
+The most known candidates for Grand Unified Theories (GUT) are based on SU(5) and SO(10) groups.
 
 \subsection{SUSY seesaw}
-In this Section we will briefly describe the simplest mechanism that allows to include
-a neutrino mass term in the theory. 
-In the Standard Model this can be done using 
-a conjugate Higgs doublet introducing a Dirac mass term
-$$\mathcal{L}_D=-m_D(\overline{\nu}_R\nu_L+\overline{\nu}_L\nu_R)$$
-but this term would imply the existence of right-handed neutrinos (yet to be seen); 
-also the fact that the mass has to be much smaller than for other fermions suggests 
-that the solution should be searched for in an alernative way.
-A different term that would satisfy the local gauge invariance would be 
-a Majorana mass term (formed by a $\nu_L$ and a $\bar{\nu}_R$, 
-which trasforms as a singlet under the SM gauge transformations):
-$$\mathcal{L}_M=-\frac{1}{2} M(\overline{\nu}_R^c\nu_L+\overline{\nu}_L\nu_R^c)$$
-In this case, a coupling between particle and antiparticle is present, 
-allowing $\nu$ to be its own antiparticle.\\
+In this Section we will briefly describe the simplest mechanism 
+that allows to include a neutrino mass term in the theory, 
+following the example reported in \cite{Thomson}. 
+In the Standard Model this can be done by introducing a Dirac mass term
+$$\mathcal{L}_D=-\frac{1}{2}m_D(\overline{\nu}_L\nu_R+\overline{\nu}_R^c\nu_L^c) + h.c.$$
+but this term would imply the existence of right-handed neutrinos (yet to be seen); also the fact that the mass has to be much smaller than for other fermions suggests that the solution should be searched for in an alternative way.
+A different term that would satisfy the local gauge invariance would be a Majorana mass term, formed by a $\nu_R$ and a $\bar{\nu_L}$, which trasforms as a singlet under the Standard Model gauge transformations:
+$$\mathcal{L}_M=-\frac{1}{2} M(\overline{\nu}\vphantom{\nu}_R^c\nu_R+\overline{\nu}_R\nu_R^c)$$
+Here the left-handed anti-neutrino appears as CP conjugate, which is $\nu_R^c$.
+In this case, a coupling between particle and antiparticle is present, allowing $\nu$ to be its own antiparticle.\\
 The general Lagrangian includes both Dirac and Majorana terms:
 $$\mathcal{L}_{DM}= -\frac{1}{2}
 \begin{pmatrix} 
@@ -199,7 +217,7 @@ this \textit{seesaw} mechanism would predict the existence of a very light parti
 The eigenstates would be:
 $$
 \nu\approx (\nu_L+\nu_L^c)-\frac{m_D}{M}(\nu_R+\nu_R^c),\ \
-N\approx (\nu_R+\nu_R^c)-\frac{m_D}{M}(\nu_L+\nu_L^c)
+N\approx (\nu_R+\nu_R^c)+\frac{m_D}{M}(\nu_L+\nu_L^c)
 $$
 leaving the light neutrinos couplings essentially the same 
 as those of the Standard Model, 
@@ -207,44 +225,40 @@ while the heavy ones would be almost entirely right-handed
 and they would not partecipate in weak charged or neutral currents.
 
 \subsection{de Gouv\^{e}a}
-A convenient general parameterization of SUSY models for CLFV-violating processes
-involving muons has been proposed by de Gouv\^{e}a \cite{deGouvea}:
+A convenient general parameterization of SUSY models for CLFV-violating processes involving muons has been proposed by de Gouv\^{e}a \cite{deGouvea}:
 \begin{align}
 \mathcal{L}_{CLFV}=
 \frac{m_\mu}{(\kappa+1)\Lambda^2}\overline{\mu}_R\sigma_{\mu\nu}e_LF^{\mu\nu}+
 \frac{\kappa}{(\kappa+1)\Lambda^2}\overline{\mu}_L\gamma_\mu e_L (\overline{e}\gamma^\mu e)+h.c.
 \label{eq_deGouvea}
 \end{align}
-In this expression, 
-$m_\mu$ is the muon mass, $F^{\mu\nu}$ the photon field, $L$ and $R$ indicate the chirality of the fermion field.
-On an intuitive level the two terms correspond to 'dipole' and 'contact' 4-fermion interaction.
-There are two independent parameters,  $\Lambda$, the mass scale, 
-and $\kappa$, which weights the two terms. 
-Fig. \ref{_deGouvea} shows the relationship between the Branching Ratio 
-of $\mu\rightarrow e\gamma$, $\mu\rightarrow eee$ and $\mu N \rightarrow e B$
-as a function of the parameter $\kappa$. The parameter space for muon CLFV
-that has been excluded by previous experiments and the region that future
-experiments will be able to probe are also reported. The upper limits expected
-at 90\% CL for the future experiments MEG upgrade, Mu3e, Mu2e and Mu2e at PIP II 
-(Proton Improvement Plan-II) are also shown.
+In this expression, $m_\mu$ is the muon mass, $F^{\mu\nu}$ the photon field, 
+$L$ and $R$ indicate the chirality of the fermion field.
+On an intuitive level, 
+the two terms correspond to 'dipole' and 'contact' 4-fermion interactions.
+There are two independent parameters,  $\Lambda$, the mass scale, and $\kappa$, 
+which weights the two terms. 
+Fig. \ref{_deGouvea} shows the relationship between 
+the Branching Ratios of $\mu\rightarrow e\gamma$, $\mu\rightarrow eee$ 
+and $\mu N \rightarrow e B$ as a function of the parameter $\kappa$. 
+The parameter space for muon CLFV that has been excluded by previous experiments 
+and the region that future experiments will be able to probe are also reported. 
+The upper limits expected at 90\% CL for the future experiments MEG upgrade, 
+Mu3e, Mu2e and Mu2e at PIP II (Proton Improvement Plan-II) are also shown. \textbf{[Check plot]}
 
 \begin{figure}[h!]
 \includegraphics[scale=0.8]{deGouvea}
-\caption{Current and future limits expected on $\mu\rightarrow e\gamma$,
-$\mu\rightarrow eee$ and $\mu N \rightarrow e B$ conversion in terms 
+\caption{Current and future limits expected on the Branching Ratios of 
+$\mu\rightarrow e\gamma$,
+$\mu\rightarrow eee$ decays and $\mu N \rightarrow e N$ conversion in terms 
 of the two parameters $\Lambda$ and $\kappa$, where the first one is 
 the energy scale of the new interaction and the second one is the ratio
 between the four-fermion and loop interactions.}
 \label{_deGouvea}
 \end{figure}
 
-
-\noindent A general conclusion on this (absolutely non exhaustive) introduction 
-to SUSY could simply be that 
-there are numerous fascinating models but, even within a specific model, 
-there are no 'guaranteed' minimum rates to be expected. 
-Due to the flexibility of these models, 
-rates can be vanishing or exceed the current limits.
+\noindent A general conclusion on this (absolutely non exhaustive) introduction to SUSY could simply be that there are numerous fascinating models but, even within a specific model, there are no 'guaranteed' minimum rates to be expected. 
+Due to the flexibility of these models, rates can be vanishing or exceed the current limits.
 More experimental constraints are needed to reduce the plethora of available models.
 
 \section{Phenomenology}
@@ -272,19 +286,14 @@ the leptonic nature of the particle was established and the never-ending series 
 with these two papers brought us to a deep knowledge of this particle. 
 Today, the properties of the muon are well known and, in particular, the values for the mass and  mean lifetime are: 
 $m_\mu = 105.6583745 \pm 0.0000024 $ MeV and $\tau =  2.1969811 \pm 0.0000022 \ \mu$s \cite{PDG}.
-Muon decays almost exclusively as $\mu\rightarrow e\bar{\nu}_e\nu_{\mu}$ 
-and the differential probability, in the reference frame of rest of the muon, is:
+Muon decays almost exclusively as $\mu\rightarrow e\bar{\nu}_e\nu_{\mu}$ (table \ref{T_mu}) and the differential probability, in the reference frame of rest of the muon, is:
+
 \begin{align}
 \frac{d\Gamma(x,\vartheta)}{\mathrm dx \mathrm d\cos\vartheta}\approx \frac{G_F^2m_\mu^5}{192\pi^3}[(3-2x)\pm P\cos\vartheta(2x-1)]x^2
 \label{eq_muon}
 \end{align}
-where $\frac{G_F^2m_\mu^5}{192\pi^3}=\frac{1}{\tau_\mu}$, $\vartheta$ 
-is the direction of the electron momentum direction with respect to the muon spin, 
-$x=2E/m_{\mu}$ is the reduced electron energy and $P$ is the polarization.\\
-The spectrum in vacuum, known as Michel spectrum, 
-is the same for both signs of the electrical charge and, 
-aside for radiative corrections (due to the emission of an additional $\gamma$), 
-has a kinematic endpoint at approximately half of the muon mass (Fig. \ref{_Michel}).\\
+where $\frac{G_F^2m_\mu^5}{192\pi^3}=\frac{1}{\tau_\mu}$, $\vartheta$ is the direction of the electron momentum direction with respect to the muon spin, $x=2E/m_{\mu}$ is the reduced electron energy and $P$ is the polarization.\\
+The spectrum in vacuum, known as Michel spectrum, is the same for both signs of the electrical charge and, aside for radiative corrections (due to the emission of an additional $\gamma$), has a kinematic endpoint at around half of the muon mass (Fig. \ref{_Michel}).\\
 
 \begin{figure}[h!]
 \centering
@@ -292,6 +301,22 @@ has a kinematic endpoint at approximately half of the muon mass (Fig. \ref{_Mich
 \caption{Michel spectrum before and after the radiative corrections \cite{signorelli}. The plot on the right is a particular of the end point in log scale, this helps to understand how quickly the spectrum goes to zero.}
 \label{_Michel}
 \end{figure}
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Decay channel & BR & CL\\
+\hline
+\hline
+$\mu^- \rightarrow e^-\overline{\nu}_e\nu_\mu$&$\sim100\%$&\\
+$\mu^- \rightarrow e^-\overline{\nu}_e\nu_\mu e^-e^+$&
+$(3.4\pm0.4)\times10^{-5}$&\\
+\hline
+\end{tabular}
+\caption{Muon decay channels \cite{PDG}. \textbf{[aggiungi processi]}}
+\label{T_mu}
+\end{table}
 
 \subsubsection{Stopped muons}
 \label{stopped_muon}
@@ -2214,7 +2239,7 @@ the ongoing efforts dedicated to measure the spectra of particles emitted after 
 The most recent results, obtained this year by the two Collaborations, 
 are shown in Tab. \ref{T_AlCap_TWIST} and in Fig. \ref{_TWIST} and  \ref{_AlCap}. 
 An alternative parameterization to incorporate the new results has been presented \cite{Pasha:spectra} 
-and the comparison between this and the one by Hungerford is shown in Fig. \ref{_Comparison} \cite{io:comparison}.\\
+and the comparison between this and the one by Hungerford is shown in Fig. \ref{_comparison2} \cite{io:comparison}.\\
 
 \noindent The presence of a the dip at low non-zero momentum of the spectrum measured by Sobottka (Fig. \ref{_sobottka}), 
 and the related uncertainties have been subject of discussion \cite{io:sobottka} 
@@ -2231,6 +2256,7 @@ the zero point of the spectrum at zero.\\
 \begin{tabular}{c|c|c}
 \hline
 \multicolumn{3}{|c|}{Protons} \\
+\hline
 \hline 
  & cuts [MeV]& yield [\%] \\
 \hline
@@ -2242,7 +2268,9 @@ TWIST \cite{TWIST:2020} &
 \makecell{$E_k>3.4$  \\ Extrapolation} &
 \makecell{3.22 $\pm$ 0.07(stat) $\pm$ 0.22(syst)\\  4.5 $\pm$ 0.1(stat) $\pm$ 0.3(syst) $\pm$ 0.1(extrap)} \\
 \hline
+\hline
 \multicolumn{3}{|c|}{Deuterons} \\
+\hline
 \hline
  & cuts [MeV]& yield [\%] \\
 \hline
@@ -2286,7 +2314,7 @@ and the parameterization proposed by Murat \cite{Pasha:spectra} for both proton 
 The less saturated lines are from Hungerford. 
 To improve the plot legibility, 
 vertical lines with matching color corresponding to specific momentum values ([50,100,150] MeV$/c$) have been drawn.}
-\label{_Comparison}
+\label{_comparison2}
 \end{figure}
 
 \noindent 
@@ -2316,6 +2344,7 @@ but do not allow to monitor the muon flux on the desired time-scale.\\
 This method is powerful because of the sizeable total number of expected protons per event ($1.7\ \mu$s). 
 We can use a back-of-the-envelope calculation to provide a preliminary estimate of the yield:
 $$3.9\times10^7 \cdot 1.6\times10^{-3} \cdot 0.61 \cdot 0.045 \sim 1.5\times10^3\ \text{p/event}$$
+This estimate is found using the up to date nominal values for: number of protons on target; muon stopped per POT; probability of nuclear capture; probability of proton ejection.
 Moreover, protons from nuclear captures have specific characteristics:
 they are highly ionizing particles, 
 and they have opposite charge and a different momentum distribution 
@@ -2384,7 +2413,7 @@ The basic element of the reconstruction are not StrawHits but ComboHits and in f
     \begin{minipage}{0.49\textwidth}
     	\centering
     	\includegraphics[width =\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_nCH-vs-p}
-\caption{The number of hits associated with the TimeCluster found in each event as a function of the generated momentum of the particle.}
+\caption{The number of ComboHits associated with the TimeCluster found in each event as a function of the generated momentum of the particle.}
 \label{_flat_TimeClusterMVA_nCH-vs-p}
     \end{minipage}
 \end{figure}
@@ -2605,10 +2634,19 @@ Additionally we assumed the parameterization of the spectrum to be correct. This
 \subsection{Deuterons}
 On a procedure level the fit for a deuteron track is the same as for a proton because the key variables are the momentum and the sign of the charge.
 Should be clear that if we apply this reconstruction to a full simulated Mu2e event we are going to reconstruct both particles and we need to assess the reconstruction efficiency for deuterons. 
+In fig. \ref{_comparison} the overall comparison of the various spectra is shown (fig. \ref{_comparison2} shows the detail at low energy of this plot).\\
 Following what done in as last step for protons, the reconstruction has been run on $1 \times 10^6$ deuterons generated with the expected spectrum. 
-The relation between the generated and reconstructed spectra is shown in fig. \ref{_deuteron_preco-vs-pgen_trk0}.
-In fig. \ref{deuteron_preco-vs-pgen_trk0
-} we find the distribution of the reconstructed momentum as a function of the generated value. The spectrum at generation has already been shown in fig. \ref{}. 
+In fig. \ref{_deuteron_preco-vs-pgen_trk0} we find the distribution of the reconstructed momentum as a function of the generated value. The spectrum at generation has already been shown in fig. \ref{_comparison}. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width =0.8\textwidth, keepaspectratio]{new_spectra_2/comparison}
+\caption{As in fig. \ref{_comparison2}, this plot  \cite{io:comparison} compares the two parameterizations \cite{Hungerford} \cite{Pasha:spectra} for both proton (red) and deuteron (blue). 
+The less saturated lines are from Hungerford. 
+The vertical lines correspond to specific momentum values ([50,100,150,500] MeV$/c$).}
+\label{_comparison}
+\end{figure}
+
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/ejected/deuteron_preco-vs-pgen_trk0}
@@ -2624,9 +2662,9 @@ What should be underlined is that while both parameterizations have some validit
 In table \ref{T_syst} the results for the same reconstruction procedure run on all the data-sets are presented. 
 The values obtained for protons are fully compatible meaning that, even though the distributions are different, with the statistics run the track-counting is not sensitive to any systematic due to the different spectra.
 On the other hand the results for deuterons are not compatible. 
-This was expected because, as already discussed, the Hungerford parameterization for these particles was done simply assuming the same kinetic energy distribution.
-As a result the values to take in consideration are the one obtained with the current parameterization.\\
+This was expected for the reason just delineated and the values to take in consideration are the one obtained with the current parameterization.\\
 The efficiencies, evaluated using as denominator the generated spectrum and as numerator the generated momentum of all reconstructed tracks, are shown in fig. \ref{_proton_eff_comparison} and \ref{_deuterons_eff_comparison} and as expected are compatible.\\
+
 \begin{table}
 \centering
 \begin{tabular}{|c|c|c|}
@@ -2634,9 +2672,13 @@ The efficiencies, evaluated using as denominator the generated spectrum and as n
 Yield (\textperthousand)& Hungerford & current \\
 \hline
 \hline
-Protons& \makecell{2.65(4) \\ 1.99(4)} & \makecell{ 2.69(4) \\ 1.95(4)} \\
+Protons& 
+\makecell{2.65(4) \\ 1.99(4)} & 
+\makecell{ 2.69(4) \\ 1.95(4)} \\
 \hline
-Deuterons & \makecell{0.54(2) \\ 0.43(2)} & \makecell{ 0.99(3) \\ 0.80(3)} \\
+Deuterons & 
+\makecell{0.54(2) \\ 0.43(2)} & 
+\makecell{ 0.99(3) \\ 0.80(3)} \\
 \hline
 \end{tabular}
 \caption{Results for the reconstruction of the various spectra: number of tracks  reconstructed per 1k particle generated. The number of particles generated were: $1.5\times 10^6$ protons; $1\times 10^6$ deuterons. The uncertainties are statistical and are evaluated as the square root of the number of tracks. The second row for both particles is the result if the following cuts are applied: $\chi^2/\textrm{d.o.f.}<5$; $nSH>20$.}
@@ -2658,27 +2700,28 @@ Deuterons & \makecell{0.54(2) \\ 0.43(2)} & \makecell{ 0.99(3) \\ 0.80(3)} \\
 \end{figure}
 
 \chapter{Mix-background events}
-{\itshape The efficacy of the method developed in the previous chapter needs now to be evaluated studying 'full' Monte Carlo events with all the backgrounds of the experiment, called ``mix-events''.}
+{\itshape The efficacy of the method developed in the previous chapter needs now to be evaluated studying 'full' Monte Carlo events with all the backgrounds of the experiment, called `mix-events'. 
+The new challenge is how to implement a robust way of pre-filtering the StrawHits made by other particles (primarily electrons). 
+This can be done exploiting the energy deposit and tightening the number of hits required (in light of the distribution in fig. \ref{_Lambda_nSH_trk0} for the number of hit associated with the tracks reconstructed).}
 
-\noindent In a full Mu2e event the steps required for the reconstruction are the same but for an obvious major difference: not all the hits in the event are made by the particle we are interested.
-At this point the only thing we are missing is a first skim of the StrawHits, to reduce the background hits.
-The time clustering of course helps us separating possible interesting hits from the rest but two additional step can aid us before even starting the reconstruction: the energy deposit in the straw and the number of hits associated to a TimeCluster.
-
-\paragraph{First, a caveat} At the time of writing this Thesis, the up-to-date simulated dataset (MDC2020) is still under development and it cannot be used. 
-The last simulated mix dataset wash in MDC2018 but the current version of the offline code has lost its backward compatibility due to various changes, like the way the tracker readout electronics is simulated and how the digitization of the signals  is created. 
-In the attempt to validate the analysis modules before the new dataset is ready, the some of the old simulations have been partially re-run to make them compatible with the current version of the code. 
+\paragraph{First, a caveat} In writing this Thesis, the up-to-date simulated dataset (MDC2020) is still under development and it cannot be used to validate the reconstruction tailored. 
+The most recent simulated mixed dataset (events with the full background simulated) was part of MDC2018 but the current version of the offline code has lost its backward compatibility due to various changes, like the way the tracker readout electronics is simulated and how the digitization of the signals  is created. 
+In the attempt to validate the analysis modules before the new dataset is ready, some of the old simulations have been partially re-run to make them compatible with the current version of the code. 
 The result of this effort is the MDC2020Dev dataset.
-Unfortunately, as the result of this procedure, the Monte Carlo truth for the mix-sample events (the one with the full background simulated we wish to use) seems to be not reliable. 
-The presence of a possible bug is under study but for our purpose we have to roll back and use a slightly older version of the code with the MDC2018 dataset. The proton dataset which was used in the mixing procedure was generated using the Hungerford.
+Unfortunately, as the result of this procedure, the Monte Carlo truth for mixed events seems to be not reliable. 
+The presence of a possible bug is under study but for our purpose we have to roll back and use a slightly older version of the code with the MDC2018 dataset. \\
+The generation of this files was before the new measurements from AlCap and TWIST and as result the particles follow the Hungerford spectra. 
+As discussed in the previous chapter, this effects both the momentum distributions and the number of tracks we expect to reconstruct. \\
 
 \section{SH energy}
 Hits made by different particles with different $\beta$ are associated to different values of the total energy deposited. 
-Although confusing, often the Mu2e jargon this is called \textit{charge} and is measured in MeV.
+Although confusing, often in Mu2e jargon this is called \textit{charge} and is measured in MeV.
 Just like any the other part of the simulation, the readout electronics in the Monte Carlo is updated regularly because of the ongoing prototypes and minor tweaks to the architecture. 
 As a result the value associated to a give energy deposition is dependent on the version of the electronics simulation.\\
-The distribution obtained from the MDC2020Dev dataset is shown in fig. \ref{_mix_proton_qsh} with the distribution for protons overlaid.\\ 
-What this plot confirm is that the low $\beta$ of the protons result in a higher energy deposit in the straws: requiring a minimum energy deposit in each straw hit might result in a more clean event on which to run the reconstruction.\\
-A suitable value for the requirement seems to be around 4 keV and we can see how this cut modify the reconstruction. The fraction of hits lost applying the cut is $\sim70\%$ but the loss of protons hits is $\sim10\%$. The 
+The distribution obtained with 500 MDC2018 events is shown in fig. \ref{_mix_proton_qsh} with the stacked distributions for protons and deuterons overlaid.\\ 
+What this plot confirm is that the low $\beta$ of the protons/deuterons result in a higher energy deposit in the straws: requiring a minimum energy deposit in each straw hit might result in a more clean event on which to run the reconstruction.\\
+A suitable value for the requirement seems to be around 2 keV: the fraction of hits removed applying the cut is $\sim 60 \%$ but the fraction of hits retained is $\sim 98\%$ for protons and $\sim 99\%$ for deuterons.
+Although this value could probably be further optimize, the electronics simulation changed and so did the charge distribution, meaning a similar cut for MDC2020 (assumed still possible) will be at a different energy deposit.
 
 \begin{figure}[!htb]
 \centering
@@ -2688,9 +2731,43 @@ The trend suggests that applying a requirement on the energy deposit would reduc
 \label{_mix_proton_qsh}
 \end{figure}
 
+\noindent We can evaluate the impact of cut on the straw charge overlaying the distributions for the number of reconstructed tracks per event with and without the requirement. The plot is in fig. \ref{} and shows a net improvement in the reconstruction: the mean for the number of reconstructed tracks ??.
+
+\noindent The improvement is not only in the quantity of the tracks reconstructed but also in the quality. 
+Using the Monte Carlo information we can split the number of reconstructed tracks per particle, in particular we are interested in three categories: protons; deuterons and `others'.
+We can now see how these three different histograms evolve if fig. \ref{}, \ref{} and \ref{}.
+The introduction of the cut on the straw charge improved all these histograms.
+
 \section{Number of SH}
 As we saw (fig. \ref{_Lambda_nSH_trk0}) no track reconstructed is associated with less than a given number of StrawHits for single particle events ($\gtrsim 20$ StrawHits). 
 What this implies is that we can rise the required number of hits in a TimeCluster to be considered valid in order to reduce the number of clusters wrongly associated to proton candidates.
+\textbf{[plot time single particles TimeClusters nhit per reco tracks?]}
+
+\section{Educated guess on MDC2020}
+From table \ref{T_syst} we might be tempted to assert that with the transition to MDC2020 we will expect roughly as much protons and almost twice the deuterons but this is not true because of the overall normalization. 
+Table \ref{T_syst} reports the reconstructed tracks per 1k generated particles but change in parameterization modify both the shape and normalization.\\
+The probability of proton and deuteron ejection at the time of MDC2018 generation were assumed to be $p\sim5\%$ and $d\sim2.5\%$ but from table \ref{T_AlCap_TWIST} we can see that the new measurements are $p\approx4.5\%$ and $d\approx1.8\%$.
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Tracks per event& MDC2018 & MDC2020 \\
+\hline
+\hline
+Protons& 
+\makecell{2.65(4) \\ 1.99(4)} & 
+\makecell{ 2.69(4) \\ 1.95(4)} \\
+\hline
+Deuterons & 
+\makecell{0.54(2) \\ 0.43(2)} & 
+\makecell{ 0.99(3) \\ 0.80(3)} \\
+\hline
+\end{tabular}
+\caption{The average number of reconstructed tracks for MDC2018 and an estimate for MDC2020.
+The second row for both particles is the result if the following cuts are applied: $\chi^2/\textrm{d.o.f.}<5$; $nSH>20$.}
+\label{T_syst}
+\end{table}
 
 \begin{comment}
 %---------------------

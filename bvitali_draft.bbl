@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -43,6 +43,29 @@ M.~Kargiantoulakis.
 \newblock \doi{10.1142/S0217732320300074}.
 \newblock \eprint{2003.12678}.
 
+\bibitem{H:CMS}
+S.~Chatrchyan et~al. (CMS).
+\newblock \emph{{Observation of a New Boson at a Mass of 125 GeV with the CMS
+  Experiment at the LHC}}.
+\newblock Phys. Lett. B, 716:30--61 (2012).
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+\newblock \eprint{1207.7235}.
+
+\bibitem{H:ATLAS}
+G.~Aad et~al. (ATLAS).
+\newblock \emph{{Observation of a new particle in the search for the Standard
+  Model Higgs boson with the ATLAS detector at the LHC}}.
+\newblock Phys. Lett. B, 716:1--29 (2012).
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
+\newblock \eprint{1207.7214}.
+
+\bibitem{oscillations}
+Y.~Fukuda et~al. (Super-Kamiokande).
+\newblock \emph{{Evidence for oscillation of atmospheric neutrinos}}.
+\newblock Phys. Rev. Lett., 81:1562--1567 (1998).
+\newblock \doi{10.1103/PhysRevLett.81.1562}.
+\newblock \eprint{hep-ex/9807003}.
+
 \bibitem{Petcov}
 S.~Petcov.
 \newblock \emph{{The Processes mu --> e Gamma, mu --> e e anti-e, Neutrino' -->
@@ -50,6 +73,11 @@ S.~Petcov.
 \newblock Sov. J. Nucl. Phys., 25:340 (1977).
 \newblock [Erratum: Sov.J.Nucl.Phys. 25, 698 (1977), Erratum: Yad.Fiz. 25, 1336
   (1977)].
+
+\bibitem{Thomson}
+M.~Thomson.
+\newblock \emph{{Modern particle physics}}.
+\newblock Cambridge University Press, New York (2013).
 
 \bibitem{deGouvea}
 A.~de~Gouv{\^{e}}a and P.~Vogel.

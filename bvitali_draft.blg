@@ -28,45 +28,45 @@ Warning--empty year in Kalman
 Warning--empty journal in KutschkePaper
 Warning--empty title in Kutschke
 Warning--empty journal in Hungerford
-You've used 98 entries,
+You've used 102 entries,
             2504 wiz_defined-function locations,
-            1228 strings with 18736 characters,
-and the built_in function-call counts, 33818 in all, are:
-= -- 2031
-> -- 572
+            1258 strings with 19342 characters,
+and the built_in function-call counts, 35359 in all, are:
+= -- 2138
+> -- 597
 < -- 3
-+ -- 256
-- -- 158
-* -- 1730
-:= -- 3571
-add.period$ -- 369
-call.type$ -- 98
-change.case$ -- 97
++ -- 267
+- -- 165
+* -- 1816
+:= -- 3740
+add.period$ -- 387
+call.type$ -- 102
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 121
-duplicate$ -- 4250
-empty$ -- 3959
-format.name$ -- 206
-if$ -- 7349
+cite$ -- 125
+duplicate$ -- 4431
+empty$ -- 4131
+format.name$ -- 216
+if$ -- 7682
 int.to.chr$ -- 0
-int.to.str$ -- 98
-missing$ -- 1038
-newline$ -- 574
-num.names$ -- 97
-pop$ -- 1951
+int.to.str$ -- 102
+missing$ -- 1084
+newline$ -- 600
+num.names$ -- 101
+pop$ -- 2025
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 666
+skip$ -- 690
 stack$ -- 0
-substring$ -- 948
-swap$ -- 2195
+substring$ -- 1014
+swap$ -- 2290
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 23
-while$ -- 168
-width$ -- 100
-write$ -- 1186
+while$ -- 178
+width$ -- 105
+write$ -- 1242
 (There were 23 warnings)
