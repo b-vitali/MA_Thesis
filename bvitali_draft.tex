@@ -39,7 +39,7 @@
 \usepackage{bm}
 
 \usepackage[infront,standard, nowrite]{frontespizio}
-\title{In situ monitoring\\ of the stopped muon flux at Mu2e\\\textbf{V\_0.8.1}}
+\title{In situ monitoring\\ of the stopped muon flux at Mu2e\\\textbf{V\_0.8.4}}
 
 
 %   Reduce the margin of the summary:
@@ -49,6 +49,7 @@
 \begin{document}
 %%%%%%%%%%% FRONT MATTER
 \frontmatter
+%\begin{comment}
 	\begin{frontespizio}
 	\Istituzione{University of Pisa}
 	\Divisione{Department of Physics ``E. Ferm''}
@@ -64,51 +65,49 @@
 
 	\Piede{Academic Year 2019-2020}
 	\end{frontespizio}
-
+%\end{comment}
 \maketitle
 
 \chapter*{\centering Abstract}
 \begin{changemargin}{1cm}{1cm}
-The Mu2e experiment at Frmilab is one of the pioneering experiments in the search for Charge Lepton Flavor Violation, looking in particular to the neutrino-less coherent conversion of a negative muon in the field of an aluminum nucleus: the signal is a monoenergetic conversion-electron of $E_{CE} \approx 104.97$ MeV and the measured value will be $R_{\mu e}= (\mu^-N \rightarrow e^-N)/(\mu^-N \rightarrow \text{all } \mu \text{ captures})$ \cite{MTDR}.
-This process is forbidden in the Standard Model but allowed in many of its extensions: with minimal changes to include neutrino masses and oscillation, the BR for processes like this one or the forbidden $\mu\rightarrow e \gamma$ are expected to be $\mathcal{O}(10^{-54})$.
-Values like this are clearly below any currently achievable experimental sensitivity, meaning that any measurement would be signal of new physics.
-The limit for the conversion was set by SINDRUM II at $7\times10^{-3}$ \cite{SINDRUMII} and the aim of the Mu2e collaboration is an improvement of 4 order of magnitudes, down to SES $\approx 3\times 10^{-17}$.\\
-The Mu2e experiment can be conceptually divided in three stages: interaction of the primary proton pulse with the target and the production of $\pi$ and $\mu$; collection and transport down to the aluminum stopping target; interaction with the stopping target and measurements of the output particles.
-The measurement of the stopped muon flux is of cardinal importance in measuring the $R_{\mu e}$.
-The baseline design includes two detectors (HPGe and LaBr3) developed to measure this flux, counting $\gamma$ emitted by the muonic atoms.
-The studies performed indicate that these two systems can be used reliably in the evaluation of the denominator of $R_{\mu e}$.\\
-The number of stopped muons is clearly proportional to the number of proton on target, which itself is dependent on the extraction system for the proton beam. 
-The beamline to Mu2e will use a resonant extraction to create the proton pulses and this method is characterized by intensity fluctuations on the time scale of milliseconds. 
-These fluctuations, aside from the proportional fluctuation in the number of muons, have a non trivial impact on the overall performance of the apparatus. 
-For example higher intensity proton bunches translate to higher veto rate by the Cosmic Rays Veto system, which is triggered by secondary particles of the proton interaction. 
-Another example is the effect of the instant luminosity on the reconstruction efficiency: higher intensity translate to higher occupancy, which in turn reduces the reconstruction efficiency.
-As of today, no system allows to monitor these fluctuations. The aim of this work is to fill this gap.\\
-
-\newpage
-\noindent The method here developed to monitor the fluctuations of the stopped muon flux, and by extension the fluctuation in the proton pulses intensity, relies on the reconstruction of proton tracks in the straw-tube tracker.
-One of the possible processes a stopped muon can undergo is the nuclear capture and, in a fraction of cases, charged particles can be ejected as result. 
-The protons present in the tracker are thus coming from the stopping target and proportional to the number of stopped muons.\\
-The reconstruction algorithms were developed by the Mu2e collaboration with the explicit (and sometimes implicit) aim to reconstruct tracks of electrons in an energy range around the hypothetical conversion electron. 
-The protons we are interested in behave quite differently from these electrons and the cardinal task of this study was to tailor the reconstruction routine to these particles. This has been done analyzing simulated event consisting of a single proton, optimizing the procedure and understanding the features of these tracks.\\
-The usage of a pulsed beam and the need to allow produced $\pi$ to decay and $\mu$ to interact in the stopping target force the definition of a Mu2e \textit{event}: an event comprised by everything which happens in a $1.7\ \mu$s window following the incidence of the proton pulse.
-This means that the reconstruction will be performed in an environment crowded by many different particles.\\
-The next step in this study was hence to evaluate the performance of the method in a fully fledged Mu2e event and what kind of selections would improve it.\\
-The results obtained are satisfactory (few protons reconstructed per event), indicating that a monitoring on the timescale of milliseconds is possible, with a statistical uncertainty of less than $5\%$.
+The specific object of Mu2e search is  the neutrino-less coherent $\mu^-\rightarrow e^-$ conversion in the field of an aluminum nucleus and the signal is a monoenergetic electron of energy $ \approx 104.97$ MeV \cite{MTDR}.
+%The parameter often used to indicate the strength of CLFV transition is the ratio $R_{\mu e}= (\mu^-N \rightarrow e^-N)/(\mu^-N \rightarrow \text{all } \mu \text{ captures})$ .
+This process is forbidden in the Standard Model but allowed in many of its extensions: with minimal changes to include neutrino masses and oscillation, the Branching Ratio of this process, or the similarly interesting $\mu\rightarrow e \gamma$ decay, is expected to be of the order of $\mathcal{O}(10^{-54})$.
+Values like these are below any currently achievable experimental sensitivity, and the observation of a signal would be unambiguous evidence of New Physics \cite{signorelli}.
+The upper limit on the muon conversion was set by SINDRUM II at $7\times10^{-13}$ (90\% C.L.) \cite{SINDRUMII} and the goal of the Mu2e collaboration is an improvement of 4 order of magnitudes.\\
+The Mu2e experiment can be conceptually divided in three stages: interaction of the primary proton pulse with the tungsten target and production of $\pi$ and $\mu$; collection and transport of the produced particles down to the aluminum stopping target; interaction with the stopping target and measurement of the output particles.
+The measurement of the stopped muon flux is of cardinal importance for the normalization of the Mu2e results.
+The baseline design includes two detectors developed to measure this flux, counting $\gamma$ emitted by the muonic atoms: HPGe and LaBr$_3$(Ce) \cite{STM:2016}\cite{LaBr3:2020}.
+The studies performed by the Mu2e Collaboration show that these two systems can be reliably used to determine the overall normalization.\\
+The number of stopped muons is proportional to the number of protons on target, which itself depends on the extraction system for the proton beam. 
+The Mu2e beam delivery system will use a resonant extraction to create the proton pulses and this method is characterized by intensity fluctuations on the time scale of milliseconds \cite{SpillSim}. 
+These fluctuations, aside from the proportional fluctuation of the number of muons, have a non trivial impact on the overall performance of the apparatus. 
+For example, higher intensity proton bunches translate into higher veto rates by the Cosmic Rays Veto system, 
+which is triggered by secondary particles generated by the proton interaction. 
+Another example is the effect of the instantaneous luminosity on the reconstruction efficiency: higher intensity translates into higher detector occupancy, which in turn reduces the reconstruction efficiency.\\
+The two cited detectors encounter limitations when trying to monitor the flux at the millisecond timescales: HPGe is by construction a slow detector while the rate of emission of the $\gamma (1809\textrm{ keV})$ the LaBr$_3$(Ce) will measure is too low.
+As of today, no system allows to monitor these fluctuations and the goal of this Thesis is to try filling this gap.
+The method we developed to monitor the fluctuations of the stopped muon flux, and by extension the fluctuation in the proton pulses intensity, is based on counting the number of muons captured in the stopping target by counting the number of protons produced in the process of the nuclear muon capture.
+This is one of the possible processes a stopped muon can undergo and it can lead to the ejection of charged particles.\\
+The reconstruction algorithms were developed by the Mu2e collaboration with the explicit (and sometimes implicit) aim to reconstruct tracks of electrons in an energy range of a conversion electron. 
+The protons we are interested in behave quite differently from these electrons and the cardinal task of this study has been to tailor the reconstruction routines to these particles. 
+This has been done by analyzing simulated events consisting of a single protons to optimize the procedure and understand the features of these tracks. 
+A major difference with respect to the electrons is the non-relativistic nature of $100\div300$ MeV$/c$ protons: accounting for the low velocity is both a challenge and a unique signature of the tracks.\\
+The use of a pulsed beam and the need to allow produced $\pi$ to decay and $\mu$ to interact in the stopping target forces the definition of a Mu2e \textit{event}: an event is comprised by everything which happens in a $1.7\ \mu$s window between the incidence two consecutive proton pulses.
+This means that the reconstruction will be performed in an environment crowded by many different particles.
+The next step of this study has been to estimate the performance of the method in a fully fledged Mu2e simulated event and to study what kind of selections would improve it.\\
+Our results are satisfactory since the number of reconstructed protons is significant (few per event), and show that a monitor on the timescale of milliseconds is possible, with a statistical uncertainty below $5\%$.
 
 \end{changemargin}
 
-
 \tableofcontents
-%\listoffigures
-%\listoftables
+\listoffigures
+\listoftables
+
 %%%%%%%%%%% MAIN MATTER
 \mainmatter
 %---------------------%---------------------
 %---------------------%---------------------
-\part{Introduction}
-In this introduction, we will outline the context in which the Mu2e experiment has been developed. A first section will be dedicated to the theory of the leptonic violations, followed by a summary of the previous searches. In the third section, the Mu2e experiment will be delineated on both the hardware and the software side. The focus will be  to define the parts which are cardinal for this study and their relations with the rest of the experiment; the imbalance in detail is thus explicit. Most of the missing details can be found in \cite{MTDR} or on the Mu2eWiki page.
-This whole introduction is deeply indebted to references \cite{signorelli} \cite{bob_cflv} \cite{bob_mu2e} \cite{Manolis}, whose reading has been enlightening.
-check where to put \cite{Measday:2001}
 %---------------------
 \chapter{Charged Lepton Flavour Violation}
 
@@ -123,33 +122,34 @@ are already available in the literature (\cite{signorelli} \cite{bob_cflv}),
 only the most significant aspects of the muon-based experiments have been reviewed.} 
 
 \section{The Standard Model}
-Our current understanding of fundamentals interactions is framed 
+Our current understanding of fundamental interactions is framed 
 in the most predictive theory to date: the Standard Model (SM). 
-This theory is based on the gauge symmetry group U$(1)_Y \times $SU$(2)_L\times $SU$(3)_C$. 
+This theory is based on the gauge symmetry group U$(1)_Y \times $SU$(2)_L\times $SU$(3)_C$.
 The first two terms describe the electroweak interaction, 
 $Y$ indicates the hypercharge and  
 $L$ refers to the fact that this acts only on the left handed components of the fields. 
 The last term describes the strong interaction and $C$ indicates the color charge.\\
 The Standard Model contains 25 elementary fields, shown in Fig. \ref{_SM}: 
 \begin{itemize}
-\item 12 fermions, divided in two categories depending through which force they interact.
+\item 12 fermions are divided in two categories (6 leptons and 6 quarks)
+depending on the forces through which they interact.
 Leptons do not interact through strong interaction 
-and are divided in two groups separated by charge: 
-charged leptons ($e,\mu,\tau$) and neutral ($\nu_e,\nu_\mu,\nu_\tau$). 
-The labelling indicates that these particles form doublets of flavour.\\
-The remaining 6 particles are subject to all interactions 
-and are indicated as quark and are divided in charge ($u,c,t$ and $d,s,b$);
+and are divided in two groups depending on the electric charge: 
+charged ($e,\mu,\tau$) and neutral leptons ($\nu_e,\nu_\mu,\nu_\tau$). 
+The labels show that these particles form doublets of flavour.
+The 6 quarks are subject to all interactions 
+and are divided depending on the electric charge ($u,c,t$ and $d,s,b$);
 \item 12 bosons are the mediators of the interactions, 
 $\gamma,Z,W^\pm$ for the electroweak interaction, 
 and 8 gluons for the strong interaction;
-\item The Higgs is a complex scalar weak isospin doublet introduced 
-to justify the non-zero mass of the other particles and later discovered at LHC \cite{H:CMS}\cite{H:ATLAS}.
+\item The Higgs is a complex scalar weak isospin doublet that was introduced 
+to justify the non-zero mass of the other particles and was recently discovered at LHC \cite{H:CMS}\cite{H:ATLAS}.
 \end{itemize}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.6\textwidth, keepaspectratio]{SM}
-\caption{Elementary particles of the Standard Model organized to show their relations. 
+\caption[Elementary particles of the Standard Model]{Elementary particles of the Standard Model. 
 The colours help to identify the groups described in the text.}
 \label{_SM}
 \end{figure}
@@ -175,9 +175,11 @@ The interesting fact is that in many models
 CLFV-violating processes are suppressed 
 by the sum of $(\Delta m_{ij}^2/M_W^2)^2$, 
 where $\Delta m_{ij}^2$ is the mass-squared difference between neutrinos mass eigenstates. 
-Since $\Delta m_{ij}^2$ is much smaller than $M_W$, 
-the expected Branching Ratios are extremely low, 
-of the order of $BR(\mu\rightarrow e\gamma)= 10^{-55}\div10^{-54}$ \cite {Petcov}. 
+Since $\Delta m_{ij}$ is much smaller than $M_W$, 
+the expected Branching Ratios are extremely low. 
+For example, for the $\mu\rightarrow e\gamma$ decay,
+the prediction is  
+$BR(\mu\rightarrow e\gamma)= 10^{-55}\div10^{-54}$ \cite {Petcov}. 
 Physics processes with this probability are way below the sensitivity of the current or near-future experiments.
 This means that any experimental evidence of CFLV 
 would imply the existence of some missing piece 
@@ -186,7 +188,7 @@ in the extension of the lepton sector of the Standard Model.
 \begin{figure}[h!]
 \includegraphics[scale=0.7]{feynman_mu-egamma}
 \includegraphics[scale=0.7]{feynman_mu2e}
-\caption{Feynman diagrams contributing to the $\mu\rightarrow e\gamma$ decay (Left) 
+\caption[Feynman: $\mu\rightarrow e\gamma$; $\mu^-N \rightarrow e^-N$]{Feynman diagrams contributing to the $\mu\rightarrow e\gamma$ decay (Left) 
 and to the neutrino-less coherent conversion $\mu^-N \rightarrow e^-N$ (Right)
 through neutrino oscillations.}
 \label{_feynman_SM}
@@ -198,11 +200,12 @@ there are still numerous open questions
 (dark matter, matter-antimatter asymmetry, 
 the value of the Higgs mass and others) 
 and many candidate extensions of the model have been proposed.
-In our discussion we will only delineate the super-simmetric CLFV.
+In our discussion we will briefly focus our attention on the super-simmetric CLFV.
 Generally speaking, in SUSY models lepton and slepton 
 (supersimmetric partners of the leptons) matrices are not aligned. 
 In other terms, physical sleptons end up being mixtures of different flavours. 
-In this situation, CLFV arises from the interaction of Standard Model leptons and their SUSY partners 
+In this context, CLFV arises from the interaction of Standard Model leptons 
+and their SUSY partners 
 (plus potential mixtures of other SUSY and Standard Model particles). 
 In order to asses the rates for CLFV processes in SUSY models, 
 it is necessary to know the masses of the particles appearing in the diagrams and the composition in flavour of the sleptons.
@@ -214,10 +217,12 @@ The most known candidates for Grand Unified Theories (GUT) are based on SU(5) an
 In this Section we will briefly describe the simplest mechanism 
 that allows to include a neutrino mass term in the theory, 
 following the example reported in \cite{Thomson}. 
-In the Standard Model this can be done by introducing a Dirac mass term
+In the Standard Model, 
+this could be done by introducing a Dirac mass term:
 $$\mathcal{L}_D=-\frac{1}{2}m_D(\overline{\nu}_L\nu_R+\overline{\nu}_R^c\nu_L^c) + h.c.$$
 but this term would imply the existence of right-handed neutrinos (yet to be seen); also the fact that the mass has to be much smaller than for other fermions suggests that the solution should be searched for in an alternative way.
-A different term that would satisfy the local gauge invariance would be a Majorana mass term, formed by a $\nu_R$ and a $\bar{\nu_L}$, which trasforms as a singlet under the Standard Model gauge transformations:
+A different term that would satisfy the local gauge invariance is a Majorana mass term, 
+formed by a $\nu_R$ and a $\bar{\nu_L}$, which trasforms as a singlet under the Standard Model gauge transformations:
 $$\mathcal{L}_M=-\frac{1}{2} M(\overline{\nu}\vphantom{\nu}_R^c\nu_R+\overline{\nu}_R\nu_R^c)$$
 Here the left-handed anti-neutrino appears as CP conjugate, which is $\nu_R^c$.
 In this case, a coupling between particle and antiparticle is present, allowing $\nu$ to be its own antiparticle.\\
@@ -251,7 +256,7 @@ $$
 leaving the light neutrinos couplings essentially the same 
 as those of the Standard Model, 
 while the heavy ones would be almost entirely right-handed 
-and they would not partecipate in weak charged or neutral currents.
+and would not partecipate in weak charged or neutral currents.
 
 \subsection{de Gouv\^{e}a}
 A convenient general parameterization of SUSY models for CLFV-violating processes involving muons has been proposed by de Gouv\^{e}a \cite{deGouvea}:
@@ -265,11 +270,11 @@ In this expression, $m_\mu$ is the muon mass, $F^{\mu\nu}$ the photon field,
 $L$ and $R$ indicate the chirality of the fermion field.
 On an intuitive level, 
 the two terms correspond to 'dipole' and 'contact' 4-fermion interactions.
-There are two independent parameters,  $\Lambda$, the mass scale, and $\kappa$, 
+There are also two independent parameters,  $\Lambda$, the mass scale, and $\kappa$, 
 which weights the two terms. 
 Fig. \ref{_deGouvea} shows the relationship between 
-the Branching Ratios of $\mu\rightarrow e\gamma$, $\mu\rightarrow eee$ 
-and $\mu N \rightarrow e B$ as a function of the parameter $\kappa$. 
+the Branching Ratios of the processes $\mu\rightarrow e\gamma$, $\mu\rightarrow eee$ 
+and $\mu N \rightarrow e N$ as a function of the parameter $\kappa$. 
 The parameter space for muon CLFV that has been excluded by previous experiments 
 and the region that future experiments will be able to probe are also reported. 
 The upper limits expected at 90\% CL for the future experiments MEG upgrade, 
@@ -277,7 +282,7 @@ Mu3e, Mu2e and Mu2e at PIP II (Proton Improvement Plan-II) are also shown. \text
 
 \begin{figure}[h!]
 \includegraphics[scale=0.8]{deGouvea}
-\caption{Current and future limits expected on the Branching Ratios of 
+\caption[Limits on the BR]{Current and future limits expected on the Branching Ratios of 
 $\mu\rightarrow e\gamma$,
 $\mu\rightarrow eee$ decays and $\mu N \rightarrow e N$ conversion in terms 
 of the two parameters $\Lambda$ and $\kappa$, where the first one is 
@@ -327,7 +332,7 @@ The spectrum in vacuum, known as Michel spectrum, is the same for both signs of 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Michel}
-\caption{Michel spectrum before and after the radiative corrections \cite{signorelli}. The plot on the right is a particular of the end point in log scale, this helps to understand how quickly the spectrum goes to zero.}
+\caption[Michel spectrum]{Michel spectrum before and after the radiative corrections \cite{signorelli}. The plot on the right is a particular of the end point in log scale, this helps to understand how quickly the spectrum goes to zero.}
 \label{_Michel}
 \end{figure}
 
@@ -342,8 +347,13 @@ $\mu^- \rightarrow e^-\overline{\nu}_e\nu_\mu$&$\sim100\%$&\\
 $\mu^- \rightarrow e^-\overline{\nu}_e\nu_\mu e^-e^+$&
 $(3.4\pm0.4)\times10^{-5}$&\\
 \hline
+$\mu^- \rightarrow e^-\nu_e\overline{\nu}_\mu$&$<1.2\%$&$90\%$\\
+$\mu^+ \rightarrow e^+\gamma$&$<4.2\times10^{-13}$&$90\%$\\
+$\mu^- \rightarrow e^-e^+e^-$&$<1.0\times10^{-12}$&$90\%$\\
+$\mu^- \rightarrow e^-2\gamma$&$<7.2\times10^{-11}$&$90\%$\\
+\hline
 \end{tabular}
-\caption{Muon decay channels \cite{PDG}. \textbf{[aggiungi processi]}}
+\caption[Muon decay channels]{Muon decay channels \cite{PDG}.}
 \label{T_mu}
 \end{table}
 
@@ -378,7 +388,7 @@ which is obviously $Z$-dependent, is shown in Fig \ref{_DIO_pre}.\\
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{DIO_materials}
-\caption{Electron spectrum in different materials, normalized to the free-muon decay rate \cite{signorelli}. The solid blue line is for carbon, the black dotted line for aluminum, the green dot-dashed line for silicon and the red dashed line for titanium.}
+\caption[Decay In Orbit spectra]{Electron spectrum in different materials, normalized to the free-muon decay rate \cite{signorelli}. The solid blue line is for carbon, the black dotted line for aluminum, the green dot-dashed line for silicon and the red dashed line for titanium.}
 \label{_DIO_pre}
 \end{figure}
 
@@ -458,14 +468,14 @@ and Mu2e at Fermilab (United States).
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{timeline_measures}
-\caption{Summary of the experimental searches for CLFV processes as a function of the years \cite{Chiappini}.}
+\caption[History of CLFV searches]{Summary of the experimental searches for CLFV processes as a function of the years \cite{Chiappini}.}
 \label{timeline_measures}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{timeline_future}
-\caption{Planned data taking schedules for current experiments and possible schedules for future proposed upgrades \cite{Baldini:2019}. The current best limits for each process are shown on the left, 
+\caption[Experiments schedules]{Planned data taking schedules for current experiments and possible schedules for future proposed upgrades \cite{Baldini:2019}. The current best limits for each process are shown on the left, 
 while expected future sensitivities are indicated by orders of magnitude along the bottom of each row.}
 \label{_timeline_future}
 \end{figure}
@@ -499,7 +509,7 @@ $Z^0\rightarrow \tau e$ & $9.8\times10^{-6}$& \cite{Akers} \\
 $Z^0\rightarrow \tau \mu$ & $1.2\times10^{-6}$& \cite{Akers}\\
 \hline
 \end{tabular}
-\caption{Experimental upper limits for a variety of CLFV processes.}
+\caption[Limits for CLFV processes]{Experimental upper limits for a variety of CLFV processes.}
 \label{T_CLFV}
 \end{table}
 
@@ -535,7 +545,7 @@ $\sim 10^{-16}$&
 $\sim$ few $\times 10^{-17}$ \\
 \hline
 \end{tabular}
-\caption{Overview of muon CLFV experiments}
+\caption[CLFV searches with muons]{Overview of muon CLFV experiments}
 \label{T_CLFV_mu}
 \end{table}
 
@@ -596,7 +606,7 @@ set the currently world-best a limit of BR$(\mu^+\rightarrow e^+\gamma)<4.2\time
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{MEG}
-\caption{Pictorial view of the MEG experiment \cite{Chiappini}\cite{MEG}.}
+\caption[MEG experiment]{Pictorial view of the MEG experiment \cite{Chiappini}\cite{MEG}.}
 \label{_MEG}
 \end{figure}
 
@@ -623,7 +633,7 @@ The engineering runs for MEG II detectors commissioning are currently ongoing.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{MEG_II}
-\caption{Pictorial view of the MEG II experiment \cite{MEG_II}.}
+\caption[MEG II experiment]{Pictorial view of the MEG II experiment \cite{MEG_II}.}
 \label{_MEG_II}
 \end{figure}
 
@@ -677,14 +687,14 @@ with the addition of the other two stations to reach the single-event-sensitivit
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{Mu3e_3D}
-\caption{Pictorial view of the Mu3e apparatus \cite{Papa}.}
+\caption[Mu3e experiment]{Pictorial view of the Mu3e apparatus \cite{Papa}.}
 \label{_Mu3e_3D}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Mu3e}
-\caption{A sketch view of the Mu3e apparatus \cite{Mu3e:2013} and the various phases.}
+\caption[Mu3e experiment phases]{A sketch view of the Mu3e apparatus \cite{Mu3e:2013} and the various phases.}
 \label{_Mu3e}
 \end{figure}
 
@@ -759,7 +769,7 @@ SINDRUM II set the upper on the $\mu-e$ conversion at $7\times10^{-13}$ \cite{SI
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{SINDRUM_II}
-\caption{Pictorial view of the SINDRUM II experiment with the various section labeled as in the description \cite{SINDRUMII}.}
+\caption[SINDRUM II]{Pictorial view of the SINDRUM II experiment with the various section labeled as in the description \cite{SINDRUMII}.}
 \label{_SINDRUM_II}
 \end{figure}
 
@@ -783,7 +793,7 @@ The expected Mu2e sensitivity with three years of data taking is $R_{\mu e}<3\ti
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{MuonBeamline}
-\caption{Pictorial view of the muon beam-line of the Mu2e experiment \cite{MTDR}.}
+\caption[Mu2e experiment]{Pictorial view of the muon beam-line of the Mu2e experiment \cite{MTDR}.}
 \label{_MuonBeamline}
 \end{figure}
 
@@ -832,7 +842,7 @@ The goal of the AlCap collaboration has been to measure the rate and spectra of 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{COMET}
-\caption{Pictorial view of the COMET apparatus \cite{COMET_I}.}
+\caption[COMET experiment]{Pictorial view of the COMET apparatus \cite{COMET_I}.}
 \label{_COMET}
 \end{figure}
 
@@ -857,7 +867,7 @@ are shown in Fig. \ref{_DeeMe}.
 \centering
 \includegraphics[scale=0.4]{DeeMe}
 \includegraphics[scale=0.4]{DeeMe_event}
-\caption{Pictorial view of the DeeMe apparatus and timing \cite{DeeMe}. }
+\caption[DeeMe experiment]{Pictorial view of the DeeMe apparatus and timing \cite{DeeMe}. }
 \label{_DeeMe}
 \end{figure}
 
@@ -867,17 +877,17 @@ are shown in Fig. \ref{_DeeMe}.
 Mu2e will search for the neutrino-less coherent conversion of a negative muon into an electron
 in the field of an aluminum nucleus. The experiment will measure the ratio between the conversion 
 and the nuclear muon capture rates:
-
 \begin{center}
 $R_{\mu e} = \frac{\mu^- + N(Z, A) \rightarrow e^- + N(Z, A)}
 {\mu^- + N(Z,A) \rightarrow \nu_{\mu} + N(Z-1, A)}$
 \end{center}
-
 \noindent
 The goal is to improve the current limit, set by the SINDRUM-II experiment \cite{SINDRUMII}, by four orders of magnitude and reach a SES (single-event-sensitivity) of $3\times 10^{-17}$ on the conversion rate, a 90\% CL of $8\times 10^{-17}$ and a $5\sigma$ discovery reach at $2\times 10^{-16}$.\\
 Mu2e is currently under construction at the Fermilab Muon Campus by an international collaboration that includes the Italian National Institute of Nuclear Physics.
 Data taking is planned to begin in 2023 and last for about three years. 
-This Chapter provides a brief overview of the employed experimental techniques and infrastructures.}
+This Chapter provides a brief overview of the employed experimental techniques and infrastructures. Fundamental bibliography for this chapter was: \cite{signorelli} \cite{bob_cflv} \cite{bob_mu2e} \cite{Manolis}}
+
+check where to put \cite{Measday:2001}
 
 %\noindent
 %(Spostare la Figura 2.1: An overview of the apparatus was already shown in fig. \ref{_mu2e_apparatus_pre} and in fig. %\ref{_MuonBeamline} shows a preview of the magnetic system that will be described shortly. })
@@ -902,7 +912,7 @@ The expected signal from conversion electrons assuming $R_{\mu e} = 2 \times 10^
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{signal_bg}
-\caption{Simulated momentum spectrum for muon decay-in-orbit (DIO) events and conversion electron (CE) events estimated assuming $R_{\mu e} = 2 \times 10 ^{-16}$. 
+\caption[Mu2e simulated signal]{Simulated momentum spectrum for muon decay-in-orbit (DIO) events and conversion electron (CE) events estimated assuming $R_{\mu e} = 2 \times 10 ^{-16}$. 
 The distributions are normalized to the total number of muons expected for $3.6 \times 10^{20}$ protons on target. 
 The signal window is limited to the range $103.9 < p < 104.9$ MeV/c \cite{Manolis} \cite{CD3}.}
 \label{_signal_bg}
@@ -927,7 +937,7 @@ Under the \textit{other} category are the small contributions like the decay in 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{CD3_backgrounds}
-\caption{CD3 backgrounds}
+\caption[Mu2e background]{CD3 backgrounds}
 \end{figure}
 \end{comment}
 
@@ -952,7 +962,7 @@ RPC	&	$0.021(1)_{stat}(2)_{syst}$	& 0.025 \cite{RPC_now} \\
 Total &	$0.41(13)_{stat+syst}$ &\\
 \hline
 \end{tabular}
-\caption{Blessed estimates in CD3 \cite{CD3} of the backgrounds for the Mu2e experiment.
+\caption[Mu2e background]{Blessed estimates in CD3 \cite{CD3} of the backgrounds for the Mu2e experiment.
 The chosen momentum window for the signal search is $[103.85, 104.90]$ MeV$/c$ and the beam extinction is assumed $10^{-10}$. 
 The corresponding sensitivity is $SES=(3.01 \pm 0.03(stat) \pm 0.41(syst)) \times 10^{-17}$. 
 The update of the sensitivity is an ongoing effort and the new estimate is expected this year.}
@@ -989,7 +999,7 @@ The detailed Mu2e simulation yields $<180$ keV$/c$, which in the following is as
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{DIO_materials}
-\caption{Electron spectrum as determined from different materials
+\caption[Decay In Orbit spectra]{Electron spectrum as determined from different materials
 and normalized to the free-muon decay rate \cite{signorelli}. 
 The solid blue line is for carbon, the black dotted line for aluminum, 
 the green dot-dashed line for silicon and the red dashed line for titanium.}
@@ -1047,7 +1057,7 @@ The current estimate is $0.04 \div 0.4$ \cite{Giovanni:2020} but it is limited b
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.7]{mu2e_event}
-\caption{The Mu2e beam timing \cite{bob_mu2e}: the proton pulse arrives every 1.7 $\mu$s (shaded); 
+\caption[Mu2e event timing]{The Mu2e beam timing \cite{bob_mu2e}: the proton pulse arrives every 1.7 $\mu$s (shaded); 
 $\pi$ and $\mu$ arrival time at the detector solenoid (purple and blue);
 $\mu$ decay and capture time (dashed).
 The Selection window ([700,1700] ns) is the period of time for which Mu2e will analyze data but the data acquisition gate will be roughly 200 ns larger.}
@@ -1090,7 +1100,7 @@ This  micro-bunch structure determines the Mu2e beam timing shown in Fig.  \ref{
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{ProtonBeamlineArial_3D}
-\caption{Pictorial view of the Fermilab accelerator complex that provides the proton beam to the Mu2e experiment \cite{FNAL}. 
+\caption[Fermilab accelerator complex]{Pictorial view of the Fermilab accelerator complex that provides the proton beam to the Mu2e experiment \cite{FNAL}. 
 Protons are transported from the Booster to the Recycler Ring where they circulate while being re-bunched. 
 The reformatted bunches are transported to the Delivery Ring where they are slow-extracted to the Mu2e detector through a new external beam-line.}
 \label{_ProtonBeamlineArial}
@@ -1099,7 +1109,7 @@ The reformatted bunches are transported to the Delivery Ring where they are slow
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{ProtonBeamlineArial_sketch}
-\caption{A schematic more specific of the Mu2e facility and accelerator complex \cite{MTDR}. 
+\caption[Mu2e delivery system]{A schematic more specific of the Mu2e facility and accelerator complex \cite{MTDR}. 
 The beam-lines are described in \cite{MTDR}.}
 \label{_ProtonBeamlineArial_sketch}
 \end{figure}
@@ -1107,7 +1117,7 @@ The beam-lines are described in \cite{MTDR}.}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{beam_time_structure_2}
-\caption{Time structure of the proton beam produced by the Delivery system \cite{BeamStruct}. 
+\caption[Mu2e proton beam time structure]{Time structure of the proton beam produced by the Delivery system \cite{BeamStruct}. 
 Supercycles are split between the Mu2e and NO$\nu$A experiments. 
 The ON period for Mu2e is approximately 380 ms and is divided in eight spills. 
 The duration of a spill is 43.1 ms and each spill is composed of a train of micro-bunches 
@@ -1129,7 +1139,7 @@ and sends it towards the Mu2e experiment.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{Extraction}
-\caption{The extraction method, with the beam moving from right to left \cite{Extraction}. A foil plane (red line) in the septa allows to kick horizontally only the beam on one side. The two quadrupoles are used for horizontal and vertical focusing. The last magnet has a field free channel while the other kicks the beam outside the Delivery Ring.}
+\caption[Resonant extraction]{The extraction method, with the beam moving from right to left \cite{Extraction}. A foil plane (red line) in the septa allows to kick horizontally only the beam on one side. The two quadrupoles are used for horizontal and vertical focusing. The last magnet has a field free channel while the other kicks the beam outside the Delivery Ring.}
 \label{_Extraction}
 \end{figure}
 
@@ -1144,7 +1154,7 @@ This value will be achieved by employing a high frequency AC dipole and a comple
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{AC_dipole}
-\caption{The AC dipole system sweeps out-of-time beam into the collimators \cite{bob_mu2e}. 
+\caption[AC dipole extinction]{The AC dipole system sweeps out-of-time beam into the collimators \cite{bob_mu2e}. 
 The left-hand plot shows the normalized amplitude of the field and inset is also shown
 the location in time and the expected shape of the proton pulses. 
 The right-hand plot shows the normalized amplitude of the displacement: 
@@ -1156,7 +1166,7 @@ if the value is 2 the entire beam is deflected into the collimators.}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.3]{Extinction}
-\caption{Performance of the AC dipole system\cite{bob_mu2e}. The red line (scale at left) shows the transmission curve of the external dipole/collimator system (G4Beamline simulation \cite{G4beamline}). The green curve (scale at right) shows the beam extracted from the Delivery ring (ESME simulation \cite{ESME}). The blue curve shows the convolution of the two.}
+\caption[AC dipole extinction performance]{Performance of the AC dipole system\cite{bob_mu2e}. The red line (scale at left) shows the transmission curve of the external dipole/collimator system (G4Beamline simulation \cite{G4beamline}). The green curve (scale at right) shows the beam extracted from the Delivery ring (ESME simulation \cite{ESME}). The blue curve shows the convolution of the two.}
 \label{_Extinction}
 \end{figure}
 
@@ -1182,7 +1192,7 @@ visible in Fig. \ref{_POT_sim} are on the time scale of ms.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{POT_distribution}
-\caption{Simulated proton pulse intensity distribution \cite{SpillSim}: 
+\caption[Proton pulse intensity]{Simulated proton pulse intensity distribution \cite{SpillSim}: 
 number of pulses on the vertical axes and relative intensity of a micro-bunch on the horizontal. 
 This distribution is updated every time a section of the accelerating and delivery system is tested.}
 \label{_POT_distribution}
@@ -1191,7 +1201,7 @@ This distribution is updated every time a section of the accelerating and delive
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{POT_sim}
-\caption{Simulation of the pulse intensity computed as a fraction  
+\caption[Proton pulse intensity fluctuations]{Simulation of the pulse intensity computed as a fraction  
 of the design intensity and 
 as function of time in a spill for one spill \cite{SpillSim}.}
 \label{_POT_sim}
@@ -1205,7 +1215,7 @@ The magnetic system is probably the most innovative, challenging and essential p
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{mu2e_apparatus}\\
-\caption{Pictorial view of the Mu2e magnetic and detector systems \cite{Giovannella}.}
+\caption[Mu2e apparatus]{Pictorial view of the Mu2e magnetic and detector systems \cite{Giovannella}.}
 \label{_mu2e_apparatus_pre}
 \end{figure}
 
@@ -1224,7 +1234,7 @@ and discussed previously in Sect. \ref{magnets}.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{PS}
-\caption{A section view of the Production Solenoid \cite{PS}. 
+\caption[Production Solenoid]{A section view of the Production Solenoid \cite{PS}. 
 The incoming proton beam hits the target from the right, 
 the next section of the beam-line (Transport Solenoid) is also on the right and the graded field collects particles towards it.}
 \label{_PS}
@@ -1246,7 +1256,7 @@ The target shape has been optimized to maximize the emissivity while keeping the
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{production_target_history}
-\caption{Evolution of the production target designs \cite{Pushka_Hayman2}. 
+\caption[Production target history]{Evolution of the production target designs \cite{Pushka_Hayman2}. 
 The most recent version, on the right, is called Hayman-2 and is shown in more detail in Fig. \ref{_Hayman2}.}
 \label{_production_target_history}
 \end{figure}
@@ -1255,7 +1265,7 @@ The most recent version, on the right, is called Hayman-2 and is shown in more d
 \centering
 \includegraphics[scale=0.45]{Hayman2}\hfill
 \includegraphics[scale=0.35]{Hayman2_structure}
-\caption{On the left a closeup of the current design of the stopping target (Hayman-2 \cite{Pushka_Hayman2} \cite{bob_Hayman2}). 
+\caption[Hayman2 stopping target]{On the left a closeup of the current design of the stopping target (Hayman-2 \cite{Pushka_Hayman2} \cite{bob_Hayman2}). 
 It is interesting to notice the segmented structure and the presence of fins on every segment to allow the radiative cooling. 
 On the right the design of the support for the Hayman-2 production target \cite{Pushka_Hayman2}.}
 \label{_Hayman2}
@@ -1284,7 +1294,7 @@ This window has the specific function to stop antiprotons and the current design
 \centering
 \includegraphics[scale=0.5]{MuonBeamline_TS_window_2} \hfill
 \includegraphics[scale=0.48]{MuonBeamline_TS_3}
-\caption{A 3D view of the TS3 on the left \cite{bob_mu2e}. The particles traveling in the TS (moving left to right) are separated vertically in charge by the curving magnetic field and the TS3 collimators select the negative charged particles (red). 
+\caption[Transport Solenoid]{A 3D view of the TS3 on the left \cite{bob_mu2e}. The particles traveling in the TS (moving left to right) are separated vertically in charge by the curving magnetic field and the TS3 collimators select the negative charged particles (red). 
 On the right a schematic view of the Transport Solenoid sections described \cite{TS}.}
 \label{_TS3}
 \end{figure}
@@ -1303,7 +1313,7 @@ while the detectors will be the focus of the next Section.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{DS_2}
-\caption{Schematic depiction of the Detector Solenoid \cite{bob_mu2e}. 
+\caption[Detector Solenoid]{Schematic depiction of the Detector Solenoid \cite{bob_mu2e}. 
 The muons are incoming form the left, stop in the stopping target and the outgoing particles are detected by the Tracker and the Calorimeter, set downstream.}
 \label{_DS}
 \end{figure}
@@ -1317,7 +1327,7 @@ shown in Fig. \ref{_stopping_target}.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{stopping_target} %0.8
-\caption{The stopping target and its suspending infrastructure \cite{stopping_target}. The target is a stack of Al disks. The hole allows the reduce the interaction with not desired particles.}
+\caption[Stopping target support system]{The stopping target and its suspending infrastructure \cite{stopping_target}. The target is a stack of Al disks. The hole allows the reduce the interaction with not desired particles.}
 \label{_stopping_target}
 \end{figure}
 
@@ -1332,7 +1342,7 @@ named Inner and Outer Proton Absorber (Fig. \ref{_ProtonAbsorber}).
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{ProtonAbsorber}
-\caption{A schematic of the proton absorbers \cite{stopping_target}. 
+\caption[Proton absorber]{A schematic of the proton absorbers \cite{stopping_target}. 
 This structure is needed to reduced the occupancy of the detectors and fake signals in the Cosmic Ray Veto: 
 both can be due to particles ejected from nuclear captures in the stopping target.}
 \label{_ProtonAbsorber}
@@ -1369,7 +1379,7 @@ and excellent resolution \cite{Tracker:2016} \cite{Tracker:2018}.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Tracker_2}
-\caption{Geometry of the straw-tracker \cite{Manolis}. 
+\caption[Straw-tube tracker]{Geometry of the straw-tracker \cite{Manolis}. 
 Straw tubes are mounted in two layers in a panel covering $120^\circ$ 
 and 12 panels make a station, leaving the center with no detectors. The tracker is a series of 18 stations.}
 \label{_tracker}
@@ -1391,14 +1401,14 @@ The Mu2e Collaboration is continuously developing these studies as the detector 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.3]{Tracker_resolution}
-\caption{Momentum resolution of the straw-tracker evaluated with  simulation. \cite{Giovannella}.}
+\caption[Tracker simulated resolution]{Momentum resolution of the straw-tracker evaluated with  simulation. \cite{Giovannella}.}
 \label{_Tracker_resolution}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{Tracker_prototype}
-\caption{Results of the tests of a 8 straws panel prototype tested with cosmic rays \cite{Giovannella}. 
+\caption[Tracker prototype results]{Results of the tests of a 8 straws panel prototype tested with cosmic rays \cite{Giovannella}. 
 From left to right: longitudinal and transverse resolution; efficiency.}
 \label{_Tracker_prototype}
 \end{figure}
@@ -1440,7 +1450,7 @@ only $\mathcal{O}(10^{-12})$ of the DIO are expected to be reconstructable\cite{
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{straw}
-\caption{The internal structure of a straw-tube \cite{MTDR}.}
+\caption[Structure of a straw-tube]{The internal structure of a straw-tube \cite{MTDR}.}
 \label{_straw}
 \end{figure}
 
@@ -1448,14 +1458,14 @@ only $\mathcal{O}(10^{-12})$ of the DIO are expected to be reconstructable\cite{
 \centering
 \includegraphics[scale=0.5]{straw_avalanche}
 \includegraphics[scale=0.4]{straw_avalanche_2}
-\caption{How does a stratube work \cite{MultiwireDrift} \textbf{[Useless?]}}
+\caption[Avalanche process in straw-tube]{How does a stratube work \cite{MultiwireDrift} \textbf{[Useless?]}}
 \label{_straw_avalanche}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{Tracker_panel_geom}
-\caption{Layout of the straws in a panel \cite{MTDR}. 
+\caption[Layout of straws in a panel]{Layout of the straws in a panel \cite{MTDR}. 
 The distance between the straws is necessary to account for some expansion imperfections in the assembly. 
 The two layers are staggered to have some redundancy and improve the reconstruction quality.}
 \label{_Tracker_panel_geom}
@@ -1465,7 +1475,7 @@ The two layers are staggered to have some redundancy and improve the reconstruct
 \centering
 \includegraphics[scale=0.2]{Tracker_panel}
 \includegraphics[scale=0.25]{Tracker_panel_picture}
-\caption{Tracker panel \cite{MTDR} and a picture of an mounted panel with part of the electronics installed \cite{Manolis}.}
+\caption[A panel of the tracker]{Tracker panel \cite{MTDR} and a picture of an mounted panel with part of the electronics installed \cite{Manolis}.}
 \label{_Tracker_panel}
 \end{figure}
 
@@ -1473,7 +1483,7 @@ The two layers are staggered to have some redundancy and improve the reconstruct
 \centering
 \includegraphics[scale=0.3]{Tracker_plane}
 \includegraphics[scale=0.35]{Tracker_plane_picture}
-\caption{Tracker face and plane \cite{MTDR} and a picture of a mounted face with part of the electronics installed \cite{Manolis}.}
+\caption[Face and Plane of the tracker]{Tracker face and plane \cite{MTDR} and a picture of a mounted face with part of the electronics installed \cite{Manolis}.}
 \label{_Tracker_plane}
 \end{figure}
 
@@ -1502,7 +1512,7 @@ and provides the link between FEE and the Data Acquisition System.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{Tracker_electronics}
-\caption{Signal flow for the readout of a straw from the detector to the Data Acquisition system \cite{MTDR}.}
+\caption[Straw-tracker electronics]{Signal flow for the readout of a straw from the detector to the Data Acquisition system \cite{MTDR}.}
 \label{_tracker_electronics}
 \end{figure}
 
@@ -1544,14 +1554,14 @@ A reduced-scale prototype of the calorimeter, made of a matrix of 51 CsI crystal
 \centering
 \includegraphics[scale=0.5]{mu2e_calorimeter}
 \includegraphics[scale=0.7]{mu2e_calorimeter_Module0}
-\caption{A 3D representation of the Calorimeter \cite{Calorimeter:2018}. The two disks have the same structure, shown in fig. \ref{_mu2e_calorimeter_disk}, and the electronics is mounted on the outside. On the right a picture of the Module-0, a working prototype \cite{Donghia:2019}.}
+\caption[Electromagnetic Calorimeter]{A 3D representation of the Calorimeter \cite{Calorimeter:2018}. The two disks have the same structure, shown in fig. \ref{_mu2e_calorimeter_disk}, and the electronics is mounted on the outside. On the right a picture of the Module-0, a working prototype \cite{Donghia:2019}.}
 \label{_mu2e_calorimeter}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{calorimeter_test}
-\caption{Results of the test of the Module-0, a working prototype of the Calorimeter comprise of 51 crystals. \cite{Donghia:2019} \cite{Calorimeter:2020}}
+\caption[Calorimeter prototype results]{Results of the test of the Module-0, a working prototype of the Calorimeter comprise of 51 crystals. \cite{Donghia:2019} \cite{Calorimeter:2020}}
 \label{_calorimeter_test}
 \end{figure}
 
@@ -1581,7 +1591,7 @@ Global Data Acquisition System.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{mu2e_calorimeter_disk_2}
-\caption{Structure of one of the two disk of the Calorimeter and picture of some prototype for the SiPM integration \cite{Calorimeter:2020}.}
+\caption[Disk of the calorimeter]{Structure of one of the two disk of the Calorimeter and picture of some prototype for the SiPM integration \cite{Calorimeter:2020}.}
 \label{_mu2e_calorimeter_disk}
 \end{figure}
 
@@ -1641,7 +1651,7 @@ identifies muons with the efficiency of 99.99\% which is fully satisfactory for 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=2]{CRV}
-\caption{Overview of the Mu2e apparatus enclosed by the 
+\caption[Cosmic Rays Veto system]{Overview of the Mu2e apparatus enclosed by the 
 Cosmic Ray Veto \cite{CRV:2019}. 
 The Veto covers the Detector Solenoid and part of the 
 Transport Solenoid to avoid Cosmi Rays collected in the junction 
@@ -1653,7 +1663,7 @@ between the two and transported in the Detector Solenoid by the magnetic fields.
 \centering
 \includegraphics[scale=0.6]{CRV_module_geometry}
 \includegraphics[scale=0.4]{CRV_module_components}
-\caption{Section of the CRV (Left) and readout electronics (Right) \cite{CRV:2019}.}
+\caption[Cosmic Rays Veto system: section and electronics]{Section of the CRV (Left) and readout electronics (Right) \cite{CRV:2019}.}
 \label{_CRV_module_geometry}
 \end{figure}
 
@@ -1669,7 +1679,7 @@ The logical structure of this system is shown in Fig. \ref{_TDAQ}.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{TDAQ}
-\caption{Schematic representation of the Trigger and Data Acquisition System architecture \cite{TDAQ}.}
+\caption[Trigger and Data Acquisition System]{Schematic representation of the Trigger and Data Acquisition System architecture \cite{TDAQ}.}
 \label{_TDAQ}
 \end{figure}
 
@@ -1710,7 +1720,7 @@ $\mu^-+\ _{13}^{27}$Al$\rightarrow \ _{12}^{27}$Mg$+\nu_\mu$; $\ _{12}^{27}$Mg$\
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{HPG_Spectra}
-\caption{HPG Spectra {\bf{Magari inserire qualche informazione}}.}
+\caption[Photons spectrum from stopped muons]{HPG Spectra {\bf{Magari inserire qualche informazione}}.}
 \label{_HPG_Spectra}
 \end{figure}
 
@@ -1720,15 +1730,14 @@ The drawback with HPGe detectors is that they are slow and susceptible to radiat
 The solution adopted by Mu2e is to move the system away from the source (i.e. the stopping target) and
 reduce the rate by $1/r^2$. 
 The final design is still under development but the detector will be placed at approximately 35 m from the stopping target and adequately shielded \cite{STM:2016}. 
-On the other hand, a Cesium doped Lanthanum(III) Bromide (LaBr$_3$(Ce)) detector would have a lower energy resolution 
-but a much higher rate capability and resistance to radiation and would allow to measure the 1809 keV line \cite{LaBr3:2020}.\\
+On the other hand, a Cesium doped Lanthanum(III) Bromide (LaBr$_3$(Ce)) detector would have a lower energy resolution but a much higher rate capability and resistance to radiation and would allow to measure the 1809 keV line \cite{LaBr3:2020}.\\
 The geometry of the Stopping Target Monitor, comprised of these two complementary systems, is still under study. 
 Several alternative solutions for the orientation and shielding are possible and Fig. \ref{_STM_geom} shows one possible configuration.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{STM_geom}
-\caption{Geometry of the Stopping Target Monitor.}
+\caption[Geometry of the Stopping Target Monitor]{Geometry of the Stopping Target Monitor.}
 \label{_STM_geom}
 \end{figure}
 
@@ -1784,7 +1793,7 @@ After the .stn file is generated, invoking the necessary module allows to run ev
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{mu2e_datahandling}
-\caption{Both generation and reconstruction of events are done through \textit{art}-jobs configured using FHiCLs and importing the necessary C++ modules. 
+\caption[Mu2e data handling]{Both generation and reconstruction of events are done through \textit{art}-jobs configured using FHiCLs and importing the necessary C++ modules. 
 Other modules, like the Event Display and TAnaDump are used, are used for debugging purpose.
 The analysis workflow relies on the usage of STNTUPLE.}
 \label{_mu2e_datahandling}
@@ -1794,7 +1803,6 @@ The analysis workflow relies on the usage of STNTUPLE.}
 
 %---------------------%---------------------
 %---------------------%---------------------
-\part{Proton reconstruction}
 %---------------------
 \chapter{Track reconstruction in Mu2e}
 {\itshape This Chapter is dedicated to the description of the track reconstruction algorithms employed in Mu2e. 
@@ -1901,7 +1909,7 @@ A pictorial view of this procedure is reported in Fig. \ref{_TrkPatRec_triplets}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{giani_TrkPatRec_triplets}
-\caption{Pictorial view of the procedure adopted to search for the center of the $XY$ projection 
+\caption[Search for circles in $XY$]{Pictorial view of the procedure adopted to search for the center of the $XY$ projection 
 of the helix using triplets of ComboHits \cite{GianiPatRec:2020}. 
 If a triplet covers a sufficient area, the position of the intersection of the bisectors is stored. 
 The media of these points provides the estimate of the helix axis.}
@@ -1930,7 +1938,7 @@ the peak provides the best estimate of the helix $\mathrm{d}\phi/\mathrm{d}z$.
 \centering
 \includegraphics[scale=0.55]{giani_TrkPatRec_ambiguity0}
 \includegraphics[scale=0.55]{giani_TrkPatRec_ambiguity1}
-\caption{Sketch of the resolution of the $2\pi$ ambiguity \cite{GianiPatRec:2020}. 
+\caption[Resolution of the $2\pi$ ambiguity]{Sketch of the resolution of the $2\pi$ ambiguity \cite{GianiPatRec:2020}. 
 Assigning the hits to the right loop allows to determine the angular velocity of the track.}
 \label{_TrkPatRec_ambiguity}
 \end{figure}
@@ -1952,7 +1960,7 @@ A crucial step of this procedure is the correct projection of the uncertainties 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{giani_CalPatRec_semiplane}
-\caption{Combinatorial background reduction achieved by exploiting the calorimeter clusters seeding \cite{GianiPatRec:2020}. 
+\caption[Calorimeter seeded reconstruction]{Combinatorial background reduction achieved by exploiting the calorimeter clusters seeding \cite{GianiPatRec:2020}. 
 (Left plot)  `Typical' Mu2e event with a conversion electron projected on the $XY$ plane. 
 The green circle represents the transverse projection of the conversion electron trajectory 
 and the black crosses are StrawHits (the long arm indicates the direction of the straw); 
@@ -1963,7 +1971,7 @@ and the black crosses are StrawHits (the long arm indicates the direction of the
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.3]{giani_TrkPatRec_errors}
-\caption{In order to perform the fit in the $XY$ and $\Phi Z$ planes the uncertainties on the ComboHits positions need to be projected on the right axes. 
+\caption[Projection of the uncertainties]{In order to perform the fit in the $XY$ and $\Phi Z$ planes the uncertainties on the ComboHits positions need to be projected on the right axes. 
 These axes depend on the direction of the straw and the trajectory position: are evaluated with the helix seed found using the triplets \cite{GianiPatRec:2020}.}
 \label{_TrkPatRec_errors}
 \end{figure}
@@ -1982,7 +1990,7 @@ A number of tests were performed by reconstrucing a number of complementary simu
 \centering
 \includegraphics[scale=0.6]{giani_TrkPatRec_performance}
 \includegraphics[scale=0.6]{giani_CalPatRec_performance}
-\caption{Performance of the two pattern reconstruction algorithms used to reconstruct 
+\caption[Confront of two pattern recognition algorithms]{Performance of the two pattern reconstruction algorithms used to reconstruct 
 the Monte Carlo sample of conversion electrons and background \cite{GianiPatRec:2020}: 
 the top plots are related to TrkPatRec while the bottom plots to CalPatRec. 
 The top plots have been obtained with the TrkPatRec algorithm,
@@ -2008,7 +2016,7 @@ This is often called \textit{ambiguity} and a graphic representation is reported
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{giani_PatRec_ambiguity}
-\caption{The symmetry of the straw generates an ambiguity for the hits \cite{GianiPatRec:2020}.}
+\caption[Hit ambiguity in a straw tube]{The symmetry of the straw generates an ambiguity for the hits \cite{GianiPatRec:2020}.}
 \label{_ambiguity}
 \end{figure}
 
@@ -2026,7 +2034,7 @@ Our goal is then to find an algorithm to determine $\vec{\eta}$ and $V$ at the s
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Kutschke_Kalman_circ}
-\caption{Pictorial view of the trajectory of a particle traveling along a circular path which has variable parameters \cite{Kutschke}. 
+\caption[Trajectory with variable parameters]{Pictorial view of the trajectory of a particle traveling along a circular path which has variable parameters \cite{Kutschke}. 
 The two blue circles represent the tangent circles at the beginning and at the end of the track segment: 
 both circles are separately valid approximations of the particle trajectory in specific regions 
 but they are not the best estimates of the entire trajectory.}
@@ -2046,8 +2054,7 @@ a second and more complete Kalman filter can be executed
 to introducc the missing residual effects. \\
 There are two important general aspects of this iterative algorithm we should briefly mention: 
 \begin{itemize}
-\item With N points and n parameters the algorithm does not require to compute the inverse of N$\times$N matrices and simply uses multiplications of n$\times$n matrices and their transposed (easy to program and fast to run)
-{\bf{mi domando che cosa significa}};
+\item With N points and n parameters the algorithm does not require to compute the inverse of N$\times$N matrices\footnote{This is the case when introducing multiple scattering in a general fitting procedure: the position of a hit changes because of the interaction in another position creating a correlation between hits, summarized in a N$\times$N matrix} and simply uses multiplications of n$\times$n matrices and their transposed (easy to program and fast to run);
 \item Executing the algorithm in both directions of the trajectory once, storing the values of $\vec{\eta}$ and $V$ after considering each point, allows to determine the estimates with optimal uncertainties in any position.
 \end{itemize} 
 As already introduced, in Mu2e the vector of the parameters is $\eta \equiv ( d_0, \phi_0, \omega, z_0, \tan \lambda)$, and $V$ is a $5\times5$ matrix \cite{Kalman}.  
@@ -2058,7 +2065,7 @@ Nonetheless, it is still useful to describe the basic principle through the disc
 This will be done in Section \ref{2Dfit}.\\
 
 \noindent
-The Kalman filter equations \ref{eq_Kalman} are reported in the following with no proof, which is available in \cite{KutschkePaper}. 
+The Kalman filter equations, linearized  in $\eta$, are reported in the following (\ref{eq_Kalman}) with no proof, which is available in \cite{KutschkePaper}. 
 In these equations $\eta$ (dropping the vector symbol to avoid a too heavy notation) and $V$ are the current estimates of the vector and the covariance matrix, while the primed versions are the new estimates after a new hit is added. 
 The measurement is indicated as $d_m$, with uncertainties $\sigma$, 
 and $d(\eta)$ is the measurement as predicted by the track parameters. 
@@ -2098,7 +2105,7 @@ y = mx +b \label{linear}\\
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{Kutschke_Kalman}
-\caption{Pictorial view of a 2D trajectory of a particle moving along a straight line 
+\caption[2D kalman linear filter]{Pictorial view of a 2D trajectory of a particle moving along a straight line 
 and interacting with a number of equally spaced tracking stations \cite{Kutschke}. 
 The stations measure the $y$ positions and the goal is to determine the track parameters 
 at some Initial Point (IP). 
@@ -2221,9 +2228,9 @@ From this point on the presence of $\delta$ can change substantially the results
  with the specific example $\delta^2L^2=\sigma^2$ to keep the passages easy to follow.
 
 %---------------------
-\chapter{Proton identification}
+\chapter{Proton track reconstruction}
 {\itshape In this Chapter we will describe the development of the procedure 
-employed for proton tracks reconstruction.  
+employed for proton track reconstruction.  
 Our goal is to obtain an estimate of the fluctuations of the number of protons 
 on the production target (POT) on the time-scale of milliseconds. 
 We know these fluctuations are expected as the result of resonant extraction of proton pulses, 
@@ -2231,55 +2238,58 @@ which produces effects on this time-scale.
 Our study follows simultaneously two threads which are linked to two different steps of event reconstruction: 
 the first one is counting StrawHits generated by protons and the second one is counting fully reconstructed proton tracks. 
 The first part of my work has been optimizing the procedure 
-using the simplest possible Monte Carlo sample with only one particle simulated per event.}
+using the simplest possible Monte Carlo samples with only one simulated particle per event.}
 
 \section{Charged particles from nuclear capture}
 As reported in Sect. \ref{backgrounds}, 
 we know that about $61\%$ of stopped muons undergo nuclear capture ($\mu^-(Z,A)\rightarrow \nu_\mu X$). 
 Our plan is to exploit charged protons and deuterons ejected after nuclear capture
 to monitor the fluctuation of the proton beam intensity. 
-To estimate the method performance through Monte Carlo simulation,
+To estimate the method performance using a Monte Carlo simulation,
 we have first to make sure we have a clear understanding of the 
 spectra of the particles generated after nuclear capture.\\
-A theoretical model has been developed by Lifshitz and Singer \cite{Lifshitz} 
+A theoretical model was developed by Lifshitz and Singer in 1978 \cite{Lifshitz} 
 to explain the observed emission of charged particles following muon nuclear capture 
-but there is still a lack of experimental data, particularly regarding Al nuclei.
-Due to the lack of data, the Mu2e Collaboration has used  the experimental spectrum 
-of charged particles generated from muon captures on Si 
+but no experimental data have been available for a long time, particularly regarding Al nuclei.
+Due to the lack of data for Al, 
+the Mu2e Collaboration has performed its simulations using extrapolations of the experimental spectrum 
+of charged particles generated from muon capture on Si 
 measured by Sobottka and Wills (Fig. \ref{_sobottka}, \cite{Sobottka}).
-This spectrum was adapted to aluminum by Hungerford \cite{Hungerford}.
-Since no experimental data are available for deuterons either, 
-Mu2e decided to use the same kinetic energy spectrum as for protons.
+The Si spectrum was extrapolated to Al by Hungerford \cite{Hungerford}.
+Since no experimental data were available for deuterons either, 
+Mu2e decided to use the same kinetic energy spectrum for deuterons as for protons.
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.8]{sobottka}
-\caption{Measured spectrum of protons emitted following muon nuclear capture in Si \cite{Sobottka}. 
-This spectrum is obtained by subtracting from the data the muon-decay electron background. 
-A dip at $\approx1.4$ MeV is clearly visibile.}
+\caption[Proton spectrum from nuclear capture in Si]{Measured spectrum of protons emitted after muon nuclear capture in Si \cite{Sobottka}. 
+The spectrum is obtained after subtracting the muon-decay electron background.}
 \label{_sobottka}
 \end{figure}
 
 \noindent 
-The AlCap \cite{AlCap:2018} and TWIST \cite{TWIST:2020} Collaborations 
-have been leading the ongoing efforts dedicated to measure the spectra 
+More recently, the AlCap \cite{AlCap:2018} and TWIST \cite{TWIST:2020} Collaborations 
+have been leading a new experimental endeavour dedicated to measure the spectra 
 of particles emitted after nuclear capture in Al. 
 The most recent results, obtained in the year 2020 by the two Collaborations, 
 are shown in Tab. \ref{T_AlCap_TWIST} and Fig. \ref{_TWIST} and  \ref{_AlCap}. 
-An alternative parameterization that takes into account the new results 
-has been recently presented \cite{Pasha:spectra} and the comparison between 
-the news one and the previous one by Hungerford is shown in Fig. \ref{_comparison2} \cite{io:comparison}.
+An alternative parameterization that takes into account the new results has been recently presented by Murat \cite{Pasha:spectra} and Fig. \ref{_comparison2} \cite{io:comparison} shows the comparison between the two.
 
-\noindent The proton spectrum obtained by Sobottka (Fig. \ref{_sobottka}) 
-is the result of subtracting the muon-decay electron background from the measurements. 
-The presence of a dip at low non-zero kinetic energy ($\approx 1.4$ MeV) of the spectrum, 
+\noindent The proton spectrum determined by Sobottka (Fig. \ref{_sobottka}) 
+is obtained after subtracting the muon-decay electron background from the measurements. 
+The presence of a dip at low non-zero kinetic energy ($\approx 1.4$ MeV) 
 and the related uncertainties have been the subject of a lot of  discussion 
 within the Mu2e Collaboration \cite{io:sobottka} 
-when trying to develop a possible parameterization. 
-The left side of the spectrum ($E_k\lessapprox1.4$ MeV) is identified as Al$^{27}$ recoil from neutron emission. 
+when trying to develop a possible parameterization to generate
+Monte Carlo samples. 
+To be thorough, we add that a possible explanation for 
+the low-energy region of the spectrum 
+($E_k\lessapprox1.4$ MeV) was identified as Al$^{27}$ recoil from neutron emission. 
 In his parameterization, Hungerford imposed this energy to be where the spectrum goes to zero.
-There is still a lack of experimental data in this region but the studies performed on Mg \cite{IDS:2016} on beta-delayed proton emission show the presence of ejected protons with energy lower than the dip shown in Fig. \ref{_sobottka}. 
-These results support the choice of parameterization proposed this year 
+There is still a lack of experimental data in this region, 
+but the studies performed on Mg \cite{IDS:2016} on beta-delayed proton emission 
+show the presence of ejected protons with energy lower than the dip shown in Fig. \ref{_sobottka}. 
+These results support the choice of an alternative parameterization proposed by Murat this year
 that forces the zero point of the spectrum to zero.\\
 
 \begin{table}
@@ -2314,9 +2324,8 @@ TWIST \cite{TWIST:2020}&
 \makecell{1.22 $\pm$ 0.09(stat) $\pm$ 0.06(syst)\\  1.8 $\pm$ 0.1(stat) $\pm$ 0.1(syst) $\pm$ 0.2(extrap)} \\
 \hline
 \end{tabular}
-\caption{Current values for the ejection of particles from muon nuclear capture 
-from TWIST \cite{TWIST:2020} and AlCap \cite{AlCap:2020} Collaborations
-{\bf{Mi domando che cosa sono le quantit\'a misurate}}.}
+\caption[AlCap and TWIST measurement of charged particle ejection]
+{Current values for the yield of protons and deuterons per nuclear capture as measured by the TWIST \cite{TWIST:2020} and AlCap \cite{AlCap:2020} Collaborations.}
 \label{T_AlCap_TWIST}
 \end{table}
 
@@ -2324,16 +2333,18 @@ from TWIST \cite{TWIST:2020} and AlCap \cite{AlCap:2020} Collaborations
 \centering
 \includegraphics[width=0.49\textwidth]{new_spectra_2/Gaponenko_protons}\hfill
 \includegraphics[width=0.49\textwidth]{new_spectra_2/Gaponenko_deuterons}
-\caption{Recent measurements of proton (Left) and deuteron (Right) spectra performed
-by the TWIST Collaboration \cite{TWIST:2020}. 
-The yield per muon capture as a function of the ejected particle momentum is shown.}
+\caption[TWIST measured spectra]{Proton (Left) and deuteron (Right) spectra after muon nuclear capture measured
+by the TWIST Collaboration \cite{TWIST:2020}. The plots show
+the yield per muon capture as a function of the ejected particle momentum.}
 \label{_TWIST}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{new_spectra_2/Quirk_protons}
-\caption{Ejected proton spectrum after nuclear captures measured by the AlCap Collaboration \cite{AlCap:2020}. 
+\caption[AlCap measured spectra]{Proton spectrum after muon nuclear capture measured by the AlCap Collaboration \cite{AlCap:2020}. 
+The plot shows
+the yield per muon capture as a function of the ejected particle kinetic energy.
 {\bf{Mi domando se alCap ha delle misure per deuterons, probabilmente non finale}}.}
 \label{_AlCap}
 \end{figure}
@@ -2341,177 +2352,184 @@ The yield per muon capture as a function of the ejected particle momentum is sho
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{new_spectra_2/comparison2}
-\caption{Comparison \cite{io:comparison} between the Hungerford parameterization \cite{Hungerford} and the parameterization proposed by Murat \cite{Pasha:spectra} for proton (red) and deuteron (blue). 
-The lines of less saturated color and forced to zero at 1.4 MeV are from Hungerford. 
+\caption[Comparison of spectrum parameteerizations]{Comparison \cite{io:comparison} between the Hungerford parameterization \cite{Hungerford} 
+and the new Murat parameterization \cite{Pasha:spectra} for proton (red) and deuteron (blue). 
+The lines of less saturated color and forced to zero at 1.4 MeV are from Hungerford.
+ The lines of more saturated color and forced to zero at 0 are from Murat.
 To improve the plot legibility, 
 vertical lines with matching color corresponding to specific momentum values ([50,100,150] MeV$/c$) have been drawn.}
 \label{_comparison2}
 \end{figure}
 
 \noindent 
-We do not have a satisfactory understanding of the global picture yet because, 
-on top of the unknowns related to the low momentum region of the spectra, 
-we also lack information for the high momentum region ($p\gtrsim200$ MeV/c, $E_k\gtrsim 20$ MeV).
+We do not have a satisfactory model yet because, 
+on top of the uncertainties related to the low momentum region of the spectra
+($p \lesssim 60$ MeV/c, $E_k \lesssim 2$ MeV), 
+we do not have much information for the high momentum region 
+($p\gtrsim200$ MeV/c, $E_k\gtrsim 20$ MeV) either.
 
 \noindent
-Furthermore, the presence of the central hole in the tracker 
-and the proton absorber that surrounds the stopping target introduce an additional layer of complexity. 
-The presence of the hole in the detector implies that particles with transverse momentum below $\sim70$ MeV$/c$ 
-are outside the tracker acceptance and thus do not generate hits. 
-This determines the region of the ejected particle spectrum Mu2e is sensitive to. 
+Furthermore,  specific aspects of the design of the Mu2e detectors, 
+as, for example, the presence of the central hole in the tracker 
+and the proton absorber that surrounds the stopping target, 
+introduce an additional level of complexity. 
+The presence of the central hole in the tracker implies that particles with transverse momentum below $\sim70$ MeV$/c$ 
+are outside the detector acceptance and thus do not generate hits. 
+This determines at least a lower limit on the spectrum of the ejected particles Mu2e can reconstruct. 
 The proton absorber has the function of reducing the overall particles flux 
-and thus detectors occupancy, but at the cost of degrading the momentum 
-of the remaining particles. 
-The consequence is that determining the spectra of particles that can be observed in the tracker is pretty hard.\\ 
+and thus tracker occupancy, but at the cost of degrading the momentum 
+measurement of the particles reconstructed by the tracker. 
+The consequence is that predicting the spectrum of particles 
+that can be observed in the tracker is a challenging task.\\ 
 
 \noindent 
-The considerations made so far show that using protons generated in the muon capture 
-as a normalization for the conversion electron search would result in large systematic uncertainties 
-and consequently reduce the Mu2e Single Event Sensitivity. 
-Nonetheless, this technique is still extremely precious to monitor the fluctuations in time of the proton on target, 
-proportional to the stopped muon flux, which is something that as of today no other Mu2e detector allows. 
-The systems already under development (based on HPGe and LaBr3) have a complementary function: 
-they can be reliably used to determine the total normalization and the average POT, 
-but do not allow to monitor on the time scale the beam intensity is expected to fluctuate.\\
-This method is powerful because of the large total number of expected protons per event ($1.7\ \mu$s). 
-We can perform a back-of-the-envelope calculation to provide a preliminary estimate of the proton yield:
+The considerations made so far show that using protons generated in the muon nuclear capture as a normalization for the conversion electron search would result in large systematic uncertainties and consequently reduce the Mu2e Single Event Sensitivity. 
+Nonetheless, this technique is extremely precious to monitor the fluctuations in time of the number of protons on target,  
+proportional to the stopped muon flux, which is something that ,as of today, no other Mu2e detector allows to measure. 
+The systems already under development (based on HPGe and LaBr3) have a complementary function: they can be reliably used to determine the total normalization and the average POT, but they do not allow to monitor the beam intensity on the same time-scale of its expected fluctuation.\\
+This method is powerful because the number of expected protons per event ($1.7\ \mu$s) after muon capture is significant. 
+In fact, a preliminary estimate of the proton yield performed with a quick back-of-the-envelope calculation provides:
+
 \begin{center}
 \begin{footnotesize}
 number of POT $\times$ $\mu_{stopped}$/POT $\times$ P($\mu$ nuclear capture) $\times$ P(proton ejection) $\sim 1.5\times10^3$ p/event
 \end{footnotesize}
 \end{center}
-The proton yield is determined using the most recent estimates: 
+To perform this estimate we have used the most recent estimates of the employed parameters: 
 $3.9\times10^7$ for the number of POT (protons on target); 
 $1.6\times10^{-3}$ stopped muon per POT; 
-$0.61$ for the probability of muon nuclear capture; 
-$0.045$ is the probability of proton ejection.\\
-What may help us in reconstructing these particles is that protons from nuclear captures 
-have specific characteristics: they are highly ionizing and have opposite charge 
-and a different momentum distribution with respect to electrons. 
-These characteristics make the hits and tracks from protons different 
-from the other backgrounds and somewhat unique.
-These characteristics will be fundamental to identify them.
+$0.61$ for the probability of muon nuclear capture in Al; 
+$0.045$ for the probability of proton ejection after muon nuclear capture.\\
+What may help us in reconstructing these particles is that protons from nuclear capture
+have specific characteristics: they have opposite charge 
+and a different momentum distribution with respect to electrons,
+and they are highly ionizing.
+These characteristics make proton hits and tracks different 
+from those generated by the other particles and will be fundamental for their identification.
 
-\section{"Single proton" Monte Carlo events}
-The first step in developing the tools for our simulation has been the study single particle events. 
+\section{``Single proton'' Monte Carlo events}
+The first step in developing the necessary simulation tools has been the study of single particle 
+Monte Carlo events which has provided important information on the algorithm performance
+in an ideal condition. 
 This has been done in two steps: 
-the first one has been using particles generated with a flat momentum distribution
+first we have generated particles with a flat momentum distribution
 to debug the procedure; 
-the second one has been generating particles with the expected spectrum 
+then we have generated particles with the expected momentum distribution
 to determine the algorithm performance.
 
 \subsection{Flat proton momentum distribution}
-The reason for starting from a flat distribution is to study track reconstruction on its own, 
+The reason for starting with a flat momentum distribution is to study track reconstruction on its own, 
 factoring out possible problems due to low statistics in the higher part of the spectrum 
 and understand the geometrical acceptance of the detector. 
 For this purpose, 500k protons have been generated 
-with a flat momentum distribution in the range $p\in[100,600]$ MeV$/c$ in the stopping target. 
-The particles stored in the output file are only those which interact either with the actual Mu2e detectors, 
-or with some "virtual detectors" that can be positioned in the simulation 
+with a flat distribution in the momentum range $p\in[100,600]$ MeV$/c$ in the stopping target. 
+The protons stored in the output file are only those which interact either with the actual Mu2e detectors, 
+or with some "virtual detectors" that can be introduced in the simulation 
 of the Detector Solenoid for debugging purposes.\\
-The distribution of the generated momenta for particles interacting 
+The distribution of the generated momentum of protons interacting 
 at least once in the tracker is shown in Fig. \ref{_flat_Lambda_p-gen1SH}. 
-The plot justifies the choice of the low end of the momentum range of the generated particles: 
-no proton under 100 MeV$/c$ interacts with the tracker due to the presence 
-of the absorber surrounding the stopping target. 
-The plot also provides the simplest possible definition 
-of the tracker geometrical acceptance. \\
+The plot justifies the choice of the low end of the momentum range for the generation: 
+no proton under 100 MeV$/c$ interacts in the tracker due to the presence 
+of the magnetic field and the absorber surrounding the stopping target. 
+The plot could also provide the simplest possible definition 
+of the tracker geometric acceptance. \\
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_p-gen1SH}
-\caption{Momentum distribution of particles which interact 
-at least one time with the tracker and generate at least one StrawHit. 
+\caption[Momentum distribution for particles interacting in the tracker]{Momentum distribution of protons which interact 
+at least one time in the tracker and generate at least one StrawHit. 
 The momentum distribution at generation is flat in the range $100 \div 600$ MeV$/c$.}
 \label{_flat_Lambda_p-gen1SH}
 \end{figure}
 
 \noindent 
 The proton absorber has a significant impact especially on low momentum particles. 
-The consequence is that the absorber contributes to reduce the occupancy of the detector 
-and also determines the minimum energy particles should have to reach the tracker. 
+The absorber determines the minimum energy protons should have to reach the tracker
+and thus contributes to reduce the tracker occupancy.
 To clarify this point, 
-we have simulated 100k protons both with and without the absorber (Fig. \ref{_proton_absorber}). 
-The right plot shows that the presence of the proton absorber reduces the number 
-and increases the momentum of particles that reach the tracker. 
+we have simulated 100k protons in two detector configurations, 
+the first one without the absorber  (Fig. \ref{_proton_absorber}, Left), 
+and the second one with the absorber (Fig. \ref{_proton_absorber}, Right). 
+The right plot shows that the presence of the absorber reduces the number 
+and increases the threshold on the momentum of protons
+that reach the tracker.
 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.49\textwidth, keepaspectratio]{/new_spectra_2/NoAbs_p}\hfill
 \includegraphics[width=0.49\textwidth, keepaspectratio]{/new_spectra_2/Abs_p}
-\caption{Distribution of the number of StrawHits generated in the tracker by single particles 
-as a function of the particle momentum, with no proton absorber (Left plot)
-and with proton absorber (Right plot).}
+\caption[StrawHits with and without proton absorber]
+{Distribution of the number of StrawHits generated in the tracker by single protons
+as a function of their momentum, without the proton absorber (Left plot)
+and with the proton absorber (Right plot).}
 \label{_proton_absorber}
 \end{figure}
 
 \paragraph{TimeClusters.} 
 Fig. \ref{_all_SHvsGenp} shows the number of reconstructed StrawHits as a function 
-of the generated particle momentum.
+of the generated proton momentum.
 The reason for the presence of a dip at $p\approx 250$ MeV$/c$ will be clarified in the following Sections, 
 since it is necessary to follow the steps of track reconstruction to fully understand it, 
-but we can anticipate it is due to the simultaneous presence of the hole in the tracker 
-and the momentum range of the particles we are trying to identify.
+but we can anticipate it is due to the simultaneous presence of the central hole in the tracker 
+and the momentum range of the protons we are simulating.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/all_SHvsGenp}
-\caption{Number of StrawHits reconstructed per event as a function of the generated particle momentum.}
+\caption[Number of StrawHits per event]{Number of StrawHits reconstructed per event as a function of the generated proton momentum.}
 \label{_all_SHvsGenp}
 \end{figure}
 
-\noindent The first step of track reconstruction is grouping the hits 
+\noindent The first step towards full track reconstruction is grouping the StrawHits
 that might have been generated by the same particle. 
-As we have explained in Chapter 3, 
-track reconstruction algorithms exploit both hit position and time
+As we have explained in Chapter 3, the Mu2e
+track reconstruction algorithms exploit both the StrawHit position and time
 to determine the TimeClusters. 
-The way the code was developed introduces a bias towards patterns generated by 
+We know the way the code was developed introduces a bias towards patterns generated by 
 $105$ MeV$/c$ electrons 
 and this makes the code less capable of reconstructing the TimeClusters generated by protons. 
-Before turning off the MVA used by default to search for TimeClusters, 
-we found no hits associated to the same time peak. 
+Before turning off the MVA used by default to search for TimeClusters, we found no hits associated to the same time peak. 
 This is because the MVA was trained to identify patterns due to conversion electrons. 
-After deactivating the MVA, 
-the StrawHits are now grouped in TimeClusters and Fig. \ref{_TimeClusterPar_nSH} 
+After deactivating the MVA, the StrawHits are now grouped in TimeClusters and Fig. \ref{_TimeClusterPar_nSH} 
 shows the distribution of the number of StrawHits per TimeCluster. 
-The basic element of the reconstruction are not StrawHits but ComboHits 
-and Fig. \ref{_flat_TimeClusterMVA_nCH-vs-p} show how the number 
-of these contained in a TimeCluster is related the momentum 
-of the generated particle: 
-the non trivial shape is clearly related to the shape visible in Fig. \ref{_all_SHvsGenp}. \\
+As discussed in Chapter 3, 
+the basic elements of track reconstruction are not the StrawHits but the ComboHits, 
+which are obtained from the combination of the StrawHits generated in the same panel of the detector. 
+Fig. \ref{_flat_TimeClusterMVA_nCH-vs-p} shows the number of these ComboHits contained in a TimeCluster 
+as a function of generated proton momentum: 
+the non trivial shape of the distribution is clearly related to the shape shown in Fig. \ref{_all_SHvsGenp}. \\
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{.49\textwidth}
 		\centering
-\includegraphics[width =\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_nSH}
-\caption{Number of StrawHits associated to the TimeCluster reconstructed in each event, 
-as a function of the generated particle momentum.}
+		\includegraphics[width =\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_nSH}
+		\caption[Number of StrawHits associated to a TimeCluster]
+		{Number of StrawHits associated to the TimeCluster reconstructed in each event.}
 \label{_TimeClusterPar_nSH}
 	\end{minipage}
 	\hfill
     \begin{minipage}{0.49\textwidth}
     	\centering
     	\includegraphics[width =\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_nCH-vs-p}
-\caption{Number of ComboHits associated to the TimeCluster found in each event 
-as a function of the generated particle momentum.}
+\caption[Number of StrawHits associated to the TimeCluster per generated momentum]{Number of ComboHits associated to the TimeCluster found in each event as a function of the generated proton momentum.}
 \label{_flat_TimeClusterMVA_nCH-vs-p}
     \end{minipage}
 \end{figure}
     	
 \noindent What is even more interesting is the number of reconstructed TimeClusters per event.  
-Fig. \ref{_TimeClusterMVA_ntcl-vs-pgen}
-shows that for low momentum particles we often end up with more than 1 TimeCluster per event
-even in single particle events.\\
+Fig. \ref{_TimeClusterMVA_ntcl-vs-pgen} (Left) shows that although we have generated single proton events,
+in a number of cases we end up with more than 1 reconstructed TimeCluster per event for low momentum proton events.\\
 
 \begin{figure}[!htb]
     \centering
     \begin{minipage}{.49\textwidth}
 		\centering
 		\includegraphics[width =\textwidth, keepaspectratio]{/plots/flat/TimeClusterMVA_ntcl-vs-pgen}
-		\caption{Number of reconstructed TimeClusters associated 
-		as a function of the generated particle momentum. 
+		\caption[Number of TimeClusters per generated proton momentum]{Number of reconstructed TimeClusters associated 
+		as a function of the generated proton momentum. 
 		For some events more than one TimeCluster have been reconstructed.}
 		\label{_TimeClusterMVA_ntcl-vs-pgen}
 	\end{minipage}
@@ -2519,72 +2537,67 @@ even in single particle events.\\
     \begin{minipage}{0.49\textwidth}
     	\centering
     	\includegraphics[width =\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_ntcl-vs-pgen}
-		\caption{Number TimeClusters associated to each event as a function of the generated particle momentum. 
-		This is obtained after the implementation of the function to merge TimeClusters.}
+		\caption[Number of TimeClusters per generated momentum after merging]{Number TimeClusters associated to each event as a function of the generated proton momentum. 
+		This has been obtained after the implementation of the function to merge TimeClusters.}
 		\label{_TimeClusterPar_ntcl-vs-pgen}
 	\end{minipage}
 \end{figure}
 
-\noindent If one checks the events with more than one TimeCluster 
-and takes into account that these correspond to single proton events, 
-it is possible evaluate under what assumption it may be reasonable to merge them. 
+\noindent If one checks the events with more than one TimeCluster and takes into account that these correspond to single proton events, it is possible determine under what assumptions it may be reasonable to merge them. 
 The distribution of the angular distance $\Delta \phi$ in the $XY$ plane 
-and the time distance $\Delta t$ between two TimeClusters found in the same single-particle event
-are shown in Fig. \ref{_TimeClusterPar_ProtonPeaks}. 
-This distribution can be used to decide the distance range in which 
-we require TimeClusters to be merged to assign 
-the hits to the particle candidate in a more reliable manner. 
-The merging is performed in the early stage of the TimeCluster search 
-and the following steps remove and add the hits if the merging 
-results in a TimeCluster not meeting the requirements.
-There seems to be two components to this plot: clusters with high $\Delta t$ with low $\Delta \phi$ and vice versa.
+as a function of the time distance $\Delta t$ between two TimeClusters found in the same event are shown in Fig. \ref{_TimeClusterPar_ProtonPeaks}. 
+This distribution can be used to decide the distance range in which we require TimeClusters to be merged 
+to assign the ComboHits to the same particle candidate in a more reliable manner. 
+The merging is performed in the early stage of the TimeCluster search and the steps that follow may remove or add the hits if the merging results in a TimeCluster not meeting the requirements.
+There seem to be two components in this plot: clusters with large $\Delta t$ but low $\Delta \phi$ and vice versa.
+{\bf{Mi domando quali ComboHits hai fatto merge.}}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_ProtonPeaks}
-\caption{Distribution of the time and angular distance in the transverse plane 
-between the TimeClusters found in the same single particle event. 
+\caption[TimeClusters distance in single particle event]{Distribution of the time and angular distance in the transverse plane 
+between the TimeClusters found in the same (single pront) event. 
 This distribution looks quite sporadic, 
 but clearly there are two contributions: 
-high $\Delta t$ with low $\Delta \phi$ and vice versa.}
+large $\Delta t$ with low $\Delta \phi$ and vice versa.
+{\bf{Magari inserire le unit\'a di misura, mi domando se il tempo \'e misurato in nanosecondi}}}
 \label{_TimeClusterPar_ProtonPeaks}
 \end{figure}
 
-\noindent After merging the hits collection, 
-the distribution of the number of TimeClusters per event changes in the desired direction: 
-Fig. \ref{_nTC_comparison} shows that the number of events with more than 1 TimeCluster 
-is drastically reduced, while Fig. \ref{_TimeClusterPar_ntcl-vs-pgen} shows in doing so we did not distort the overall distribution.
-We could reduce the contribution due to these cases by changing the requirements 
-but the trade would be the risk of merging non related TimeClusters 
-when multiple particles will be present in the simulation.\\
+\noindent After the merge, the distribution of the number of TimeClusters per event changes in the desired direction: 
+Fig. \ref{_nTC_comparison} shows that the number of events with multiple TimeClusters has been significantly reduced, while Fig. \ref{_TimeClusterPar_ntcl-vs-pgen} (Right) shows the overall distribution has not been distorted.
+We could reduce the contribution due to these cases by changing the requirements, 
+but the risk would be to merge TimeClusters that have not been generated
+by the same particle when reconstructing events which have more than one particle.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/nTC_comparison}
-\caption{The introduction of a function to merge TimeClusters close in space an time reduces 
-the probability of finding more than 1 TimeCluster per event. 
-The red distribution is after the change.}
+\caption[Number of TimeClusters pre-post merge]
+{Number of TimeClusters per event after applying the algorithm 
+that merges TimeClusters close in space and time. The blue(red) distribution
+is before(after) the merging.}
 \label{_nTC_comparison}
 \end{figure}
 
 \paragraph{Bore.} 
-The presence of the hole and the finite size of the tracker have a significant impact 
-on most distributions related to particle reconstruction.
-A good way to understand this mechanism is to look in which plane of the tracker 
-the StrawHits are generated; 
-the planes where the first and last StrawHits are located are particularly interesting. 
-Fig. \ref{_Lambda_first-z} and \ref{_Lambda_last-z} show these distributions
-as a function of the generated particle momentum.\\
-Low momentum particles tend to leave the first hit at the entrance of the tracker. 
-As momentum is increased ($p \in [150,250]$ MeV$/c$), 
-particles can arrive 
+The presence of the hole and the finite size of the tracker have a significant impact on most distributions related to particle reconstruction.
+A good way to understand this mechanism is to check the planes of the tracker 
+on which the StrawHits are generated.
+What is particularly interesting are the planes where the first and last StrawHits 
+along the $z$ axis of the tracker are located. 
+Fig. \ref{_Lambda_first-z} and \ref{_Lambda_last-z} show these distributions as a function of the generated proton momentum.
+%: there are 18 stations (0-17 in the plot) and the two row (at 31 and -1 respectively for fig. \ref{_Lambda_first-z} and %\ref{_Lambda_last-z}) are events with no StrawHit.\\
+Low momentum particles tend to generate the first hit at the entrance of the tracker. 
+As momentum is increased (for example, $p \in [150,250]$ MeV$/c$), 
+protons can arrive 
 at the front of the tracker after having completed  a full rotation. 
-The result is that particles travel partially inside the hole, 
+The result is that protons travel partially inside the hole, 
 moving downstream the first StrawHit.
 For even higher momentum, 
-particles do not complete a full rotation before reaching 
+protons do not complete a full rotation before reaching 
 the tracker and interact with the first stations.
-A similar behaviour is present also in one checks the last hit in the tracker. 
+A similar behaviour is present also if one checks the last hit in the tracker. 
 A schematic depiction of one of the possible topologies is shown in Fig. \ref{_blender}: 
 the particle does not complete a full rotation before the tracker, 
 interacting with the first stations, 
@@ -2594,50 +2607,46 @@ leaving only some hits in the last station.
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_first-z}
-\caption{Station of the tracker where the first hit associated to the track is located 
-as a function of the particle momentum.}
+\caption[Station of first StrawHit]{Station of the tracker where the first hit associated to the track is located 
+as a function of the proton momentum. The fictitious station "31" shows events with no StrawHits.}
 \label{_Lambda_first-z}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_last-z}
-\caption{Station of the tracker where the last hit associated to the track is located 
-as a function of the particle momentum.}
+\caption[Station of last StrawHit]{Station of the tracker where the last hit associated to the track is located 
+as a function of the proton momentum. The fictitious station "-1" shows events with no StrawHits.}
 \label{_Lambda_last-z}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{Blender_Tracker_4}
-\caption{Sketch of a particle produced in the stopping target and interacting only 
-at the end of the tracker because it travels in the hole due to the pitch of the helix.}
+\caption[Pictorial view of the trajectory of a particle traveling in the bore]
+{Pictorial view of the trajectory of a particle produced in the stopping target and interacting only 
+in the first and in the last tracker stations because it travels in the hole along most
+of its trajectory.}
 \label{_blender}
 \end{figure}
 
 \paragraph{Pitch.}
-The next step in the process of track reconstruction is searching for an helix compatible 
-with the StrawHits which compose a TimeCluster.
-The result of this search clearly depends on both the quality of the reconstructed TimeCluster 
-and the way the helix finder is implemented (the algorithm was discussed in Chapter 3). 
-We can start by checking the dependence of the estimated angular velocity 
-$\mathrm{d}\phi/\mathrm{d}z = 1/ \lambda$ on the generated momentum. 
-This dependence, shown in Fig. \ref{_TimeClusterMVA_Lambda-vs-p}, 
-seems to present a sharp cut for the maximum value of lambda.  
-Some requirements in the module used to find the helix are set 
-by default to improve the reconstruction of helices generated by particles 
-with momentum $\sim 105$ MeV$/c$. 
-If these requirements are relaxed, 
-the dependence changes as shown in Fig. \ref{_Lambda_Lambda-vs-p}. 
-Now, the dependence seems to be correct: 
+The next step of track reconstruction is searching for an helix compatible 
+with the ComboHits which belong to the same TimeCluster.
+The result of this search clearly depends both on the quality of the reconstructed TimeCluster and the way the helix finder is implemented (the algorithm was discussed in Chapter 3). 
+We can start by checking the relation of the estimated angular velocity 
+$\mathrm{d}\phi/\mathrm{d}z = 1/ \lambda$ to the generated momentum \textbf{[Lambda o 1/Lambda?]}. 
+This dependence, shown in Fig. \ref{_TimeClusterMVA_Lambda-vs-p}, seems to present a sharp cut for the maximum value of lambda.  
+Some requirements in the module used to find the helix are indeed set by default to improve the reconstruction of helices generated by particles with momentum $\sim 105$ MeV$/c$. 
+If these requirements are relaxed, the dependence changes as shown in Fig. \ref{_Lambda_Lambda-vs-p}. 
+Now, the dependence seems much more reasonable: 
 given that the tracker has a maximum radius, 
-higher momentum must translate in longer helix pitch.\\
+a larger momentum should necessarily translate into a longer helix pitch.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen}
-\caption{Angular velocity estimated for the TimeCluster as a function 
-of the generated particle momentum. 
+\caption[AAA]{The inverse of the angular velocity estimated for the TimeCluster as a function of the generated proton momentum. 
 The distribution seems to show the presence of some error in the procedure.}
 \label{_TimeClusterMVA_Lambda-vs-p}
 \end{figure}
@@ -2645,144 +2654,146 @@ The distribution seems to show the presence of some error in the procedure.}
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_Lambda-vs-p}
-\caption{Angular velocity estimated for the TimeCluster obtained as a function 
-of the generated particle momentum. 
+\caption[AAA]{The inverse of the angular velocity estimated for the TimeCluster as a function of the generated proton momentum.
 This distribution is obtained after relaxing the requirements in the procedure adopted for the helix search.}
 \label{_Lambda_Lambda-vs-p}
 \end{figure}
 
 \noindent On top of the correct estimate of the parameters of the helix seed of the track fit, 
-this change of the requirements improves also the association of the hits to the trajectory. 
-This is shown in Fig. \ref{_active_SH_fraction}. 
-The reason is quite simple: 
-if the parameter $\lambda$ is evaluated incorrectly, the hits end up more distant for me track and are dropped. 
-This is particularly true for tracks resembling the example shown in Fig. \ref{_blender}, 
-with hits clusters distant from one another. \\
+this change of the requirements improves also the association of the StrawHits to the trajectory 
+(Fig. \ref{_active_SH_fraction}). 
+The reason is simple: 
+if the parameter $\lambda$ is evaluated incorrectly, 
+the hits are not close to the track and are dropped. 
+This is particularly clear for tracks similar to the example shown in Fig. \ref{_blender} 
+where the distance between the two clusters of hits is particularly large. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.49\textwidth, keepaspectratio]{/plots/flat/TimeClusterPar_Helix_frac-vs-pgen}\hfill
 \includegraphics[width=0.49\textwidth, keepaspectratio]{/plots/flat/Lambda_fraction}
-\caption{Fraction of StrawHits associated with a helix as a function of the generated particle momentum. 
-The plots on the left and right are respectively before and after having relaxed 
-the requirements on the algorithm to find the helices.}
+\caption[Fraction of StrawHits in a helix as a function of generated momentum]{Fraction of StrawHits associated to an helix as a function of the generated proton momentum. 
+The plot on the left (right) is before (after) relaxing 
+the requirements on the algorithm that finds the helices.}
 \label{_active_SH_fraction}
 \end{figure}
 
 \noindent Using $\lambda$ we can estimate the number of rotations the particle 
-would complete while traveling the whole length of the tracker. 
+would complete while travelling along the whole length of the tracker. 
 The reason for doing this is that visualizing the trajectory is simpler in this way. 
-The number of rotations for the reconstructed helices, 
-after the requirements for $\lambda$ have been relaxed, is shown in Fig. \ref{_Lambda_Rot-vs-p}. 
-This plot shows that low momentum protons roughly perform a full rotation when traveling in the tracker 
+Fig. \ref{_Lambda_Rot-vs-p} shows
+the number of rotations of the reconstructed helices computed 
+after the requirements for $\lambda$ have been relaxed.
+This plot shows that low momentum protons tend to perform a full rotation when traveling in the tracker 
 while for higher momentum the number of rotations is lower than one. 
-The reason of course is that these particles need to be generated at a more shallow angle in order not to interact 
-with the external structure of the tracker or the solenoid. The result is a larger pitch and a lower number of rotations.\\
+Of course, the reason is that high momentum protons that fall in the tracker acceptance have been generated 
+at a more shallow angle in order not to interact 
+with the external structure of the tracker or the solenoid. 
+The resulting trajectories have a larger pitch and a lower number of rotations in the tracker volume.\\
 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_Rot-vs-p}
-\caption{Number of rotations the particle would complete while traveling the length of the tracker 
-as evaluated from the $\lambda$ obtained from the helix fit. 
-This distribution is obtained after relaxing the requirements in the procedure for the helix search.}
+\caption[Number or full rotation in the tracker per generated momentum]
+{Number of rotations the particle completes while traveling along the length of the tracker 
+as estimated from the $\lambda$ determined from the helix fit. 
+This distribution has been obtained after relaxing the requirements in the procedure for the helix search.}
 \label{_Lambda_Rot-vs-p}
 \end{figure}
 
 \paragraph{Final track.}
 Now that the procedures for the TimeCluster and helix reconstruction have been examined, 
 we can perform the next step of the fitting procedure: the Kalman filter. 
-The first thing to check is how well the reconstruction estimates the particle momentum, 
-to see if there are any glaring mistakes. 
-The reconstructed momentum versus the generated momentum
-is shown in Fig. \ref{_Lambda_preco-vs-pgen}: 
-with no energy losses or scattering and with a fully functioning procedure 
+The first thing to check is how well the reconstruction determines the proton momentum, 
+to make sure there are no glaring mistakes. 
+The reconstructed and generated proton momentum 
+are compared in Fig. \ref{_Lambda_preco-vs-pgen}. 
+With no energy losses or scattering and with a fully functioning procedure, 
 this plot would show the bisector of the first quadrant. 
-The plot shows the expected behaviour, but for low momentum particles, 
+The plot actually shows the expected behaviour, 
+but for low momentum particles, 
 for which the energy loss is a more significant effect, 
-the reconstructed momentum is lower than the generated momentum. \\
+the reconstructed momentum is lower than the generated momentum. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_preco-vs-pgen}
-\caption{Reconstructed momentum (after the Kalman filter) as a function of the generated momentum.}
+\caption[Reconstructed vs generated momentum (flat protons)]
+{Reconstructed momentum (after the Kalman filter) as a function of the generated momentum.}
 \label{_Lambda_preco-vs-pgen}
 \end{figure}
 
 \noindent To define a reconstruction efficiency, 
 we need to decide if we wish to apply some quality cuts 
-on the reconstructed tracks and how to estimate the normalization. 
+on the reconstructed tracks and how we want to determine the normalization. 
 If we take the flat generated spectrum as a normalization, 
 we should simply scale the spectrum of the reconstructed particles 
 and include the geometry acceptance. 
 If we are interested exclusively in the efficiency of the algorithm, 
-the denominator must account only for the particles that we could have reconstructed, 
-i. e. particles interacting a minimum number of times in the tracker. 
+the denominator must account only for particles that we could have reconstructed, 
+i.e. particles interacting for a minimum number of times in the tracker. 
 At this point, the only requirement is the presence of at least 5 hits in the tracker, 
-justifying the fitting procedure. 
-We can then use as normalization the distribution of the generated momentum for particles 
-which interacted more than 5 times. 
+which is the minimum request that allows to perform the fit procedure. 
+We can then use as a normalization the distribution of the generated momentum 
+of protons which interacted in the tracker more than 5 times. 
 The spectra are shown in Fig. \ref{_Lambda_preco-vs-pgen} 
 while the efficiency is shown in Fig. \ref{_Lambda_eff_trk0-5hits}.\\
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_eff_trk0-5hits}
-\caption{Reconstruction efficiency for particles with at least 5 hits in the tracker. 
-The numerator is the spectrum of the momenta of all the reconstructed particles 
-while the denominator is the spectrum of the generated momenta of all particles 
-interacting at least 5 times with the tracker.}
+\caption[Algorithm efficiency]{Reconstruction efficiency for protons with at least 5 hits in the tracker. 
+The numerator is the momentum distribution of all the reconstructed protons
+while the denominator is the generated momentum of all protons which have
+interacted at least 5 times in the tracker.}
 \label{_Lambda_eff_trk0-5hits}
 \end{figure}
 
-\noindent The distribution shown in Fig. \ref{_Lambda_eff_trk0-5hits} shows interesting structures. 
-At low momenta the efficiency is reduced because particles simply do not reach the tracker 
-due to the presence of the proton absorber (Fig. \ref{_proton_absorber}). 
-The other glaring feature is the presence of a dip in the efficiency for $p\sim250$ MeV$/c$. 
+\noindent The distribution shown in Fig. \ref{_Lambda_eff_trk0-5hits} shows interesting sharacteristics. 
+At low momenta the efficiency goes to zero because particles simply do not reach the tracker 
+due to the presence of the proton absorber, as already shown in Fig. \ref{_proton_absorber}. 
+The other glaring feature is the presence of a dip for $p\sim250$ MeV$/c$. 
 Looking at Fig. \ref{_Lambda_first-z} and \ref{_Lambda_last-z} 
-we saw that is the range where the track topology changes: 
+we saw that this is the region where the track topology changes: 
 the first hits become consistently located in the first stations of the tracker 
 but the last hits shift from one end to the other. 
 To iterate, this is due to the finite length of the tracker because the particle reaches 
 the necessary radius to interact with the detector at a $z$ past the end of the tracker itself.
 Aside from these features which are outside our control, 
-the reconstruction is performing at an efficiency $\sim 0.8$ 
-which is a remarkable result considering we are adapting an existing fit routine, 
-tailored to a different particle and momentum range.\\
+the reconstruction algorithms reaches an efficiency $\sim 0.8$ 
+which is a remarkable achievement considering we have used an existing fit routine 
+that had originally been tailored to a different particle and momentum range
+(i.e. conversion electrons with the momentum of 105 MeV/c).\\
 
 \noindent
-To asses how the whole procedure, Kalman filter included, has performed,
-we can evaluate the $\chi^2/\textrm{d.o.f.}$ and check its correlation 
-with the generated momentum. 
-The distribution is shown in Fig. \ref{_Lambda_chi2d_trk0}. 
-What  is clear from this plot is that, as we expected, 
-higher momentum particles follow a trajectory which deviates 
-from an helix resulting in low values of the $\chi^2$. 
-Another interesting feature of the reconstructed tracks is the number of hits 
-that after all the algorithms are run, are associated with a track. 
+To asses how the entire procedure, Kalman filter included, performs, 
+we can compute the $\chi^2/\textrm{d.o.f.}$ and check its correlation with the generated momentum. 
+The  $\chi^2/\textrm{d.o.f.}$ distribution is shown in Fig. \ref{_Lambda_chi2d_trk0}. 
+What is clear from this distribution is that, as we expected, 
+larger momentum protons follow trajectories with smaller deviations from an helix. 
+This results in easier trajectories to fit which are thus associated to lower values of the $\chi^2$. 
+Another interesting feature of the reconstructed tracks is the number of StrawHits associated to a track after all the algorithms have been executed. 
 The distribution of this number is reported in Fig. \ref{_Lambda_nSH_trk0} 
 and shows that all the reconstructed tracks have $\gtrsim 20$ StrawHits. 
-Again, a dip is present around $\sim 250$ MeV$/c$ and for larger momenta 
-the number of hits associated to the tracks is even larger.\\
-Given these distributions, it seems reasonable to define some minimal cuts 
-to asses a 'good' track: $\chi^2/\textrm{d.o.f.}<5$ and $nSH>20$.
-With these requirements, the efficiency changes to \ref{_Lambda_eff_trk21-20hits}.
-Clearly, the second requirement does not play a major role here but it means that in the mixed events 
-we might be able to improve the reconstruction by requiring the minimum number of hits above 5, 
-the number strictly needed to perform the fit.
+Again, there is a dip  around $\sim 250$ MeV$/c$ and for larger momenta the number of hits associated to the tracks is even larger.\\
+Given these distributions, it seems reasonable to define some minimal cuts to asses a 'good' track: $\chi^2/\textrm{d.o.f.}<5$ and $nStrawHit>20$.
+With these requirements, the efficiency changes as shown in Fig.  \ref{_Lambda_eff_trk21-20hits}.
+Clearly, the second requirement does not play a major role here but it means that in analyzing full Mu2e events we might be able to improve (and/or speedup) the reconstruction by setting as requirement a higher minimum number of StrawHits than 5, the number strictly needed to perform the fit.
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_chi2d_trk0}
-\caption{Distribution of the $\chi^2/\textrm{d.o.f.}$ associated to the reconstructed track 
-as function of the generated momentum.}
+\caption[$\chi^2/\textrm{d.o.f.}$ associated to the tracks]
+{Distribution of the $\chi^2/\textrm{d.o.f.}$ associated to the reconstructed track 
+as a function of the generated proton momentum.}
 \label{_Lambda_chi2d_trk0}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_nSH_trk0}
-\caption{Distribution of the number of active StrawHits associated to the reconstructed tracks 
+\caption[Number of StrawHits associated to a track per generated momentum]{Distribution of the number of active StrawHits associated to the reconstructed tracks 
 as a function of the generated momentum.}
 \label{_Lambda_nSH_trk0}
 \end{figure}
@@ -2790,42 +2801,47 @@ as a function of the generated momentum.}
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/flat/Lambda_eff_trk21-20hits}
-\caption{Efficiency evaluated by requiring $\chi^2/\textrm{d.o.f.}<5$ and $nSH>20$. 
-In this instance the denominator has been changed to include only the generated particle momenta 
-which left at least 20 SH.}
+\caption[Efficiency of the algorithm after requirements]{Efficiency determined after requiring $\chi^2/\textrm{d.o.f.}<5$ and $nSH>20$. 
+In this instance the denominator has been changed to include only protons 
+which have generated at least 20 StrawHit in the tracker.}
 \label{_Lambda_eff_trk21-20hits}
 \end{figure}
 
-\subsection{Ejected spectrum}
-The step of using the expected ejected spectrum does not change the basic principles 
-and tweaks performed in the reconstruction but provides us some information on what 
-we actually expect to see when reconstructing a full Mu2e event. 
-For this purpose, $1.5\times10^6$ protons were generated following 
-the most recent parameterization for the ejection spectrum.\\
-The distribution of the reconstructed versus generated momentum is shown in Fig \ref{_proton_preco-vs-pgen_trk0}. 
-As expected from the efficiency estimated in the previous Section (Fig. \ref{_Lambda_eff_trk0-5hits}), 
-we do not reconstruct any proton generated with momentum below $\sim 150$ MeV$/c$; 
-at the same time the spectrum decreases steeply and the probability to have 
-a proton with momentum $p > 250$ MeV$/c$ is low.
+\subsection{Predicted proton momentum distribution}
+The step of using the predicted proton momentum distribution after nuclear capture
+does not change the basic principles 
+and tweaks performed in the reconstruction but provides more realiable information 
+about what we should expect when reconstructing real Mu2e events. 
+For this purpose, we generated $1.5\times10^6$ protons using 
+the most recent parameterization of the momentum spectrum.\\
+Fig \ref{_proton_preco-vs-pgen_trk0}. shows
+the distribution of the reconstructed versus generated proton momentum. 
+As we could expect from the efficiency estimated in the previous Section (Fig. \ref{_Lambda_eff_trk0-5hits}), 
+we do not reconstruct any proton with momentum below $\sim 150$ MeV$/c$; 
+at the same time, the spectrum decreases steeply and the probability to have 
+a proton with momentum $p > 250$ MeV$/c$ is almost negligible.
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/ejected/proton_preco-vs-pgen_trk0}
-\caption{Reconstructed momentum as a function of the generated momentum 
-using the expected spectra for ejected protons.}
+\caption[Reconstructed vs generated momentum (ejected protons)]
+{Reconstructed momentum as a function of the generated momentum 
+in a Monte Carlo sample generated
+using the predicted spectrum of ejected protons.}
 \label{_proton_preco-vs-pgen_trk0}
 \end{figure}
 
 \paragraph{Efficiency.} We can now estimate the proton reconstruction efficiency, 
-using as numerator the distribution of the generated momenta for the particles reconstructed 
-and as denominator the ejection spectrum scaled to the number of generated particles. 
+using as numerator the distribution of the generated momentum for protons reconstructed 
+and as denominator the ejection spectrum scaled to the number of generated protons. 
 The two spectra are shown in Fig. \ref{_proton_momenta} while the efficiency is reported in Fig. \ref{_proton_eff_trk0}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.49\textwidth, keepaspectratio]{/plots/ejected/proton_genp_5SH}\hfill
 \includegraphics[width=0.49\textwidth, keepaspectratio]{/plots/ejected/proton_preco_trk0}
-\caption{Momentum distribution at the generation level for the particles producing more than 5 hits in the tracker and for the particles reconstructed.}
+\caption[Momentum distributions for generated particles with more then 5 StrawHits and reconstructed particles]{Momentum distribution at the generation level for protons producing more than 5 hits in the tracker 
+and for reconstructed protons.}
 \label{_proton_momenta}
 \end{figure}
 
@@ -2833,35 +2849,38 @@ The two spectra are shown in Fig. \ref{_proton_momenta} while the efficiency is 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/ejected/proton_eff_trk0}
-\caption{Efficiency of proton reconstruction using a dataset of single particle events generated with the expected spectrum.}
+\caption[Efficiency of proton reconstruction]{Efficiency of proton reconstruction using a Monte Carlo sample of single protons events 
+generated with the predicted momentum spectrum.}
 \label{_proton_eff_trk0}
 \end{figure}
 
-\section{Deuterons and systematic effects}
-Until this point we only discussed single proton events. 
-From table \ref{T_AlCap_TWIST} we know deuterons are roughly half the protons in number 
-and their distribution is slightly different.
-Additionally we assumed the parameterization of the spectrum to be correct. 
-These two points need to be addressed before moving to mix-events.
+\section{``Single deuteron'' Monte Carlo events}
+Until this point we have analysed only single proton events. 
+From Table \ref{T_AlCap_TWIST} we know the number of deuterons 
+generated after muon nuclear capture is approximately half the number of protons 
+and their momentum distribution is slightly different.
+Moreover, we assumed the parameterization of the spectrum to be correct. 
+These two points need to be addressed before performing the analysis of the mix-events.
 
-\subsection{Deuterons}
-On a procedure level, 
-the fit for a deuteron track is the same as for a proton because the key variables are 
-the momentum and the sign of the charge.
-It should be clear that if we apply this reconstruction to a full simulated Mu2e event 
-we are going to reconstruct both particles and we need to assess the reconstruction efficiency for deuterons. 
-Fig. \ref{_comparison} shows the overall comparison of the various spectra  
-(Fig. \ref{_comparison2} shows the detail at low energy of this plot).\\
+%\subsection{Deuterons}
+\noindent
+If we simply take the procedure into consideration, 
+the fit of a deuteron track is the same as the fit of a proton track because 
+in both cases the key variables are the momentum and the sign of the charge.
+It should be clear that if we want to apply this reconstruction to a full simulated Mu2e event 
+we need to be able reconstruct both particles and to assess the reconstruction efficiency for deuterons. 
+Fig. \ref{_comparison} shows the overall comparison of the various spectra 
+(as reminder, Fig. \ref{_comparison2} showed the low energy region of this plot).\\
 Following what has been done in the last step for protons, 
-the reconstruction has been run on $1 \times 10^6$ deuterons generated with the expected spectrum. 
+we have reconstructed $1 \times 10^6$ simulated deuterons generated with the predicted spectrum. 
 Fig. \ref{_deuteron_preco-vs-pgen_trk0} shows the distribution of the reconstructed momentum 
 as a function of the generated momentum. 
-The spectrum at generation level has already been shown in Fig. \ref{_comparison}. 
+%The spectrum at generation level has already been shown in Fig. \ref{_comparison}. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{new_spectra_2/comparison}
-\caption{As in Fig. \ref{_comparison2}, this plot  \cite{io:comparison} compares the two parameterizations \cite{Hungerford} \cite{Pasha:spectra} for both proton (red) and deuteron (blue). 
+\caption[Comparison of two parameterizaion on the full momentum range]{As in Fig. \ref{_comparison2}, this plot  \cite{io:comparison} compares the two parameterizations \cite{Hungerford} \cite{Pasha:spectra} for both proton (red) and deuteron (blue). 
 The less saturated lines are from Hungerford. 
 The vertical lines correspond to specific momentum values ([50,100,150,500] MeV$/c$).}
 \label{_comparison}
@@ -2870,27 +2889,29 @@ The vertical lines correspond to specific momentum values ([50,100,150,500] MeV$
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/ejected/deuteron_preco-vs-pgen_trk0}
-\caption{}
+\caption[Reconstructed vs generated momentum (ejected deuterons)]
+{Reconstructed versus generated momentum for deuterons.}
 \label{_deuteron_preco-vs-pgen_trk0}
 \end{figure}
 
-\subsection{Parameterizations}
+\subsection{Alternative parameterizations}
 As we discussed at the beginning of this Chapter, 
-the parameterization of the spectra for both protons and deuterons is still under development. 
-The one used for generating the single particle events we analyzed up to this point is the one proposed as alternative to the parameterization made by Hungerford. 
-Given the fact that a consensus has not been reached on the parameterization yet, 
-it might a good idea to see how the reconstruction for both particles would change using Hungerford's spectrum.\\
+the parameterization of the spectra for both protons and deuterons is still being developed. 
+The parameterization used to generate the single particle events we analyzed up to this point is the one proposed by Murat as an alternative to the parameterization made by Hungerford. 
+Given the fact that a consensus within the Mu2e Collaboration has not been reached on the parameterization yet, 
+it might be reasonable to check how the reconstruction for both particles would change using Hungerford's spectrum.\\
 What should be underlined is that while both parameterizations have some validity for protons, 
-the Hungerford spectrum for deuterons is based on the assumption that the kinetic distribution might be the same 
-as the one for protons. 
+the Hungerford spectrum for deuterons is based on the assumption that the kinetic energy distribution 
+might be the same as the one for protons. 
 This is why we expected a greater discrepancy for deuterons. 
-Table \ref{T_syst} reports the results for the same reconstruction procedure run on all the data-sets. 
-The values obtained for protons are fully compatible meaning that, 
+Table \ref{T_syst} reports the number of reconstructed particles using the same reconstruction procedure on all the data-sets. 
+The values obtained for protons are fully compatible and this means that, 
 even though the distributions are different, 
-with the statistics run the track-counting is not sensitive to any systematic due to the different spectra.
+within the available statistics, 
+the track-counting is not sensitive to any systematic effect due to the different spectra.
 On the other hand, the results for deuterons are not compatible. 
-This was expected for the reason just delineated and the values to take in consideration are the one obtained with the current parameterization.\\
-The efficiencies, estimated using as denominator the generated spectrum and as numerator the generated momentum of all reconstructed tracks, are shown in Fig. \ref{_proton_eff_comparison} and \ref{_deuterons_eff_comparison} and as expected are compatible.\\
+This was expected for the reason just mentioned and the values to take into consideration are the ones obtained with the current parameterization, based on the recent measurements.\\
+The efficiencies, estimated using as denominator the generated spectrum and as numerator the generated momentum of all reconstructed tracks, are shown in Fig. \ref{_proton_eff_comparison} and \ref{_deuterons_eff_comparison} and, as expected, are compatible.\\
 
 \begin{table}
 \centering
@@ -2908,21 +2929,25 @@ Deuterons &
 \makecell{ 0.99(3) \\ 0.80(3)} \\
 \hline
 \end{tabular}
-\caption{Results for the reconstruction of the various spectra: number of tracks  reconstructed per 1k particle generated. The number of particles generated were: $1.5\times 10^6$ protons; $1\times 10^6$ deuterons. The uncertainties are statistical and are evaluated as the square root of the number of tracks. The second row for both particles is the result if the following cuts are applied: $\chi^2/\textrm{d.o.f.}<5$; $nSH>20$.}
+\caption[Comparison of number of reconstructed tracks]{Results for the reconstruction of the various spectra: number of tracks  reconstructed per 1k particle generated. 
+The number of particles generated were: $1.5\times 10^6$ protons; $1\times 10^6$ deuterons. 
+The uncertainties are statistical and are evaluated as the square root of the number of tracks. 
+The second row for both particles is the result if the following cuts are applied: $\chi^2/\textrm{d.o.f.}<5$; $nSH>20$.}
 \label{T_syst}
 \end{table}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/ejected/proton_eff_comparison}
-\caption{Comparison of the efficiency of proton reconstruction obtained using the two spectra for the generation: Hungerford in red. The two are in good agreement, as expected. The last point for the proton efficiency shown in fig. \ref{_proton_eff_trk0} is not shown to allow a close up to the peak at 200 MeV/c, where most of the protons reconstructed are. }
+\caption[Proton reconstruction efficiency comparison]{Comparison of the efficiency of proton reconstruction obtained using the two spectra for the generation: Hungerford in red. The two are in good agreement, as expected. The last point for the proton efficiency shown in fig. \ref{_proton_eff_trk0} is not shown to allow a close up to the peak at 200 MeV/c, where most of the protons reconstructed are. }
 \label{_proton_eff_comparison}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/ejected/deuterons_eff_comparison}
-\caption{Comparison of the efficiency of deuteron reconstruction obtained using the two spectra for the generation: Hungerford in red. The two are in good agreement, as expected.}
+\caption[Deuteron reconstruction efficiency comparison]{Comparison of the efficiency of deuteron reconstruction obtained using the two spectra for the generation: 
+Hungerford is in red. The two are in good agreement, as expected.}
 \label{_deuterons_eff_comparison}
 \end{figure}
 
@@ -2976,12 +3001,20 @@ Although this value could probably be further optimize, the electronics simulati
 \begin{figure}[!htb]
 \centering
 \includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/mix/mix500_qsh}
-\caption{The distribution of the straw energy deposit for mix events with overlaid the distributions using the MC truth to identify hist done by protons (red) and deuterons (blue). 
+\caption[Straw energy deposit distribution]{The distribution of the straw energy deposit for mix events with overlaid the distributions using the MC truth to identify hist done by protons (red) and deuterons (blue). 
 The trend suggests that applying a requirement on the energy deposit would reduce the hits which are background for our search.}
 \label{_mix_proton_qsh}
 \end{figure}
 
-\noindent We can evaluate the impact of cut on the straw charge overlaying the distributions for the number of reconstructed tracks per event with and without the requirement. The plot is in fig. \ref{} and shows a net improvement in the reconstruction: the mean for the number of reconstructed tracks ??.
+\noindent We can evaluate the impact of cut on the straw charge overlaying the distributions for the number of reconstructed tracks per event with and without the requirement. The plot is in fig. \ref{_mix_proton_trk} and shows a net improvement in the reconstruction: the mean for the number of reconstructed tracks goes from $\sim2.7\ p/1.7\ \mu$s to $\sim4.5\ p/1.7\ \mu$s.
+
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width =0.8\textwidth, keepaspectratio]{/plots/mix/mix500_trk}
+\caption[Number of tracks with and without the cut on the StrawHit energy]{The distributions of the number of reconstructed tracks with (red) and without (blue) applying the cut on the energy deposit in the straws.}
+\label{_mix_proton_trk}
+\end{figure}
 
 \noindent The improvement is not only in the quantity of the tracks reconstructed but also in the quality. 
 Using the Monte Carlo information we can split the number of reconstructed tracks per particle, in particular we are interested in three categories: protons; deuterons and `others'.
@@ -3014,7 +3047,7 @@ Deuterons &
 \makecell{ 0.99(3) \\ 0.80(3)} \\
 \hline
 \end{tabular}
-\caption{The average number of reconstructed tracks for MDC2018 and an estimate for MDC2020.
+\caption[Educated guess on MDC2020 yields]{The average number of reconstructed tracks for MDC2018 and an estimate for MDC2020.
 The second row for both particles is the result if the following cuts are applied: $\chi^2/\textrm{d.o.f.}<5$; $nSH>20$.}
 \label{T_syst}
 \end{table}

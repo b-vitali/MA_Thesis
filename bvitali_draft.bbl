@@ -21,27 +21,33 @@ L.~Calibbi and G.~Signorelli.
 \newblock \doi{10.1393/ncr/i2018-10144-0}.
 \newblock \eprint{1709.00294}.
 
+\bibitem{SINDRUMII}
+W.~H. Bertl et~al. (SINDRUM II).
+\newblock \emph{{A Search for muon to electron conversion in muonic gold}}.
+\newblock Eur. Phys. J. C, 47:337--346 (2006).
+\newblock \doi{10.1140/epjc/s2006-02582-x}.
+
+\bibitem{STM:2016}
+{A. Palladino, J. Quirk, J. Miller} (Mu2e).
+\newblock \emph{Mu2e stopping-target monitor baseline design}.
+\newblock Mu2e-doc-6453-v4 (2016).
+
+\bibitem{LaBr3:2020}
+{S. Huang and D. Koltick} (Mu2e).
+\newblock \emph{{STM LaBr$_3$ Status Review}}.
+\newblock Mu2e-doc-34581-v3 (2020).
+
+\bibitem{SpillSim}
+S.~Werkema (Mu2e).
+\newblock \emph{Spill simulation}.
+\newblock {Mu2e-doc-33344-v3} (June 2020).
+
 \bibitem{bob_cflv}
 R.~H. Bernstein and P.~S. Cooper.
 \newblock \emph{{Charged Lepton Flavor Violation: An Experimenter's Guide}}.
 \newblock Phys. Rept., 532:27--64 (2013).
 \newblock \doi{10.1016/j.physrep.2013.07.002}.
 \newblock \eprint{1307.5787}.
-
-\bibitem{bob_mu2e}
-R.~Bernstein (Mu2e).
-\newblock \emph{{The Mu2e Experiment}}.
-\newblock Front. in Phys., 7:1 (2019).
-\newblock \doi{10.3389/fphy.2019.00001}.
-\newblock \eprint{1901.11099}.
-
-\bibitem{Manolis}
-M.~Kargiantoulakis.
-\newblock \emph{{A Search for Charged Lepton Flavor Violation in the Mu2e
-  Experiment}}.
-\newblock Mod. Phys. Lett. A, 35(19):2030007 (2020).
-\newblock \doi{10.1142/S0217732320300074}.
-\newblock \eprint{2003.12678}.
 
 \bibitem{H:CMS}
 S.~Chatrchyan et~al. (CMS).
@@ -203,12 +209,6 @@ G.~Aad et~al. (ATLAS).
 \newblock \emph{{A Search for lepton flavor violating $Z^0$ decays}}.
 \newblock {Z. Phys. C 67 (1995)}.
 
-\bibitem{SINDRUMII}
-W.~H. Bertl et~al. (SINDRUM II).
-\newblock \emph{{A Search for muon to electron conversion in muonic gold}}.
-\newblock Eur. Phys. J. C, 47:337--346 (2006).
-\newblock \doi{10.1140/epjc/s2006-02582-x}.
-
 \bibitem{MEG_upgrade}
 A.~Baldini et~al.
 \newblock \emph{{MEG Upgrade Proposal}} (1 2013).
@@ -357,6 +357,27 @@ N.~Teshima (DeeMe).
 \newblock PoS, NuFact2017:109 (2018).
 \newblock \doi{10.22323/1.295.0109}.
 
+\bibitem{bob_mu2e}
+R.~Bernstein (Mu2e).
+\newblock \emph{{The Mu2e Experiment}}.
+\newblock Front. in Phys., 7:1 (2019).
+\newblock \doi{10.3389/fphy.2019.00001}.
+\newblock \eprint{1901.11099}.
+
+\bibitem{Manolis}
+M.~Kargiantoulakis.
+\newblock \emph{{A Search for Charged Lepton Flavor Violation in the Mu2e
+  Experiment}}.
+\newblock Mod. Phys. Lett. A, 35(19):2030007 (2020).
+\newblock \doi{10.1142/S0217732320300074}.
+\newblock \eprint{2003.12678}.
+
+\bibitem{Measday:2001}
+D.~Measday.
+\newblock \emph{{The nuclear physics of muon capture}}.
+\newblock Phys. Rept., 354:243--409 (2001).
+\newblock \doi{10.1016/S0370-1573(01)00012-6}.
+
 \bibitem{CD3}
 A.~Gaponenko (Mu2e).
 \newblock \emph{Cd3 backgrounds}.
@@ -423,11 +444,6 @@ J.~MacLachlan.
 R.~Bernstein and S.~Werkema (Mu2e).
 \newblock \emph{Mu2e proton beam requirements}.
 \newblock {Mu2e-doc-1105} (2016).
-
-\bibitem{SpillSim}
-S.~Werkema (Mu2e).
-\newblock \emph{Spill simulation}.
-\newblock {Mu2e-doc-33344-v3} (June 2020).
 
 \bibitem{Giovannella}
 S.~Giovannella (Mu2e).
@@ -531,16 +547,6 @@ K.~K. Robert and E.~Bertrand.
 J.~Quirk (AlCap, Mu2e).
 \newblock \emph{{Recent results from the AlCap experiment}}.
 \newblock Mu2e-doc-31215-v1 (1 2020).
-
-\bibitem{STM:2016}
-{A. Palladino, J. Quirk, J. Miller} (Mu2e).
-\newblock \emph{Mu2e stopping-target monitor baseline design}.
-\newblock Mu2e-doc-6453-v4 (2016).
-
-\bibitem{LaBr3:2020}
-{S. Huang and D. Koltick} (Mu2e).
-\newblock \emph{{STM LaBr$_3$ Status Review}}.
-\newblock Mu2e-doc-34581-v3 (2020).
 
 \bibitem{TWIST:2020}
 A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.

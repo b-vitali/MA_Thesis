@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{MTDR}
+L.~Bartoszek et~al. (Mu2e).
+\newblock \emph{{Mu2e Technical Design Report}} (10 2014).
+\newblock \doi{10.2172/1172555}.
+\newblock \eprint{1501.05241}.
+
+\bibitem{Signorelli}
+L.~Calibbi and G.~Signorelli.
+\newblock \emph{{Charged Lepton Flavour Violation: An Experimental and
+  Theoretical Introduction}}.
+\newblock Riv. Nuovo Cim., 41(2):71--174 (2018).
+\newblock \doi{10.1393/ncr/i2018-10144-0}.
+\newblock \eprint{1709.00294}.
+
+\bibitem{SINDRUMII}
+W.~H. Bertl et~al. (SINDRUM II).
+\newblock \emph{{A Search for muon to electron conversion in muonic gold}}.
+\newblock Eur. Phys. J. C, 47:337--346 (2006).
+\newblock \doi{10.1140/epjc/s2006-02582-x}.
+
+\bibitem{STM:2016}
+{A. Palladino, J. Quirk, J. Miller} (Mu2e).
+\newblock \emph{Mu2e stopping-target monitor baseline design}.
+\newblock Mu2e-doc-6453-v4 (2016).
+
+\bibitem{LaBr3:2020}
+{S. Huang and D. Koltick} (Mu2e).
+\newblock \emph{{STM LaBr$_3$ Status Review}}.
+\newblock Mu2e-doc-34581-v3 (2020).
+
+\bibitem{SpillSim}
+S.~Werkema (Mu2e).
+\newblock \emph{Spill simulation}.
+\newblock {Mu2e-doc-33344-v3} (June 2020).
+
+\end{thebibliography}

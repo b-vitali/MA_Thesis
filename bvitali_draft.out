@@ -1,64 +1,61 @@
-\BOOKMARK [-1][-]{part.1}{I Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Charged Lepton Flavour Violation}{part.1}% 2
-\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.1}{Charged Lepton Flavour Violation}{section.1.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Beyond Standard Model physics}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.2.1}{SUSY seesaw}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.2}{de Gouv\352a}{section.1.2}% 7
-\BOOKMARK [1][-]{section.1.3}{Phenomenology}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.3.1}{The muon}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.2}{Motion of a charged particle in magnetic field}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.3}{Single event sensitivity}{section.1.3}% 11
-\BOOKMARK [1][-]{section.1.4}{CLFV experimental searches with muons}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.4.1}{Search for the + e+ \040decay}{section.1.4}% 13
-\BOOKMARK [2][-]{subsection.1.4.2}{Search for the + e+ e+e- decay}{section.1.4}% 14
-\BOOKMARK [2][-]{subsection.1.4.3}{Search for the muon-to-electron conversion \(-N e-N\)}{section.1.4}% 15
-\BOOKMARK [0][-]{chapter.2}{The Mu2e experiment}{part.1}% 16
-\BOOKMARK [1][-]{section.2.1}{Signal and backgrounds}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.1.1}{Cosmic rays \(CR\)}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.2}{Muon decay in orbit \(DIO\)}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.3}{Radiative Pion Capture \(RPC\)}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.4}{Antiprotons}{section.2.1}% 21
-\BOOKMARK [2][-]{subsection.2.1.5}{Protons}{section.2.1}% 22
-\BOOKMARK [1][-]{section.2.2}{The accelerator complex}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.1}{Protons On Target}{section.2.2}% 24
-\BOOKMARK [1][-]{section.2.3}{The Mu2e magnetic system}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.3.1}{The Production Solenoid \(PS\)}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.2}{The Transport Solenoid \(TS\)}{section.2.3}% 27
-\BOOKMARK [2][-]{subsection.2.3.3}{The Detector Solenoid \(DS\)}{section.2.3}% 28
-\BOOKMARK [1][-]{section.2.4}{The Mu2e detectors}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.4.1}{The Straw-Tracker}{section.2.4}% 30
-\BOOKMARK [2][-]{subsection.2.4.2}{The Electromagnetic Calorimeter}{section.2.4}% 31
-\BOOKMARK [2][-]{subsection.2.4.3}{The Cosmic Ray Veto}{section.2.4}% 32
-\BOOKMARK [2][-]{subsection.2.4.4}{The Trigger and Data Acquisition System}{section.2.4}% 33
-\BOOKMARK [1][-]{section.2.5}{The monitor of the stopped muon flux}{chapter.2}% 34
-\BOOKMARK [2][-]{subsection.2.5.1}{Baseline Mu2e design: measuring photons}{section.2.5}% 35
-\BOOKMARK [2][-]{subsection.2.5.2}{This Thesis: exploiting protons}{section.2.5}% 36
-\BOOKMARK [1][-]{section.2.6}{Simulation and Analysis tools}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.6.1}{art and .fcl}{section.2.6}% 38
-\BOOKMARK [2][-]{subsection.2.6.2}{STNTUPLE}{section.2.6}% 39
-\BOOKMARK [-1][-]{part.2}{II Proton reconstruction}{}% 40
-\BOOKMARK [0][-]{chapter.3}{Track reconstruction in Mu2e}{part.2}% 41
-\BOOKMARK [1][-]{section.3.1}{Hits reconstruction and pre-filtering}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.1.1}{Straw tracker hits}{section.3.1}% 43
-\BOOKMARK [2][-]{subsection.3.1.2}{Electromagnetic calorimeter hits}{section.3.1}% 44
-\BOOKMARK [1][-]{section.3.2}{Finding the helices}{chapter.3}% 45
-\BOOKMARK [2][-]{subsection.3.2.1}{Time Clustering}{section.3.2}% 46
-\BOOKMARK [2][-]{subsection.3.2.2}{Pattern Recognition "tracker-only"}{section.3.2}% 47
-\BOOKMARK [2][-]{subsection.3.2.3}{Pattern Recognition "tracker-calorimeter combined"}{section.3.2}% 48
-\BOOKMARK [2][-]{subsection.3.2.4}{Comparing the performance of the two algorithms}{section.3.2}% 49
-\BOOKMARK [1][-]{section.3.3}{Kalman filter}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.3.1}{Example: a 2D linear fit}{section.3.3}% 51
-\BOOKMARK [0][-]{chapter.4}{Proton identification}{part.2}% 52
-\BOOKMARK [1][-]{section.4.1}{Charged particles from nuclear captures}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.2}{Single proton events}{chapter.4}% 54
-\BOOKMARK [2][-]{subsection.4.2.1}{Flat distribution}{section.4.2}% 55
-\BOOKMARK [2][-]{subsection.4.2.2}{Ejected spectrum}{section.4.2}% 56
-\BOOKMARK [1][-]{section.4.3}{Deuterons and systematics}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.3.1}{Deuterons}{section.4.3}% 58
-\BOOKMARK [2][-]{subsection.4.3.2}{Parameterizations}{section.4.3}% 59
-\BOOKMARK [0][-]{chapter.5}{Mix-background events}{part.2}% 60
-\BOOKMARK [1][-]{section.5.1}{SH energy}{chapter.5}% 61
-\BOOKMARK [1][-]{section.5.2}{Number of SH}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.3}{Educated guess on MDC2020}{chapter.5}% 63
-\BOOKMARK [0][-]{table.5.1}{Bibliography}{part.2}% 64
+\BOOKMARK [0][-]{chapter.1}{Charged Lepton Flavour Violation}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Charged Lepton Flavour Violation}{section.1.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Beyond the Standard Model}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{SUSY seesaw}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.2}{de Gouv\352a}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{Phenomenology}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{The muon}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Motion of a charged particle in magnetic field}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.3}{Single event sensitivity}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{CLFV experimental searches with muons}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{Search for the + e+ \040decay}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Search for the + e+ e+e- decay}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.3}{Search for the muon-to-electron conversion \(-N e-N\)}{section.1.4}% 14
+\BOOKMARK [0][-]{chapter.2}{The Mu2e experiment}{}% 15
+\BOOKMARK [1][-]{section.2.1}{Signal and backgrounds}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{Cosmic rays \(CR\)}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.2}{Muon decay in orbit \(DIO\)}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.3}{Radiative Pion Capture \(RPC\)}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.4}{Antiprotons}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.5}{Protons}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{The accelerator complex}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{Protons On Target}{section.2.2}% 23
+\BOOKMARK [1][-]{section.2.3}{The Mu2e magnetic system}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.3.1}{The Production Solenoid \(PS\)}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.2}{The Transport Solenoid \(TS\)}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.3}{The Detector Solenoid \(DS\)}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{The Mu2e detectors}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{The Straw-Tracker}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{The Electromagnetic Calorimeter}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.3}{The Cosmic Ray Veto}{section.2.4}% 31
+\BOOKMARK [2][-]{subsection.2.4.4}{The Trigger and Data Acquisition System}{section.2.4}% 32
+\BOOKMARK [1][-]{section.2.5}{The monitor of the stopped muon flux}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.5.1}{Baseline Mu2e design: measuring photons}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.2}{This Thesis: exploiting protons}{section.2.5}% 35
+\BOOKMARK [1][-]{section.2.6}{Simulation and Analysis tools}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.6.1}{art and .fcl}{section.2.6}% 37
+\BOOKMARK [2][-]{subsection.2.6.2}{STNTUPLE}{section.2.6}% 38
+\BOOKMARK [0][-]{chapter.3}{Track reconstruction in Mu2e}{}% 39
+\BOOKMARK [1][-]{section.3.1}{Hits reconstruction and pre-filtering}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.1.1}{Straw tracker hits}{section.3.1}% 41
+\BOOKMARK [2][-]{subsection.3.1.2}{Electromagnetic calorimeter hits}{section.3.1}% 42
+\BOOKMARK [1][-]{section.3.2}{Finding the helices}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.2.1}{Time Clustering}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.2}{Pattern Recognition "tracker-only"}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.3}{Pattern Recognition "tracker-calorimeter combined"}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.4}{Comparing the performance of the two algorithms}{section.3.2}% 47
+\BOOKMARK [1][-]{section.3.3}{Kalman filter}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.3.1}{Example: a 2D linear fit}{section.3.3}% 49
+\BOOKMARK [0][-]{chapter.4}{Proton track reconstruction}{}% 50
+\BOOKMARK [1][-]{section.4.1}{Charged particles from nuclear capture}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.2}{``Single proton'' Monte Carlo events}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.2.1}{Flat proton momentum distribution}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.2}{Predicted proton momentum distribution}{section.4.2}% 54
+\BOOKMARK [1][-]{section.4.3}{``Single deuteron'' Monte Carlo events}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.3.1}{Alternative parameterizations}{section.4.3}% 56
+\BOOKMARK [0][-]{chapter.5}{Mix-background events}{}% 57
+\BOOKMARK [1][-]{section.5.1}{SH energy}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.2}{Number of SH}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.3}{Educated guess on MDC2020}{chapter.5}% 60
+\BOOKMARK [0][-]{table.5.1}{Bibliography}{}% 61
