@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  28 SEP 2020 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  1 OCT 2020 09:52
 entering extended mode
 **./bvitali_draft.tex
 (bvitali_draft.tex
@@ -532,20 +532,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 \c@lstlisting=\count294
-<bvitali_draft-frn.pdf, id=247, 597.50829pt x 845.0471pt>
-File: bvitali_draft-frn.pdf Graphic file (type pdf)
-<use bvitali_draft-frn.pdf>
-Package pdftex.def Info: bvitali_draft-frn.pdf  used on input line 53.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- [1
-
-
-
- <./bvitali_draft-frn.pdf{C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdft
-ex.map}>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
- ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
@@ -557,15 +547,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: No \author given.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 
-      [1
+[1
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
- been already used, duplicate ignored
+
+
+{C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]pdfTeX warning (e
+xt4): destination with the same identifier (name{page.i}) has been already used
+, duplicate ignored
 <to be read again> 
                    \relax 
 l.100 
@@ -597,7 +585,7 @@ es with more then 5 StrawHits
 
 ]
 Chapter 1.
-<figures/SM.png, id=608, 1027.84pt x 983.675pt>
+<figures/SM.png, id=578, 1027.84pt x 983.675pt>
 File: figures/SM.png Graphic file (type png)
 <use figures/SM.png>
 Package pdftex.def Info: figures/SM.png  used on input line 151.
@@ -609,13 +597,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-<figures/feynman_mu-egamma.png, id=624, 292.59312pt x 200.24812pt>
+<figures/feynman_mu-egamma.png, id=594, 292.59312pt x 200.24812pt>
 File: figures/feynman_mu-egamma.png Graphic file (type png)
 <use figures/feynman_mu-egamma.png>
 Package pdftex.def Info: figures/feynman_mu-egamma.png  used on input line 189.
 
 (pdftex.def)             Requested size: 204.81377pt x 140.17273pt.
-<figures/feynman_mu2e.jpg, id=625, 275.0275pt x 205.76875pt>
+<figures/feynman_mu2e.jpg, id=595, 275.0275pt x 205.76875pt>
 File: figures/feynman_mu2e.jpg Graphic file (type jpg)
 <use figures/feynman_mu2e.jpg>
 Package pdftex.def Info: figures/feynman_mu2e.jpg  used on input line 190.
@@ -637,7 +625,7 @@ dentifier (name{figure.1.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.247 $$
          <./figures/feynman_mu-egamma.png> <./figures/feynman_mu2e.jpg>]
-<figures/deGouvea.png, id=642, 577.65813pt x 331.2375pt>
+<figures/deGouvea.png, id=611, 577.65813pt x 331.2375pt>
 File: figures/deGouvea.png Graphic file (type png)
 <use figures/deGouvea.png>
 Package pdftex.def Info: figures/deGouvea.png  used on input line 284.
@@ -662,7 +650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--331
                                                   \fi \fi 
 l.331 
        <./figures/deGouvea.png>]
-<figures/Michel.png, id=662, 746.28813pt x 240.9pt>
+<figures/Michel.png, id=632, 746.28813pt x 240.9pt>
 File: figures/Michel.png Graphic file (type png)
 <use figures/Michel.png>
 Package pdftex.def Info: figures/Michel.png  used on input line 334.
@@ -685,7 +673,7 @@ l.387
                                                   \fi \fi 
 l.387 
        <./figures/Michel.png>]
-<figures/DIO_materials.png, id=675, 587.69562pt x 178.6675pt>
+<figures/DIO_materials.png, id=645, 587.69562pt x 178.6675pt>
 File: figures/DIO_materials.png Graphic file (type png)
 <use figures/DIO_materials.png>
 Package pdftex.def Info: figures/DIO_materials.png  used on input line 390.
@@ -706,7 +694,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--453
 
  []
 
-<figures/timeline_measures.png, id=693, 451.6875pt x 379.91937pt>
+<figures/timeline_measures.png, id=663, 451.6875pt x 379.91937pt>
 File: figures/timeline_measures.png Graphic file (type png)
 <use figures/timeline_measures.png>
 Package pdftex.def Info: figures/timeline_measures.png  used on input line 470.
@@ -715,7 +703,7 @@ Package pdftex.def Info: figures/timeline_measures.png  used on input line 470.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/timeline_future.png, id=696, 785.93625pt x 250.43562pt>
+<figures/timeline_future.png, id=666, 785.93625pt x 250.43562pt>
 File: figures/timeline_future.png Graphic file (type png)
 <use figures/timeline_future.png>
 Package pdftex.def Info: figures/timeline_future.png  used on input line 477.
@@ -790,7 +778,7 @@ dy used, duplicate ignored
                                                   \fi \fi 
 l.586 \subsubsection
                     {The MEG experiment at Paul Scherrer Institut}]
-<figures/MEG.png, id=787, 427.09563pt x 203.25937pt>
+<figures/MEG.png, id=757, 427.09563pt x 203.25937pt>
 File: figures/MEG.png Graphic file (type png)
 <use figures/MEG.png>
 Package pdftex.def Info: figures/MEG.png  used on input line 608.
@@ -800,7 +788,7 @@ Package pdftex.def Info: figures/MEG.png  used on input line 608.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11]
-<figures/MEG_II.png, id=801, 462.72874pt x 353.82187pt>
+<figures/MEG_II.png, id=771, 462.72874pt x 353.82187pt>
 File: figures/MEG_II.png Graphic file (type png)
 <use figures/MEG_II.png>
 Package pdftex.def Info: figures/MEG_II.png  used on input line 635.
@@ -854,12 +842,12 @@ l.662
                                                   \fi \fi 
 l.679 \begin{itemize}
                       <./figures/MEG_II.png>]
-<figures/Mu3e_3D.png, id=819, 576.1525pt x 343.2825pt>
+<figures/Mu3e_3D.png, id=789, 576.1525pt x 343.2825pt>
 File: figures/Mu3e_3D.png Graphic file (type png)
 <use figures/Mu3e_3D.png>
 Package pdftex.def Info: figures/Mu3e_3D.png  used on input line 689.
 (pdftex.def)             Requested size: 345.69415pt x 205.97107pt.
-<figures/Mu3e.png, id=821, 809.0225pt x 409.02812pt>
+<figures/Mu3e.png, id=791, 809.0225pt x 409.02812pt>
 File: figures/Mu3e.png Graphic file (type png)
 <use figures/Mu3e.png>
 Package pdftex.def Info: figures/Mu3e.png  used on input line 696.
@@ -908,7 +896,7 @@ l.711
                                                   \fi \fi 
 l.711 
        <./figures/Mu3e_3D.png> <./figures/Mu3e.png>] [15]
-<figures/SINDRUM_II.png, id=843, 566.115pt x 357.83687pt>
+<figures/SINDRUM_II.png, id=812, 566.115pt x 357.83687pt>
 File: figures/SINDRUM_II.png Graphic file (type png)
 <use figures/SINDRUM_II.png>
 Package pdftex.def Info: figures/SINDRUM_II.png  used on input line 771.
@@ -920,7 +908,7 @@ Package pdftex.def Info: figures/SINDRUM_II.png  used on input line 771.
                                                   \fi \fi 
 l.790 
        <./figures/SINDRUM_II.png>]
-<figures/MuonBeamline.png, id=855, 440.14438pt x 170.13562pt>
+<figures/MuonBeamline.png, id=825, 440.14438pt x 170.13562pt>
 File: figures/MuonBeamline.png Graphic file (type png)
 <use figures/MuonBeamline.png>
 Package pdftex.def Info: figures/MuonBeamline.png  used on input line 795.
@@ -936,7 +924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 832--841
 
  []
 
-<figures/COMET.png, id=875, 414.04688pt x 278.54062pt>
+<figures/COMET.png, id=845, 414.04688pt x 278.54062pt>
 File: figures/COMET.png Graphic file (type png)
 <use figures/COMET.png>
 Package pdftex.def Info: figures/COMET.png  used on input line 844.
@@ -948,12 +936,12 @@ Package pdftex.def Info: figures/COMET.png  used on input line 844.
                                                   \fi \fi 
 l.865 
        <./figures/COMET.png>]
-<figures/DeeMe.png, id=891, 545.03625pt x 272.51813pt>
+<figures/DeeMe.png, id=861, 545.03625pt x 272.51813pt>
 File: figures/DeeMe.png Graphic file (type png)
 <use figures/DeeMe.png>
 Package pdftex.def Info: figures/DeeMe.png  used on input line 868.
 (pdftex.def)             Requested size: 218.01064pt x 109.00531pt.
-<figures/DeeMe_event.png, id=892, 513.92pt x 304.13625pt>
+<figures/DeeMe_event.png, id=862, 513.92pt x 304.13625pt>
 File: figures/DeeMe_event.png Graphic file (type png)
 <use figures/DeeMe_event.png>
 Package pdftex.def Info: figures/DeeMe_event.png  used on input line 869.
@@ -967,7 +955,7 @@ l.875 \chapter
               {The Mu2e experiment} <./figures/DeeMe.png> <./figures/DeeMe_even
 t.png>]
 Chapter 2.
-<figures/signal_bg.png, id=905, 610.28pt x 368.37625pt>
+<figures/signal_bg.png, id=875, 610.28pt x 368.37625pt>
 File: figures/signal_bg.png Graphic file (type png)
 <use figures/signal_bg.png>
 Package pdftex.def Info: figures/signal_bg.png  used on input line 914.
@@ -1014,7 +1002,7 @@ igure.2.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.1056 
        ]
-<figures/mu2e_event.jpg, id=953, 554.57187pt x 210.7875pt>
+<figures/mu2e_event.jpg, id=923, 554.57187pt x 210.7875pt>
 File: figures/mu2e_event.jpg Graphic file (type jpg)
 <use figures/mu2e_event.jpg>
 Package pdftex.def Info: figures/mu2e_event.jpg  used on input line 1059.
@@ -1026,13 +1014,13 @@ Package pdftex.def Info: figures/mu2e_event.jpg  used on input line 1059.
                                                   \fi \fi 
 l.1082 \begin{itemize}
                        <./figures/mu2e_event.jpg>]
-<figures/ProtonBeamlineArial_3D.png, id=963, 478.28688pt x 364.36125pt>
+<figures/ProtonBeamlineArial_3D.png, id=933, 478.28688pt x 364.36125pt>
 File: figures/ProtonBeamlineArial_3D.png Graphic file (type png)
 <use figures/ProtonBeamlineArial_3D.png>
 Package pdftex.def Info: figures/ProtonBeamlineArial_3D.png  used on input line
  1102.
 (pdftex.def)             Requested size: 239.14285pt x 182.18018pt.
-<figures/ProtonBeamlineArial_sketch.png, id=966, 460.21938pt x 216.81pt>
+<figures/ProtonBeamlineArial_sketch.png, id=936, 460.21938pt x 216.81pt>
 File: figures/ProtonBeamlineArial_sketch.png Graphic file (type png)
 <use figures/ProtonBeamlineArial_sketch.png>
 Package pdftex.def Info: figures/ProtonBeamlineArial_sketch.png  used on input 
@@ -1042,7 +1030,7 @@ line 1111.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/beam_time_structure_2.png, id=971, 559.08875pt x 220.825pt>
+<figures/beam_time_structure_2.png, id=941, 559.08875pt x 220.825pt>
 File: figures/beam_time_structure_2.png Graphic file (type png)
 <use figures/beam_time_structure_2.png>
 Package pdftex.def Info: figures/beam_time_structure_2.png  used on input line 
@@ -1058,7 +1046,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.1138 
         <./figures/ProtonBeamlineArial_3D.png>]
-<figures/Extraction.png, id=982, 551.56062pt x 120.45pt>
+<figures/Extraction.png, id=952, 551.56062pt x 120.45pt>
 File: figures/Extraction.png Graphic file (type png)
 <use figures/Extraction.png>
 Package pdftex.def Info: figures/Extraction.png  used on input line 1141.
@@ -1088,7 +1076,7 @@ l.1153
 l.1153 
         <./figures/ProtonBeamlineArial_sketch.png> <./figures/beam_time_structu
 re_2.png> <./figures/Extraction.png>]
-<figures/AC_dipole.png, id=995, 889.3225pt x 362.35374pt>
+<figures/AC_dipole.png, id=965, 889.3225pt x 362.35374pt>
 File: figures/AC_dipole.png Graphic file (type png)
 <use figures/AC_dipole.png>
 Package pdftex.def Info: figures/AC_dipole.png  used on input line 1156.
@@ -1098,7 +1086,7 @@ Overfull \hbox (3.64243pt too wide) in paragraph at lines 1156--1162
  [][] 
  []
 
-<figures/Extinction.png, id=998, 866.23625pt x 765.86125pt>
+<figures/Extinction.png, id=968, 866.23625pt x 765.86125pt>
 File: figures/Extinction.png Graphic file (type png)
 <use figures/Extinction.png>
 Package pdftex.def Info: figures/Extinction.png  used on input line 1168.
@@ -1113,13 +1101,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.1191 
         <./figures/AC_dipole.png>]
-<figures/POT_distribution.png, id=1016, 436.63126pt x 342.27875pt>
+<figures/POT_distribution.png, id=985, 436.63126pt x 342.27875pt>
 File: figures/POT_distribution.png Graphic file (type png)
 <use figures/POT_distribution.png>
 Package pdftex.def Info: figures/POT_distribution.png  used on input line 1194.
 
 (pdftex.def)             Requested size: 305.63979pt x 239.59348pt.
-<figures/POT_sim.png, id=1019, 565.61313pt x 351.3125pt>
+<figures/POT_sim.png, id=988, 565.61313pt x 351.3125pt>
 File: figures/POT_sim.png Graphic file (type png)
 <use figures/POT_sim.png>
 Package pdftex.def Info: figures/POT_sim.png  used on input line 1203.
@@ -1141,7 +1129,7 @@ l.1214
                                                   \fi \fi 
 l.1214 
         <./figures/Extinction.png> <./figures/POT_distribution.png>]
-<figures/mu2e_apparatus.jpg, id=1030, 716.6775pt x 182.6825pt>
+<figures/mu2e_apparatus.jpg, id=1000, 716.6775pt x 182.6825pt>
 File: figures/mu2e_apparatus.jpg Graphic file (type jpg)
 <use figures/mu2e_apparatus.jpg>
 Package pdftex.def Info: figures/mu2e_apparatus.jpg  used on input line 1217.
@@ -1159,12 +1147,12 @@ l.1233
                                                   \fi \fi 
 l.1233 
         <./figures/POT_sim.png> <./figures/mu2e_apparatus.jpg>]
-<figures/PS.png, id=1042, 759.83875pt x 316.68312pt>
+<figures/PS.png, id=1012, 759.83875pt x 316.68312pt>
 File: figures/PS.png Graphic file (type png)
 <use figures/PS.png>
 Package pdftex.def Info: figures/PS.png  used on input line 1236.
 (pdftex.def)             Requested size: 303.93011pt x 126.67099pt.
-<figures/production_target_history.png, id=1050, 895.84688pt x 216.81pt>
+<figures/production_target_history.png, id=1020, 895.84688pt x 216.81pt>
 File: figures/production_target_history.png Graphic file (type png)
 <use figures/production_target_history.png>
 Package pdftex.def Info: figures/production_target_history.png  used on input l
@@ -1175,12 +1163,12 @@ Overfull \hbox (6.90462pt too wide) in paragraph at lines 1258--1260
  [][] 
  []
 
-<figures/Hayman2.png, id=1055, 653.44125pt x 270.25969pt>
+<figures/Hayman2.png, id=1025, 653.44125pt x 270.25969pt>
 File: figures/Hayman2.png Graphic file (type png)
 <use figures/Hayman2.png>
 Package pdftex.def Info: figures/Hayman2.png  used on input line 1266.
 (pdftex.def)             Requested size: 294.04584pt x 121.61572pt.
-<figures/Hayman2_structure.png, id=1056, 316.18124pt x 352.31625pt>
+<figures/Hayman2_structure.png, id=1026, 316.18124pt x 352.31625pt>
 File: figures/Hayman2_structure.png Graphic file (type png)
 <use figures/Hayman2_structure.png>
 Package pdftex.def Info: figures/Hayman2_structure.png  used on input line 1267
@@ -1203,13 +1191,13 @@ er (name{figure.2.14}) has been already used, duplicate ignored
 l.1280 \begin{itemize}
                        <./figures/PS.png> <./figures/production_target_history.
 png>]
-<figures/MuonBeamline_TS_window_2.png, id=1075, 474.27188pt x 317.185pt>
+<figures/MuonBeamline_TS_window_2.png, id=1045, 474.27188pt x 317.185pt>
 File: figures/MuonBeamline_TS_window_2.png Graphic file (type png)
 <use figures/MuonBeamline_TS_window_2.png>
 Package pdftex.def Info: figures/MuonBeamline_TS_window_2.png  used on input li
 ne 1295.
 (pdftex.def)             Requested size: 237.13536pt x 158.5921pt.
-<figures/MuonBeamline_TS_3.png, id=1076, 296.10625pt x 358.33875pt>
+<figures/MuonBeamline_TS_3.png, id=1046, 296.10625pt x 358.33875pt>
 File: figures/MuonBeamline_TS_3.png Graphic file (type png)
 <use figures/MuonBeamline_TS_3.png>
 Package pdftex.def Info: figures/MuonBeamline_TS_3.png  used on input line 1296
@@ -1219,7 +1207,7 @@ Package pdftex.def Info: figures/MuonBeamline_TS_3.png  used on input line 1296
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/DS_2.png, id=1083, 531.9875pt x 104.39pt>
+<figures/DS_2.png, id=1053, 531.9875pt x 104.39pt>
 File: figures/DS_2.png Graphic file (type png)
 <use figures/DS_2.png>
 Package pdftex.def Info: figures/DS_2.png  used on input line 1315.
@@ -1231,7 +1219,7 @@ Package pdftex.def Info: figures/DS_2.png  used on input line 1315.
                                                   \fi \fi 
 l.1320 
         <./figures/Hayman2.png> <./figures/Hayman2_structure.png>]
-<figures/stopping_target.png, id=1096, 366.36874pt x 390.96063pt>
+<figures/stopping_target.png, id=1066, 366.36874pt x 390.96063pt>
 File: figures/stopping_target.png Graphic file (type png)
 <use figures/stopping_target.png>
 Package pdftex.def Info: figures/stopping_target.png  used on input line 1329.
@@ -1254,7 +1242,7 @@ l.1341
 l.1341 
         <./figures/MuonBeamline_TS_window_2.png> <./figures/MuonBeamline_TS_3.p
 ng> <./figures/DS_2.png>]
-<figures/ProtonAbsorber.png, id=1108, 513.92pt x 272.01625pt>
+<figures/ProtonAbsorber.png, id=1078, 513.92pt x 272.01625pt>
 File: figures/ProtonAbsorber.png Graphic file (type png)
 <use figures/ProtonAbsorber.png>
 Package pdftex.def Info: figures/ProtonAbsorber.png  used on input line 1344.
@@ -1272,12 +1260,12 @@ l.1362
                                                   \fi \fi 
 l.1362 
         <./figures/stopping_target.png> <./figures/ProtonAbsorber.png>]
-<figures/Tracker_2.png, id=1119, 566.115pt x 201.75375pt>
+<figures/Tracker_2.png, id=1088, 566.115pt x 201.75375pt>
 File: figures/Tracker_2.png Graphic file (type png)
 <use figures/Tracker_2.png>
 Package pdftex.def Info: figures/Tracker_2.png  used on input line 1381.
 (pdftex.def)             Requested size: 283.05681pt x 100.87662pt.
-<figures/Tracker_resolution.pdf, id=1125, 569.12625pt x 548.0475pt>
+<figures/Tracker_resolution.pdf, id=1094, 569.12625pt x 548.0475pt>
 File: figures/Tracker_resolution.pdf Graphic file (type pdf)
 <use figures/Tracker_resolution.pdf>
 Package pdftex.def Info: figures/Tracker_resolution.pdf  used on input line 140
@@ -1287,7 +1275,7 @@ Package pdftex.def Info: figures/Tracker_resolution.pdf  used on input line 140
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Tracker_prototype.png, id=1128, 614.295pt x 155.07938pt>
+<figures/Tracker_prototype.png, id=1097, 614.295pt x 155.07938pt>
 File: figures/Tracker_prototype.png Graphic file (type png)
 <use figures/Tracker_prototype.png>
 Package pdftex.def Info: figures/Tracker_prototype.png  used on input line 1410
@@ -1326,7 +1314,7 @@ l.1449
 l.1449 
         <./figures/Tracker_resolution.pdf, page is rotated 90 degrees> <./figur
 es/Tracker_prototype.png>]
-<figures/straw.png, id=1191, 1176.395pt x 300.12125pt>
+<figures/straw.png, id=1161, 1176.395pt x 300.12125pt>
 File: figures/straw.png Graphic file (type png)
 <use figures/straw.png>
 Package pdftex.def Info: figures/straw.png  used on input line 1452.
@@ -1336,29 +1324,29 @@ Overfull \hbox (29.53194pt too wide) in paragraph at lines 1452--1453
  [][] 
  []
 
-<figures/straw_avalanche.png, id=1193, 286.06876pt x 234.8775pt>
+<figures/straw_avalanche.png, id=1163, 286.06876pt x 234.8775pt>
 File: figures/straw_avalanche.png Graphic file (type png)
 <use figures/straw_avalanche.png>
 Package pdftex.def Info: figures/straw_avalanche.png  used on input line 1459.
 (pdftex.def)             Requested size: 143.03403pt x 117.43846pt.
-<figures/straw_avalanche_2.png, id=1194, 552.0625pt x 209.78375pt>
+<figures/straw_avalanche_2.png, id=1164, 552.0625pt x 209.78375pt>
 File: figures/straw_avalanche_2.png Graphic file (type png)
 <use figures/straw_avalanche_2.png>
 Package pdftex.def Info: figures/straw_avalanche_2.png  used on input line 1460
 .
 (pdftex.def)             Requested size: 220.82108pt x 83.912pt.
-<figures/Tracker_panel_geom.png, id=1196, 303.63437pt x 188.20313pt>
+<figures/Tracker_panel_geom.png, id=1166, 303.63437pt x 188.20313pt>
 File: figures/Tracker_panel_geom.png Graphic file (type png)
 <use figures/Tracker_panel_geom.png>
 Package pdftex.def Info: figures/Tracker_panel_geom.png  used on input line 146
 7.
 (pdftex.def)             Requested size: 242.90782pt x 150.56268pt.
-<figures/Tracker_panel.png, id=1199, 952.55875pt x 427.5975pt>
+<figures/Tracker_panel.png, id=1169, 952.55875pt x 427.5975pt>
 File: figures/Tracker_panel.png Graphic file (type png)
 <use figures/Tracker_panel.png>
 Package pdftex.def Info: figures/Tracker_panel.png  used on input line 1476.
 (pdftex.def)             Requested size: 190.50838pt x 85.51797pt.
-<figures/Tracker_panel_picture.png, id=1200, 740.26563pt x 360.84813pt>
+<figures/Tracker_panel_picture.png, id=1170, 740.26563pt x 360.84813pt>
 File: figures/Tracker_panel_picture.png Graphic file (type png)
 <use figures/Tracker_panel_picture.png>
 Package pdftex.def Info: figures/Tracker_panel_picture.png  used on input line 
@@ -1367,12 +1355,12 @@ Package pdftex.def Info: figures/Tracker_panel_picture.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Tracker_plane.jpg, id=1205, 577.15625pt x 376.40625pt>
+<figures/Tracker_plane.jpg, id=1175, 577.15625pt x 376.40625pt>
 File: figures/Tracker_plane.jpg Graphic file (type jpg)
 <use figures/Tracker_plane.jpg>
 Package pdftex.def Info: figures/Tracker_plane.jpg  used on input line 1484.
 (pdftex.def)             Requested size: 173.14821pt x 112.92273pt.
-<figures/Tracker_plane_picture.png, id=1206, 544.0325pt x 284.06125pt>
+<figures/Tracker_plane_picture.png, id=1176, 544.0325pt x 284.06125pt>
 File: figures/Tracker_plane_picture.png Graphic file (type png)
 <use figures/Tracker_plane_picture.png>
 Package pdftex.def Info: figures/Tracker_plane_picture.png  used on input line 
@@ -1401,7 +1389,7 @@ er (name{figure.2.25}) has been already used, duplicate ignored
 l.1499 \begin{itemize}
                        <./figures/straw.png> <./figures/straw_avalanche.png> <.
 /figures/straw_avalanche_2.png> <./figures/Tracker_panel_geom.png>]
-<figures/Tracker_electronics.png, id=1219, 763.85374pt x 494.84875pt>
+<figures/Tracker_electronics.png, id=1189, 763.85374pt x 494.84875pt>
 File: figures/Tracker_electronics.png Graphic file (type png)
 <use figures/Tracker_electronics.png>
 Package pdftex.def Info: figures/Tracker_electronics.png  used on input line 15
@@ -1437,19 +1425,19 @@ already used, duplicate ignored
                                                   \fi \fi 
 l.1552 
         <./figures/Tracker_electronics.png>]
-<figures/mu2e_calorimeter.png, id=1239, 325.215pt x 331.9602pt>
+<figures/mu2e_calorimeter.png, id=1209, 325.215pt x 331.9602pt>
 File: figures/mu2e_calorimeter.png Graphic file (type png)
 <use figures/mu2e_calorimeter.png>
 Package pdftex.def Info: figures/mu2e_calorimeter.png  used on input line 1555.
 
 (pdftex.def)             Requested size: 162.6071pt x 165.97969pt.
-<figures/mu2e_calorimeter_Module0.png, id=1240, 250.43562pt x 241.90375pt>
+<figures/mu2e_calorimeter_Module0.png, id=1210, 250.43562pt x 241.90375pt>
 File: figures/mu2e_calorimeter_Module0.png Graphic file (type png)
 <use figures/mu2e_calorimeter_Module0.png>
 Package pdftex.def Info: figures/mu2e_calorimeter_Module0.png  used on input li
 ne 1556.
 (pdftex.def)             Requested size: 175.30373pt x 169.33147pt.
-<figures/calorimeter_test.png, id=1247, 768.8725pt x 273.02pt>
+<figures/calorimeter_test.png, id=1217, 768.8725pt x 273.02pt>
 File: figures/calorimeter_test.png Graphic file (type png)
 <use figures/calorimeter_test.png>
 Package pdftex.def Info: figures/calorimeter_test.png  used on input line 1563.
@@ -1471,7 +1459,7 @@ l.1579 \item T
               he Front Source Plate is made of carbon fiber to reduce the en...
  <./figures/mu2e_calorimeter.png> <./figures/mu2e_calorimeter_Module0.png> <./f
 igures/calorimeter_test.png>]
-<figures/mu2e_calorimeter_disk_2.png, id=1261, 523.45563pt x 299.1175pt>
+<figures/mu2e_calorimeter_disk_2.png, id=1230, 523.45563pt x 299.1175pt>
 File: figures/mu2e_calorimeter_disk_2.png Graphic file (type png)
 <use figures/mu2e_calorimeter_disk_2.png>
 Package pdftex.def Info: figures/mu2e_calorimeter_disk_2.png  used on input lin
@@ -1490,7 +1478,7 @@ ce, are called \OT1/cmr/m/it/12 In-ter-face Boards\OT1/cmr/m/n/12 .
                                                   \fi \fi 
 l.1616 \begin{itemize}
                        <./figures/mu2e_calorimeter_disk_2.png>]
-<figures/CRV.jpg, id=1273, 157.10869pt x 87.25575pt>
+<figures/CRV.jpg, id=1243, 157.10869pt x 87.25575pt>
 File: figures/CRV.jpg Graphic file (type jpg)
 <use figures/CRV.jpg>
 Package pdftex.def Info: figures/CRV.jpg  used on input line 1653.
@@ -1499,13 +1487,13 @@ Package pdftex.def Info: figures/CRV.jpg  used on input line 1653.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/CRV_module_geometry.png, id=1276, 361.35pt x 179.2296pt>
+<figures/CRV_module_geometry.png, id=1246, 361.35pt x 179.2296pt>
 File: figures/CRV_module_geometry.png Graphic file (type png)
 <use figures/CRV_module_geometry.png>
 Package pdftex.def Info: figures/CRV_module_geometry.png  used on input line 16
 64.
 (pdftex.def)             Requested size: 216.81168pt x 107.53857pt.
-<figures/CRV_module_components.png, id=1277, 447.6725pt x 270.00874pt>
+<figures/CRV_module_components.png, id=1247, 447.6725pt x 270.00874pt>
 File: figures/CRV_module_components.png Graphic file (type png)
 <use figures/CRV_module_components.png>
 Package pdftex.def Info: figures/CRV_module_components.png  used on input line 
@@ -1515,7 +1503,7 @@ Package pdftex.def Info: figures/CRV_module_components.png  used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41]
-<figures/TDAQ.png, id=1286, 649.9482pt x 432.6564pt>
+<figures/TDAQ.png, id=1256, 649.9482pt x 432.6564pt>
 File: figures/TDAQ.png Graphic file (type png)
 <use figures/TDAQ.png>
 Package pdftex.def Info: figures/TDAQ.png  used on input line 1681.
@@ -1542,7 +1530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1716--1718
 
  []
 
-<figures/HPG_Spectra.png, id=1298, 550.055pt x 399.99437pt>
+<figures/HPG_Spectra.png, id=1268, 550.055pt x 399.99437pt>
 File: figures/HPG_Spectra.png Graphic file (type png)
 <use figures/HPG_Spectra.png>
 Package pdftex.def Info: figures/HPG_Spectra.png  used on input line 1722.
@@ -1557,7 +1545,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   \fi \fi 
 l.1736 
         <./figures/TDAQ.png>]
-<figures/STM_geom.png, id=1308, 348.80313pt x 265.49188pt>
+<figures/STM_geom.png, id=1278, 348.80313pt x 265.49188pt>
 File: figures/STM_geom.png Graphic file (type png)
 <use figures/STM_geom.png>
 Package pdftex.def Info: figures/STM_geom.png  used on input line 1739.
@@ -1580,7 +1568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1777--1783
  []
 
 [45]
-<figures/mu2e_datahandling.jpg, id=1331, 204.765pt x 245.91875pt>
+<figures/mu2e_datahandling.jpg, id=1300, 204.765pt x 245.91875pt>
 File: figures/mu2e_datahandling.jpg Graphic file (type jpg)
 <use figures/mu2e_datahandling.jpg>
 Package pdftex.def Info: figures/mu2e_datahandling.jpg  used on input line 1795
@@ -1603,7 +1591,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1883--1888
  []
 
 [49]
-<figures/giani_TrkPatRec_triplets.png, id=1371, 332.74312pt x 346.79562pt>
+<figures/giani_TrkPatRec_triplets.png, id=1341, 332.74312pt x 346.79562pt>
 File: figures/giani_TrkPatRec_triplets.png Graphic file (type png)
 <use figures/giani_TrkPatRec_triplets.png>
 Package pdftex.def Info: figures/giani_TrkPatRec_triplets.png  used on input li
@@ -1616,19 +1604,19 @@ ne 1911.
                                                   \fi \fi 
 l.1936 
         <./figures/giani_TrkPatRec_triplets.png>]
-<figures/giani_TrkPatRec_ambiguity0.png, id=1383, 377.91188pt x 203.76125pt>
+<figures/giani_TrkPatRec_ambiguity0.png, id=1353, 377.91188pt x 203.76125pt>
 File: figures/giani_TrkPatRec_ambiguity0.png Graphic file (type png)
 <use figures/giani_TrkPatRec_ambiguity0.png>
 Package pdftex.def Info: figures/giani_TrkPatRec_ambiguity0.png  used on input 
 line 1939.
 (pdftex.def)             Requested size: 207.85217pt x 112.06902pt.
-<figures/giani_TrkPatRec_ambiguity1.png, id=1384, 378.41376pt x 203.76125pt>
+<figures/giani_TrkPatRec_ambiguity1.png, id=1354, 378.41376pt x 203.76125pt>
 File: figures/giani_TrkPatRec_ambiguity1.png Graphic file (type png)
 <use figures/giani_TrkPatRec_ambiguity1.png>
 Package pdftex.def Info: figures/giani_TrkPatRec_ambiguity1.png  used on input 
 line 1940.
 (pdftex.def)             Requested size: 208.1282pt x 112.06902pt.
-<figures/giani_CalPatRec_semiplane.png, id=1389, 576.65437pt x 294.60063pt>
+<figures/giani_CalPatRec_semiplane.png, id=1359, 576.65437pt x 294.60063pt>
 File: figures/giani_CalPatRec_semiplane.png Graphic file (type png)
 <use figures/giani_CalPatRec_semiplane.png>
 Package pdftex.def Info: figures/giani_CalPatRec_semiplane.png  used on input l
@@ -1638,7 +1626,7 @@ ine 1962.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/giani_TrkPatRec_errors.png, id=1392, 532.48938pt x 347.79938pt>
+<figures/giani_TrkPatRec_errors.png, id=1362, 532.48938pt x 347.79938pt>
 File: figures/giani_TrkPatRec_errors.png Graphic file (type png)
 <use figures/giani_TrkPatRec_errors.png>
 Package pdftex.def Info: figures/giani_TrkPatRec_errors.png  used on input line
@@ -1655,13 +1643,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 l.1988 
         <./figures/giani_TrkPatRec_ambiguity0.png> <./figures/giani_TrkPatRec_a
 mbiguity1.png>]
-<figures/giani_TrkPatRec_performance.png, id=1405, 602.75188pt x 287.0725pt>
+<figures/giani_TrkPatRec_performance.png, id=1374, 602.75188pt x 287.0725pt>
 File: figures/giani_TrkPatRec_performance.png Graphic file (type png)
 <use figures/giani_TrkPatRec_performance.png>
 Package pdftex.def Info: figures/giani_TrkPatRec_performance.png  used on input
  line 1991.
 (pdftex.def)             Requested size: 361.65392pt x 172.24483pt.
-<figures/giani_CalPatRec_performance.png, id=1406, 600.74437pt x 284.06125pt>
+<figures/giani_CalPatRec_performance.png, id=1375, 600.74437pt x 284.06125pt>
 File: figures/giani_CalPatRec_performance.png Graphic file (type png)
 <use figures/giani_CalPatRec_performance.png>
 Package pdftex.def Info: figures/giani_CalPatRec_performance.png  used on input
@@ -1690,7 +1678,7 @@ l.2015
 l.2015 
         <./figures/giani_CalPatRec_semiplane.png> <./figures/giani_TrkPatRec_er
 rors.png>]
-<figures/giani_PatRec_ambiguity.png, id=1414, 468.24937pt x 364.36125pt>
+<figures/giani_PatRec_ambiguity.png, id=1384, 468.24937pt x 364.36125pt>
 File: figures/giani_PatRec_ambiguity.png Graphic file (type png)
 <use figures/giani_PatRec_ambiguity.png>
 Package pdftex.def Info: figures/giani_PatRec_ambiguity.png  used on input line
@@ -1713,7 +1701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2023--2033
 l.2033 
         <./figures/giani_TrkPatRec_performance.png> <./figures/giani_CalPatRec_
 performance.png>]
-<figures/Kutschke_Kalman_circ.png, id=1422, 366.87062pt x 305.14pt>
+<figures/Kutschke_Kalman_circ.png, id=1392, 366.87062pt x 305.14pt>
 File: figures/Kutschke_Kalman_circ.png Graphic file (type png)
 <use figures/Kutschke_Kalman_circ.png>
 Package pdftex.def Info: figures/Kutschke_Kalman_circ.png  used on input line 2
@@ -1738,7 +1726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2060--2066
  []
 
 [55]
-<figures/Kutschke_Kalman.png, id=1449, 384.93813pt x 100.87688pt>
+<figures/Kutschke_Kalman.png, id=1419, 384.93813pt x 100.87688pt>
 File: figures/Kutschke_Kalman.png Graphic file (type png)
 <use figures/Kutschke_Kalman.png>
 Package pdftex.def Info: figures/Kutschke_Kalman.png  used on input line 2107.
@@ -1751,7 +1739,7 @@ Package pdftex.def Info: figures/Kutschke_Kalman.png  used on input line 2107.
 l.2157 \end{gather*}
                      <./figures/Kutschke_Kalman.png>] [57] [58]
 Chapter 4.
-<figures/sobottka.png, id=1487, 380.42125pt x 252.945pt>
+<figures/sobottka.png, id=1457, 380.42125pt x 252.945pt>
 File: figures/sobottka.png Graphic file (type png)
 <use figures/sobottka.png>
 Package pdftex.def Info: figures/sobottka.png  used on input line 2264.
@@ -1764,13 +1752,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2278--2294
 [59
 
 ]
-<figures/new_spectra_2/Gaponenko_protons.png, id=1519, 505.89pt x 250.9375pt>
+<figures/new_spectra_2/Gaponenko_protons.png, id=1489, 505.89pt x 250.9375pt>
 File: figures/new_spectra_2/Gaponenko_protons.png Graphic file (type png)
 <use figures/new_spectra_2/Gaponenko_protons.png>
 Package pdftex.def Info: figures/new_spectra_2/Gaponenko_protons.png  used on i
 nput line 2334.
 (pdftex.def)             Requested size: 216.1011pt x 107.19264pt.
-<figures/new_spectra_2/Gaponenko_deuterons.png, id=1520, 511.9125pt x 254.45062
+<figures/new_spectra_2/Gaponenko_deuterons.png, id=1490, 511.9125pt x 254.45062
 pt>
 File: figures/new_spectra_2/Gaponenko_deuterons.png Graphic file (type png)
 <use figures/new_spectra_2/Gaponenko_deuterons.png>
@@ -1781,7 +1769,7 @@ Package pdftex.def Info: figures/new_spectra_2/Gaponenko_deuterons.png  used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/new_spectra_2/Quirk_protons.png, id=1523, 392.46625pt x 277.035pt>
+<figures/new_spectra_2/Quirk_protons.png, id=1493, 392.46625pt x 277.035pt>
 File: figures/new_spectra_2/Quirk_protons.png Graphic file (type png)
 <use figures/new_spectra_2/Quirk_protons.png>
 Package pdftex.def Info: figures/new_spectra_2/Quirk_protons.png  used on input
@@ -1790,7 +1778,7 @@ Package pdftex.def Info: figures/new_spectra_2/Quirk_protons.png  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/new_spectra_2/comparison2.png, id=1526, 700.6175pt x 475.7775pt>
+<figures/new_spectra_2/comparison2.png, id=1496, 700.6175pt x 475.7775pt>
 File: figures/new_spectra_2/comparison2.png Graphic file (type png)
 <use figures/new_spectra_2/comparison2.png>
 Package pdftex.def Info: figures/new_spectra_2/comparison2.png  used on input l
@@ -1841,19 +1829,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2421--2436
 
  []
 
-<figures//plots/flat/Lambda_p-gen1SH.png, id=1549, 538.01pt x 322.20375pt>
+<figures//plots/flat/Lambda_p-gen1SH.png, id=1519, 538.01pt x 322.20375pt>
 File: figures//plots/flat/Lambda_p-gen1SH.png Graphic file (type png)
 <use figures//plots/flat/Lambda_p-gen1SH.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_p-gen1SH.png  used on input
  line 2439.
 (pdftex.def)             Requested size: 352.81552pt x 211.29327pt.
-<figures//new_spectra_2/NoAbs_p.png, id=1552, 521.44812pt x 354.82562pt>
+<figures//new_spectra_2/NoAbs_p.png, id=1522, 521.44812pt x 354.82562pt>
 File: figures//new_spectra_2/NoAbs_p.png Graphic file (type png)
 <use figures//new_spectra_2/NoAbs_p.png>
 Package pdftex.def Info: figures//new_spectra_2/NoAbs_p.png  used on input line
  2461.
 (pdftex.def)             Requested size: 216.1011pt x 147.04955pt.
-<figures//new_spectra_2/Abs_p.png, id=1553, 521.95pt x 355.3275pt>
+<figures//new_spectra_2/Abs_p.png, id=1523, 521.95pt x 355.3275pt>
 File: figures//new_spectra_2/Abs_p.png Graphic file (type png)
 <use figures//new_spectra_2/Abs_p.png>
 Package pdftex.def Info: figures//new_spectra_2/Abs_p.png  used on input line 2
@@ -1866,7 +1854,7 @@ Package pdftex.def Info: figures//new_spectra_2/Abs_p.png  used on input line 2
                                                   \fi \fi 
 l.2468 \end{figure}
                     <./figures//plots/flat/Lambda_p-gen1SH.png>]
-<figures//plots/flat/all_SHvsGenp.png, id=1560, 700.6175pt x 475.7775pt>
+<figures//plots/flat/all_SHvsGenp.png, id=1529, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/all_SHvsGenp.png Graphic file (type png)
 <use figures//plots/flat/all_SHvsGenp.png>
 Package pdftex.def Info: figures//plots/flat/all_SHvsGenp.png  used on input li
@@ -1891,17 +1879,17 @@ l.2503
 l.2503 
         <./figures//new_spectra_2/NoAbs_p.png> <./figures//new_spectra_2/Abs_p.
 png> <./figures//plots/flat/all_SHvsGenp.png>]
-<figures//plots/flat/TimeClusterPar_nSH.png, id=1569, 700.6175pt x 475.7775pt>
-File: figures//plots/flat/TimeClusterPar_nSH.png Graphic file (type png)
-<use figures//plots/flat/TimeClusterPar_nSH.png>
-Package pdftex.def Info: figures//plots/flat/TimeClusterPar_nSH.png  used on in
+<figures//plots/flat/TimeClusterMVA_nSH.png, id=1539, 700.6175pt x 475.7775pt>
+File: figures//plots/flat/TimeClusterMVA_nSH.png Graphic file (type png)
+<use figures//plots/flat/TimeClusterMVA_nSH.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterMVA_nSH.png  used on in
 put line 2508.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-<figures//plots/flat/TimeClusterPar_nCH-vs-p.png, id=1570, 700.6175pt x 475.777
+<figures//plots/flat/TimeClusterMVA_nCH-vs-p.png, id=1540, 700.6175pt x 475.777
 5pt>
-File: figures//plots/flat/TimeClusterPar_nCH-vs-p.png Graphic file (type png)
-<use figures//plots/flat/TimeClusterPar_nCH-vs-p.png>
-Package pdftex.def Info: figures//plots/flat/TimeClusterPar_nCH-vs-p.png  used 
+File: figures//plots/flat/TimeClusterMVA_nCH-vs-p.png Graphic file (type png)
+<use figures//plots/flat/TimeClusterMVA_nCH-vs-p.png>
+Package pdftex.def Info: figures//plots/flat/TimeClusterMVA_nCH-vs-p.png  used 
 on input line 2516.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
 
@@ -1909,7 +1897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2522--2525
 
  []
 
-<figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png, id=1572, 700.6175pt x 475
+<figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png, id=1542, 700.6175pt x 475
 .7775pt>
 File: figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png Graphic file (type pn
 g)
@@ -1922,7 +1910,7 @@ Underfull \hbox (badness 1082) in paragraph at lines 2533--2533
 []\OT1/cmr/m/n/12 Figure 4.10: []Number of re-con-structed
  []
 
-<figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png, id=1573, 700.6175pt x 475
+<figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png, id=1543, 700.6175pt x 475
 .7775pt>
 File: figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png Graphic file (type pn
 g)
@@ -1930,7 +1918,7 @@ g)
 Package pdftex.def Info: figures//plots/flat/TimeClusterPar_ntcl-vs-pgen.png  u
 sed on input line 2539.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-<figures//plots/flat/TimeClusterPar_ProtonPeaks.png, id=1575, 700.6175pt x 475.
+<figures//plots/flat/TimeClusterPar_ProtonPeaks.png, id=1545, 700.6175pt x 475.
 7775pt>
 File: figures//plots/flat/TimeClusterPar_ProtonPeaks.png Graphic file (type png
 )
@@ -1946,20 +1934,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2572 
+l.2571 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2572 
-        <./figures//plots/flat/TimeClusterPar_nSH.png> <./figures//plots/flat/T
-imeClusterPar_nCH-vs-p.png>]
-<figures//plots/flat/nTC_comparison.png, id=1582, 700.6175pt x 475.7775pt>
+l.2571 
+        <./figures//plots/flat/TimeClusterMVA_nSH.png> <./figures//plots/flat/T
+imeClusterMVA_nCH-vs-p.png>]
+<figures//plots/flat/nTC_comparison.png, id=1552, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/nTC_comparison.png Graphic file (type png)
 <use figures//plots/flat/nTC_comparison.png>
 Package pdftex.def Info: figures//plots/flat/nTC_comparison.png  used on input 
-line 2575.
+line 2574.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
@@ -1970,42 +1958,42 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2606 
+l.2605 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2606 
+l.2605 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2606 
+l.2605 
         <./figures//plots/flat/TimeClusterMVA_ntcl-vs-pgen.png> <./figures//plo
 ts/flat/TimeClusterPar_ntcl-vs-pgen.png> <./figures//plots/flat/TimeClusterPar_
 ProtonPeaks.png>]
-<figures//plots/flat/Lambda_first-z.png, id=1590, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_first-z.png, id=1560, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_first-z.png Graphic file (type png)
 <use figures//plots/flat/Lambda_first-z.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_first-z.png  used on input 
-line 2609.
+line 2608.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures//plots/flat/Lambda_last-z.png, id=1591, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_last-z.png, id=1561, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_last-z.png Graphic file (type png)
 <use figures//plots/flat/Lambda_last-z.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_last-z.png  used on input l
-ine 2617.
+ine 2616.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<figures/Blender_Tracker_4.png, id=1592, 275.0275pt x 252.945pt>
+<figures/Blender_Tracker_4.png, id=1562, 275.0275pt x 252.945pt>
 File: figures/Blender_Tracker_4.png Graphic file (type png)
 <use figures/Blender_Tracker_4.png>
-Package pdftex.def Info: figures/Blender_Tracker_4.png  used on input line 2625
+Package pdftex.def Info: figures/Blender_Tracker_4.png  used on input line 2624
 .
 (pdftex.def)             Requested size: 352.81552pt x 324.51726pt.
 [67pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
@@ -2013,25 +2001,25 @@ Package pdftex.def Info: figures/Blender_Tracker_4.png  used on input line 2625
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2645 
+l.2644 
         <./figures//plots/flat/nTC_comparison.png>]
-<figures//plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png, id=1601, 700.6175
+<figures//plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png, id=1571, 700.6175
 pt x 475.7775pt>
 File: figures//plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png Graphic file 
 (type png)
 <use figures//plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png>
 Package pdftex.def Info: figures//plots/flat/TimeClusterPar_Helix_lambda-vs-pge
-n.png  used on input line 2648.
+n.png  used on input line 2647.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures//plots/flat/Lambda_Lambda-vs-p.png, id=1602, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_Lambda-vs-p.png, id=1572, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_Lambda-vs-p.png Graphic file (type png)
 <use figures//plots/flat/Lambda_Lambda-vs-p.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_Lambda-vs-p.png  used on in
-put line 2656.
+put line 2655.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2041,43 +2029,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2670 
+l.2669 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2670 
+l.2669 
         <./figures//plots/flat/Lambda_first-z.png> <./figures//plots/flat/Lambd
 a_last-z.png>]
-<figures//plots/flat/TimeClusterPar_Helix_frac-vs-pgen.png, id=1609, 700.6175pt
+<figures//plots/flat/TimeClusterPar_Helix_frac-vs-pgen.png, id=1579, 700.6175pt
  x 475.7775pt>
 File: figures//plots/flat/TimeClusterPar_Helix_frac-vs-pgen.png Graphic file (t
 ype png)
 <use figures//plots/flat/TimeClusterPar_Helix_frac-vs-pgen.png>
 Package pdftex.def Info: figures//plots/flat/TimeClusterPar_Helix_frac-vs-pgen.
-png  used on input line 2673.
+png  used on input line 2672.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-<figures//plots/flat/Lambda_fraction.png, id=1610, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_fraction.png, id=1580, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_fraction.png Graphic file (type png)
 <use figures//plots/flat/Lambda_fraction.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_fraction.png  used on input
- line 2674.
+ line 2673.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2681--2693
+Underfull \hbox (badness 10000) in paragraph at lines 2680--2692
 
  []
 
-<figures//plots/flat/Lambda_Rot-vs-p.png, id=1612, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_Rot-vs-p.png, id=1582, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_Rot-vs-p.png Graphic file (type png)
 <use figures//plots/flat/Lambda_Rot-vs-p.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_Rot-vs-p.png  used on input
- line 2697.
+ line 2696.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2087,21 +2075,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2718 
+l.2717 
         <./figures/Blender_Tracker_4.png>]
-<figures//plots/flat/Lambda_preco-vs-pgen.png, id=1620, 700.6175pt x 475.7775pt
+<figures//plots/flat/Lambda_preco-vs-pgen.png, id=1589, 700.6175pt x 475.7775pt
 >
 File: figures//plots/flat/Lambda_preco-vs-pgen.png Graphic file (type png)
 <use figures//plots/flat/Lambda_preco-vs-pgen.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_preco-vs-pgen.png  used on 
-input line 2721.
+input line 2720.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2742
+Underfull \hbox (badness 10000) in paragraph at lines 2726--2741
 
  []
 
@@ -2110,28 +2098,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2727--2742
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2742 
+l.2741 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2742 
+l.2741 
         <./figures//plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png> <./figu
 res//plots/flat/Lambda_Lambda-vs-p.png>]
-<figures//plots/flat/Lambda_eff_trk0-5hits.png, id=1627, 700.6175pt x 475.7775p
+<figures//plots/flat/Lambda_eff_trk0-5hits.png, id=1597, 700.6175pt x 475.7775p
 t>
 File: figures//plots/flat/Lambda_eff_trk0-5hits.png Graphic file (type png)
 <use figures//plots/flat/Lambda_eff_trk0-5hits.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_eff_trk0-5hits.png  used on
- input line 2745.
+ input line 2744.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2753--2768
+Underfull \hbox (badness 10000) in paragraph at lines 2752--2767
 
  []
 
@@ -2140,13 +2128,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2753--2768
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2768 
+l.2767 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2768 
+l.2767 
         <./figures//plots/flat/TimeClusterPar_Helix_frac-vs-pgen.png> <./figure
 s//plots/flat/Lambda_fraction.png> <./figures//plots/flat/Lambda_Rot-vs-p.png>]
 [72pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
@@ -2154,98 +2142,98 @@ s//plots/flat/Lambda_fraction.png> <./figures//plots/flat/Lambda_Rot-vs-p.png>]
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2768 
+l.2767 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2768 
+l.2767 
         <./figures//plots/flat/Lambda_preco-vs-pgen.png> <./figures//plots/flat
 /Lambda_eff_trk0-5hits.png>]
-<figures//plots/flat/Lambda_chi2d_trk0.png, id=1643, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_chi2d_trk0.png, id=1613, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_chi2d_trk0.png Graphic file (type png)
 <use figures//plots/flat/Lambda_chi2d_trk0.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_chi2d_trk0.png  used on inp
-ut line 2786.
+ut line 2785.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<figures//plots/flat/Lambda_nSH_trk0.png, id=1644, 700.6175pt x 475.7775pt>
+<figures//plots/flat/Lambda_nSH_trk0.png, id=1614, 700.6175pt x 475.7775pt>
 File: figures//plots/flat/Lambda_nSH_trk0.png Graphic file (type png)
 <use figures//plots/flat/Lambda_nSH_trk0.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_nSH_trk0.png  used on input
- line 2795.
+ line 2794.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<figures//plots/flat/Lambda_eff_trk21-20hits.png, id=1645, 700.6175pt x 475.777
+<figures//plots/flat/Lambda_eff_trk21-20hits.png, id=1615, 700.6175pt x 475.777
 5pt>
 File: figures//plots/flat/Lambda_eff_trk21-20hits.png Graphic file (type png)
 <use figures//plots/flat/Lambda_eff_trk21-20hits.png>
 Package pdftex.def Info: figures//plots/flat/Lambda_eff_trk21-20hits.png  used 
-on input line 2803.
+on input line 2802.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
  [73pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2823 
+l.2822 
         <./figures//plots/flat/Lambda_chi2d_trk0.png>] [74pdfTeX warning (ext4)
 : destination with the same identifier (name{figure.4.24}) has been already use
 d, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2823 
+l.2822 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2823 
+l.2822 
         <./figures//plots/flat/Lambda_nSH_trk0.png> <./figures//plots/flat/Lamb
 da_eff_trk21-20hits.png>]
-<figures//plots/ejected/proton_preco-vs-pgen_trk0.png, id=1656, 700.6175pt x 47
+<figures//plots/ejected/proton_preco-vs-pgen_trk0.png, id=1626, 700.6175pt x 47
 5.7775pt>
 File: figures//plots/ejected/proton_preco-vs-pgen_trk0.png Graphic file (type p
 ng)
 <use figures//plots/ejected/proton_preco-vs-pgen_trk0.png>
 Package pdftex.def Info: figures//plots/ejected/proton_preco-vs-pgen_trk0.png  
-used on input line 2826.
+used on input line 2825.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<figures//plots/ejected/proton_genp_5SH.png, id=1659, 700.6175pt x 475.7775pt>
+<figures//plots/ejected/proton_genp_5SH.png, id=1629, 700.6175pt x 475.7775pt>
 File: figures//plots/ejected/proton_genp_5SH.png Graphic file (type png)
 <use figures//plots/ejected/proton_genp_5SH.png>
 Package pdftex.def Info: figures//plots/ejected/proton_genp_5SH.png  used on in
-put line 2841.
+put line 2840.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-<figures//plots/ejected/proton_preco_trk0.png, id=1660, 700.6175pt x 475.7775pt
+<figures//plots/ejected/proton_preco_trk0.png, id=1630, 700.6175pt x 475.7775pt
 >
 File: figures//plots/ejected/proton_preco_trk0.png Graphic file (type png)
 <use figures//plots/ejected/proton_preco_trk0.png>
 Package pdftex.def Info: figures//plots/ejected/proton_preco_trk0.png  used on 
-input line 2842.
+input line 2841.
 (pdftex.def)             Requested size: 216.1011pt x 146.749pt.
-<figures//plots/ejected/proton_eff_trk0.png, id=1661, 700.6175pt x 475.7775pt>
+<figures//plots/ejected/proton_eff_trk0.png, id=1631, 700.6175pt x 475.7775pt>
 File: figures//plots/ejected/proton_eff_trk0.png Graphic file (type png)
 <use figures//plots/ejected/proton_eff_trk0.png>
 Package pdftex.def Info: figures//plots/ejected/proton_eff_trk0.png  used on in
-put line 2851.
+put line 2850.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
  [75pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2864 
+l.2863 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.27}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2864 
+l.2863 
         <./figures//plots/ejected/proton_preco-vs-pgen_trk0.png> <./figures//pl
 ots/ejected/proton_genp_5SH.png> <./figures//plots/ejected/proton_preco_trk0.pn
 g>]
-<figures/new_spectra_2/comparison.png, id=1672, 700.6175pt x 475.7775pt>
+<figures/new_spectra_2/comparison.png, id=1643, 700.6175pt x 475.7775pt>
 File: figures/new_spectra_2/comparison.png Graphic file (type png)
 <use figures/new_spectra_2/comparison.png>
 Package pdftex.def Info: figures/new_spectra_2/comparison.png  used on input li
@@ -2255,16 +2243,16 @@ ne 2882.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures//plots/ejected/deuteron_preco-vs-pgen_trk0.png, id=1681, 700.6175pt x 
+<figures//plots/ejected/deuteron_preco-vs-pgen_trk0.png, id=1650, 700.6175pt x 
 475.7775pt>
 File: figures//plots/ejected/deuteron_preco-vs-pgen_trk0.png Graphic file (type
  png)
 <use figures//plots/ejected/deuteron_preco-vs-pgen_trk0.png>
 Package pdftex.def Info: figures//plots/ejected/deuteron_preco-vs-pgen_trk0.png
-  used on input line 2891.
+  used on input line 2894.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2898--2915
+Underfull \hbox (badness 10000) in paragraph at lines 2901--2918
 
  []
 
@@ -2273,96 +2261,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 2898--2915
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2915 
+l.2918 
         <./figures//plots/ejected/proton_eff_trk0.png>] [77pdfTeX warning (ext4
 ): destination with the same identifier (name{figure.4.29}) has been already us
 ed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2915 
+l.2918 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.30}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2915 
+l.2918 
         <./figures/new_spectra_2/comparison.png> <./figures//plots/ejected/deut
 eron_preco-vs-pgen_trk0.png>]
-<figures//plots/ejected/proton_eff_comparison.png, id=1693, 700.6175pt x 475.77
+<figures//plots/ejected/proton_eff_comparison.png, id=1663, 700.6175pt x 475.77
 75pt>
 File: figures//plots/ejected/proton_eff_comparison.png Graphic file (type png)
 <use figures//plots/ejected/proton_eff_comparison.png>
 Package pdftex.def Info: figures//plots/ejected/proton_eff_comparison.png  used
- on input line 2941.
+ on input line 2946.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<figures//plots/ejected/deuterons_eff_comparison.png, id=1696, 700.6175pt x 475
+<figures//plots/ejected/deuterons_eff_comparison.png, id=1666, 700.6175pt x 475
 .7775pt>
 File: figures//plots/ejected/deuterons_eff_comparison.png Graphic file (type pn
 g)
 <use figures//plots/ejected/deuterons_eff_comparison.png>
 Package pdftex.def Info: figures//plots/ejected/deuterons_eff_comparison.png  u
-sed on input line 2948.
+sed on input line 2953.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
  [78pdfTeX warning (ext4): destination with the same identifier (name{table.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2954 \chapter
-               {Mix-background events}pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.4.31}) has been already used, duplicate ignored
-
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.2954 \chapter
-               {Mix-background events} <./figures//plots/ejected/proton_eff_com
-parison.png>] [79pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.4.32}) has been already used, duplicate ignored
+l.2959 \chapter
+               {Full simulation}] [79pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.31}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2954 \chapter
-               {Mix-background events} <./figures//plots/ejected/deuterons_eff_
-comparison.png>]
+l.2959 \chapter
+               {Full simulation}pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.4.32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2959 \chapter
+               {Full simulation} <./figures//plots/ejected/proton_eff_compariso
+n.png> <./figures//plots/ejected/deuterons_eff_comparison.png>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2968--2990
+Underfull \hbox (badness 10000) in paragraph at lines 2972--2999
 
  []
 
 [80
 
 ]
-<figures//plots/mix/mix500_qsh.png, id=1712, 700.6175pt x 475.7775pt>
+<figures//plots/mix/mix500_qsh.png, id=1682, 700.6175pt x 475.7775pt>
 File: figures//plots/mix/mix500_qsh.png Graphic file (type png)
 <use figures//plots/mix/mix500_qsh.png>
 Package pdftex.def Info: figures//plots/mix/mix500_qsh.png  used on input line 
-3003.
+3025.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
-<figures//plots/mix/mix500_trk.png, id=1714, 700.6175pt x 475.7775pt>
+<figures//plots/mix/mix500_trk.png, id=1684, 700.6175pt x 475.7775pt>
 File: figures//plots/mix/mix500_trk.png Graphic file (type png)
 <use figures//plots/mix/mix500_trk.png>
 Package pdftex.def Info: figures//plots/mix/mix500_trk.png  used on input line 
-3014.
+3044.
 (pdftex.def)             Requested size: 352.81552pt x 239.5942pt.
 
 
-LaTeX Warning: Reference `' on page 81 undefined on input line 3021.
+LaTeX Warning: Reference `' on page 81 undefined on input line 3054.
 
 
-LaTeX Warning: Reference `' on page 81 undefined on input line 3021.
+LaTeX Warning: Reference `' on page 81 undefined on input line 3054.
 
 
-LaTeX Warning: Reference `' on page 81 undefined on input line 3021.
+LaTeX Warning: Reference `' on page 81 undefined on input line 3054.
 
 [81pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3028 
+l.3056 
         <./figures//plots/mix/mix500_qsh.png>] (bvitali_draft.bbl [82pdfTeX war
 ning (ext4): destination with the same identifier (name{figure.5.2}) has been a
 lready used, duplicate ignored
@@ -2370,31 +2356,31 @@ lready used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \begin{thebibliography}{100}
-                                pdfTeX warning (ext4): destination with the sam
-e identifier (name{table.5.1}) has been already used, duplicate ignored
+                                 <./figures//plots/mix/mix500_trk.png>]
+[83pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \begin{thebibliography}{100}
-                                 <./figures//plots/mix/mix500_trk.png>]
-[83
+                                ] [84
 
-] [84] [85] [86]
+] [85] [86] [87]
 Underfull \hbox (badness 2772) in paragraph at lines 417--420
 []\OT1/cmr/m/it/12 Fermilab\OT1/cmr/m/n/12 .  [][]$\OT1/cmtt/m/n/12 https : / /
  www . fnal . gov / pub / science / particle-[]accelerators /
  []
 
-[87] [88])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3183.
- [89]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3183.
+[88] [89])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3218.
+ [90]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3218.
  (bvitali_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3183.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3218.
 
 Package rerunfilecheck Info: File `bvitali_draft.out' has not changed.
-(rerunfilecheck)             Checksum: 54E2056C2EFBF515B971EB4F4A888D4B;4613.
+(rerunfilecheck)             Checksum: 57CE101E9DC76F1D15D29001BBA295D7;4620.
 
 
 LaTeX Warning: There were undefined references.
@@ -2402,40 +2388,39 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3183.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3218.
  ) 
 Here is how much of TeX's memory you used:
- 11648 strings out of 481212
- 178536 string characters out of 2915730
+ 11640 strings out of 481212
+ 178341 string characters out of 2915730
  631594 words of memory out of 3000000
- 26533 multiletter control sequences out of 15000+200000
+ 26525 multiletter control sequences out of 15000+200000
  553501 words of font info for 95 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,17n,60p,567b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,17n,60p,567b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
 800.pk> <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on bvitali_draft.pdf (99 pages, 20130718 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on bvitali_draft.pdf (99 pages, 20074155 bytes).
 PDF statistics:
- 1970 PDF objects out of 2073 (max. 8388607)
- 419 named destinations out of 1000 (max. 500000)
- 1034 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1946 PDF objects out of 2073 (max. 8388607)
+ 420 named destinations out of 1000 (max. 500000)
+ 1029 words of extra memory for PDF output out of 10000 (max. 10000000)
 

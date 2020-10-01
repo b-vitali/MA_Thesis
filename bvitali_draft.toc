@@ -88,9 +88,9 @@
 \contentsline {paragraph}{Efficiency.}{75}{section*.38}%
 \contentsline {section}{\numberline {4.3}``Single deuteron'' Monte Carlo events}{76}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Alternative parameterizations}{76}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {5}Mix-background events}{80}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Full simulation}{80}{chapter.5}%
 \contentsline {paragraph}{First, a caveat.}{80}{section*.39}%
-\contentsline {section}{\numberline {5.1}SH energy}{80}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Number of SH}{81}{section.5.2}%
+\contentsline {section}{\numberline {5.1}StrawHit energy}{80}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Number of StrawHits}{82}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Educated guess on MDC2020}{82}{section.5.3}%
 \contentsline {chapter}{Bibliography}{82}{table.5.1}%
