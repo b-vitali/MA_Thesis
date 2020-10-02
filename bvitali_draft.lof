@@ -22,14 +22,14 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Fermilab accelerator complex}}{25}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Mu2e delivery system}}{26}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Mu2e proton beam time structure}}{26}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Resonant extraction}}{26}{figure.2.7}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Resonant extraction}}{27}{figure.2.7}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces AC dipole extinction}}{27}{figure.2.8}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces AC dipole extinction performance}}{28}{figure.2.9}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Proton pulse intensity}}{28}{figure.2.10}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Proton pulse intensity}}{29}{figure.2.10}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Proton pulse intensity fluctuations}}{29}{figure.2.11}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Mu2e apparatus}}{29}{figure.2.12}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Mu2e apparatus}}{30}{figure.2.12}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Production Solenoid}}{30}{figure.2.13}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Production target history}}{30}{figure.2.14}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Production target history}}{31}{figure.2.14}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Hayman2 stopping target}}{31}{figure.2.15}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Transport Solenoid}}{32}{figure.2.16}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Detector Solenoid}}{32}{figure.2.17}%
@@ -65,7 +65,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Proton spectrum from nuclear capture in Si}}{60}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces TWIST measured spectra}}{61}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces AlCap measured spectra}}{61}{figure.4.3}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces AlCap measured spectra}}{62}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of spectrum parameteerizations}}{62}{figure.4.4}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Momentum distribution for particles interacting in the tracker}}{63}{figure.4.5}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces StrawHits with and without proton absorber}}{64}{figure.4.6}%
@@ -89,12 +89,17 @@
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Number of StrawHits associated to a track per generated momentum}}{74}{figure.4.24}%
 \contentsline {figure}{\numberline {4.25}{\ignorespaces Efficiency of the algorithm after requirements}}{74}{figure.4.25}%
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Reconstructed vs generated momentum (ejected protons)}}{75}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Momentum distributions for generated particles with more then 5 StrawHits and reconstructed particles}}{75}{figure.4.27}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Momentum distributions of generated particles with more then 5 StrawHits and reconstructed particles}}{75}{figure.4.27}%
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Efficiency of proton reconstruction}}{76}{figure.4.28}%
 \contentsline {figure}{\numberline {4.29}{\ignorespaces Comparison of two parameterizaion on the full momentum range}}{77}{figure.4.29}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Reconstructed vs generated momentum (ejected deuterons)}}{77}{figure.4.30}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Deuteron reconstructed vs generated momentum}}{77}{figure.4.30}%
 \contentsline {figure}{\numberline {4.31}{\ignorespaces Proton reconstruction efficiency comparison}}{79}{figure.4.31}%
 \contentsline {figure}{\numberline {4.32}{\ignorespaces Deuteron reconstruction efficiency comparison}}{79}{figure.4.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Straw energy deposit distribution}}{81}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Distribution of the energy deposited in the tracker straws}}{81}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Number of tracks with and without the cut on the StrawHit energy}}{82}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Number of tracks from different particles}}{83}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Proton on target and number of tracks}}{83}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Beam intensity vs number of tracks Profile()}}{84}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Mean of the gaussian fit for of tracks per beam intensity}}{85}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \ }}{87}{figure.5.7}%

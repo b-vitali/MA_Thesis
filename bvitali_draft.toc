@@ -32,10 +32,10 @@
 \contentsline {subsection}{\numberline {2.1.5}Protons}{24}{subsection.2.1.5}%
 \contentsline {section}{\numberline {2.2}The accelerator complex}{25}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Protons On Target}{27}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}The Mu2e magnetic system}{29}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}The Production Solenoid (PS)}{29}{subsection.2.3.1}%
-\contentsline {paragraph}{Production target}{30}{section*.15}%
-\contentsline {subsection}{\numberline {2.3.2}The Transport Solenoid (TS)}{31}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.3}The Mu2e magnetic system}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}The Production Solenoid (PS)}{28}{subsection.2.3.1}%
+\contentsline {paragraph}{Production target}{29}{section*.15}%
+\contentsline {subsection}{\numberline {2.3.2}The Transport Solenoid (TS)}{30}{subsection.2.3.2}%
 \contentsline {paragraph}{Antiproton window}{31}{section*.16}%
 \contentsline {subsection}{\numberline {2.3.3}The Detector Solenoid (DS)}{32}{subsection.2.3.3}%
 \contentsline {paragraph}{Stopping target}{32}{section*.17}%
@@ -77,20 +77,23 @@
 \contentsline {paragraph}{Transport and third hit}{57}{section*.31}%
 \contentsline {paragraph}{Finishing}{57}{section*.32}%
 \contentsline {chapter}{\numberline {4}Proton track reconstruction}{59}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Charged particles from nuclear capture}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}``Single proton'' Monte Carlo events}{62}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Flat proton momentum distribution}{63}{subsection.4.2.1}%
-\contentsline {paragraph}{TimeClusters.}{64}{section*.34}%
-\contentsline {paragraph}{Bore.}{67}{section*.35}%
-\contentsline {paragraph}{Pitch.}{67}{section*.36}%
-\contentsline {paragraph}{Final track.}{69}{section*.37}%
-\contentsline {subsection}{\numberline {4.2.2}Predicted proton momentum distribution}{74}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.1}Working principle}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Charged particles from nuclear capture}{60}{section.4.2}%
+\contentsline {section}{\numberline {4.3}``Single proton'' Monte Carlo events}{63}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Flat proton momentum distribution}{63}{subsection.4.3.1}%
+\contentsline {paragraph}{TimeClusters}{64}{section*.34}%
+\contentsline {paragraph}{Bore}{67}{section*.35}%
+\contentsline {paragraph}{Pitch}{67}{section*.36}%
+\contentsline {paragraph}{Final track}{69}{section*.37}%
+\contentsline {subsection}{\numberline {4.3.2}Proton momentum distribution by Murat}{74}{subsection.4.3.2}%
 \contentsline {paragraph}{Efficiency.}{75}{section*.38}%
-\contentsline {section}{\numberline {4.3}``Single deuteron'' Monte Carlo events}{76}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Alternative parameterizations}{76}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {5}Full simulation}{80}{chapter.5}%
+\contentsline {section}{\numberline {4.4}Missing pieces}{76}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}``Single deuteron'' Monte Carlo events}{76}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Comparison between the Hungerford and Murat parameterizations}{76}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}Full Monte Carlo simulation}{80}{chapter.5}%
 \contentsline {paragraph}{First, a caveat.}{80}{section*.39}%
-\contentsline {section}{\numberline {5.1}StrawHit energy}{80}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Number of StrawHits}{82}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Educated guess on MDC2020}{82}{section.5.3}%
-\contentsline {chapter}{Bibliography}{82}{table.5.1}%
+\contentsline {section}{\numberline {5.1}Study of the deposited energy per StrawHit}{81}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Number of StrawHits}{82}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Number of tracks and Protons On Target}{82}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Educated guess on MDC2020}{86}{section.5.3}%
+\contentsline {chapter}{Bibliography}{86}{figure.5.7}%
