@@ -31,8 +31,8 @@
 \BOOKMARK [2][-]{subsection.2.4.3}{The Cosmic Ray Veto}{section.2.4}% 31
 \BOOKMARK [2][-]{subsection.2.4.4}{The Trigger and Data Acquisition System}{section.2.4}% 32
 \BOOKMARK [1][-]{section.2.5}{The monitor of the stopped muon flux}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.5.1}{Baseline Mu2e design: measuring photons}{section.2.5}% 34
-\BOOKMARK [2][-]{subsection.2.5.2}{This Thesis: exploiting protons}{section.2.5}% 35
+\BOOKMARK [2][-]{subsection.2.5.1}{Baseline Mu2e design: measuring the muon beam flux}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.2}{This Thesis: monitoring the muon beam intensity fluctuations on the millisecond timescale}{section.2.5}% 35
 \BOOKMARK [1][-]{section.2.6}{Simulation and Analysis tools}{chapter.2}% 36
 \BOOKMARK [2][-]{subsection.2.6.1}{art and .fcl}{section.2.6}% 37
 \BOOKMARK [2][-]{subsection.2.6.2}{STNTUPLE}{section.2.6}% 38
@@ -48,17 +48,18 @@
 \BOOKMARK [1][-]{section.3.3}{Kalman filter}{chapter.3}% 48
 \BOOKMARK [2][-]{subsection.3.3.1}{Example: a 2D linear fit}{section.3.3}% 49
 \BOOKMARK [0][-]{chapter.4}{Proton track reconstruction}{}% 50
-\BOOKMARK [1][-]{section.4.1}{Working principle}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.2}{Charged particles from nuclear capture}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.3}{``Single proton'' Monte Carlo events}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.3.1}{Flat proton momentum distribution}{section.4.3}% 54
-\BOOKMARK [2][-]{subsection.4.3.2}{Proton momentum distribution by Murat}{section.4.3}% 55
-\BOOKMARK [1][-]{section.4.4}{Missing pieces}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.4.1}{``Single deuteron'' Monte Carlo events}{section.4.4}% 57
-\BOOKMARK [2][-]{subsection.4.4.2}{Comparison between the Hungerford and Murat parameterizations}{section.4.4}% 58
-\BOOKMARK [0][-]{chapter.5}{Full Monte Carlo simulation}{}% 59
-\BOOKMARK [1][-]{section.5.1}{Study of the deposited energy per StrawHit}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.1.1}{Number of StrawHits}{section.5.1}% 61
-\BOOKMARK [1][-]{section.5.2}{Number of tracks and Protons On Target}{chapter.5}% 62
+\BOOKMARK [1][-]{section.4.1}{Charged particles from muon nuclear captures}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.2}{``Single proton'' Monte Carlo events}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.2.1}{Flat proton momentum distribution}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.2}{Proton momentum distribution by Murat}{section.4.2}% 54
+\BOOKMARK [1][-]{section.4.3}{Missing pieces}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.3.1}{``Single deuteron'' Monte Carlo events}{section.4.3}% 56
+\BOOKMARK [2][-]{subsection.4.3.2}{Comparison between the Hungerford and Murat parameterizations}{section.4.3}% 57
+\BOOKMARK [0][-]{chapter.5}{Full Monte Carlo simulation}{}% 58
+\BOOKMARK [1][-]{section.5.1}{Optimizing proton and deuteron reconstruction}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.1.1}{Energy deposited in the StrawHits}{section.5.1}% 60
+\BOOKMARK [2][-]{subsection.5.1.2}{Number of StrawHits per track}{section.5.1}% 61
+\BOOKMARK [1][-]{section.5.2}{Monitoring the beam intensity}{chapter.5}% 62
 \BOOKMARK [1][-]{section.5.3}{Educated guess on MDC2020}{chapter.5}% 63
-\BOOKMARK [0][-]{figure.5.7}{Bibliography}{}% 64
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 64
+\BOOKMARK [0][-]{chapter.6}{Bibliography}{}% 65

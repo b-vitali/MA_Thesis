@@ -50,12 +50,12 @@
 \contentsline {subsection}{\numberline {2.4.3}The Cosmic Ray Veto}{41}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}The Trigger and Data Acquisition System}{42}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}The monitor of the stopped muon flux}{42}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Baseline Mu2e design: measuring photons}{43}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}This Thesis: exploiting protons}{45}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.1}Baseline Mu2e design: measuring the muon beam flux}{43}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}This Thesis: monitoring the muon beam intensity fluctuations on the millisecond timescale}{45}{subsection.2.5.2}%
 \contentsline {section}{\numberline {2.6}Simulation and Analysis tools}{45}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}\textit {art} and .fcl}{45}{subsection.2.6.1}%
 \contentsline {paragraph}{\textit {art}}{45}{section*.23}%
-\contentsline {paragraph}{FHiCL}{45}{section*.24}%
+\contentsline {paragraph}{FHiCL}{46}{section*.24}%
 \contentsline {subsection}{\numberline {2.6.2}STNTUPLE}{46}{subsection.2.6.2}%
 \contentsline {chapter}{\numberline {3}Track reconstruction in Mu2e}{47}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Hits reconstruction and pre-filtering}{47}{section.3.1}%
@@ -77,23 +77,24 @@
 \contentsline {paragraph}{Transport and third hit}{57}{section*.31}%
 \contentsline {paragraph}{Finishing}{57}{section*.32}%
 \contentsline {chapter}{\numberline {4}Proton track reconstruction}{59}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Working principle}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Charged particles from nuclear capture}{60}{section.4.2}%
-\contentsline {section}{\numberline {4.3}``Single proton'' Monte Carlo events}{63}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Flat proton momentum distribution}{63}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.1}Charged particles from muon nuclear captures}{60}{section.4.1}%
+\contentsline {section}{\numberline {4.2}``Single proton'' Monte Carlo events}{63}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Flat proton momentum distribution}{63}{subsection.4.2.1}%
 \contentsline {paragraph}{TimeClusters}{64}{section*.34}%
 \contentsline {paragraph}{Bore}{67}{section*.35}%
 \contentsline {paragraph}{Pitch}{67}{section*.36}%
 \contentsline {paragraph}{Final track}{69}{section*.37}%
-\contentsline {subsection}{\numberline {4.3.2}Proton momentum distribution by Murat}{74}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.2.2}Proton momentum distribution by Murat}{74}{subsection.4.2.2}%
 \contentsline {paragraph}{Efficiency.}{75}{section*.38}%
-\contentsline {section}{\numberline {4.4}Missing pieces}{76}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}``Single deuteron'' Monte Carlo events}{76}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Comparison between the Hungerford and Murat parameterizations}{76}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.3}Missing pieces}{76}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}``Single deuteron'' Monte Carlo events}{76}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Comparison between the Hungerford and Murat parameterizations}{76}{subsection.4.3.2}%
 \contentsline {chapter}{\numberline {5}Full Monte Carlo simulation}{80}{chapter.5}%
 \contentsline {paragraph}{First, a caveat.}{80}{section*.39}%
-\contentsline {section}{\numberline {5.1}Study of the deposited energy per StrawHit}{81}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Number of StrawHits}{82}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Number of tracks and Protons On Target}{82}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Educated guess on MDC2020}{86}{section.5.3}%
-\contentsline {chapter}{Bibliography}{86}{figure.5.7}%
+\contentsline {section}{\numberline {5.1}Optimizing proton and deuteron reconstruction}{81}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Energy deposited in the StrawHits}{81}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Number of StrawHits per track}{82}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Monitoring the beam intensity}{83}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Educated guess on MDC2020}{85}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusions}{88}{chapter.6}%
+\contentsline {chapter}{Bibliography}{89}{chapter.6}%

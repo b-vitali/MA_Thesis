@@ -548,12 +548,10 @@ J.~Quirk (AlCap, Mu2e).
 \newblock \emph{{Recent results from the AlCap experiment}}.
 \newblock Mu2e-doc-31215-v1 (1 2020).
 
-\bibitem{TWIST:2020}
-A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.
-\newblock \emph{{Charged-particle spectra from $\mu^{-}$ capture on Al}}.
-\newblock Phys. Rev. C, 101(3):035502 (2020).
-\newblock \doi{10.1103/PhysRevC.101.035502}.
-\newblock \eprint{1908.06902}.
+\bibitem{LaBr3:2019}
+{S. Huang and D. Koltick} (Mu2e).
+\newblock \emph{{LaBr$_3$ Detector Signal Processing via the Golden Channel}}.
+\newblock Mu2e-doc-29046-v2 (2019).
 
 \bibitem{art}
 {R. Kutschke et al.}
@@ -641,8 +639,16 @@ S.~E. Sobottka and E.~L. Wills.
 
 \bibitem{Hungerford}
 V.~Hungerford.
-\newblock \emph{{Comments on Proton Emission after Muon Capture}} (3 2018).
+\newblock \emph{{Comments on Proton Emission after Muon Capture}} (2018
+  (1999)).
 \newblock \eprint{1803.08403}.
+
+\bibitem{TWIST:2020}
+A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.
+\newblock \emph{{Charged-particle spectra from $\mu^{-}$ capture on Al}}.
+\newblock Phys. Rev. C, 101(3):035502 (2020).
+\newblock \doi{10.1103/PhysRevC.101.035502}.
+\newblock \eprint{1908.06902}.
 
 \bibitem{Pasha:spectra}
 P.~Murat (Mu2e).
