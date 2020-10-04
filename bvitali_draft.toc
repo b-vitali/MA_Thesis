@@ -5,22 +5,22 @@
 \contentsline {section}{\numberline {1.2}Beyond the Standard Model}{2}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}SUSY seesaw}{3}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}de Gouv\^{e}a}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Phenomenology}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Phenomenology}{5}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}The muon}{5}{subsection.1.3.1}%
 \contentsline {subsubsection}{Stopped muons}{6}{section*.5}%
 \contentsline {subsection}{\numberline {1.3.2}Motion of a charged particle in magnetic field}{7}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Single event sensitivity}{8}{subsection.1.3.3}%
 \contentsline {section}{\numberline {1.4}CLFV experimental searches with muons}{8}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Search for the $\mu ^+ \rightarrow e^+ \gamma $ decay}{10}{subsection.1.4.1}%
-\contentsline {subsubsection}{The MEG experiment at Paul Scherrer Institut}{11}{section*.6}%
-\contentsline {subsubsection}{The upgraded MEG II experiment}{11}{section*.7}%
+\contentsline {subsection}{\numberline {1.4.1}Search for the $\mu ^+ \rightarrow e^+ \gamma $ decay}{9}{subsection.1.4.1}%
+\contentsline {subsubsection}{The MEG experiment at Paul Scherrer Institut}{10}{section*.6}%
+\contentsline {subsubsection}{The upgraded MEG II experiment}{12}{section*.7}%
 \contentsline {subsection}{\numberline {1.4.2}Search for the $\mu ^+ \rightarrow e^+ e^+e^-$ decay}{12}{subsection.1.4.2}%
 \contentsline {subsubsection}{The Mu3e experiment at Paul Scherrer Institut}{13}{section*.8}%
-\contentsline {subsection}{\numberline {1.4.3}Search for the muon-to-electron conversion ($\mu ^-N \rightarrow e^-N$)}{15}{subsection.1.4.3}%
-\contentsline {subsubsection}{The SINDRUM II experiment at Paul Scherrer Institut}{16}{section*.9}%
+\contentsline {subsection}{\numberline {1.4.3}Search for the muon-to-electron conversion ($\mu ^-N \rightarrow e^-N$)}{14}{subsection.1.4.3}%
+\contentsline {subsubsection}{The SINDRUM II experiment at Paul Scherrer Institut}{15}{section*.9}%
 \contentsline {subsubsection}{The Mu2e experiment at Fermilab}{16}{section*.10}%
 \contentsline {subsubsection}{The COMET experiment at J-PARC}{17}{section*.11}%
-\contentsline {paragraph}{COMET Phase-I}{18}{section*.12}%
+\contentsline {paragraph}{COMET Phase-I}{17}{section*.12}%
 \contentsline {paragraph}{COMET Phase-II}{18}{section*.13}%
 \contentsline {subsubsection}{The DeeMe Experiment at J-PARC}{18}{section*.14}%
 \contentsline {chapter}{\numberline {2}The Mu2e experiment}{20}{chapter.2}%
@@ -95,6 +95,5 @@
 \contentsline {subsection}{\numberline {5.1.1}Energy deposited in the StrawHits}{81}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Number of StrawHits per track}{82}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Monitoring the beam intensity}{83}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Educated guess on MDC2020}{85}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Conclusions}{88}{chapter.6}%
 \contentsline {chapter}{Bibliography}{89}{chapter.6}%
