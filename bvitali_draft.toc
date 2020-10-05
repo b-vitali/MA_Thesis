@@ -63,10 +63,10 @@
 \contentsline {subsection}{\numberline {3.1.2}Electromagnetic calorimeter hits}{47}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Finding the helices}{47}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Time Clustering}{48}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Pattern Recognition "tracker-only"}{49}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Pattern Recognition ``tracker-only''}{49}{subsection.3.2.2}%
 \contentsline {paragraph}{Reconstruction in the $XY$ plane}{49}{section*.25}%
 \contentsline {paragraph}{Reconstruction in the $\Phi Z$ plane}{49}{section*.26}%
-\contentsline {subsection}{\numberline {3.2.3}Pattern Recognition "tracker-calorimeter combined"}{50}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Pattern Recognition ``tracker-calorimeter combined''}{50}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Comparing the performance of the two algorithms}{50}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}Kalman filter}{52}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Example: a 2D linear fit}{54}{subsection.3.3.1}%

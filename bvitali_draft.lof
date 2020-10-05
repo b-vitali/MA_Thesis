@@ -70,7 +70,7 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces StrawHits with and without proton absorber}}{63}{figure.4.6}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Number of StrawHits per event}}{64}{figure.4.7}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Number of StrawHits associated to a TimeCluster}}{64}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Number of StrawHits associated to the TimeCluster per generated momentum}}{64}{figure.4.9}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Number of ComboHit associated to a TimeCluster (per momentum)}}{64}{figure.4.9}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Number of TimeClusters per generated proton momentum}}{65}{figure.4.10}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Number of TimeClusters per generated momentum after merging}}{65}{figure.4.11}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces TimeClusters distance in single particle event}}{65}{figure.4.12}%
@@ -98,7 +98,7 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Number of tracks with and without the cut on the StrawHit energy}}{80}{figure.5.2}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Number of tracks from different particles}}{81}{figure.5.3}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Protons on target and number of tracks}}{82}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Protons on target and number of tracks \[ProfileY()\]}}{82}{figure.5.5}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Protons on target and number of tracks (ProfileY)}}{82}{figure.5.5}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Protons on target as a function of the number of tracks}}{84}{figure.5.6}%
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Protons on target relative uncertainty}}{84}{figure.5.7}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Slices in luminosity of the number of tracks}}{85}{figure.5.8}%

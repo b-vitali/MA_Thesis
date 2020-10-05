@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=latex 2020.8.22)  28 AUG 2020 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=latex 2020.9.3)  5 OCT 2020 12:31
 entering extended mode
 **"C:/Program Files/MiKTeX/tex/latex/custom-bib/makebst.tex"
 ("C:/Program Files/MiKTeX/tex/latex/custom-bib/makebst.tex"
@@ -40,17 +40,17 @@ Enter the name of the MASTER file (default=merlin.mbs)
 
 Name of the final OUTPUT .bst file? (default extension=bst)
 
-\ofile=custombib
+\ofile=testcustombib
 
 Give a comment line to include in the style file.
 Something like for which journals it is applicable.
 
-\ans=Hopefully my own bibstyle
-\openout3 = `custombib.dbj'.
+\ans=try to remove doi and keep collaboration
+\openout3 = `testcustombib.dbj'.
 
 Do you want verbose comments? (NO)
 
-\yn=n
+\yn=
 ("C:\Program Files\MiKTeX\tex/latex/custom-bib\merlin.mbs"
 <<< For more information about the meanings of
 <<< the various options, see the section on 
@@ -66,9 +66,13 @@ Name of language file: \cfile=.
 
 Include file(s) for extra journal names? (NO)
 
-\yn=
+\yn=y
 
-No included files.
+File to include (default=physjour,geojour,photjour.mbs)
+
+\jfile=
+
+Name of included files: \jfile=physjour,geojour,photjour,.mbs.
 
 INTERNAL LANGUAGE SUPPORT (if no external language file)
 (*) English words used explicitly
@@ -186,16 +190,47 @@ NUMBER OF AUTHORS IN BIBLIOGRAPHY:
 (l) Limited authors (et al replaces missing names)
   Select:
 
-\ans=
-  You have selected: All authors
+\ans=l
+  You have selected: Limited authors
+Maximum number of authors (1-99)
+
+\num=3
+  You have selected maximum 3 authors
+Minimum number (before et al given) (1-3)
+
+\num=3
+  You have selected minimum 3 authors
 
 AUTHORS IN CITATIONS:
 (*) One author et al for three or more authors
 (m) Some other truncation scheme 
   Select:
 
-\ans=
-  You have selected: One author et al
+\ans=m
+  You have selected: Some other truncation scheme
+
+MAX AUTHORS BEFORE ET AL: (if regular cite not selected)
+(*) One et al 
+(2) One, Two et al 
+(3) One, Two, Three et al 
+(4) One, Two, Three, Four et al 
+(5) One, Two, Three, Four, Five et al 
+(6) One, Two, Three, Four, Five, Six et al 
+  Select:
+
+\ans=3
+  You have selected: One, Two, Three et al
+
+MAX AUTHORS WITHOUT ET AL: (if regular cite not selected)
+(*) Two authors without truncating 
+(3) Three authors without truncating
+(4) Four authors without truncating
+(5) Five authors without truncating
+(6) Six authors without truncating
+  Select:
+
+\ans=3
+  You have selected: Three authors
 
 TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
 (*) Normal font for author names 
@@ -274,8 +309,8 @@ CAPITALIZATION OF ARTICLE TITLE:
 (t) Title style (just as in bib entry)
   Select:
 
-\ans=
-  You have selected: Sentence style
+\ans=t
+  You have selected: Title style
 
 ARTICLE TITLE PRESENT:
 (*) Article title present in journals and proceedings
@@ -307,8 +342,8 @@ THESIS TITLE:
 (x) No thesis title 
   Select:
 
-\ans=
-  You have selected: Thesis titles like books
+\ans=a
+  You have selected: Thesis title like article
 
 TECHNICAL REPORT TITLE:
 (*) Tech. report title like articles 
@@ -394,8 +429,8 @@ WORD `PAGE' IN ARTICLES:
 (p) Include `page' in articles as pp. 234--256
   Select:
 
-\ans=
-  You have selected: Article pages numbers only
+\ans=p
+  You have selected: Include `page' in articles
 
 POSITION OF PAGES:
 (*) Pages given mid text as is normal
@@ -410,8 +445,8 @@ WORD `VOLUME' IN ARTICLES:
 (p) Include `volume' in articles as vol. 21
   Select:
 
-\ans=
-  You have selected: Article volume as number only
+\ans=p
+  You have selected: Include `volume' in articles
 
 NUMBER AND SERIES FOR COLLECTIONS:
 (*) Allows number without series and suppresses word "number"
@@ -435,16 +470,16 @@ VOLUME AND SERIES FOR BOOKS/COLLECTIONS:
 (s) Series, vol. 23 
   Select:
 
-\ans=
-  You have selected: Vol. 23 of Series
+\ans=s
+  You have selected: Series, vol. 23
 
 POSITION OF VOLUME AND SERIES FOR INCOLLECTIONS:
 (*) Series and volume after the editors 
 (e) Series and volume after booktitle and before editors
   Select:
 
-\ans=
-  You have selected: Series and volume after the editors
+\ans=e
+  You have selected: Series and volume after booktitle
 
 JOURNAL NAME PUNCTUATION:
 (*) Comma after journal name
@@ -459,8 +494,8 @@ BOOK TITLE:
 (p) Book title plain (no font command)
   Select:
 
-\ans=p
-  You have selected: Book title plain
+\ans=
+  You have selected: Book title italic
 
 PAGES IN BOOKS:
 (*) Pages in book plain as pp. 50-55
@@ -506,24 +541,24 @@ PUBLISHER POSITION:
 (e) Publisher after edition 
   Select:
 
-\ans=
-  You have selected: Publisher after chapter, pages
+\ans=e
+  You have selected: Publisher after edition
 
 ISBN NUMBER:
 (*) Include ISBN for books, booklets, etc.
 (x) No ISBN 
   Select:
 
-\ans=
-  You have selected: Include ISBN
+\ans=x
+  You have selected: No ISBN
 
 ISSN NUMBER:
 (*) Include ISSN for periodicals
 (x) No ISSN 
   Select:
 
-\ans=
-  You have selected: Include ISSN
+\ans=x
+  You have selected: No ISSN
 
 DOI NUMBER:
 (*) Include DOI as "doi: number"
@@ -532,8 +567,8 @@ DOI NUMBER:
 (x) No DOI 
   Select:
 
-\ans=
-  You have selected: Include DOI
+\ans=x
+  You have selected: No DOI
 
 `EDITOR' AFTER NAMES (EDITED BOOKS WITHOUT AUTHORS):
 (*) Word `editor' after name 
@@ -545,8 +580,8 @@ DOI NUMBER:
 (f) `Name (Editor)' as above, editor upper case
   Select:
 
-\ans=
-  You have selected: Word `editor' after name
+\ans=b
+  You have selected: `Name (Editor),'
 
 EDITOR IN COLLECTIONS:
 (*) Same as for edited book (names before booktitle)
@@ -575,8 +610,16 @@ PUNCTUATION BETWEEN SECTIONS (BLOCKS):
 (d) Colon after titles of articles else commas
   Select:
 
+\ans=s
+  You have selected: Semi-colon between blocks
+
+PUNCTUATION BEFORE NOTES (if not using \newblock)
+(*) Notes have regular punctuation like all other blocks
+(p) Notes preceded by period 
+  Select:
+
 \ans=
-  You have selected: \newblock after blocks
+  You have selected: Notes have regular punctuation
 
 PUNCTUATION AFTER AUTHORS:
 (*) Author block normal with regular block punctuation
@@ -594,8 +637,16 @@ PUNCTUATION AFTER `IN':
 (x) No word `in' for edited works
   Select:
 
-\ans=x
-  You have selected: No word `in'
+\ans=
+  You have selected: Space after `in'
+
+`IN' WITH JOURNAL NAMES (if using 'in' with collections)
+(*) No `in' before journal name 
+(i) Add `in' before journal name in style for incollection
+  Select:
+
+\ans=
+  You have selected: No `in' before journal name
 
 FINAL PUNCTUATION:
 (*) Period at very end of the listed reference
@@ -643,7 +694,7 @@ MONTHS WITH DOTS:
 (x) Months without dots as Feb Mar
   Select:
 
-\ans=
+\ans=*
   You have selected: Months with dots
 
 EDITION NUMBERS:
@@ -681,16 +732,16 @@ COMMA BEFORE `AND':
 (c) Comma even with 2 authors as `Tom, and Harry'
   Select:
 
-\ans=n
-  You have selected: No comma before `and'
+\ans=
+  You have selected: Comma before `and'
 
 NO `AND' IN REFERENCE LIST:
 (*) With `and' before last author in reference list
 (x) No `and' as `Tom, Dick, Harry'
   Select:
 
-\ans=
-  You have selected: With `and'
+\ans=x
+  You have selected: No `and'
 
 COMMA BEFORE `ET AL':
 (*) Comma before `et al' in reference list
@@ -746,11 +797,11 @@ COMPATIBILITY WITH PLAIN TEX:
 )
 
 Finished!!
-Batch job written to file `custombib.dbj'
+Batch job written to file `testcustombib.dbj'
 Shall I now run this batch job? (NO)
 
 \yn=y
-(custombib.dbj ("C:\Program Files\MiKTeX\tex/latex/base\docstrip.tex"
+(testcustombib.dbj ("C:\Program Files\MiKTeX\tex/latex/base\docstrip.tex"
 \blockLevel=\count170
 \emptyLines=\count171
 \processedLines=\count172
@@ -797,26 +848,73 @@ English documentation    <2018/05/03>
 
 )
 
-Generating file(s) ./custombib.bst 
-\openout0 = `./custombib.bst'.
+Generating file(s) ./testcustombib.bst 
+\openout0 = `./testcustombib.bst'.
 
 
-Processing file merlin.mbs (seq-no,nm-init,ed-au,yr-par,tit-it,jttl-rm,num-xser
-,btit-rm,bt-rm,pub-date,isbn,issn,doi,in-x,pp,ed,abr,xedn,jabr,and-xcom,etal-xc
-,revdata,eprint,url,url-blk,nfss,) -> custombib.bst
+Processing file merlin.mbs (head,seq-no,nm-init,ed-au,nmlm,x3,m3,mcite,mct-3,mc
+t-x3,yr-par,tit-it,atit-u,jttl-rm,thtit-a,jwdpg,jwdvol,num-xser,ser-vol,ser-ed,
+pub-date,pre-edn,edpar,bkedcap,blk-com,com-semi,pp,ed,abr,xedn,jabr,xand,etal-x
+c,revdata,eprint,url,url-blk,nfss,,{}) -> testcustombib.bst
 Lines  processed: 9446
 Comments removed: 3867
 Comments  passed: 1
 Codelines passed: 3732
 
+
+Processing file physjour.mbs (seq-no,nm-init,ed-au,nmlm,x3,m3,mcite,mct-3,mct-x
+3,yr-par,tit-it,atit-u,jttl-rm,thtit-a,jwdpg,jwdvol,num-xser,ser-vol,ser-ed,pub
+-date,pre-edn,edpar,bkedcap,blk-com,com-semi,pp,ed,abr,xedn,jabr,xand,etal-xc,r
+evdata,eprint,url,url-blk,nfss,,{}) -> testcustombib.bst
+Lines  processed: 398
+Comments removed: 160
+Comments  passed: 0
+Codelines passed: 202
+
+
+Processing file geojour.mbs (seq-no,nm-init,ed-au,nmlm,x3,m3,mcite,mct-3,mct-x3
+,yr-par,tit-it,atit-u,jttl-rm,thtit-a,jwdpg,jwdvol,num-xser,ser-vol,ser-ed,pub-
+date,pre-edn,edpar,bkedcap,blk-com,com-semi,pp,ed,abr,xedn,jabr,xand,etal-xc,re
+vdata,eprint,url,url-blk,nfss,,{}) -> testcustombib.bst
+Lines  processed: 404
+Comments removed: 143
+Comments  passed: 0
+Codelines passed: 249
+
+
+Processing file photjour.mbs (seq-no,nm-init,ed-au,nmlm,x3,m3,mcite,mct-3,mct-x
+3,yr-par,tit-it,atit-u,jttl-rm,thtit-a,jwdpg,jwdvol,num-xser,ser-vol,ser-ed,pub
+-date,pre-edn,edpar,bkedcap,blk-com,com-semi,pp,ed,abr,xedn,jabr,xand,etal-xc,r
+evdata,eprint,url,url-blk,nfss,,{}) -> testcustombib.bst
+Lines  processed: 227
+Comments removed: 128
+Comments  passed: 0
+Codelines passed: 87
+
+
+Processing file merlin.mbs (tail,seq-no,nm-init,ed-au,nmlm,x3,m3,mcite,mct-3,mc
+t-x3,yr-par,tit-it,atit-u,jttl-rm,thtit-a,jwdpg,jwdvol,num-xser,ser-vol,ser-ed,
+pub-date,pre-edn,edpar,bkedcap,blk-com,com-semi,pp,ed,abr,xedn,jabr,xand,etal-x
+c,revdata,eprint,url,url-blk,nfss,,{}) -> testcustombib.bst
+Lines  processed: 9446
+Comments removed: 3867
+Comments  passed: 1
+Codelines passed: 3732
+
+Overall statistics:
+Files  processed: 5
+Lines  processed: 19921
+Comments removed: 8165
+Comments  passed: 2
+Codelines passed: 8002
  ) ) 
 Here is how much of TeX's memory you used:
- 839 strings out of 481213
- 7210 string characters out of 2915756
- 250938 words of memory out of 3000000
- 16513 multiletter control sequences out of 15000+200000
+ 861 strings out of 481213
+ 7509 string characters out of 2915757
+ 254775 words of memory out of 3000000
+ 16532 multiletter control sequences out of 15000+200000
  535088 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 15i,0n,15p,370b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 16i,0n,19p,374b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 No pages of output.

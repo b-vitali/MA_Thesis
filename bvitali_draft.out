@@ -42,8 +42,8 @@
 \BOOKMARK [2][-]{subsection.3.1.2}{Electromagnetic calorimeter hits}{section.3.1}% 42
 \BOOKMARK [1][-]{section.3.2}{Finding the helices}{chapter.3}% 43
 \BOOKMARK [2][-]{subsection.3.2.1}{Time Clustering}{section.3.2}% 44
-\BOOKMARK [2][-]{subsection.3.2.2}{Pattern Recognition "tracker-only"}{section.3.2}% 45
-\BOOKMARK [2][-]{subsection.3.2.3}{Pattern Recognition "tracker-calorimeter combined"}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.2}{Pattern Recognition ``tracker-only''}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.3}{Pattern Recognition ``tracker-calorimeter combined''}{section.3.2}% 46
 \BOOKMARK [2][-]{subsection.3.2.4}{Comparing the performance of the two algorithms}{section.3.2}% 47
 \BOOKMARK [1][-]{section.3.3}{Kalman filter}{chapter.3}% 48
 \BOOKMARK [2][-]{subsection.3.3.1}{Example: a 2D linear fit}{section.3.3}% 49
