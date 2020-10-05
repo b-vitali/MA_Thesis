@@ -13,7 +13,7 @@ L.~Bartoszek et~al. (Mu2e).
 \newblock \doi{10.2172/1172555}.
 \newblock \eprint{1501.05241}.
 
-\bibitem{signorelli}
+\bibitem{Signorelli}
 L.~Calibbi and G.~Signorelli.
 \newblock \emph{{Charged Lepton Flavour Violation: An Experimental and
   Theoretical Introduction}}.
@@ -74,8 +74,9 @@ Y.~Fukuda et~al. (Super-Kamiokande).
 
 \bibitem{Petcov}
 S.~Petcov.
-\newblock \emph{{The Processes mu --> e Gamma, mu --> e e anti-e, Neutrino' -->
-  Neutrino gamma in the Weinberg-Salam Model with Neutrino Mixing}}.
+\newblock \emph{{The Processes mu $\rightarrow$ e Gamma, mu $\rightarrow$ e e
+  anti-e, Neutrino' $\rightarrow$ Neutrino gamma in the Weinberg-Salam Model
+  with Neutrino Mixing}}.
 \newblock Sov. J. Nucl. Phys., 25:340 (1977).
 \newblock [Erratum: Sov.J.Nucl.Phys. 25, 698 (1977), Erratum: Yad.Fiz. 25, 1336
   (1977)].
@@ -126,6 +127,42 @@ A.~Baldini et~al. (Mu2e).
   Future Facilities}} (9 2019).
 \newblock \doi{10.2172/1568845}.
 
+\bibitem{Crystalbox:1984}
+A.~Hallin et~al.
+\newblock \emph{{Los Alamos Crystal Box experiment: a search for $\mu
+  \rightarrow e\gamma$, $\mu \rightarrow e\gamma\gamma$, and $\mu \rightarrow e
+  e e$}}.
+\newblock AIP Conf. Proc., 123:477--483 (1984).
+\newblock \doi{10.1063/1.34893}.
+
+\bibitem{Crystalbox:1988}
+R.~Bolton et~al.
+\newblock \emph{{Search for Rare Muon Decays with the Crystal Box Detector}}.
+\newblock Phys. Rev. D, 38:2077 (1988).
+\newblock \doi{10.1103/PhysRevD.38.2077}.
+
+\bibitem{MEGA:1999}
+M.~Brooks et~al. (MEGA).
+\newblock \emph{{New limit for the family number nonconserving decay mu+
+  $\rightarrow$ e+ gamma}}.
+\newblock Phys. Rev. Lett., 83:1521--1524 (1999).
+\newblock \doi{10.1103/PhysRevLett.83.1521}.
+\newblock \eprint{hep-ex/9905013}.
+
+\bibitem{MEGA:2002}
+M.~Ahmed et~al. (MEGA).
+\newblock \emph{{Search for the lepton family number nonconserving decay mu+
+  ---> e+ gamma}}.
+\newblock Phys. Rev. D, 65:112002 (2002).
+\newblock \doi{10.1103/PhysRevD.65.112002}.
+\newblock \eprint{hep-ex/0111030}.
+
+\bibitem{SINDRUM}
+W.~H. Bertl et~al. (SINDRUM).
+\newblock \emph{{Search for the Decay $\mu^+ \to e^+ e^+ e^-$}}.
+\newblock Nucl. Phys. B, 260:1--31 (1985).
+\newblock \doi{10.1016/0550-3213(85)90308-6}.
+
 \bibitem{MEG}
 A.~Baldini et~al. (MEG).
 \newblock \emph{{Search for the lepton flavour violating decay $\mu ^+
@@ -134,12 +171,6 @@ A.~Baldini et~al. (MEG).
 \newblock Eur. Phys. J. C, 76(8):434 (2016).
 \newblock \doi{10.1140/epjc/s10052-016-4271-x}.
 \newblock \eprint{1605.05081}.
-
-\bibitem{SINDRUM}
-W.~H. Bertl et~al. (SINDRUM).
-\newblock \emph{{Search for the Decay $\mu^+ \to e^+ e^+ e^-$}}.
-\newblock Nucl. Phys. B, 260:1--31 (1985).
-\newblock \doi{10.1016/0550-3213(85)90308-6}.
 
 \bibitem{Bertl}
 W.~H. Bertl et~al. (SINDRUM II).
@@ -183,14 +214,15 @@ E.~Abouzaid et~al. (KTeV).
 \bibitem{Ambrose}
 D.~Ambrose et~al. (BNL).
 \newblock \emph{{New limit on muon and electron lepton number violation from
-  K0(L) ---> mu+- e-+ decay}}.
+  K0(L) $\rightarrow$ mu+- e-+ decay}}.
 \newblock Phys. Rev. Lett., 81:5734--5737 (1998).
 \newblock \doi{10.1103/PhysRevLett.81.5734}.
 \newblock \eprint{hep-ex/9811038}.
 
 \bibitem{Sher}
 A.~Sher et~al.
-\newblock \emph{{An Improved upper limit on the decay K+ ---> pi+ mu+ e-}}.
+\newblock \emph{{An Improved upper limit on the decay K+ $\rightarrow$ pi+ mu+
+  e-}}.
 \newblock Phys. Rev. D, 72:012005 (2005).
 \newblock \doi{10.1103/PhysRevD.72.012005}.
 \newblock \eprint{hep-ex/0502020}.
@@ -275,41 +307,26 @@ R.~Abramishvili et~al. (COMET).
 \newblock \doi{10.1093/ptep/ptz125}.
 \newblock \eprint{1812.09018}.
 
-\bibitem{Crystalbox:1984}
-A.~Hallin et~al.
-\newblock \emph{{Los Alamos Crystal Box experiment: a search for $\mu
-  \rightarrow e\gamma$, $\mu \rightarrow e\gamma\gamma$, and $\mu \rightarrow e
-  e e$}}.
-\newblock AIP Conf. Proc., 123:477--483 (1984).
-\newblock \doi{10.1063/1.34893}.
-
-\bibitem{Crystalbox:1988}
-R.~Bolton et~al.
-\newblock \emph{{Search for Rare Muon Decays with the Crystal Box Detector}}.
-\newblock Phys. Rev. D, 38:2077 (1988).
-\newblock \doi{10.1103/PhysRevD.38.2077}.
-
-\bibitem{MEGA:1999}
-M.~Brooks et~al. (MEGA).
-\newblock \emph{{New limit for the family number nonconserving decay mu+ --->
-  e+ gamma}}.
-\newblock Phys. Rev. Lett., 83:1521--1524 (1999).
-\newblock \doi{10.1103/PhysRevLett.83.1521}.
-\newblock \eprint{hep-ex/9905013}.
-
-\bibitem{MEGA:2002}
-M.~Ahmed et~al. (MEGA).
-\newblock \emph{{Search for the lepton family number nonconserving decay mu+
-  ---> e+ gamma}}.
-\newblock Phys. Rev. D, 65:112002 (2002).
-\newblock \doi{10.1103/PhysRevD.65.112002}.
-\newblock \eprint{hep-ex/0111030}.
-
 \bibitem{Mu3e:2013}
 A.~Blondel et~al.
 \newblock \emph{{Research Proposal for an Experiment to Search for the Decay
   $\mu \to eee$}} (1 2013).
 \newblock \eprint{1301.6113}.
+
+\bibitem{bob_mu2e}
+R.~Bernstein (Mu2e).
+\newblock \emph{{The Mu2e Experiment}}.
+\newblock Front. in Phys., 7:1 (2019).
+\newblock \doi{10.3389/fphy.2019.00001}.
+\newblock \eprint{1901.11099}.
+
+\bibitem{Manolis}
+M.~Kargiantoulakis.
+\newblock \emph{{A Search for Charged Lepton Flavor Violation in the Mu2e
+  Experiment}}.
+\newblock Mod. Phys. Lett. A, 35(19):2030007 (2020).
+\newblock \doi{10.1142/S0217732320300074}.
+\newblock \eprint{2003.12678}.
 
 \bibitem{Mu2e_II:2018}
 F.~Abusalma et~al. (Mu2e).
@@ -357,27 +374,6 @@ N.~Teshima (DeeMe).
 \newblock PoS, NuFact2017:109 (2018).
 \newblock \doi{10.22323/1.295.0109}.
 
-\bibitem{bob_mu2e}
-R.~Bernstein (Mu2e).
-\newblock \emph{{The Mu2e Experiment}}.
-\newblock Front. in Phys., 7:1 (2019).
-\newblock \doi{10.3389/fphy.2019.00001}.
-\newblock \eprint{1901.11099}.
-
-\bibitem{Manolis}
-M.~Kargiantoulakis.
-\newblock \emph{{A Search for Charged Lepton Flavor Violation in the Mu2e
-  Experiment}}.
-\newblock Mod. Phys. Lett. A, 35(19):2030007 (2020).
-\newblock \doi{10.1142/S0217732320300074}.
-\newblock \eprint{2003.12678}.
-
-\bibitem{Measday:2001}
-D.~Measday.
-\newblock \emph{{The nuclear physics of muon capture}}.
-\newblock Phys. Rept., 354:243--409 (2001).
-\newblock \doi{10.1016/S0370-1573(01)00012-6}.
-
 \bibitem{CD3}
 A.~Gaponenko (Mu2e).
 \newblock \emph{Cd3 backgrounds}.
@@ -387,6 +383,11 @@ A.~Gaponenko (Mu2e).
 Y.~Oksuzian et~al. (Mu2e).
 \newblock \emph{Cosmic background simulation updates}.
 \newblock Mu2e-doc-33821-v2 (June 2020).
+
+\bibitem{DIO_now}
+A.~E. S.~Huang, P.~Murat (Mu2e).
+\newblock \emph{Dio update}.
+\newblock Mu2e-doc-35201-v2 (Sep 2020).
 
 \bibitem{Giovanni:2020}
 D.~G. (Mu2e).
@@ -507,12 +508,6 @@ G.~Pezzullo (Mu2e).
 \newblock PoS, ICHEP2018:542 (2019).
 \newblock \doi{10.22323/1.340.0542}.
 
-\bibitem{MultiwireDrift}
-F.~Sauli.
-\newblock \emph{{Principles of Operation of Multiwire Proportional and Drift
-  Chambers}} (5 1977).
-\newblock \doi{10.5170/CERN-1977-009}.
-
 \bibitem{Calorimeter:2018}
 N.~Atanov et~al.
 \newblock \emph{{Design and Status of the Mu2e Crystal Calorimeter}}.
@@ -542,11 +537,6 @@ H.~Woodward.
 K.~K. Robert and E.~Bertrand.
 \newblock \emph{Mu2e tdaq and dpc preliminary operations plans}.
 \newblock Mu2e-doc-db-32842-v5 (5 2020).
-
-\bibitem{AlCap:2020}
-J.~Quirk (AlCap, Mu2e).
-\newblock \emph{{Recent results from the AlCap experiment}}.
-\newblock Mu2e-doc-31215-v1 (1 2020).
 
 \bibitem{LaBr3:2019}
 {S. Huang and D. Koltick} (Mu2e).
@@ -649,6 +639,11 @@ A.~Gaponenko, A.~Grossheim, A.~Hillairet, G.~Marshall, R.~Mischke and A.~Olin.
 \newblock Phys. Rev. C, 101(3):035502 (2020).
 \newblock \doi{10.1103/PhysRevC.101.035502}.
 \newblock \eprint{1908.06902}.
+
+\bibitem{AlCap:2020}
+J.~Quirk (AlCap, Mu2e).
+\newblock \emph{{Recent results from the AlCap experiment}}.
+\newblock Mu2e-doc-31215-v1 (1 2020).
 
 \bibitem{Pasha:spectra}
 P.~Murat (Mu2e).
