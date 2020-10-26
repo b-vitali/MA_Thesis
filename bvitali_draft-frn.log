@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.22)  22 AUG 2020 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  20 OCT 2020 18:29
 entering extended mode
 **./bvitali_draft-frn.tex
 (bvitali_draft-frn.tex
@@ -214,15 +214,12 @@ Package epstopdf Info: Source file: <cherubino_pant541.eps>
 (epstopdf)                    date: 2020-08-22 19:30:54
 (epstopdf)                    size: 259277 bytes
 (epstopdf)             Output file: <cherubino_pant541-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-22 22:10:33
+(epstopdf)                    size: 40023 bytes
 (epstopdf)             Command: <epstopdf --outfile=cherubino_pant541-eps-conve
 rted-to.pdf cherubino_pant541.eps>
 (epstopdf)             \includegraphics on input line 25.
-runsystem(epstopdf --outfile=cherubino_pant541-eps-converted-to.pdf cherubino_p
-ant541.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <cherubino_pant541-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-22 22:10:33
-(epstopdf)                    size: 40023 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./cherubino_pant541-eps-converted-to.pdf): P
@@ -246,7 +243,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  2864 strings out of 481212
  41457 string characters out of 2915730
- 295477 words of memory out of 3000000
+ 295478 words of memory out of 3000000
  18425 multiletter control sequences out of 15000+200000
  539053 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -255,7 +252,7 @@ Here is how much of TeX's memory you used:
 s/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on bvitali_draft-frn.pdf (1 page, 90805 bytes).
+Output written on bvitali_draft-frn.pdf (1 page, 90812 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

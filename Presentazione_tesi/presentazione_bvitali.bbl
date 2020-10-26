@@ -17,42 +17,299 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{signorelli}{article}{}
-    \name{author}{2}{}{%
-      {{hash=CL}{%
-         family={Calibbi},
-         familyi={C\bibinitperiod},
-         given={Lorenzo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Signorelli},
-         familyi={S\bibinitperiod},
-         given={Giovanni},
-         giveni={G\bibinitperiod},
+  \entry{STM:2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{A. Palladino, J. Quirk, J. Miller}},
+         familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CLSG1}
-    \strng{fullhash}{CLSG1}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Mu2e Stopping-Target Monitor baseline design}
+    \field{journaltitle}{Mu2e-doc-6453-v4}
+    \field{year}{2016}
+  \endentry
+
+  \entry{SINDRUMII}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=BWH}{%
+         family={Bertl},
+         familyi={B\bibinitperiod},
+         given={Wilhelm\bibnamedelima H.},
+         giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BWH+1}
+    \strng{fullhash}{BWH+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
     \verb{doi}
-    \verb 10.1393/ncr/i2018-10144-0
+    \verb 10.1140/epjc/s2006-02582-x
+    \endverb
+    \field{pages}{337\bibrangedash 346}
+    \field{title}{{A Search for muon to electron conversion in muonic gold}}
+    \field{volume}{47}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{year}{2006}
+  \endentry
+
+  \entry{MDC2018:PBI}{article}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{D. Brown}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{{MDC2018 PBI Study}}
+    \field{journaltitle}{Mu2e-doc-28281-v1}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{oscillations}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=FY}{%
+         family={Fukuda},
+         familyi={F\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FY+1}
+    \strng{fullhash}{FY+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.81.1562
     \endverb
     \verb{eprint}
-    \verb 1709.00294
+    \verb hep-ex/9807003
     \endverb
-    \field{number}{2}
-    \field{pages}{71\bibrangedash 174}
-    \field{title}{{Charged Lepton Flavour Violation: An Experimental and
-  Theoretical Introduction}}
-    \field{volume}{41}
-    \field{journaltitle}{Riv. Nuovo Cim.}
+    \field{pages}{1562\bibrangedash 1567}
+    \field{title}{{Evidence for oscillation of atmospheric neutrinos}}
+    \field{volume}{81}
+    \field{journaltitle}{Phys. Rev. Lett.}
     \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2018}
+    \field{year}{1998}
+  \endentry
+
+  \entry{TWIST:2020}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GA}{%
+         family={Gaponenko},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Grossheim},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hillairet},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={G.M.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mischke},
+         familyi={M\bibinitperiod},
+         given={R.E.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Olin},
+         familyi={O\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAGAHAMGMROA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.101.035502
+    \endverb
+    \verb{eprint}
+    \verb 1908.06902
+    \endverb
+    \field{number}{3}
+    \field{pages}{035502}
+    \field{title}{{Charged-particle spectra from $\mu^{-}$ capture on Al}}
+    \field{volume}{101}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Pasha:spectra}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MP}{%
+         family={Murat},
+         familyi={M\bibinitperiod},
+         given={Pavel},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MP1}
+    \strng{fullhash}{MP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{{New AlCap and TWIST results on P/D yields in muon capture on
+  Al [...]}}
+    \field{journaltitle}{Mu2e-doc-31745-v1}
+    \field{year}{2020}
+  \endentry
+
+  \entry{AlCap:2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=QJ}{%
+         family={Quirk},
+         familyi={Q\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{QJ1}
+    \strng{fullhash}{QJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{title}{{Recent results from the AlCap experiment}}
+    \field{journaltitle}{Mu2e-doc-31215-v1}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{MDC2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{R. Bonventre, D. Brown, R. Culbertson, and others}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{MDC2018}}
+    \field{journaltitle}{Mu2e-doc-22693-v3}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{LaBr3:2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{S. Huang and D. Koltick}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{{LaBr$_3$ Detector Signal Processing via the Golden Channel}}
+    \field{journaltitle}{Mu2e-doc-29046-v2}
+    \field{year}{2019}
+  \endentry
+
+  \entry{LaBr3:2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{S. Huang and D. Koltick}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{{STM LaBr$_3$ Status Review}}
+    \field{journaltitle}{Mu2e-doc-34581-v3}
+    \field{year}{2020}
+  \endentry
+
+  \entry{io:sobottka}{article}{}
+    \name{author}{1}{}{%
+      {{hash=VB}{%
+         family={Vitali},
+         familyi={V\bibinitperiod},
+         given={Bastiano},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VB1}
+    \strng{fullhash}{VB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{{An attempt to understand the 1.4 MeV dip in Sobottka-Wills
+  measurement}}
+    \field{journaltitle}{Mu2e-doc-32464-v2}
+    \field{year}{2020}
+  \endentry
+
+  \entry{SpillSim}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WS}{%
+         family={Werkema},
+         familyi={W\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WS1}
+    \strng{fullhash}{WS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Spill Simulation}
+    \field{journaltitle}{{Mu2e-doc-33344-v3}}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput

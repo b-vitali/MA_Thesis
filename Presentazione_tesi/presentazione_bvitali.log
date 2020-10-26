@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  12 OCT 2020 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  26 OCT 2020 23:05
 entering extended mode
 **./presentazione_bvitali.tex
 (presentazione_bvitali.tex
@@ -902,50 +902,120 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 
 ("C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg"
 File: biblatex.cfg 
-)){C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdftex.map}{C:/Program File
-s/MiKTeX/fonts/map/dvips/sansmathaccent/sansmathaccent.map}
+))
+("C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty"
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box73
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+) ("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.st
+y"
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) ("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex"
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex")
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code
+.tex"
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count437
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count438
+\tikznumberofchildren=\count439
+\tikznumberofcurrentchild=\count440
+\tikz@fig@count=\count441
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count442
+\pgfmatrixcurrentcolumn=\count443
+\pgf@matrix@numberofcolumns=\count444
+)
+\tikz@expandcount=\count445
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+arytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))){C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdftex.map}{C:/Program Fil
+es/MiKTeX/fonts/map/dvips/sansmathaccent/sansmathaccent.map}
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 25.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count437
-\@quotereset=\count438
+\@quotelevel=\count446
+\@quotereset=\count447
 ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count439
-\l__pdf_internal_box=\box73
+\l__kernel_color_stack_int=\count448
+\l__pdf_internal_box=\box78
 )
 (presentazione_bvitali.aux)
 \openout1 = `presentazione_bvitali.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -983,33 +1053,25 @@ LaTeX Font Info:    ... okay on input line 46.
 
 ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count440
-\scratchdimen=\dimen278
-\scratchbox=\box74
-\nofMPsegments=\count441
-\nofMParguments=\count442
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count443
-\MPscratchDim=\dimen279
-\MPnumerator=\count444
-\makeMPintoPDFobject=\count445
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count449
+\scratchdimen=\dimen291
+\scratchbox=\box79
+\nofMPsegments=\count450
+\nofMParguments=\count451
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen292
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
+\everyMPtoPDFconversion=\toks49
 ) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty"
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 46.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring OFF on input line 51.
 
 ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1020,68 +1082,68 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count446
+\c@section@level=\count455
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
 (presentazione_bvitali.out) (presentazione_bvitali.out)
 \@outlinefile=\write6
 \openout6 = `presentazione_bvitali.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 46.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 51.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 46.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 46.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 46.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 51.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 51.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 46.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 46.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 46.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 46.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 46.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 46.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 51.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-6.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
-6.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 5
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 46.
+ut line 51.
 
 ("C:\Program Files\MiKTeX\tex/latex/translator\translator-basic-dictionary-Engl
 ish.dict"
@@ -1123,135 +1185,521 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'presentazione_bvitali.bbl' found.
 
-(presentazione_bvitali.bbl)
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
+(presentazione_bvitali.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'MDC2018:PBI':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'AlCap:2020':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'MDC2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'SpillSim':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 51.
+Package biblatex Info: Reference segment=0 on input line 51.
  (presentazione_bvitali.nav)
-<../figures/cherubino.jpg, id=26, 74.2775pt x 73.77562pt>
+<../figures/cherubino.jpg, id=21, 74.2775pt x 73.77562pt>
 File: ../figures/cherubino.jpg Graphic file (type jpg)
 <use ../figures/cherubino.jpg>
-Package pdftex.def Info: ../figures/cherubino.jpg  used on input line 50.
+Package pdftex.def Info: ../figures/cherubino.jpg  used on input line 56.
 (pdftex.def)             Requested size: 51.99388pt x 51.64256pt.
-<../figures/mu2e_logo.jpg, id=27, 1126.2075pt x 712.6625pt>
+<../figures/mu2e_logo.jpg, id=22, 1126.2075pt x 712.6625pt>
 File: ../figures/mu2e_logo.jpg Graphic file (type jpg)
 <use ../figures/mu2e_logo.jpg>
-Package pdftex.def Info: ../figures/mu2e_logo.jpg  used on input line 50.
+Package pdftex.def Info: ../figures/mu2e_logo.jpg  used on input line 56.
 (pdftex.def)             Requested size: 73.20605pt x 46.32468pt.
  [1
 
  <../figures/cherubino.jpg> <../figures/mu2e_logo.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
-
-("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 66.
+ut line 72.
 
 ("C:\Program Files\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<../figures/mu2e_apparatus.jpg, id=45, 716.6775pt x 182.6825pt>
-File: ../figures/mu2e_apparatus.jpg Graphic file (type jpg)
-<use ../figures/mu2e_apparatus.jpg>
-Package pdftex.def Info: ../figures/mu2e_apparatus.jpg  used on input line 66.
-(pdftex.def)             Requested size: 277.69989pt x 70.78593pt.
+<../figures/feynman_mu2e.jpg, id=37, 275.0275pt x 205.76875pt>
+File: ../figures/feynman_mu2e.jpg Graphic file (type jpg)
+<use ../figures/feynman_mu2e.jpg>
+Package pdftex.def Info: ../figures/feynman_mu2e.jpg  used on input line 72.
+(pdftex.def)             Requested size: 138.84729pt x 103.8857pt.
 
 [2
 
- <../figures/mu2e_apparatus.jpg>]
-<../figures/mu2e_event.jpg, id=64, 554.57187pt x 210.7875pt>
-File: ../figures/mu2e_event.jpg Graphic file (type jpg)
-<use ../figures/mu2e_event.jpg>
-Package pdftex.def Info: ../figures/mu2e_event.jpg  used on input line 86.
-(pdftex.def)             Requested size: 277.69989pt x 105.55109pt.
+ <../figures/feynman_mu2e.jpg>]
+<../figures/timeline_measures_3PS.png, id=51, 582.175pt x 371.3875pt>
+File: ../figures/timeline_measures_3PS.png Graphic file (type png)
+<use ../figures/timeline_measures_3PS.png>
+Package pdftex.def Info: ../figures/timeline_measures_3PS.png  used on input li
+ne 82.
+(pdftex.def)             Requested size: 277.69989pt x 177.15324pt.
  [3
 
- <../figures/mu2e_event.jpg>]
-<../figures/plots/mix/mix500_qsh.png, id=76, 700.6175pt x 475.7775pt>
-File: ../figures/plots/mix/mix500_qsh.png Graphic file (type png)
-<use ../figures/plots/mix/mix500_qsh.png>
-Package pdftex.def Info: ../figures/plots/mix/mix500_qsh.png  used on input lin
-e 102.
-(pdftex.def)             Requested size: 167.59572pt x 113.81102pt.
-<../figures/Blender_Tracker_4.png, id=77, 275.0275pt x 252.945pt>
-File: ../figures/Blender_Tracker_4.png Graphic file (type png)
-<use ../figures/Blender_Tracker_4.png>
-Package pdftex.def Info: ../figures/Blender_Tracker_4.png  used on input line 1
-02.
-(pdftex.def)             Requested size: 123.74864pt x 113.81102pt.
- [4
+ <../figures/timeline_measures_3PS.png>]
+<../figures/conversion_sketch.png, id=61, 244.915pt x 153.07187pt>
+File: ../figures/conversion_sketch.png Graphic file (type png)
+<use ../figures/conversion_sketch.png>
+Package pdftex.def Info: ../figures/conversion_sketch.png  used on input line 1
+06.
+(pdftex.def)             Requested size: 121.49535pt x 75.93314pt.
 
- <../figures/plots/mix/mix500_qsh.png> <../figures/Blender_Tracker_4.png>]
-<../figures/Report_3/pgun2_SHminE0_L_eff_genp3.png, id=85, 700.6175pt x 475.777
-5pt>
-File: ../figures/Report_3/pgun2_SHminE0_L_eff_genp3.png Graphic file (type png)
+[4
 
-<use ../figures/Report_3/pgun2_SHminE0_L_eff_genp3.png>
-Package pdftex.def Info: ../figures/Report_3/pgun2_SHminE0_L_eff_genp3.png  use
-d on input line 111.
-(pdftex.def)             Requested size: 280.24203pt x 190.30762pt.
+ <../figures/conversion_sketch.png>]
+<../figures/signal_bg.png, id=74, 610.28pt x 368.37625pt>
+File: ../figures/signal_bg.png Graphic file (type png)
+<use ../figures/signal_bg.png>
+Package pdftex.def Info: ../figures/signal_bg.png  used on input line 119.
+(pdftex.def)             Requested size: 242.98541pt x 146.67337pt.
  [5
 
- <../figures/Report_3/pgun2_SHminE0_L_eff_genp3.png>]
-<../figures/plots/mix/mix500_trk.png, id=93, 700.6175pt x 475.7775pt>
-File: ../figures/plots/mix/mix500_trk.png Graphic file (type png)
-<use ../figures/plots/mix/mix500_trk.png>
-Package pdftex.def Info: ../figures/plots/mix/mix500_trk.png  used on input lin
-e 120.
-(pdftex.def)             Requested size: 266.23741pt x 180.79732pt.
+ <../figures/signal_bg.png>]
+<../figures/MuonBeamline_TS_window_2.png, id=83, 474.27188pt x 317.185pt>
+File: ../figures/MuonBeamline_TS_window_2.png Graphic file (type png)
+<use ../figures/MuonBeamline_TS_window_2.png>
+Package pdftex.def Info: ../figures/MuonBeamline_TS_window_2.png  used on input
+ line 153.
+(pdftex.def)             Requested size: 135.37796pt x 90.539pt.
+<../figures/mu2e_apparatus.jpg, id=84, 716.6775pt x 182.6825pt>
+File: ../figures/mu2e_apparatus.jpg Graphic file (type jpg)
+<use ../figures/mu2e_apparatus.jpg>
+Package pdftex.def Info: ../figures/mu2e_apparatus.jpg  used on input line 153.
 
-Overfull \vbox (16.23958pt too high) detected at line 120
- []
+(pdftex.def)             Requested size: 312.40907pt x 79.63348pt.
+ [6
 
-[6
-
- <../figures/plots/mix/mix500_trk.png>]
-<../figures/mu2e_tracker.jpg, id=102, 735.24687pt x 357.335pt>
-File: ../figures/mu2e_tracker.jpg Graphic file (type jpg)
-<use ../figures/mu2e_tracker.jpg>
-Package pdftex.def Info: ../figures/mu2e_tracker.jpg  used on input line 125.
-(pdftex.def)             Requested size: 294.09354pt x 142.93146pt.
+ <../figures/MuonBeamline_TS_window_2.png> <../figures/mu2e_apparatus.jpg>]
+<../figures/mu2e_tracker_front.jpg, id=92, 162.10562pt x 140.525pt>
+File: ../figures/mu2e_tracker_front.jpg Graphic file (type jpg)
+<use ../figures/mu2e_tracker_front.jpg>
+Package pdftex.def Info: ../figures/mu2e_tracker_front.jpg  used on input line 
+175.
+(pdftex.def)             Requested size: 106.21793pt x 92.07777pt.
+<../figures/Tracker_2.png, id=93, 566.115pt x 201.75375pt>
+File: ../figures/Tracker_2.png Graphic file (type png)
+<use ../figures/Tracker_2.png>
+Package pdftex.def Info: ../figures/Tracker_2.png  used on input line 175.
+(pdftex.def)             Requested size: 277.69989pt x 98.96794pt.
  [7
 
- <../figures/mu2e_tracker.jpg>]
-<../figures//new_spectra_2/comparison2.png, id=111, 700.6175pt x 475.7775pt>
-File: ../figures//new_spectra_2/comparison2.png Graphic file (type png)
-<use ../figures//new_spectra_2/comparison2.png>
-Package pdftex.def Info: ../figures//new_spectra_2/comparison2.png  used on inp
-ut line 130.
-(pdftex.def)             Requested size: 315.27496pt x 214.09789pt.
+ <../figures/mu2e_tracker_front.jpg> <../figures/Tracker_2.png>]
+<../figures/mu2e_calorimeter_disk_space.png, id=101, 281.05pt x 229.85875pt>
+File: ../figures/mu2e_calorimeter_disk_space.png Graphic file (type png)
+<use ../figures/mu2e_calorimeter_disk_space.png>
+Package pdftex.def Info: ../figures/mu2e_calorimeter_disk_space.png  used on in
+put line 195.
+(pdftex.def)             Requested size: 94.41693pt x 77.21797pt.
+<../figures/mu2e_calorimeter_disk_2.png, id=102, 523.45563pt x 299.1175pt>
+File: ../figures/mu2e_calorimeter_disk_2.png Graphic file (type png)
+<use ../figures/mu2e_calorimeter_disk_2.png>
+Package pdftex.def Info: ../figures/mu2e_calorimeter_disk_2.png  used on input 
+line 195.
+(pdftex.def)             Requested size: 242.98541pt x 138.84628pt.
+ [8
 
-[8
-
- <../figures//new_spectra_2/comparison2.png>]
-<../figures/FR/PrecoVsP.png, id=119, 1925.1925pt x 1007.765pt>
-File: ../figures/FR/PrecoVsP.png Graphic file (type png)
-<use ../figures/FR/PrecoVsP.png>
-Package pdftex.def Info: ../figures/FR/PrecoVsP.png  used on input line 135.
-(pdftex.def)             Requested size: 347.12355pt x 181.69742pt.
+ <../figures/mu2e_calorimeter_disk_space.png> <../figures/mu2e_calorimeter_disk
+_2.png>]
+<../figures/mu2e_event.jpg, id=109, 554.57187pt x 210.7875pt>
+File: ../figures/mu2e_event.jpg Graphic file (type jpg)
+<use ../figures/mu2e_event.jpg>
+Package pdftex.def Info: ../figures/mu2e_event.jpg  used on input line 208.
+(pdftex.def)             Requested size: 277.69989pt x 105.55109pt.
+<../figures/Extraction.png, id=110, 551.56062pt x 120.45pt>
+File: ../figures/Extraction.png Graphic file (type png)
+<use ../figures/Extraction.png>
+Package pdftex.def Info: ../figures/Extraction.png  used on input line 208.
+(pdftex.def)             Requested size: 277.69989pt x 60.64572pt.
  [9
 
- <../figures/FR/PrecoVsP.png>]
-<../figures/mu2e_datahandling.jpg, id=127, 204.765pt x 245.91875pt>
-File: ../figures/mu2e_datahandling.jpg Graphic file (type jpg)
-<use ../figures/mu2e_datahandling.jpg>
-Package pdftex.def Info: ../figures/mu2e_datahandling.jpg  used on input line 1
-40.
-(pdftex.def)             Requested size: 166.97102pt x 200.52257pt.
+ <../figures/mu2e_event.jpg> <../figures/Extraction.png>]
+<../figures/POT_sim.png, id=119, 565.61313pt x 351.3125pt>
+File: ../figures/POT_sim.png Graphic file (type png)
+<use ../figures/POT_sim.png>
+Package pdftex.def Info: ../figures/POT_sim.png  used on input line 218.
+(pdftex.def)             Requested size: 277.69989pt x 172.4877pt.
  [10
 
- <../figures/mu2e_datahandling.jpg>] [11
+ <../figures/POT_sim.png>]
+<../figures/Dave_eff-vs-PBI.png, id=129, 497.35812pt x 397.98688pt>
+File: ../figures/Dave_eff-vs-PBI.png Graphic file (type png)
+<use ../figures/Dave_eff-vs-PBI.png>
+Package pdftex.def Info: ../figures/Dave_eff-vs-PBI.png  used on input line 228
+.
+(pdftex.def)             Requested size: 138.84729pt x 111.10764pt.
+<../figures/Dave_CRV-vs-PBI.png, id=130, 491.8375pt x 368.37625pt>
+File: ../figures/Dave_CRV-vs-PBI.png Graphic file (type png)
+<use ../figures/Dave_CRV-vs-PBI.png>
+Package pdftex.def Info: ../figures/Dave_CRV-vs-PBI.png  used on input line 228
+.
+(pdftex.def)             Requested size: 138.84729pt x 103.99341pt.
+
+[11
+
+ <../figures/Dave_eff-vs-PBI.png> <../figures/Dave_CRV-vs-PBI.png>] [12
 
 ]
+<../figures/giani_CalPatRec_semiplane.png, id=154, 576.65437pt x 294.60063pt>
+File: ../figures/giani_CalPatRec_semiplane.png Graphic file (type png)
+<use ../figures/giani_CalPatRec_semiplane.png>
+Package pdftex.def Info: ../figures/giani_CalPatRec_semiplane.png  used on inpu
+t line 270.
+(pdftex.def)             Requested size: 277.69989pt x 141.87419pt.
+
+[13
+
+ <../figures/giani_CalPatRec_semiplane.png>]
+<../figures/giani_TrkPatRec_triplets.png, id=162, 332.74312pt x 346.79562pt>
+File: ../figures/giani_TrkPatRec_triplets.png Graphic file (type png)
+<use ../figures/giani_TrkPatRec_triplets.png>
+Package pdftex.def Info: ../figures/giani_TrkPatRec_triplets.png  used on input
+ line 301.
+(pdftex.def)             Requested size: 85.04637pt x 88.63544pt.
+<../figures/giani_TrkPatRec_ambiguity0.png, id=163, 377.91188pt x 203.76125pt>
+File: ../figures/giani_TrkPatRec_ambiguity0.png Graphic file (type png)
+<use ../figures/giani_TrkPatRec_ambiguity0.png>
+Package pdftex.def Info: ../figures/giani_TrkPatRec_ambiguity0.png  used on inp
+ut line 301.
+(pdftex.def)             Requested size: 138.84729pt x 74.86192pt.
+<../figures/giani_TrkPatRec_ambiguity1.png, id=164, 378.41376pt x 203.76125pt>
+File: ../figures/giani_TrkPatRec_ambiguity1.png Graphic file (type png)
+<use ../figures/giani_TrkPatRec_ambiguity1.png>
+Package pdftex.def Info: ../figures/giani_TrkPatRec_ambiguity1.png  used on inp
+ut line 301.
+(pdftex.def)             Requested size: 138.84729pt x 74.76242pt.
+ [14
+
+ <../figures/giani_TrkPatRec_triplets.png> <../figures/giani_TrkPatRec_ambiguit
+y0.png> <../figures/giani_TrkPatRec_ambiguity1.png>]
+<../figures/Kutschke_Kalman_circ.png, id=171, 366.87062pt x 305.14pt>
+File: ../figures/Kutschke_Kalman_circ.png Graphic file (type png)
+<use ../figures/Kutschke_Kalman_circ.png>
+Package pdftex.def Info: ../figures/Kutschke_Kalman_circ.png  used on input lin
+e 325.
+(pdftex.def)             Requested size: 121.49535pt x 101.05035pt.
+ [15
+
+ <../figures/Kutschke_Kalman_circ.png>]
+<../figures/plots/flat/all_SHvsGenp.png, id=178, 700.6175pt x 475.7775pt>
+File: ../figures/plots/flat/all_SHvsGenp.png Graphic file (type png)
+<use ../figures/plots/flat/all_SHvsGenp.png>
+Package pdftex.def Info: ../figures/plots/flat/all_SHvsGenp.png  used on input 
+line 335.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [16
+
+ <../figures/plots/flat/all_SHvsGenp.png>]
+<../figures//plots/flat/Lambda_first-z.png, id=185, 700.6175pt x 475.7775pt>
+File: ../figures//plots/flat/Lambda_first-z.png Graphic file (type png)
+<use ../figures//plots/flat/Lambda_first-z.png>
+Package pdftex.def Info: ../figures//plots/flat/Lambda_first-z.png  used on inp
+ut line 346.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [17
+
+ <../figures//plots/flat/Lambda_first-z.png>]
+<../figures//plots/flat/Lambda_last-z.png, id=192, 700.6175pt x 475.7775pt>
+File: ../figures//plots/flat/Lambda_last-z.png Graphic file (type png)
+<use ../figures//plots/flat/Lambda_last-z.png>
+Package pdftex.def Info: ../figures//plots/flat/Lambda_last-z.png  used on inpu
+t line 346.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [18
+
+ <../figures//plots/flat/Lambda_last-z.png>]
+<../figures/Blender_Tracker_4.png, id=199, 275.0275pt x 252.945pt>
+File: ../figures/Blender_Tracker_4.png Graphic file (type png)
+<use ../figures/Blender_Tracker_4.png>
+Package pdftex.def Info: ../figures/Blender_Tracker_4.png  used on input line 3
+56.
+(pdftex.def)             Requested size: 192.51793pt x 177.06029pt.
+ [19
+
+ <../figures/Blender_Tracker_4.png>]
+<../figures/plots/flat/Lambda_eff_trk0-5hits.png, id=207, 700.6175pt x 475.7775
+pt>
+File: ../figures/plots/flat/Lambda_eff_trk0-5hits.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_eff_trk0-5hits.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_eff_trk0-5hits.png  used 
+on input line 366.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [20
+
+ <../figures/plots/flat/Lambda_eff_trk0-5hits.png>]
+<../figures/plots/flat/TimeClusterPar_ProtonPeaks.png, id=214, 700.6175pt x 475
+.7775pt>
+File: ../figures/plots/flat/TimeClusterPar_ProtonPeaks.png Graphic file (type p
+ng)
+<use ../figures/plots/flat/TimeClusterPar_ProtonPeaks.png>
+Package pdftex.def Info: ../figures/plots/flat/TimeClusterPar_ProtonPeaks.png  
+used on input line 377.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [21
+
+ <../figures/plots/flat/TimeClusterPar_ProtonPeaks.png>]
+<../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png, id=221, 350.30875p
+t x 237.88875pt>
+File: ../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png Graphic file (
+type png)
+<use ../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png>
+Package pdftex.def Info: ../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes
+.png  used on input line 377.
+(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
+ [22
+
+ <../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png>]
+<../figures/plots/flat/Lambda_Rot-vs-p.png, id=229, 700.6175pt x 475.7775pt>
+File: ../figures/plots/flat/Lambda_Rot-vs-p.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_Rot-vs-p.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_Rot-vs-p.png  used on inp
+ut line 388.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [23
+
+ <../figures/plots/flat/Lambda_Rot-vs-p.png>]
+<../figures/plots/flat/Lambda_preco-vs-pgen.png, id=236, 700.6175pt x 475.7775p
+t>
+File: ../figures/plots/flat/Lambda_preco-vs-pgen.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_preco-vs-pgen.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_preco-vs-pgen.png  used o
+n input line 398.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [24
+
+ <../figures/plots/flat/Lambda_preco-vs-pgen.png>]
+<../figures/mu2e_spectra_articles/comparison2.png, id=247, 700.6175pt x 475.777
+5pt>
+File: ../figures/mu2e_spectra_articles/comparison2.png Graphic file (type png)
+<use ../figures/mu2e_spectra_articles/comparison2.png>
+Package pdftex.def Info: ../figures/mu2e_spectra_articles/comparison2.png  used
+ on input line 410.
+(pdftex.def)             Requested size: 225.62819pt x 153.21745pt.
+ [25
+
+ <../figures/mu2e_spectra_articles/comparison2.png>]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+421.
+
+("C:\Program Files\MiKTeX\tex/latex/base\ts1cmss.fd"
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<../figures/plots/ejected/proton_eff_comparison_PS.png, id=260, 350.30875pt x 2
+37.88875pt>
+File: ../figures/plots/ejected/proton_eff_comparison_PS.png Graphic file (type 
+png)
+<use ../figures/plots/ejected/proton_eff_comparison_PS.png>
+Package pdftex.def Info: ../figures/plots/ejected/proton_eff_comparison_PS.png 
+ used on input line 421.
+(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
+ [26
+
+ <../figures/plots/ejected/proton_eff_comparison_PS.png>]
+<../figures/plots/ejected/deuterons_eff_comparison_PS.png, id=269, 350.30875pt 
+x 237.88875pt>
+File: ../figures/plots/ejected/deuterons_eff_comparison_PS.png Graphic file (ty
+pe png)
+<use ../figures/plots/ejected/deuterons_eff_comparison_PS.png>
+Package pdftex.def Info: ../figures/plots/ejected/deuterons_eff_comparison_PS.p
+ng  used on input line 432.
+(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
+ [27
+
+ <../figures/plots/ejected/deuterons_eff_comparison_PS.png>]
+<../figures/plots/mix/mix500_qsh_Ps.png, id=277, 350.30875pt x 237.88875pt>
+File: ../figures/plots/mix/mix500_qsh_Ps.png Graphic file (type png)
+<use ../figures/plots/mix/mix500_qsh_Ps.png>
+Package pdftex.def Info: ../figures/plots/mix/mix500_qsh_Ps.png  used on input 
+line 442.
+(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
+ [28
+
+ <../figures/plots/mix/mix500_qsh_Ps.png>]
+<../figures/plots/mix/mix500_trk_Ps.png, id=285, 350.30875pt x 237.88875pt>
+File: ../figures/plots/mix/mix500_trk_Ps.png Graphic file (type png)
+<use ../figures/plots/mix/mix500_trk_Ps.png>
+Package pdftex.def Info: ../figures/plots/mix/mix500_trk_Ps.png  used on input 
+line 452.
+(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
+ [29
+
+ <../figures/plots/mix/mix500_trk_Ps.png>]
+<../figures//plots/mix/mix500_trk_o.png, id=293, 700.6175pt x 475.7775pt>
+File: ../figures//plots/mix/mix500_trk_o.png Graphic file (type png)
+<use ../figures//plots/mix/mix500_trk_o.png>
+Package pdftex.def Info: ../figures//plots/mix/mix500_trk_o.png  used on input 
+line 462.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [30
+
+ <../figures//plots/mix/mix500_trk_o.png>]
+<../figures/plots/mix/lum_vs_ntrk.png, id=300, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/lum_vs_ntrk.png Graphic file (type png)
+<use ../figures/plots/mix/lum_vs_ntrk.png>
+Package pdftex.def Info: ../figures/plots/mix/lum_vs_ntrk.png  used on input li
+ne 472.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+[31
+
+ <../figures/plots/mix/lum_vs_ntrk.png>]
+<../figures/plots/mix/pol2-fit.png, id=308, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/pol2-fit.png Graphic file (type png)
+<use ../figures/plots/mix/pol2-fit.png>
+Package pdftex.def Info: ../figures/plots/mix/pol2-fit.png  used on input line 
+482.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [32
+
+ <../figures/plots/mix/pol2-fit.png>]
+<../figures/plots/mix/uncertainty.png, id=315, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/uncertainty.png Graphic file (type png)
+<use ../figures/plots/mix/uncertainty.png>
+Package pdftex.def Info: ../figures/plots/mix/uncertainty.png  used on input li
+ne 492.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [33
+
+ <../figures/plots/mix/uncertainty.png>] [34
+
+] [35
+
+] [36
+
+ <C:/Program Files/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>] [37
+
+
+]
+<../figures/beam_time_structure.png, id=359, 462.22687pt x 252.44313pt>
+File: ../figures/beam_time_structure.png Graphic file (type png)
+<use ../figures/beam_time_structure.png>
+Package pdftex.def Info: ../figures/beam_time_structure.png  used on input line
+ 532.
+(pdftex.def)             Requested size: 312.40907pt x 170.62286pt.
+ [38
+
+ <../figures/beam_time_structure.png>]
+<../figures/POT_distribution.png, id=366, 436.63126pt x 342.27875pt>
+File: ../figures/POT_distribution.png Graphic file (type png)
+<use ../figures/POT_distribution.png>
+Package pdftex.def Info: ../figures/POT_distribution.png  used on input line 53
+7.
+(pdftex.def)             Requested size: 277.69989pt x 217.68927pt.
+ [39
+
+ <../figures/POT_distribution.png>]
+<../figures/HPG_Spectra.png, id=373, 550.055pt x 399.99437pt>
+File: ../figures/HPG_Spectra.png Graphic file (type png)
+<use ../figures/HPG_Spectra.png>
+Package pdftex.def Info: ../figures/HPG_Spectra.png  used on input line 547.
+(pdftex.def)             Requested size: 277.69989pt x 201.94368pt.
+ [40
+
+ <../figures/HPG_Spectra.png>]
+<../figures/plots/flat/Lambda_p-gen0SH.png, id=380, 538.01pt x 322.20375pt>
+File: ../figures/plots/flat/Lambda_p-gen0SH.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_p-gen0SH.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_p-gen0SH.png  used on inp
+ut line 553.
+(pdftex.def)             Requested size: 312.40907pt x 187.09462pt.
+ [41
+
+ <../figures/plots/flat/Lambda_p-gen0SH.png>]
+<../figures/plots/flat/Lambda_preco_trk0.png, id=387, 700.6175pt x 475.7775pt>
+File: ../figures/plots/flat/Lambda_preco_trk0.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_preco_trk0.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_preco_trk0.png  used on i
+nput line 553.
+(pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
+ [42
+
+ <../figures/plots/flat/Lambda_preco_trk0.png>]
+<../figures/plots/flat/Lambda_chi2d_trk0.png, id=394, 700.6175pt x 475.7775pt>
+File: ../figures/plots/flat/Lambda_chi2d_trk0.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_chi2d_trk0.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_chi2d_trk0.png  used on i
+nput line 562.
+(pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
+ [43
+
+ <../figures/plots/flat/Lambda_chi2d_trk0.png>]
+<../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png, id=402, 700.6175pt 
+x 475.7775pt>
+File: ../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png Graphic file (t
+ype png)
+<use ../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png>
+Package pdftex.def Info: ../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.
+png  used on input line 562.
+(pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
+<../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png, id=403, 700.6175pt 
+x 475.7775pt>
+File: ../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png Graphic file (t
+ype png)
+<use ../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png>
+Package pdftex.def Info: ../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.
+png  used on input line 562.
+(pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
+ [44
+
+ <../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png> <../figures/plots/
+flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png>]
+<../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png, id=410, 700.617
+5pt x 475.7775pt>
+File: ../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png Graphic fil
+e (type png)
+<use ../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png>
+Package pdftex.def Info: ../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-p
+gen.png  used on input line 562.
+(pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
+<../figures/plots/flat/Lambda_Lambda-vs-p.png, id=411, 700.6175pt x 475.7775pt>
+
+File: ../figures/plots/flat/Lambda_Lambda-vs-p.png Graphic file (type png)
+<use ../figures/plots/flat/Lambda_Lambda-vs-p.png>
+Package pdftex.def Info: ../figures/plots/flat/Lambda_Lambda-vs-p.png  used on 
+input line 562.
+(pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
+ [45
+
+ <../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png> <../figures/pl
+ots/flat/Lambda_Lambda-vs-p.png>]
+<../figures/plots/mix/mix500_trk_p.png, id=418, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/mix500_trk_p.png Graphic file (type png)
+<use ../figures/plots/mix/mix500_trk_p.png>
+Package pdftex.def Info: ../figures/plots/mix/mix500_trk_p.png  used on input l
+ine 568.
+(pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
+ [46
+
+ <../figures/plots/mix/mix500_trk_p.png>]
+<../figures/plots/mix/mix500_trk_d.png, id=425, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/mix500_trk_d.png Graphic file (type png)
+<use ../figures/plots/mix/mix500_trk_d.png>
+Package pdftex.def Info: ../figures/plots/mix/mix500_trk_d.png  used on input l
+ine 568.
+(pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
+ [47
+
+ <../figures/plots/mix/mix500_trk_d.png>]
 \tf@nav=\write7
 \openout7 = `presentazione_bvitali.nav'.
 
@@ -1261,42 +1709,46 @@ Package pdftex.def Info: ../figures/mu2e_datahandling.jpg  used on input line 1
 \tf@snm=\write9
 \openout9 = `presentazione_bvitali.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
  (presentazione_bvitali.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
 Package rerunfilecheck Info: File `presentazione_bvitali.out' has not changed.
-(rerunfilecheck)             Checksum: 06E27B416B3B1946CD705C501CA5B3BD;45.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'presentazione_bvitali.run.xml'.
 \openout1 = `presentazione_bvitali.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25644 strings out of 481212
- 493608 string characters out of 2915730
- 954730 words of memory out of 3000000
- 40657 multiletter control sequences out of 15000+200000
- 546507 words of font info for 70 fonts, out of 3000000 for 9000
+ 29053 strings out of 481212
+ 575688 string characters out of 2915730
+ 1022959 words of memory out of 3000000
+ 43907 multiletter control sequences out of 15000+200000
+ 546866 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,71p,807b,1656s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
-8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentazione_bvitali.pdf (11 pages, 1786649 bytes).
+ 63i,15n,71p,807b,1761s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1
+000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi
+9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb>
+Output written on presentazione_bvitali.pdf (47 pages, 6059036 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 

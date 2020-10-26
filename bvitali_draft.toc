@@ -51,12 +51,12 @@
 \contentsline {subsection}{\numberline {2.4.4}The Trigger and Data Acquisition System}{40}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}The monitor of the stopped muon flux}{40}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Baseline Mu2e design: measuring the muon beam flux}{41}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}This Thesis: monitoring the muon beam intensity fluctuations on the millisecond timescale}{43}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}This Thesis: monitoring fluctuations to the millisecond}{43}{subsection.2.5.2}%
 \contentsline {section}{\numberline {2.6}Simulation and Analysis tools}{44}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}\textit {art} and .fcl}{44}{subsection.2.6.1}%
 \contentsline {paragraph}{\textit {art}}{44}{section*.23}%
 \contentsline {paragraph}{FHiCL}{44}{section*.24}%
-\contentsline {subsection}{\numberline {2.6.2}STNTUPLE}{45}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.2}STNTUPLE}{44}{subsection.2.6.2}%
 \contentsline {chapter}{\numberline {3}Track reconstruction in Mu2e}{46}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Hits reconstruction and pre-filtering}{46}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Straw tracker hits}{46}{subsection.3.1.1}%
