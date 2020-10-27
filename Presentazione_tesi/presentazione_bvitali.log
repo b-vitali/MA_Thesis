@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  26 OCT 2020 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.31)  27 OCT 2020 21:10
 entering extended mode
 **./presentazione_bvitali.tex
 (presentazione_bvitali.tex
@@ -1254,450 +1254,447 @@ Package pdftex.def Info: ../figures/feynman_mu2e.jpg  used on input line 72.
 File: ../figures/timeline_measures_3PS.png Graphic file (type png)
 <use ../figures/timeline_measures_3PS.png>
 Package pdftex.def Info: ../figures/timeline_measures_3PS.png  used on input li
-ne 82.
-(pdftex.def)             Requested size: 277.69989pt x 177.15324pt.
+ne 79.
+(pdftex.def)             Requested size: 312.40907pt x 199.29953pt.
  [3
 
  <../figures/timeline_measures_3PS.png>]
-<../figures/conversion_sketch.png, id=61, 244.915pt x 153.07187pt>
+<../figures/conversion_sketch.png, id=60, 244.915pt x 153.07187pt>
 File: ../figures/conversion_sketch.png Graphic file (type png)
 <use ../figures/conversion_sketch.png>
 Package pdftex.def Info: ../figures/conversion_sketch.png  used on input line 1
-06.
+03.
 (pdftex.def)             Requested size: 121.49535pt x 75.93314pt.
 
 [4
 
  <../figures/conversion_sketch.png>]
-<../figures/signal_bg.png, id=74, 610.28pt x 368.37625pt>
+<../figures/signal_bg.png, id=73, 610.28pt x 368.37625pt>
 File: ../figures/signal_bg.png Graphic file (type png)
 <use ../figures/signal_bg.png>
-Package pdftex.def Info: ../figures/signal_bg.png  used on input line 119.
+Package pdftex.def Info: ../figures/signal_bg.png  used on input line 116.
 (pdftex.def)             Requested size: 242.98541pt x 146.67337pt.
  [5
 
  <../figures/signal_bg.png>]
-<../figures/MuonBeamline_TS_window_2.png, id=83, 474.27188pt x 317.185pt>
+<../figures/MuonBeamline_TS_window_2.png, id=82, 474.27188pt x 317.185pt>
 File: ../figures/MuonBeamline_TS_window_2.png Graphic file (type png)
 <use ../figures/MuonBeamline_TS_window_2.png>
 Package pdftex.def Info: ../figures/MuonBeamline_TS_window_2.png  used on input
- line 153.
+ line 150.
 (pdftex.def)             Requested size: 135.37796pt x 90.539pt.
-<../figures/mu2e_apparatus.jpg, id=84, 716.6775pt x 182.6825pt>
+<../figures/mu2e_apparatus.jpg, id=83, 716.6775pt x 182.6825pt>
 File: ../figures/mu2e_apparatus.jpg Graphic file (type jpg)
 <use ../figures/mu2e_apparatus.jpg>
-Package pdftex.def Info: ../figures/mu2e_apparatus.jpg  used on input line 153.
+Package pdftex.def Info: ../figures/mu2e_apparatus.jpg  used on input line 150.
 
 (pdftex.def)             Requested size: 312.40907pt x 79.63348pt.
  [6
 
  <../figures/MuonBeamline_TS_window_2.png> <../figures/mu2e_apparatus.jpg>]
-<../figures/mu2e_tracker_front.jpg, id=92, 162.10562pt x 140.525pt>
+<../figures/mu2e_tracker_front.jpg, id=91, 162.10562pt x 140.525pt>
 File: ../figures/mu2e_tracker_front.jpg Graphic file (type jpg)
 <use ../figures/mu2e_tracker_front.jpg>
 Package pdftex.def Info: ../figures/mu2e_tracker_front.jpg  used on input line 
-175.
-(pdftex.def)             Requested size: 106.21793pt x 92.07777pt.
-<../figures/Tracker_2.png, id=93, 566.115pt x 201.75375pt>
+172.
+(pdftex.def)             Requested size: 100.6635pt x 87.26396pt.
+<../figures/Tracker_2.png, id=92, 566.115pt x 201.75375pt>
 File: ../figures/Tracker_2.png Graphic file (type png)
 <use ../figures/Tracker_2.png>
-Package pdftex.def Info: ../figures/Tracker_2.png  used on input line 175.
+Package pdftex.def Info: ../figures/Tracker_2.png  used on input line 172.
 (pdftex.def)             Requested size: 277.69989pt x 98.96794pt.
  [7
 
  <../figures/mu2e_tracker_front.jpg> <../figures/Tracker_2.png>]
-<../figures/mu2e_calorimeter_disk_space.png, id=101, 281.05pt x 229.85875pt>
+<../figures/mu2e_calorimeter_disk_space.png, id=100, 281.05pt x 229.85875pt>
 File: ../figures/mu2e_calorimeter_disk_space.png Graphic file (type png)
 <use ../figures/mu2e_calorimeter_disk_space.png>
 Package pdftex.def Info: ../figures/mu2e_calorimeter_disk_space.png  used on in
-put line 195.
+put line 192.
 (pdftex.def)             Requested size: 94.41693pt x 77.21797pt.
-<../figures/mu2e_calorimeter_disk_2.png, id=102, 523.45563pt x 299.1175pt>
+<../figures/mu2e_calorimeter_disk_2.png, id=101, 523.45563pt x 299.1175pt>
 File: ../figures/mu2e_calorimeter_disk_2.png Graphic file (type png)
 <use ../figures/mu2e_calorimeter_disk_2.png>
 Package pdftex.def Info: ../figures/mu2e_calorimeter_disk_2.png  used on input 
-line 195.
+line 192.
 (pdftex.def)             Requested size: 242.98541pt x 138.84628pt.
  [8
 
  <../figures/mu2e_calorimeter_disk_space.png> <../figures/mu2e_calorimeter_disk
 _2.png>]
-<../figures/mu2e_event.jpg, id=109, 554.57187pt x 210.7875pt>
+<../figures/mu2e_event.jpg, id=108, 554.57187pt x 210.7875pt>
 File: ../figures/mu2e_event.jpg Graphic file (type jpg)
 <use ../figures/mu2e_event.jpg>
-Package pdftex.def Info: ../figures/mu2e_event.jpg  used on input line 208.
+Package pdftex.def Info: ../figures/mu2e_event.jpg  used on input line 205.
 (pdftex.def)             Requested size: 277.69989pt x 105.55109pt.
-<../figures/Extraction.png, id=110, 551.56062pt x 120.45pt>
+<../figures/Extraction.png, id=109, 551.56062pt x 120.45pt>
 File: ../figures/Extraction.png Graphic file (type png)
 <use ../figures/Extraction.png>
-Package pdftex.def Info: ../figures/Extraction.png  used on input line 208.
+Package pdftex.def Info: ../figures/Extraction.png  used on input line 205.
 (pdftex.def)             Requested size: 277.69989pt x 60.64572pt.
  [9
 
  <../figures/mu2e_event.jpg> <../figures/Extraction.png>]
-<../figures/POT_sim.png, id=119, 565.61313pt x 351.3125pt>
+<../figures/POT_sim.png, id=118, 565.61313pt x 351.3125pt>
 File: ../figures/POT_sim.png Graphic file (type png)
 <use ../figures/POT_sim.png>
-Package pdftex.def Info: ../figures/POT_sim.png  used on input line 218.
+Package pdftex.def Info: ../figures/POT_sim.png  used on input line 215.
 (pdftex.def)             Requested size: 277.69989pt x 172.4877pt.
  [10
 
  <../figures/POT_sim.png>]
-<../figures/Dave_eff-vs-PBI.png, id=129, 497.35812pt x 397.98688pt>
+<../figures/Dave_eff-vs-PBI.png, id=128, 511.9125pt x 402.50375pt>
 File: ../figures/Dave_eff-vs-PBI.png Graphic file (type png)
 <use ../figures/Dave_eff-vs-PBI.png>
-Package pdftex.def Info: ../figures/Dave_eff-vs-PBI.png  used on input line 228
+Package pdftex.def Info: ../figures/Dave_eff-vs-PBI.png  used on input line 225
 .
-(pdftex.def)             Requested size: 138.84729pt x 111.10764pt.
-<../figures/Dave_CRV-vs-PBI.png, id=130, 491.8375pt x 368.37625pt>
+(pdftex.def)             Requested size: 156.20453pt x 122.81566pt.
+<../figures/Dave_CRV-vs-PBI.png, id=129, 504.88625pt x 402.50375pt>
 File: ../figures/Dave_CRV-vs-PBI.png Graphic file (type png)
 <use ../figures/Dave_CRV-vs-PBI.png>
-Package pdftex.def Info: ../figures/Dave_CRV-vs-PBI.png  used on input line 228
+Package pdftex.def Info: ../figures/Dave_CRV-vs-PBI.png  used on input line 225
 .
-(pdftex.def)             Requested size: 138.84729pt x 103.99341pt.
+(pdftex.def)             Requested size: 156.20453pt x 124.52919pt.
 
 [11
 
  <../figures/Dave_eff-vs-PBI.png> <../figures/Dave_CRV-vs-PBI.png>] [12
 
 ]
-<../figures/giani_CalPatRec_semiplane.png, id=154, 576.65437pt x 294.60063pt>
+<../figures/giani_CalPatRec_semiplane.png, id=155, 576.65437pt x 294.60063pt>
 File: ../figures/giani_CalPatRec_semiplane.png Graphic file (type png)
 <use ../figures/giani_CalPatRec_semiplane.png>
 Package pdftex.def Info: ../figures/giani_CalPatRec_semiplane.png  used on inpu
-t line 270.
+t line 267.
 (pdftex.def)             Requested size: 277.69989pt x 141.87419pt.
 
 [13
 
  <../figures/giani_CalPatRec_semiplane.png>]
-<../figures/giani_TrkPatRec_triplets.png, id=162, 332.74312pt x 346.79562pt>
+<../figures/giani_TrkPatRec_triplets.png, id=163, 332.74312pt x 346.79562pt>
 File: ../figures/giani_TrkPatRec_triplets.png Graphic file (type png)
 <use ../figures/giani_TrkPatRec_triplets.png>
 Package pdftex.def Info: ../figures/giani_TrkPatRec_triplets.png  used on input
- line 301.
+ line 298.
 (pdftex.def)             Requested size: 85.04637pt x 88.63544pt.
-<../figures/giani_TrkPatRec_ambiguity0.png, id=163, 377.91188pt x 203.76125pt>
+<../figures/giani_TrkPatRec_ambiguity0.png, id=164, 377.91188pt x 203.76125pt>
 File: ../figures/giani_TrkPatRec_ambiguity0.png Graphic file (type png)
 <use ../figures/giani_TrkPatRec_ambiguity0.png>
 Package pdftex.def Info: ../figures/giani_TrkPatRec_ambiguity0.png  used on inp
-ut line 301.
+ut line 298.
 (pdftex.def)             Requested size: 138.84729pt x 74.86192pt.
-<../figures/giani_TrkPatRec_ambiguity1.png, id=164, 378.41376pt x 203.76125pt>
+<../figures/giani_TrkPatRec_ambiguity1.png, id=165, 378.41376pt x 203.76125pt>
 File: ../figures/giani_TrkPatRec_ambiguity1.png Graphic file (type png)
 <use ../figures/giani_TrkPatRec_ambiguity1.png>
 Package pdftex.def Info: ../figures/giani_TrkPatRec_ambiguity1.png  used on inp
-ut line 301.
+ut line 298.
 (pdftex.def)             Requested size: 138.84729pt x 74.76242pt.
  [14
 
  <../figures/giani_TrkPatRec_triplets.png> <../figures/giani_TrkPatRec_ambiguit
 y0.png> <../figures/giani_TrkPatRec_ambiguity1.png>]
-<../figures/Kutschke_Kalman_circ.png, id=171, 366.87062pt x 305.14pt>
+<../figures/Kutschke_Kalman_circ.png, id=172, 366.87062pt x 305.14pt>
 File: ../figures/Kutschke_Kalman_circ.png Graphic file (type png)
 <use ../figures/Kutschke_Kalman_circ.png>
 Package pdftex.def Info: ../figures/Kutschke_Kalman_circ.png  used on input lin
-e 325.
+e 322.
 (pdftex.def)             Requested size: 121.49535pt x 101.05035pt.
  [15
 
- <../figures/Kutschke_Kalman_circ.png>]
-<../figures/plots/flat/all_SHvsGenp.png, id=178, 700.6175pt x 475.7775pt>
+ <../figures/Kutschke_Kalman_circ.png>] [16
+
+]
+<../figures/plots/flat/all_SHvsGenp.png, id=185, 700.6175pt x 475.7775pt>
 File: ../figures/plots/flat/all_SHvsGenp.png Graphic file (type png)
 <use ../figures/plots/flat/all_SHvsGenp.png>
 Package pdftex.def Info: ../figures/plots/flat/all_SHvsGenp.png  used on input 
-line 335.
+line 343.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [16
+
+[17
 
  <../figures/plots/flat/all_SHvsGenp.png>]
-<../figures//plots/flat/Lambda_first-z.png, id=185, 700.6175pt x 475.7775pt>
+<../figures//plots/flat/Lambda_first-z.png, id=192, 700.6175pt x 475.7775pt>
 File: ../figures//plots/flat/Lambda_first-z.png Graphic file (type png)
 <use ../figures//plots/flat/Lambda_first-z.png>
 Package pdftex.def Info: ../figures//plots/flat/Lambda_first-z.png  used on inp
-ut line 346.
-(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [17
-
- <../figures//plots/flat/Lambda_first-z.png>]
-<../figures//plots/flat/Lambda_last-z.png, id=192, 700.6175pt x 475.7775pt>
-File: ../figures//plots/flat/Lambda_last-z.png Graphic file (type png)
-<use ../figures//plots/flat/Lambda_last-z.png>
-Package pdftex.def Info: ../figures//plots/flat/Lambda_last-z.png  used on inpu
-t line 346.
+ut line 354.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
  [18
 
+ <../figures//plots/flat/Lambda_first-z.png>]
+<../figures//plots/flat/Lambda_last-z.png, id=199, 700.6175pt x 475.7775pt>
+File: ../figures//plots/flat/Lambda_last-z.png Graphic file (type png)
+<use ../figures//plots/flat/Lambda_last-z.png>
+Package pdftex.def Info: ../figures//plots/flat/Lambda_last-z.png  used on inpu
+t line 354.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [19
+
  <../figures//plots/flat/Lambda_last-z.png>]
-<../figures/Blender_Tracker_4.png, id=199, 275.0275pt x 252.945pt>
+<../figures/Blender_Tracker_4.png, id=207, 275.0275pt x 252.945pt>
 File: ../figures/Blender_Tracker_4.png Graphic file (type png)
 <use ../figures/Blender_Tracker_4.png>
 Package pdftex.def Info: ../figures/Blender_Tracker_4.png  used on input line 3
-56.
+64.
 (pdftex.def)             Requested size: 192.51793pt x 177.06029pt.
- [19
+ [20
 
  <../figures/Blender_Tracker_4.png>]
-<../figures/plots/flat/Lambda_eff_trk0-5hits.png, id=207, 700.6175pt x 475.7775
+<../figures/plots/flat/Lambda_eff_trk0-5hits.png, id=214, 700.6175pt x 475.7775
 pt>
 File: ../figures/plots/flat/Lambda_eff_trk0-5hits.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_eff_trk0-5hits.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_eff_trk0-5hits.png  used 
-on input line 366.
-(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [20
-
- <../figures/plots/flat/Lambda_eff_trk0-5hits.png>]
-<../figures/plots/flat/TimeClusterPar_ProtonPeaks.png, id=214, 700.6175pt x 475
-.7775pt>
-File: ../figures/plots/flat/TimeClusterPar_ProtonPeaks.png Graphic file (type p
-ng)
-<use ../figures/plots/flat/TimeClusterPar_ProtonPeaks.png>
-Package pdftex.def Info: ../figures/plots/flat/TimeClusterPar_ProtonPeaks.png  
-used on input line 377.
+on input line 374.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
  [21
 
- <../figures/plots/flat/TimeClusterPar_ProtonPeaks.png>]
-<../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png, id=221, 350.30875p
-t x 237.88875pt>
-File: ../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png Graphic file (
-type png)
-<use ../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png>
-Package pdftex.def Info: ../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes
-.png  used on input line 377.
-(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
- [22
-
- <../figures/plots/flat/TimeClusterPar_ProtonPeaks_boxes.png>]
-<../figures/plots/flat/Lambda_Rot-vs-p.png, id=229, 700.6175pt x 475.7775pt>
+ <../figures/plots/flat/Lambda_eff_trk0-5hits.png>]
+<../figures/plots/flat/Lambda_Rot-vs-p.png, id=221, 700.6175pt x 475.7775pt>
 File: ../figures/plots/flat/Lambda_Rot-vs-p.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_Rot-vs-p.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_Rot-vs-p.png  used on inp
-ut line 388.
+ut line 384.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [23
+[22
 
  <../figures/plots/flat/Lambda_Rot-vs-p.png>]
-<../figures/plots/flat/Lambda_preco-vs-pgen.png, id=236, 700.6175pt x 475.7775p
+<../figures/plots/flat/Lambda_preco-vs-pgen.png, id=228, 700.6175pt x 475.7775p
 t>
 File: ../figures/plots/flat/Lambda_preco-vs-pgen.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_preco-vs-pgen.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_preco-vs-pgen.png  used o
-n input line 398.
+n input line 394.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [24
+ [23
 
- <../figures/plots/flat/Lambda_preco-vs-pgen.png>]
-<../figures/mu2e_spectra_articles/comparison2.png, id=247, 700.6175pt x 475.777
+ <../figures/plots/flat/Lambda_preco-vs-pgen.png>] [24
+
+]
+<../figures/mu2e_spectra_articles/comparison2.png, id=245, 700.6175pt x 475.777
 5pt>
 File: ../figures/mu2e_spectra_articles/comparison2.png Graphic file (type png)
 <use ../figures/mu2e_spectra_articles/comparison2.png>
 Package pdftex.def Info: ../figures/mu2e_spectra_articles/comparison2.png  used
- on input line 410.
+ on input line 417.
 (pdftex.def)             Requested size: 225.62819pt x 153.21745pt.
  [25
 
  <../figures/mu2e_spectra_articles/comparison2.png>]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-421.
-
-("C:\Program Files\MiKTeX\tex/latex/base\ts1cmss.fd"
+428.
+ ("C:\Program Files\MiKTeX\tex/latex/base\ts1cmss.fd"
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<../figures/plots/ejected/proton_eff_comparison_PS.png, id=260, 350.30875pt x 2
+<../figures/plots/ejected/proton_eff_comparison_PS.png, id=258, 350.30875pt x 2
 37.88875pt>
 File: ../figures/plots/ejected/proton_eff_comparison_PS.png Graphic file (type 
 png)
 <use ../figures/plots/ejected/proton_eff_comparison_PS.png>
 Package pdftex.def Info: ../figures/plots/ejected/proton_eff_comparison_PS.png 
- used on input line 421.
+ used on input line 428.
 (pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
  [26
 
  <../figures/plots/ejected/proton_eff_comparison_PS.png>]
-<../figures/plots/ejected/deuterons_eff_comparison_PS.png, id=269, 350.30875pt 
+<../figures/plots/ejected/deuterons_eff_comparison_PS.png, id=267, 350.30875pt 
 x 237.88875pt>
 File: ../figures/plots/ejected/deuterons_eff_comparison_PS.png Graphic file (ty
 pe png)
 <use ../figures/plots/ejected/deuterons_eff_comparison_PS.png>
 Package pdftex.def Info: ../figures/plots/ejected/deuterons_eff_comparison_PS.p
-ng  used on input line 432.
+ng  used on input line 439.
 (pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
  [27
 
- <../figures/plots/ejected/deuterons_eff_comparison_PS.png>]
-<../figures/plots/mix/mix500_qsh_Ps.png, id=277, 350.30875pt x 237.88875pt>
+ <../figures/plots/ejected/deuterons_eff_comparison_PS.png>] [28
+
+]
+<../figures/plots/mix/mix500_qsh_Ps.png, id=281, 350.30875pt x 237.88875pt>
 File: ../figures/plots/mix/mix500_qsh_Ps.png Graphic file (type png)
 <use ../figures/plots/mix/mix500_qsh_Ps.png>
 Package pdftex.def Info: ../figures/plots/mix/mix500_qsh_Ps.png  used on input 
-line 442.
-(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
- [28
-
- <../figures/plots/mix/mix500_qsh_Ps.png>]
-<../figures/plots/mix/mix500_trk_Ps.png, id=285, 350.30875pt x 237.88875pt>
-File: ../figures/plots/mix/mix500_trk_Ps.png Graphic file (type png)
-<use ../figures/plots/mix/mix500_trk_Ps.png>
-Package pdftex.def Info: ../figures/plots/mix/mix500_trk_Ps.png  used on input 
-line 452.
+line 460.
 (pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
  [29
 
+ <../figures/plots/mix/mix500_qsh_Ps.png>]
+<../figures/plots/mix/mix500_trk_Ps.png, id=289, 350.30875pt x 237.88875pt>
+File: ../figures/plots/mix/mix500_trk_Ps.png Graphic file (type png)
+<use ../figures/plots/mix/mix500_trk_Ps.png>
+Package pdftex.def Info: ../figures/plots/mix/mix500_trk_Ps.png  used on input 
+line 470.
+(pdftex.def)             Requested size: 277.69989pt x 188.5943pt.
+
+[30
+
  <../figures/plots/mix/mix500_trk_Ps.png>]
-<../figures//plots/mix/mix500_trk_o.png, id=293, 700.6175pt x 475.7775pt>
+<../figures//plots/mix/mix500_trk_o.png, id=297, 700.6175pt x 475.7775pt>
 File: ../figures//plots/mix/mix500_trk_o.png Graphic file (type png)
 <use ../figures//plots/mix/mix500_trk_o.png>
 Package pdftex.def Info: ../figures//plots/mix/mix500_trk_o.png  used on input 
-line 462.
+line 480.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [30
+ [31
 
- <../figures//plots/mix/mix500_trk_o.png>]
-<../figures/plots/mix/lum_vs_ntrk.png, id=300, 700.6175pt x 475.7775pt>
+ <../figures//plots/mix/mix500_trk_o.png>] [32
+
+]
+<../figures/plots/mix/lum_vs_ntrk.png, id=311, 700.6175pt x 475.7775pt>
 File: ../figures/plots/mix/lum_vs_ntrk.png Graphic file (type png)
 <use ../figures/plots/mix/lum_vs_ntrk.png>
 Package pdftex.def Info: ../figures/plots/mix/lum_vs_ntrk.png  used on input li
-ne 472.
-(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
-[31
-
- <../figures/plots/mix/lum_vs_ntrk.png>]
-<../figures/plots/mix/pol2-fit.png, id=308, 700.6175pt x 475.7775pt>
-File: ../figures/plots/mix/pol2-fit.png Graphic file (type png)
-<use ../figures/plots/mix/pol2-fit.png>
-Package pdftex.def Info: ../figures/plots/mix/pol2-fit.png  used on input line 
-482.
-(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
- [32
-
- <../figures/plots/mix/pol2-fit.png>]
-<../figures/plots/mix/uncertainty.png, id=315, 700.6175pt x 475.7775pt>
-File: ../figures/plots/mix/uncertainty.png Graphic file (type png)
-<use ../figures/plots/mix/uncertainty.png>
-Package pdftex.def Info: ../figures/plots/mix/uncertainty.png  used on input li
-ne 492.
+ne 500.
 (pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
  [33
 
- <../figures/plots/mix/uncertainty.png>] [34
+ <../figures/plots/mix/lum_vs_ntrk.png>]
+<../figures/plots/mix/pol2-fit.png, id=318, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/pol2-fit.png Graphic file (type png)
+<use ../figures/plots/mix/pol2-fit.png>
+Package pdftex.def Info: ../figures/plots/mix/pol2-fit.png  used on input line 
+510.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [34
 
-] [35
+ <../figures/plots/mix/pol2-fit.png>]
+<../figures/plots/mix/uncertainty.png, id=325, 700.6175pt x 475.7775pt>
+File: ../figures/plots/mix/uncertainty.png Graphic file (type png)
+<use ../figures/plots/mix/uncertainty.png>
+Package pdftex.def Info: ../figures/plots/mix/uncertainty.png  used on input li
+ne 520.
+(pdftex.def)             Requested size: 277.69989pt x 188.58705pt.
+ [35
 
-] [36
+ <../figures/plots/mix/uncertainty.png>] [36
 
- <C:/Program Files/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>] [37
+]
+[37
+
+ <C:/Program Files/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>] [38
 
 
 ]
-<../figures/beam_time_structure.png, id=359, 462.22687pt x 252.44313pt>
+<../figures/beam_time_structure.png, id=363, 462.22687pt x 252.44313pt>
 File: ../figures/beam_time_structure.png Graphic file (type png)
 <use ../figures/beam_time_structure.png>
 Package pdftex.def Info: ../figures/beam_time_structure.png  used on input line
- 532.
+ 548.
 (pdftex.def)             Requested size: 312.40907pt x 170.62286pt.
- [38
+
+[39
 
  <../figures/beam_time_structure.png>]
-<../figures/POT_distribution.png, id=366, 436.63126pt x 342.27875pt>
+<../figures/POT_distribution.png, id=370, 436.63126pt x 342.27875pt>
 File: ../figures/POT_distribution.png Graphic file (type png)
 <use ../figures/POT_distribution.png>
-Package pdftex.def Info: ../figures/POT_distribution.png  used on input line 53
-7.
+Package pdftex.def Info: ../figures/POT_distribution.png  used on input line 55
+3.
 (pdftex.def)             Requested size: 277.69989pt x 217.68927pt.
- [39
-
- <../figures/POT_distribution.png>]
-<../figures/HPG_Spectra.png, id=373, 550.055pt x 399.99437pt>
-File: ../figures/HPG_Spectra.png Graphic file (type png)
-<use ../figures/HPG_Spectra.png>
-Package pdftex.def Info: ../figures/HPG_Spectra.png  used on input line 547.
-(pdftex.def)             Requested size: 277.69989pt x 201.94368pt.
  [40
 
+ <../figures/POT_distribution.png>]
+<../figures/stopped_muons.png, id=377, 394.97563pt x 278.54062pt>
+File: ../figures/stopped_muons.png Graphic file (type png)
+<use ../figures/stopped_muons.png>
+Package pdftex.def Info: ../figures/stopped_muons.png  used on input line 558.
+(pdftex.def)             Requested size: 277.69989pt x 195.83563pt.
+ [41
+
+ <../figures/stopped_muons.png>]
+<../figures/HPG_Spectra.png, id=384, 550.055pt x 399.99437pt>
+File: ../figures/HPG_Spectra.png Graphic file (type png)
+<use ../figures/HPG_Spectra.png>
+Package pdftex.def Info: ../figures/HPG_Spectra.png  used on input line 568.
+(pdftex.def)             Requested size: 277.69989pt x 201.94368pt.
+ [42
+
  <../figures/HPG_Spectra.png>]
-<../figures/plots/flat/Lambda_p-gen0SH.png, id=380, 538.01pt x 322.20375pt>
+<../figures/plots/flat/Lambda_p-gen0SH.png, id=391, 538.01pt x 322.20375pt>
 File: ../figures/plots/flat/Lambda_p-gen0SH.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_p-gen0SH.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_p-gen0SH.png  used on inp
-ut line 553.
+ut line 574.
 (pdftex.def)             Requested size: 312.40907pt x 187.09462pt.
- [41
+
+[43
 
  <../figures/plots/flat/Lambda_p-gen0SH.png>]
-<../figures/plots/flat/Lambda_preco_trk0.png, id=387, 700.6175pt x 475.7775pt>
+<../figures/plots/flat/Lambda_preco_trk0.png, id=399, 700.6175pt x 475.7775pt>
 File: ../figures/plots/flat/Lambda_preco_trk0.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_preco_trk0.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_preco_trk0.png  used on i
-nput line 553.
+nput line 574.
 (pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
- [42
+ [44
 
  <../figures/plots/flat/Lambda_preco_trk0.png>]
-<../figures/plots/flat/Lambda_chi2d_trk0.png, id=394, 700.6175pt x 475.7775pt>
+<../figures/plots/flat/Lambda_chi2d_trk0.png, id=406, 700.6175pt x 475.7775pt>
 File: ../figures/plots/flat/Lambda_chi2d_trk0.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_chi2d_trk0.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_chi2d_trk0.png  used on i
-nput line 562.
+nput line 583.
 (pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
- [43
+ [45
 
  <../figures/plots/flat/Lambda_chi2d_trk0.png>]
-<../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png, id=402, 700.6175pt 
+<../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png, id=413, 700.6175pt 
 x 475.7775pt>
 File: ../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png Graphic file (t
 ype png)
 <use ../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png>
 Package pdftex.def Info: ../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.
-png  used on input line 562.
+png  used on input line 583.
 (pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
-<../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png, id=403, 700.6175pt 
+<../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png, id=414, 700.6175pt 
 x 475.7775pt>
 File: ../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png Graphic file (t
 ype png)
 <use ../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png>
 Package pdftex.def Info: ../figures/plots/flat/TimeClusterMVA_TCDeltaZ-vs-pgen.
-png  used on input line 562.
+png  used on input line 583.
 (pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
- [44
+
+[46
 
  <../figures/plots/flat/TimeClusterMVA_TCDeltaT-vs-pgen.png> <../figures/plots/
 flat/TimeClusterMVA_TCDeltaZ-vs-pgen.png>]
-<../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png, id=410, 700.617
+<../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png, id=421, 700.617
 5pt x 475.7775pt>
 File: ../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png Graphic fil
 e (type png)
 <use ../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png>
 Package pdftex.def Info: ../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-p
-gen.png  used on input line 562.
+gen.png  used on input line 583.
 (pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
-<../figures/plots/flat/Lambda_Lambda-vs-p.png, id=411, 700.6175pt x 475.7775pt>
+<../figures/plots/flat/Lambda_Lambda-vs-p.png, id=422, 700.6175pt x 475.7775pt>
 
 File: ../figures/plots/flat/Lambda_Lambda-vs-p.png Graphic file (type png)
 <use ../figures/plots/flat/Lambda_Lambda-vs-p.png>
 Package pdftex.def Info: ../figures/plots/flat/Lambda_Lambda-vs-p.png  used on 
-input line 562.
+input line 583.
 (pdftex.def)             Requested size: 156.20453pt x 106.0725pt.
- [45
+ [47
 
  <../figures/plots/flat/TimeClusterPar_Helix_lambda-vs-pgen.png> <../figures/pl
 ots/flat/Lambda_Lambda-vs-p.png>]
-<../figures/plots/mix/mix500_trk_p.png, id=418, 700.6175pt x 475.7775pt>
+<../figures/plots/mix/mix500_trk_p.png, id=429, 700.6175pt x 475.7775pt>
 File: ../figures/plots/mix/mix500_trk_p.png Graphic file (type png)
 <use ../figures/plots/mix/mix500_trk_p.png>
 Package pdftex.def Info: ../figures/plots/mix/mix500_trk_p.png  used on input l
-ine 568.
+ine 589.
 (pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
- [46
+ [48
 
  <../figures/plots/mix/mix500_trk_p.png>]
-<../figures/plots/mix/mix500_trk_d.png, id=425, 700.6175pt x 475.7775pt>
+<../figures/plots/mix/mix500_trk_d.png, id=436, 700.6175pt x 475.7775pt>
 File: ../figures/plots/mix/mix500_trk_d.png Graphic file (type png)
 <use ../figures/plots/mix/mix500_trk_d.png>
 Package pdftex.def Info: ../figures/plots/mix/mix500_trk_d.png  used on input l
-ine 568.
+ine 589.
 (pdftex.def)             Requested size: 312.40907pt x 212.15227pt.
- [47
+ [49
 
  <../figures/plots/mix/mix500_trk_d.png>]
 \tf@nav=\write7
@@ -1709,11 +1706,11 @@ ine 568.
 \tf@snm=\write9
 \openout9 = `presentazione_bvitali.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
  (presentazione_bvitali.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `presentazione_bvitali.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'presentazione_bvitali.run.xml'.
@@ -1721,34 +1718,33 @@ Package logreq Info: Writing requests to 'presentazione_bvitali.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29053 strings out of 481212
- 575688 string characters out of 2915730
+ 29046 strings out of 481212
+ 575030 string characters out of 2915730
  1022959 words of memory out of 3000000
- 43907 multiletter control sequences out of 15000+200000
- 546866 words of font info for 71 fonts, out of 3000000 for 9000
+ 43900 multiletter control sequences out of 15000+200000
+ 545216 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,71p,807b,1761s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1
 000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi
-9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb>
-Output written on presentazione_bvitali.pdf (47 pages, 6059036 bytes).
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmssi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/symbols/msam10.pfb>
+Output written on presentazione_bvitali.pdf (49 pages, 6104564 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 532 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
